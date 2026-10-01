@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-void: #090D11;
+  --color-arena: #0E141A;
+  --color-surface-1: #141C24;
+  --color-surface-2: #1B2630;
+  --color-surface-3: #25323D;
+  --color-line: #8193A0;
+  --color-line-quiet: #293640;
+  --color-text-primary: #F4F1E8;
+  --color-text-secondary: #B9C2C9;
+  --color-text-muted: #94A1AB;
+  --color-ceramic: #D9D4C8;
+  --color-ceramic-lit: #F1EADC;
+  --color-alloy: #39434C;
+  --color-team-a: #F27B59;
+  --color-team-b: #65C8D4;
+  --color-core: #F1C86B;
+  --color-primary-action: #E8C56C;
+  --color-success: #55C58A;
+  --color-warning: #F0B85B;
+  --color-danger: #EC6A68;
+  --color-info: #7EBBE8;
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+/* Custom scrollbars matching dark graphite / living ceramic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090D11;
+}
+::-webkit-scrollbar-thumb {
+  background: #25323D;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #39434C;
+}
+
+/* Canvas crisp rendering */
+canvas {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}

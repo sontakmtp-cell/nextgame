@@ -1,0 +1,25 @@
+{
+  "name": "@nextgame/cli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "PROMPT Chiến - Headless CLI tool (validate, simulate, experiment, verify)",
+  "bin": {
+    "nextgame": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@nextgame/contracts": "workspace:*",
+    "@nextgame/content": "workspace:*",
+    "@nextgame/brain": "workspace:*",
+    "@nextgame/engine": "workspace:*",
+    "@nextgame/replay": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@nextgame/contracts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "PROMPT Chiến - Core Schemas, Types, and Canonical Codecs (Zero I/O)",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
