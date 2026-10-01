@@ -1,0 +1,15 @@
+{
+  "label": "unit",
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npx-cli.js",
+    "--yes",
+    "pnpm@10.34.6",
+    "test:unit"
+  ],
+  "exitCode": 0,
+  "startedAt": "2026-10-01T17:02:49.164Z",
+  "finishedAt": "2026-10-01T17:02:51.463Z",
+  "stdout": "\n> prompt-chien@0.0.0 test:unit D:\\AI\\nextgame\n> tsc -b && vitest run\n\n\n RUN  v5.0.3 D:/AI/nextgame\n\n\n Test Files  4 passed (4)\n      Tests  133 passed (133)\n   Start at  00:02:50\n   Duration  775ms (import 55%, tests 26%, transform 18%, worker 1%)\n\n",
+  "stderr": "npm warn Unknown project config \"auto-install-peers\". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.\n"
+}

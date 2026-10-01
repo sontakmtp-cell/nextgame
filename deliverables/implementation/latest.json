@@ -1,0 +1,83 @@
+{
+  "revision": "ec3d604f21905e5ccadc8372864a75fbe2453ac48ad8daec34aa982de621419f",
+  "short": "ec3d604f21905e5c",
+  "dirs": {
+    "T01": "deliverables/implementation/T01/ec3d604f21905e5c",
+    "T02": "deliverables/implementation/T02/ec3d604f21905e5c",
+    "T03": "deliverables/implementation/T03/ec3d604f21905e5c"
+  },
+  "passed": [
+    {
+      "label": "frozen-install",
+      "exitCode": 0
+    },
+    {
+      "label": "build",
+      "exitCode": 0
+    },
+    {
+      "label": "check",
+      "exitCode": 0
+    },
+    {
+      "label": "boundary-negative",
+      "exitCode": 0
+    },
+    {
+      "label": "unit",
+      "exitCode": 0
+    },
+    {
+      "label": "linux-clean",
+      "exitCode": 0
+    },
+    {
+      "label": "service-start",
+      "exitCode": 0
+    },
+    {
+      "label": "migration-repeat1",
+      "exitCode": 0
+    },
+    {
+      "label": "migration-repeat2",
+      "exitCode": 0
+    },
+    {
+      "label": "smoke-restart",
+      "exitCode": 0
+    },
+    {
+      "label": "cli",
+      "exitCode": 0
+    },
+    {
+      "label": "sandbox-build",
+      "exitCode": 0
+    },
+    {
+      "label": "sandbox-positive-negative-guards",
+      "exitCode": 0
+    },
+    {
+      "label": "service-stop",
+      "exitCode": 0
+    },
+    {
+      "label": "service-restart",
+      "exitCode": 0
+    },
+    {
+      "label": "service-finish-stop",
+      "exitCode": 0
+    }
+  ],
+  "remoteCI": "configured-unrun",
+  "browser": {
+    "status": "passed",
+    "checks": 40,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+  },
+  "finishedAt": "2026-10-01T17:15:28.151Z",
+  "emptyMigration": "passed: empty/repeat/no drift/modified digest rejection"
+}

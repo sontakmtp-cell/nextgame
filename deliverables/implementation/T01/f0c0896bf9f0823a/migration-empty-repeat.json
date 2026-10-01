@@ -1,0 +1,227 @@
+{
+  "timestamp": "2026-10-01T17:08:28.124Z",
+  "sourceHash": "3bb03607c131e52efaa7c0febf958807f8b28813a305de9e386db87a298ce0dd",
+  "commands": [
+    {
+      "command": "docker",
+      "args": [
+        "compose",
+        "exec",
+        "-T",
+        "postgres",
+        "sh",
+        "-c",
+        "exec psql -At -v ON_ERROR_STOP=1 -U \"$POSTGRES_USER\" -d \"postgres\""
+      ],
+      "sql": "CREATE DATABASE \"g0_check_9aafcf627bb34f8ca9ab49618d0f7f3e\";",
+      "exitCode": 0,
+      "stdout": "CREATE DATABASE\n",
+      "stderr": "",
+      "expected": 0
+    },
+    {
+      "command": "docker",
+      "args": [
+        "compose",
+        "exec",
+        "-T",
+        "postgres",
+        "sh",
+        "-c",
+        "exec psql -At -v ON_ERROR_STOP=1 -U \"$POSTGRES_USER\" -d \"g0_check_9aafcf627bb34f8ca9ab49618d0f7f3e\""
+      ],
+      "sql": "SELECT count(*) FROM information_schema.tables WHERE table_schema='public';",
+      "exitCode": 0,
+      "stdout": "0\n",
+      "stderr": "",
+      "expected": 0
+    },
+    {
+      "command": "docker",
+      "args": [
+        "compose",
+        "exec",
+        "-T",
+        "postgres",
+        "sh",
+        "-c",
+        "exec psql -At -v ON_ERROR_STOP=1 -U \"$POSTGRES_USER\" -d \"g0_check_9aafcf627bb34f8ca9ab49618d0f7f3e\""
+      ],
+      "sql": "BEGIN;\nSELECT pg_advisory_xact_lock(7012026);\n-- Toolchain-only baseline; application tables arrive in T09.\nCREATE TABLE IF NOT EXISTS schema_migrations (\n  version text PRIMARY KEY,\n  source_digest text NOT NULL CHECK (length(source_digest) = 64)\n);\n\nDO $$ BEGIN IF EXISTS (SELECT 1 FROM schema_migrations WHERE version='001_g0' AND source_digest<>'3bb03607c131e52efaa7c0febf958807f8b28813a305de9e386db87a298ce0dd') THEN RAISE EXCEPTION 'migration drift'; END IF; END $$;\nINSERT INTO schema_migrations VALUES ('001_g0','3bb03607c131e52efaa7c0febf958807f8b28813a305de9e386db87a298ce0dd') ON CONFLICT DO NOTHING;\nCOMMIT;\n",
+      "exitCode": 0,
+      "stdout": "BEGIN\n\nCREATE TABLE\nDO\nINSERT 0 1\nCOMMIT\n",
+      "stderr": "",
+      "expected": 0
+    },
+    {
+      "command": "docker",
+      "args": [
+        "compose",
+        "exec",
+        "-T",
+        "postgres",
+        "sh",
+        "-c",
+        "exec psql -At -v ON_ERROR_STOP=1 -U \"$POSTGRES_USER\" -d \"g0_check_9aafcf627bb34f8ca9ab49618d0f7f3e\""
+      ],
+      "sql": "SELECT version,source_digest FROM schema_migrations ORDER BY version;",
+      "exitCode": 0,
+      "stdout": "001_g0|3bb03607c131e52efaa7c0febf958807f8b28813a305de9e386db87a298ce0dd\n",
+      "stderr": "",
+      "expected": 0
+    },
+    {
+      "command": "docker",
+      "args": [
+        "compose",
+        "exec",
+        "-T",
+        "postgres",
+        "sh",
+        "-c",
+        "exec psql -At -v ON_ERROR_STOP=1 -U \"$POSTGRES_USER\" -d \"g0_check_9aafcf627bb34f8ca9ab49618d0f7f3e\""
+      ],
+      "sql": "BEGIN;\nSELECT pg_advisory_xact_lock(7012026);\n-- Toolchain-only baseline; application tables arrive in T09.\nCREATE TABLE IF NOT EXISTS schema_migrations (\n  version text PRIMARY KEY,\n  source_digest text NOT NULL CHECK (length(source_digest) = 64)\n);\n\nDO $$ BEGIN IF EXISTS (SELECT 1 FROM schema_migrations WHERE version='001_g0' AND source_digest<>'3bb03607c131e52efaa7c0febf958807f8b28813a305de9e386db87a298ce0dd') THEN RAISE EXCEPTION 'migration drift'; END IF; END $$;\nINSERT INTO schema_migrations VALUES ('001_g0','3bb03607c131e52efaa7c0febf958807f8b28813a305de9e386db87a298ce0dd') ON CONFLICT DO NOTHING;\nCOMMIT;\n",
+      "exitCode": 0,
+      "stdout": "BEGIN\n\nCREATE TABLE\nDO\nINSERT 0 0\nCOMMIT\n",
+      "stderr": "NOTICE:  relation \"schema_migrations\" already exists, skipping\n",
+      "expected": 0
+    },
+    {
+      "command": "docker",
+      "args": [
+        "compose",
+        "exec",
+        "-T",
+        "postgres",
+        "sh",
+        "-c",
+        "exec psql -At -v ON_ERROR_STOP=1 -U \"$POSTGRES_USER\" -d \"g0_check_9aafcf627bb34f8ca9ab49618d0f7f3e\""
+      ],
+      "sql": "SELECT version,source_digest FROM schema_migrations ORDER BY version;",
+      "exitCode": 0,
+      "stdout": "001_g0|3bb03607c131e52efaa7c0febf958807f8b28813a305de9e386db87a298ce0dd\n",
+      "stderr": "",
+      "expected": 0
+    },
+    {
+      "command": "docker",
+      "args": [
+        "compose",
+        "exec",
+        "-T",
+        "postgres",
+        "sh",
+        "-c",
+        "exec psql -At -v ON_ERROR_STOP=1 -U \"$POSTGRES_USER\" -d \"g0_check_9aafcf627bb34f8ca9ab49618d0f7f3e\""
+      ],
+      "sql": "SELECT count(*) FROM schema_migrations;",
+      "exitCode": 0,
+      "stdout": "1\n",
+      "stderr": "",
+      "expected": 0
+    },
+    {
+      "command": "docker",
+      "args": [
+        "compose",
+        "exec",
+        "-T",
+        "postgres",
+        "sh",
+        "-c",
+        "exec psql -At -v ON_ERROR_STOP=1 -U \"$POSTGRES_USER\" -d \"g0_check_9aafcf627bb34f8ca9ab49618d0f7f3e\""
+      ],
+      "sql": "SELECT column_name,data_type,is_nullable FROM information_schema.columns WHERE table_schema='public' ORDER BY table_name,ordinal_position;",
+      "exitCode": 0,
+      "stdout": "version|text|NO\nsource_digest|text|NO\n",
+      "stderr": "",
+      "expected": 0
+    },
+    {
+      "command": "docker",
+      "args": [
+        "compose",
+        "exec",
+        "-T",
+        "postgres",
+        "sh",
+        "-c",
+        "exec psql -At -v ON_ERROR_STOP=1 -U \"$POSTGRES_USER\" -d \"g0_check_9aafcf627bb34f8ca9ab49618d0f7f3e\""
+      ],
+      "sql": "BEGIN;\nSELECT pg_advisory_xact_lock(7012026);\n-- Toolchain-only baseline; application tables arrive in T09.\nCREATE TABLE IF NOT EXISTS schema_migrations (\n  version text PRIMARY KEY,\n  source_digest text NOT NULL CHECK (length(source_digest) = 64)\n);\n\nDO $$ BEGIN IF EXISTS (SELECT 1 FROM schema_migrations WHERE version='001_g0' AND source_digest<>'3bb03607c131e52efaa7c0febf958807f8b28813a305de9e386db87a298ce0dd') THEN RAISE EXCEPTION 'migration drift'; END IF; END $$;\nINSERT INTO schema_migrations VALUES ('001_g0','3bb03607c131e52efaa7c0febf958807f8b28813a305de9e386db87a298ce0dd') ON CONFLICT DO NOTHING;\nCOMMIT;\n",
+      "exitCode": 0,
+      "stdout": "BEGIN\n\nCREATE TABLE\nDO\nINSERT 0 0\nCOMMIT\n",
+      "stderr": "NOTICE:  relation \"schema_migrations\" already exists, skipping\n",
+      "expected": 0
+    },
+    {
+      "command": "docker",
+      "args": [
+        "compose",
+        "exec",
+        "-T",
+        "postgres",
+        "sh",
+        "-c",
+        "exec psql -At -v ON_ERROR_STOP=1 -U \"$POSTGRES_USER\" -d \"g0_check_9aafcf627bb34f8ca9ab49618d0f7f3e\""
+      ],
+      "sql": "SELECT column_name,data_type,is_nullable FROM information_schema.columns WHERE table_schema='public' ORDER BY table_name,ordinal_position;",
+      "exitCode": 0,
+      "stdout": "version|text|NO\nsource_digest|text|NO\n",
+      "stderr": "",
+      "expected": 0
+    },
+    {
+      "command": "docker",
+      "args": [
+        "compose",
+        "exec",
+        "-T",
+        "postgres",
+        "sh",
+        "-c",
+        "exec psql -At -v ON_ERROR_STOP=1 -U \"$POSTGRES_USER\" -d \"g0_check_9aafcf627bb34f8ca9ab49618d0f7f3e\""
+      ],
+      "sql": "BEGIN;\nSELECT pg_advisory_xact_lock(7012026);\n-- Toolchain-only baseline; application tables arrive in T09.\nCREATE TABLE IF NOT EXISTS schema_migrations (\n  version text PRIMARY KEY,\n  source_digest text NOT NULL CHECK (length(source_digest) = 64)\n);\n\nDO $$ BEGIN IF EXISTS (SELECT 1 FROM schema_migrations WHERE version='001_g0' AND source_digest<>'0000000000000000000000000000000000000000000000000000000000000000') THEN RAISE EXCEPTION 'migration drift'; END IF; END $$;\nINSERT INTO schema_migrations VALUES ('001_g0','0000000000000000000000000000000000000000000000000000000000000000') ON CONFLICT DO NOTHING;\nCOMMIT;\n",
+      "exitCode": 3,
+      "stdout": "BEGIN\n\nCREATE TABLE\n",
+      "stderr": "NOTICE:  relation \"schema_migrations\" already exists, skipping\nERROR:  migration drift\nCONTEXT:  PL/pgSQL function inline_code_block line 1 at RAISE\n",
+      "expected": 3
+    },
+    {
+      "command": "docker",
+      "args": [
+        "compose",
+        "exec",
+        "-T",
+        "postgres",
+        "sh",
+        "-c",
+        "exec psql -At -v ON_ERROR_STOP=1 -U \"$POSTGRES_USER\" -d \"g0_check_9aafcf627bb34f8ca9ab49618d0f7f3e\""
+      ],
+      "sql": "SELECT version,source_digest FROM schema_migrations ORDER BY version;",
+      "exitCode": 0,
+      "stdout": "001_g0|3bb03607c131e52efaa7c0febf958807f8b28813a305de9e386db87a298ce0dd\n",
+      "stderr": "",
+      "expected": 0
+    },
+    {
+      "command": "docker",
+      "args": [
+        "compose",
+        "exec",
+        "-T",
+        "postgres",
+        "sh",
+        "-c",
+        "exec psql -At -v ON_ERROR_STOP=1 -U \"$POSTGRES_USER\" -d \"postgres\""
+      ],
+      "sql": "DROP DATABASE IF EXISTS \"g0_check_9aafcf627bb34f8ca9ab49618d0f7f3e\";",
+      "exitCode": 0,
+      "stdout": "DROP DATABASE\n",
+      "stderr": "",
+      "expected": 0
+    }
+  ]
+}

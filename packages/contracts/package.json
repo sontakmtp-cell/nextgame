@@ -1,16 +1,13 @@
 {
-  "name": "@nextgame/contracts",
-  "version": "1.0.0",
+  "name": "@prompt-chien/contracts",
+  "version": "0.0.0",
+  "private": true,
   "type": "module",
-  "description": "PROMPT Chiến - Core Schemas, Types, and Canonical Codecs (Zero I/O)",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "scripts": {
-    "build": "tsc",
-    "check": "tsc --noEmit",
-    "test": "vitest run"
+  "exports": {
+    ".": "./dist/index.js"
   },
-  "devDependencies": {
-    "typescript": "^7.0.2"
+  "types": "./dist/index.d.ts",
+  "dependencies": {
+    "ajv": "8.20.0"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "label": "service-finish-stop",
+  "command": "docker",
+  "args": [
+    "compose",
+    "stop"
+  ],
+  "exitCode": 0,
+  "startedAt": "2026-10-01T17:15:27.166Z",
+  "finishedAt": "2026-10-01T17:15:28.149Z",
+  "stdout": "",
+  "stderr": " Container nextgame-g0-minio-1 Stopping \n Container nextgame-g0-postgres-1 Stopping \n Container nextgame-g0-minio-1 Stopped \n Container nextgame-g0-postgres-1 Stopped \n"
+}

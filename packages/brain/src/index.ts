@@ -1,2 +1,4 @@
 export * from './compiler.js';
-export * from './runtime.js';
+export * from './identity.js';
+export * from './vm.js';
+export * from './package.js';

@@ -1,0 +1,16 @@
+{
+  "label": "frozen-install",
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npx-cli.js",
+    "--yes",
+    "pnpm@10.34.6",
+    "install",
+    "--frozen-lockfile"
+  ],
+  "exitCode": 0,
+  "startedAt": "2026-10-01T17:02:42.145Z",
+  "finishedAt": "2026-10-01T17:02:44.221Z",
+  "stdout": "Scope: all 7 workspace projects\nLockfile is up to date, resolution step is skipped\nAlready up to date\n\nDone in 521ms using pnpm v10.34.6\n",
+  "stderr": "npm warn Unknown project config \"auto-install-peers\". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.\n"
+}

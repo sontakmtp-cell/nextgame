@@ -1,0 +1,14 @@
+**
+!dev/
+!dev/minio.Dockerfile
+!dev/brain.Dockerfile
+!package.json
+!pnpm-lock.yaml
+!pnpm-workspace.yaml
+!.npmrc
+!packages/
+!packages/**
+!scripts/
+!scripts/compile-job.mjs
+**/node_modules/**
+**/*.tsbuildinfo

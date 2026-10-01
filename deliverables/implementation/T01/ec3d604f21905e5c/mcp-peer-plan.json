@@ -1,0 +1,15 @@
+{
+  "@modelcontextprotocol/server": {
+    "version": "2.2.0",
+    "peerDependencies": {},
+    "integrity": "sha512-qFnltjus6Gk8Lx6J1w2RXmr3YPN22MNT6qD6zjAkaiWIlFIFxWClz0rXHNuJF/KSUyn5YGhkSvXkWDbQHVLFEQ=="
+  },
+  "@modelcontextprotocol/fastify": {
+    "version": "2.0.0",
+    "peerDependencies": {
+      "fastify": "^5.2.0",
+      "@modelcontextprotocol/server": "^2.0.0"
+    },
+    "integrity": "sha512-x41AmyQ+olgAjX8EBkVpCztxIcWaInUlVpEatUBSWINZAmTnQYSYqOp9eigb7dxE2W+CtzhP1H+9uUgHRxJPVg=="
+  }
+}

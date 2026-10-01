@@ -1,0 +1,15 @@
+{
+  "label": "build",
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npx-cli.js",
+    "--yes",
+    "pnpm@10.34.6",
+    "build"
+  ],
+  "exitCode": 0,
+  "startedAt": "2026-10-01T17:02:44.222Z",
+  "finishedAt": "2026-10-01T17:02:46.496Z",
+  "stdout": "\n> prompt-chien@0.0.0 build D:\\AI\\nextgame\n> tsc -b && pnpm --filter @prompt-chien/web build\n\n\n> @prompt-chien/web@0.0.0 build D:\\AI\\nextgame\\apps\\web\n> vite build\n\nvite v8.3.2 building client environment for production...\ntransforming...\n✓ 15 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   0.36 kB │ gzip:  0.27 kB\ndist/assets/index-CQEWdpCQ.css    0.35 kB │ gzip:  0.25 kB\ndist/assets/index-BvLsihUM.js   220.45 kB │ gzip: 69.13 kB\n\n✓ built in 197ms\n",
+  "stderr": "npm warn Unknown project config \"auto-install-peers\". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.\n"
+}

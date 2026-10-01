@@ -1,0 +1,14 @@
+{
+  "label": "service-restart",
+  "command": "docker",
+  "args": [
+    "compose",
+    "start",
+    "--wait"
+  ],
+  "exitCode": 0,
+  "startedAt": "2026-10-01T17:05:44.540Z",
+  "finishedAt": "2026-10-01T17:05:47.663Z",
+  "stdout": "",
+  "stderr": " Container nextgame-g0-postgres-1 Starting \n Container nextgame-g0-minio-1 Starting \n Container nextgame-g0-postgres-1 Started \n Container nextgame-g0-minio-1 Started \n Container nextgame-g0-postgres-1 Waiting \n Container nextgame-g0-minio-1 Waiting \n Container nextgame-g0-postgres-1 Healthy \n Container nextgame-g0-minio-1 Healthy \n"
+}

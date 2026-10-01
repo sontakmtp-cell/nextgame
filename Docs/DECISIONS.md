@@ -28,6 +28,14 @@ Module ngân sách100/max24 có đủ độ tự do; energy/heat không trùng �
 
 Alpha không multi-body/drone, không arbitrary code, không realtime ranked control/MCP sampling, không skins ảnh hưởng collider, không cosmetics shop trước retention, không fake live. Các giới hạn này tạo đường triển khai nhỏ có thể chứng minh, không thay bốn yêu cầu cốt lõi. Khi mở rộng, update sources+contract+fixtures+registry/season policy đồng bộ.
 
+## D16 — Freeze nền G0
+
+Node24.18.0/pnpm10.34.6/TS5.9.3/Fastify5.12.5/React19.3.0/Vite8.3.2/Ajv8.20.0/Vitest5.0.3 được pin exact trong manifests/lockfile, dựa trên installed runtime và publisher registry đã kiểm. Giữ D05: không thêm Phaser hoặc renderer trước T08. MCP peer plan giữ server2.2.0 + Fastify adapter2.0.0 (peer Fastify^5.2.0/server^2.0.0); chúng chưa cài ở G0 và không có host integration claim.
+
+Chốt DSL skill/state parameters và nested DAG theo03; đây là làm rõ cú pháp thiếu trong baseline, không thêm sensor/action vào alpha. Canonical IR dùng ordinals và source maps ngoài gameplay hash. Compiler identity hash cả nguồn contracts dependencies. Registry body kits đầy đủ được giữ dưới dạng planned fixtures; catalog active vẫn không bật Lance/Breaker trướcT13.
+
+MinIO image cũ pull không được; local compose build release nguồn chính thức2025-10-15 với SHA256 archive/base image digests, thay đường lấy binary, không thay object-storage contract. G0 không dùng domain/credentials/deployment lịch sử. Snapshot revision dùng khi workspace chưa có Git; remote CI/production/load gates không được coi đã chạy.
+
 ## Làm rõ D08 sau QA
 
 Với 1.225 preset khởi tạo của tài liệu 02, leg thứ hai đổi hai bot vào hai pose slots cố định, giữ tọa độ y và heading jitter của từng slot. Không xoay thêm toàn bộ arena. Phép xoay toàn bộ thế giới 180° trong sân đối xứng tạo trận tương đương, nên chỉ dùng làm metamorphic fixture để kiểm tra engine. Series vẫn là BO2; cách gán slot được khóa trước khi triển khai.

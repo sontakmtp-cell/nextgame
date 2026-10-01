@@ -1,0 +1,12 @@
+{
+  "revision": "ec3d604f21905e5ccadc8372864a75fbe2453ac48ad8daec34aa982de621419f",
+  "command": "npx --yes --package @playwright/cli@0.1.22 playwright-cli -s=nextgame-g0-final --json eval (observed status ref f5e3)",
+  "exitCode": 0,
+  "timestamp": "2026-10-01T17:19:52.920Z",
+  "result": {
+    "status": "passed",
+    "checks": 40,
+    "compilerDigest": "2fafc70e15f577f697c4224d00da9a5c1e353ee43815e965b8a869ae3c4983ee",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
+  }
+}

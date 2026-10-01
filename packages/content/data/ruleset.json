@@ -1,0 +1,117 @@
+{
+  "version": "alpha-0",
+  "numericalAbiVersion": "milli-v1",
+  "tickHz": 60,
+  "decisionEvery": 6,
+  "maxTicks": 5400,
+  "grid": 12,
+  "moduleCap": 24,
+  "costCap": 100,
+  "radiusCap": 6500,
+  "units": {
+    "position": "milli-unit",
+    "velocity": "milli-unit/s",
+    "angleCircle": 4096,
+    "trigScale": 1000000,
+    "multiplierScale": 1000
+  },
+  "movement": {
+    "driveFactor": 8,
+    "vMax": 6000,
+    "accel": 12000,
+    "damping": 6000,
+    "leverCap": 4000,
+    "angularSpeed": 1024,
+    "angularAccel": 2048,
+    "solverIterations": 4
+  },
+  "resources": {
+    "energy": 1000,
+    "regen": 2,
+    "heatCap": 1000,
+    "cooling": 1,
+    "overheatClear": 600,
+    "capacitorCapacity": 250,
+    "radiatorCooling": 1
+  },
+  "weapons": {
+    "blade": {
+      "damage": 90,
+      "reach": 1500,
+      "windup": 18,
+      "active": 6,
+      "recovery": 30,
+      "energy": 140,
+      "heat": 180
+    },
+    "lance": {
+      "damage": 140,
+      "reach": 3000,
+      "width": 400,
+      "windup": 30,
+      "active": 1,
+      "recovery": 59,
+      "energy": 220,
+      "heat": 280
+    },
+    "burst": {
+      "damage": 32,
+      "range": 12000,
+      "speed": 18000,
+      "offsets": [
+        0,
+        4,
+        8
+      ],
+      "windup": 18,
+      "active": 9,
+      "recovery": 45,
+      "energy": 180,
+      "heat": 220
+    },
+    "breaker": {
+      "damage": 60,
+      "targetHeat": 180,
+      "range": 6000,
+      "speed": 14000,
+      "radius": 100,
+      "windup": 24,
+      "active": 1,
+      "recovery": 65,
+      "energy": 160,
+      "heat": 140
+    }
+  },
+  "shield": {
+    "arc": 1024,
+    "extraRadius": 250,
+    "energy": 40,
+    "heat": 20,
+    "upkeep": 1,
+    "resetTicks": 30,
+    "blockPermille": 700,
+    "damagePerEnergy": 2
+  },
+  "armorKineticPermille": 700,
+  "projectileCap": 128,
+  "arena": {
+    "width": 40000,
+    "height": 28000,
+    "leftX": -12000,
+    "rightX": 12000,
+    "controlRadius": 3000,
+    "controlStart": 600,
+    "controlOpportunities": 4800,
+    "ringNotice": 3480,
+    "ringStart": 3600,
+    "ringInitialRadius": 25000,
+    "ringFinalRadius": 6000,
+    "ringDamagePermillePerSecond": 50
+  },
+  "timeout": {
+    "controlWeight": 5,
+    "damageWeight": 3,
+    "hpWeight": 2,
+    "drawGap": 100
+  }
+}

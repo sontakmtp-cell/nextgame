@@ -1,194 +1,39 @@
-// PROMPT Chiến - Core Contract Types (ABI Baseline v2.0)
-// Zero I/O, Pure TypeScript definitions
-
-export type ModuleCatalogId =
-  | 'core'
-  | 'thruster'
-  | 'armor'
-  | 'blade'
-  | 'lance'
-  | 'burst'
-  | 'shield'
-  | 'breaker'
-  | 'capacitor'
-  | 'radiator';
-
-export type Orientation = 0 | 1 | 2 | 3; // 0=+X, 1=+Y, 2=-X, 3=-Y
-
-export interface ModulePlacement {
-  id: string; // ASCII [A-Za-z][A-Za-z0-9_-]{0,47}
-  catalogId: ModuleCatalogId;
-  cell: { x: number; y: number }; // 0..11 on 12x12 grid
-  orientation: Orientation;
-}
-
-export interface BotBody {
-  grid: 'square-12-v1';
-  modules: ModulePlacement[];
-}
-
-export type SensorName =
-  | 'clock.tick'
-  | 'clock.decision'
-  | 'clock.stateAge'
-  | 'self.energy'
-  | 'self.heat'
-  | 'self.coreHpPermille'
-  | 'self.overheated'
-  | 'self.speed'
-  | 'self.x'
-  | 'self.y'
-  | 'self.heading'
-  | 'enemy.distance'
-  | 'enemy.bearing'
-  | 'enemy.speed'
-  | 'enemy.heading'
-  | 'enemy.coreHpPermille'
-  | 'enemy.telegraph'
-  | 'arena.centerBearing'
-  | 'arena.centerDistance'
-  | 'arena.controlOwner'
-  | 'arena.ringRadius'
-  | 'self.outsideRing';
-
-export type IntExpr =
+export type ValueType = 'int' | 'bool';
+export type Expr =
   | { kind: 'const'; value: number }
-  | { kind: 'var'; id: string }
-  | { kind: 'sensor'; name: SensorName }
-  | { kind: 'op'; op: 'add' | 'sub' | 'mul' | 'div' | 'min' | 'max'; left: IntExpr; right: IntExpr }
-  | { kind: 'clamp'; value: IntExpr; min: IntExpr; max: IntExpr };
-
-export type BoolExpr =
   | { kind: 'bool'; value: boolean }
-  | { kind: 'var'; id: string }
-  | { kind: 'compare'; op: 'eq' | 'ne' | 'lt' | 'lte' | 'gt' | 'gte'; left: IntExpr; right: IntExpr }
-  | { kind: 'all'; args: BoolExpr[] }
-  | { kind: 'any'; args: BoolExpr[] }
-  | { kind: 'not'; value: BoolExpr };
-
-export interface ModuleIntent {
-  moduleId: string;
-  action: 'activate' | 'shieldOn' | 'shieldOff';
-  aimOffset?: IntExpr; // clamped -256..256 for burst/breaker, 0 for blade/lance
-  priority: number;    // 0..15, 0 is highest priority
-}
-
-export interface Rule {
-  id: string;
-  description?: string;
-  when: BoolExpr;
-  set?: { variable: string; value: IntExpr }[];
-  intent: {
-    thrust: { forward: IntExpr; strafe: IntExpr }; // -1000..1000
-    turn: IntExpr;                                  // -1000..1000
-    modules: ModuleIntent[];
-  };
-  nextState?: string;
-}
-
-export interface SkillDefinition {
-  id: string;
-  parameters: { id: string; type: 'int' | 'bool' }[];
-  body: {
-    when: BoolExpr;
-    intent: Rule['intent'];
-    set?: Rule['set'];
-    nextState?: string;
-  };
-}
-
-export interface BrainState {
-  id: string;
-  name?: string;
-  description?: string;
-  rules: Rule[];
-}
-
+  | { kind: 'var' | 'param'; id: string }
+  | { kind: 'sensor'; name: string }
+  | { kind: 'op'; op: 'add' | 'sub' | 'mul' | 'div' | 'min' | 'max'; left: Expr; right: Expr }
+  | { kind: 'compare'; op: 'eq' | 'ne' | 'lt' | 'lte' | 'gt' | 'gte'; left: Expr; right: Expr }
+  | { kind: 'clamp'; value: Expr; min: Expr; max: Expr }
+  | { kind: 'all' | 'any'; args: Expr[] }
+  | { kind: 'not'; value: Expr };
+export interface Placement { id: string; catalogId: string; cell: { x: number; y: number }; orientation: 0 | 1 | 2 | 3 }
+export type ModuleIntent = { moduleId: string; action: 'activate'; aimOffset: Expr; priority: number } | { moduleId: string; action: 'shieldOn' | 'shieldOff'; priority: number };
+export interface IntentSource { thrust: { forward: Expr; strafe: Expr }; turn: Expr; modules: ModuleIntent[] }
+export interface InlineRule { when: Expr; intent: IntentSource; set?: { variable: string; value: Expr }[]; nextState?: string | { parameter: string } }
+export interface SkillCall { useSkill: string; args: Record<string, Expr | string> }
+export type Rule = { id: string } & (InlineRule | SkillCall);
 export interface BrainSource {
-  abiVersion: '2.0';
-  initialState: string;
-  variables: { id: string; type: 'int' | 'bool'; initial: number | boolean }[];
-  skills: SkillDefinition[];
-  states: BrainState[];
+  abiVersion: '2.0'; initialState: string;
+  variables: { id: string; type: ValueType; initial: number | boolean }[];
+  skills: { id: string; parameters: { id: string; type: ValueType | 'state' }[]; body: InlineRule | SkillCall }[];
+  states: { id: string; rules: Rule[] }[];
 }
-
-export interface BehaviorCard {
-  hypothesis: string;
-  tactics: string;
-  knownWeaknesses: string;
-}
-
-export interface BotDefinition {
-  schemaVersion: '2.0';
-  name: string;
-  body: BotBody;
-  brain: BrainSource;
-  cosmetic: {
-    skinId: string;
-    paletteId: string;
-  };
-}
-
-export interface BotPackage {
-  canonicalGameplay: string;
-  packageHash: string; // SHA-256 hex
-  compilerDigest: string;
-  catalogDigest: string;
-}
-
-export interface ValidationError {
-  type: 'error' | 'warning';
-  code: string;
-  message: string;
-  cell?: { x: number; y: number };
-}
-
-export interface ValidationReport {
-  isValid: boolean;
-  packageHash?: string;
-  totalModules: number;
-  totalCost: number;
-  totalMass: number;
-  boundingRadiusMilli: number;
-  coreFound: boolean;
-  isConnected: boolean;
-  weaponCount: number;
-  thrusterCount: number;
-  vMax: number;
-  wMax: number;
-  energyCap: number;
-  heatDissipation: number;
-  errors: ValidationError[];
-}
-
-export interface MatchManifest {
-  engineDigest: string;
-  rulesetDigest: string;
-  catalogDigest: string;
-  brainAbiVersion: string;
-  packageHashA: string;
-  packageHashB: string;
-  seed: string; // 16 bytes hex (128-bit)
-  scenarioId: number; // 0..1224
-  presetValues: {
-    yLeft: number;
-    yRight: number;
-    jitterLeft: number;
-    jitterRight: number;
-  };
-  spawnSlotAssignment: 'leg0_standard' | 'leg1_swapped';
-  maxTicks: number; // 5400
-}
-
-export interface ReplayFrame {
-  tick: number;
-  poses: {
-    botA: { x: number; y: number; heading: number; vx: number; vy: number };
-    botB: { x: number; y: number; heading: number; vx: number; vy: number };
-  };
-  resources: {
-    botA: { energy: number; heat: number; coreHp: number; isOverheated: boolean };
-    botB: { energy: number; heat: number; coreHp: number; isOverheated: boolean };
-  };
-  events: any[];
-}
+export interface BotDefinition { schemaVersion: '2.0'; name: string; body: { grid: 'square-12-v1'; modules: Placement[] }; brain: BrainSource; cosmetic: { skinId: string; paletteId: string } }
+export interface Diagnostic { code: string; pointer: string; message: string }
+export interface NormalizedIR { abiVersion: '2.0'; initialState: string; variables: BrainSource['variables']; states: { id: string; rules: ({ id: string } & InlineRule)[] }[] }
+export interface CompiledBrain { brainAbiVersion: '2.0'; compilerDigest: string; normalizedIR: NormalizedIR; sourceMap: Record<string, string>; symbolMap: { modules: string[]; states: string[]; variables: string[] }; nodeCount: number }
+export interface CanonicalGameplay { schemaVersion: '2.0'; brainAbiVersion: '2.0'; compilerDigest: string; catalogDigest: string; body: { grid: 'square-12-v1'; modules: Omit<Placement, 'id'>[] }; brain: NormalizedIR }
+export interface BotPackage { canonicalGameplay: CanonicalGameplay; packageHash: string; presentationHash: string; capabilityDigest: string }
+export interface ControlIntent { thrust: { forward: number; strafe: number }; turn: number; modules: ({ moduleOrdinal: number; action: 'activate'; aimOffset: number; priority: number } | { moduleOrdinal: number; action: 'shieldOn' | 'shieldOff'; priority: number })[] }
+export interface Observation { tick: number; sensors: Record<string, number> }
+export interface ValidationReport { packageHash: string; engineDigest: string; rulesetDigest: string; suiteDigest: string; status: 'passed' | 'failed'; diagnostics: Diagnostic[] }
+export interface ExperimentSpec { baselineHash: string; candidateHash: string; opponentHashes: string[]; seedSetDigest: string; engineDigest: string; rulesetDigest: string; phase: 'exploration' | 'holdout' }
+export interface Experiment { manifestDigest: string; spec: ExperimentSpec; status: 'queued' | 'running' | 'completed' | 'failed' | 'cancelled'; pairedResults: { scenarioId: number; baseline: number; candidate: number }[]; confidence: { meanDeltaMillionths: number; lower95Millionths: number; upper95Millionths: number; resamples: 10000 } | null; cost: number }
+export interface PresetValues { yLeft: number; yRight: number; jitterLeft: number; jitterRight: number }
+export interface MatchManifest { engineDigest: string; rulesetDigest: string; catalogDigest: string; compilerDigest: string; brainAbiVersion: '2.0'; packageHashes: { A: string; B: string }; seed: string; arenaDigest: string; arenaInitDigest: string; scenarioId: number; presetValues: PresetValues; spawnSlotAssignment: { A: 'left' | 'right'; B: 'left' | 'right' }; maxTicks: 5400; numericalAbiVersion: 'milli-v1' }
+export interface MatchResult { winner: 'A' | 'B' | 'draw'; cause: 'core' | 'coreDouble' | 'brainBudget' | 'timeout'; elapsedTicks: number; scores: { A: number; B: number } }
+export interface ReplayManifest { version: '2.0'; match: MatchManifest; publicReplayHash: string; chunks: { firstBoundary: number; lastBoundary: number; hash: string; bytes: number }[]; result: MatchResult }
+export interface Ratings { userId: string; seasonId: string; runId: string; rating: number; played: number; wins: number; draws: number; revision: number }

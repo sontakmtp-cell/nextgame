@@ -1,164 +1,173 @@
-import { BrainSource, BrainState, Rule, IntExpr, BoolExpr, SkillDefinition } from '@nextgame/contracts';
-
-export interface CompiledBrainIR {
-  abiVersion: '2.0';
-  compilerDigest: string;
-  initialState: string;
-  variables: BrainSource['variables'];
-  states: BrainState[];
-  totalNodes: number;
-}
-
-export interface CompilerDiagnostic {
-  type: 'error' | 'warning';
-  code: string;
-  message: string;
-}
-
-export class BrainCompiler {
-  private nodeCount = 0;
-  private maxDepth = 0;
-
-  compile(source: BrainSource): { ir?: CompiledBrainIR; diagnostics: CompilerDiagnostic[] } {
-    const diagnostics: CompilerDiagnostic[] = [];
-    this.nodeCount = 0;
-    this.maxDepth = 0;
-
-    // 1. Check basic limits
-    if (source.states.length > 32) {
-      diagnostics.push({
-        type: 'error',
-        code: 'MAX_STATES_EXCEEDED',
-        message: `Vượt quá giới hạn số trạng thái (${source.states.length}/32).`,
-      });
-    }
-
-    if (source.variables.length > 64) {
-      diagnostics.push({
-        type: 'error',
-        code: 'MAX_VARS_EXCEEDED',
-        message: `Vượt quá giới hạn số biến nhớ (${source.variables.length}/64).`,
-      });
-    }
-
-    const stateIds = new Set(source.states.map((s: BrainState) => s.id));
-    if (!stateIds.has(source.initialState)) {
-      diagnostics.push({
-        type: 'error',
-        code: 'INITIAL_STATE_NOT_FOUND',
-        message: `Trạng thái khởi đầu "${source.initialState}" không tồn tại.`,
-      });
-    }
-
-    // 2. Expand skills (macros)
-    const skillsMap = new Map<string, SkillDefinition>();
-    for (const sk of source.skills || []) {
-      skillsMap.set(sk.id, sk);
-    }
-
-    const compiledStates: BrainState[] = [];
-
-    for (const state of source.states) {
-      if (state.rules.length > 32) {
-        diagnostics.push({
-          type: 'error',
-          code: 'MAX_RULES_EXCEEDED',
-          message: `Trạng thái "${state.id}" có quá nhiều quy tắc (${state.rules.length}/32).`,
-        });
-      }
-
-      const compiledRules: Rule[] = [];
-      for (const rule of state.rules) {
-        this.nodeCount++;
-        this.inspectBoolExpr(rule.when, 1, diagnostics);
-
-        this.inspectIntExpr(rule.intent.thrust.forward, 1, diagnostics);
-        this.inspectIntExpr(rule.intent.thrust.strafe, 1, diagnostics);
-        this.inspectIntExpr(rule.intent.turn, 1, diagnostics);
-
-        for (const mi of rule.intent.modules) {
-          this.nodeCount++;
-          if (mi.aimOffset) this.inspectIntExpr(mi.aimOffset, 1, diagnostics);
-        }
-
-        if (rule.nextState && !stateIds.has(rule.nextState)) {
-          diagnostics.push({
-            type: 'error',
-            code: 'UNKNOWN_NEXT_STATE',
-            message: `Quy tắc "${rule.id}" chuyển sang trạng thái không tồn tại: "${rule.nextState}".`,
-          });
-        }
-
-        compiledRules.push(rule);
-      }
-
-      compiledStates.push({
-        id: state.id,
-        name: state.name,
-        rules: compiledRules,
-      });
-    }
-
-    if (this.nodeCount > 2048) {
-      diagnostics.push({
-        type: 'error',
-        code: 'MAX_NODES_EXCEEDED',
-        message: `Vượt quá giới hạn nút AST (${this.nodeCount}/2048).`,
-      });
-    }
-
-    if (this.maxDepth > 16) {
-      diagnostics.push({
-        type: 'error',
-        code: 'MAX_DEPTH_EXCEEDED',
-        message: `Độ sâu biểu thức vượt quá 16 (${this.maxDepth}).`,
-      });
-    }
-
-    if (diagnostics.some(d => d.type === 'error')) {
-      return { diagnostics };
-    }
-
-    return {
-      ir: {
-        abiVersion: '2.0',
-        compilerDigest: 'sha256:alpha0_compiler_v2',
-        initialState: source.initialState,
-        variables: source.variables,
-        states: compiledStates,
-        totalNodes: this.nodeCount,
-      },
-      diagnostics,
-    };
-  }
-
-  private inspectIntExpr(expr: IntExpr, depth: number, diagnostics: CompilerDiagnostic[]) {
-    this.nodeCount++;
-    if (depth > this.maxDepth) this.maxDepth = depth;
-
-    if (expr.kind === 'op') {
-      this.inspectIntExpr(expr.left, depth + 1, diagnostics);
-      this.inspectIntExpr(expr.right, depth + 1, diagnostics);
-    } else if (expr.kind === 'clamp') {
-      this.inspectIntExpr(expr.value, depth + 1, diagnostics);
-      this.inspectIntExpr(expr.min, depth + 1, diagnostics);
-      this.inspectIntExpr(expr.max, depth + 1, diagnostics);
+import { assertBrain, canonical, ContractError, geometryOrder, SENSORS, validateSchema } from '@prompt-chien/contracts';
+import type { BrainSource, CompiledBrain, Expr, InlineRule, ModuleIntent, Placement, SkillCall, ValueType } from '@prompt-chien/contracts';
+import { COMPILER_DIGEST } from './identity.js';
+export { SENSORS } from '@prompt-chien/contracts';
+export function compile(source: BrainSource, placements: readonly Placement[]): CompiledBrain {
+  // Preflight the entire in-memory input before AJV or expansion allocation.
+  let sourceNodes=0;
+  const pending: {value:unknown;exprDepth:number}[]=[{value:source,exprDepth:0}];
+  while(pending.length) {
+    const {value,exprDepth}=pending.pop()!;
+    if(value!==null&&typeof value==='object') {
+      if(++sourceNodes>4096)throw new ContractError('SOURCE_NODE_CAP','/brain');
+      const depth='kind' in value?exprDepth+1:Array.isArray(value)?exprDepth:0;
+      if(depth>16)throw new ContractError('EXPR_DEPTH','/brain');
+      for(const child of Object.values(value))pending.push({value:child,exprDepth:depth});
     }
   }
-
-  private inspectBoolExpr(expr: BoolExpr, depth: number, diagnostics: CompilerDiagnostic[]) {
-    this.nodeCount++;
-    if (depth > this.maxDepth) this.maxDepth = depth;
-
-    if (expr.kind === 'compare') {
-      this.inspectIntExpr(expr.left, depth + 1, diagnostics);
-      this.inspectIntExpr(expr.right, depth + 1, diagnostics);
-    } else if (expr.kind === 'all' || expr.kind === 'any') {
-      for (const arg of expr.args) {
-        this.inspectBoolExpr(arg, depth + 1, diagnostics);
-      }
-    } else if (expr.kind === 'not') {
-      this.inspectBoolExpr(expr.value, depth + 1, diagnostics);
-    }
+  canonical(source);
+  assertBrain(source);
+  validateSchema('body',{grid:'square-12-v1',modules:placements});
+  let work=0,nodes=0;
+  const spend=()=>{if(++work>50000)throw new ContractError('COMPILER_WORK_CAP','/brain');};
+  const emit=()=>{spend();if(++nodes>2048)throw new ContractError('IR_NODE_CAP','/brain');};
+  const fail: (code:string,pointer:string)=>never = (code,pointer)=>{throw new ContractError(code,pointer);};
+  const unique=<T extends {id:string}>(rows:readonly T[],pointer:string):Map<string,T>=>{
+    const map=new Map<string,T>();
+    for(const row of rows){if(map.has(row.id))fail('DUPLICATE_ID',pointer);map.set(row.id,row);}
+    return map;
+  };
+  const modules=[...placements].sort(geometryOrder);
+  const moduleMap=unique(modules,'/body/modules');
+  const variableMap=unique(source.variables,'/brain/variables'),stateMap=unique(source.states,'/brain/states'),skills=unique(source.skills,'/brain/skills');
+  if(!stateMap.has(source.initialState))fail('STATE_REFERENCE','/brain/initialState');
+  const vars=new Map(source.variables.map((v,i)=>[v.id,`v${i}`])),states=new Map(source.states.map((s,i)=>[s.id,`s${i}`])),moduleIds=new Map(modules.map((m,i)=>[m.id,`m${i}`]));
+  let edges=0;
+  const walkSkill=(id:string,path:Set<string>,depth:number):void=>{
+    spend();
+    if(depth>4)fail('SKILL_DEPTH','/brain/skills');
+    if(path.has(id))fail('SKILL_CYCLE','/brain/skills');
+    const skill=skills.get(id);if(!skill)fail('SKILL_REFERENCE','/brain/skills');
+    if('useSkill' in skill.body){path.add(id);walkSkill(skill.body.useSkill,path,depth+1);path.delete(id);}
+  };
+  for(const skill of source.skills) {
+    unique(skill.parameters,'/brain/skills/parameters');
+    if(!('useSkill' in skill.body)&&typeof skill.body.nextState==='string')fail('STATE_PARAMETER','/brain/skills');
+    if('useSkill' in skill.body)edges++;
+    walkSkill(skill.id,new Set(),1);
   }
+  for(const state of source.states){unique(state.rules,'/brain/states/rules');for(const rule of state.rules)if('useSkill' in rule)edges++;}
+  if(edges>64)fail('SKILL_EDGE_CAP','/brain/skills');
+  type Environment=Map<string,Expr|string>;
+  const substitute=(expr:Expr,env:Environment,pointer:string,depth=1,counter={nodes:0}):Expr=>{
+    spend();if(depth>16)fail('EXPR_DEPTH',pointer);
+    if(++counter.nodes>2048)fail('IR_NODE_CAP',pointer);
+    if(expr.kind==='param') {
+      const value=env.get(expr.id);if(!value||typeof value==='string')fail('PARAM_REFERENCE',pointer);
+      return substitute(value,new Map(),pointer,depth,counter);
+    }
+    const child=(value:Expr)=>substitute(value,env,pointer,depth+1,counter);
+    switch(expr.kind){
+      case 'op':case 'compare':return {...expr,left:child(expr.left),right:child(expr.right)};
+      case 'clamp':return {...expr,value:child(expr.value),min:child(expr.min),max:child(expr.max)};
+      case 'all':case 'any':return {...expr,args:expr.args.map(child)};
+      case 'not':return {...expr,value:child(expr.value)};
+      default:return {...expr};
+    }
+  };
+  const expression=(expr:Expr,environment:Environment,pointer:string,depth=1):{expr:Expr;type:ValueType}=>{
+    spend();if(depth>16)fail('EXPR_DEPTH',pointer);
+    if(expr.kind==='param') {
+      const value=environment.get(expr.id);
+      if(!value||typeof value==='string')fail('PARAM_REFERENCE',pointer);
+      return expression(value,new Map(),pointer,depth);
+    }
+    emit();
+    const child=(e:Expr)=>expression(e,environment,pointer,depth+1);
+    const expect=(e:Expr,type:ValueType):Expr=>{const result=child(e);if(result.type!==type)fail('TYPE_MISMATCH',pointer);return result.expr;};
+    switch(expr.kind) {
+      case 'const':return {expr:{...expr},type:'int'};
+      case 'bool':return {expr:{...expr},type:'bool'};
+      case 'var':{
+        const variable=variableMap.get(expr.id);if(!variable)fail('VARIABLE_REFERENCE',pointer);
+        return {expr:{kind:'var',id:vars.get(expr.id)!},type:variable.type};
+      }
+      case 'sensor':{
+        let name=expr.name;
+        const match=/^self\.(weaponReady|moduleAlive)\.(.+)$/.exec(name);
+        if(match) {
+          const module=moduleMap.get(match[2]!);if(!module)fail('MODULE_REFERENCE',pointer);
+          if(match[1]==='weaponReady'&&!['blade','lance','burst','breaker'].includes(module.catalogId))fail('SENSOR_MODULE_TYPE',pointer);
+          name=`self.${match[1]}.${moduleIds.get(module.id)!}`;
+        } else if(!(SENSORS as readonly string[]).includes(name))fail('UNKNOWN_SENSOR',pointer);
+        return {expr:{kind:'sensor',name},type:'int'};
+      }
+      case 'op':return {expr:{...expr,left:expect(expr.left,'int'),right:expect(expr.right,'int')},type:'int'};
+      case 'clamp':return {expr:{...expr,value:expect(expr.value,'int'),min:expect(expr.min,'int'),max:expect(expr.max,'int')},type:'int'};
+      case 'not':return {expr:{kind:'not',value:expect(expr.value,'bool')},type:'bool'};
+      case 'all':case 'any':return {expr:{...expr,args:expr.args.map(e=>expect(e,'bool'))},type:'bool'};
+      case 'compare':{
+        const left=child(expr.left),right=child(expr.right);
+        if(left.type!==right.type || (left.type==='bool'&&!['eq','ne'].includes(expr.op)))fail('TYPE_MISMATCH',pointer);
+        return {expr:{...expr,left:left.expr,right:right.expr},type:'bool'};
+      }
+    }
+  };
+  const resolve=(rule:InlineRule|SkillCall,env:Environment,pointer:string,depth=0):{rule:InlineRule;env:Environment}=>{
+    spend();if(depth>4)fail('SKILL_DEPTH',pointer);
+    if(!('useSkill' in rule))return {rule,env};
+    const skill=skills.get(rule.useSkill);if(!skill)fail('SKILL_REFERENCE',pointer);
+    if(Object.keys(rule.args).length!==skill.parameters.length)fail('SKILL_ARGS',pointer);
+    const next:Environment=new Map();
+    for(const parameter of skill.parameters) {
+      const arg=rule.args[parameter.id];if(arg===undefined)fail('SKILL_ARGS',pointer);
+      if(parameter.type==='state') {
+        const state=typeof arg==='string'?arg:arg.kind==='param'?env.get(arg.id):undefined;
+        if(typeof state!=='string'||!stateMap.has(state))fail('STATE_PARAMETER',pointer);
+        next.set(parameter.id,state);
+      } else {
+        if(typeof arg==='string')fail('TYPE_MISMATCH',pointer);
+        // Typecheck now, but keep source identifiers for hygienic substitution in the body.
+        const value=substitute(arg,env,pointer);
+        const before=nodes,result=expression(value,new Map(),pointer);nodes=before;
+        if(result.type!==parameter.type)fail('TYPE_MISMATCH',pointer);
+        next.set(parameter.id,value);
+      }
+    }
+    return resolve(skill.body,next,pointer,depth+1);
+  };
+  const lower=(raw:InlineRule|SkillCall,env:Environment,pointer:string):InlineRule=>{
+    const resolved=resolve(raw,env,pointer),rule=resolved.rule;
+    const typed=(expr:Expr,type:ValueType):Expr=>{const value=expression(expr,resolved.env,pointer);if(value.type!==type)fail('TYPE_MISMATCH',pointer);return value.expr;};
+    emit();
+    const seen=new Set<string>();
+    const intents:ModuleIntent[]=rule.intent.modules.map(intent=>{
+      emit();const module=moduleMap.get(intent.moduleId);
+      if(!module)fail('MODULE_REFERENCE',pointer);
+      if(seen.has(module.id))fail('DUPLICATE_INTENT',pointer);seen.add(module.id);
+      if(intent.action==='activate') {
+        if(!['blade','lance','burst','breaker'].includes(module.catalogId))fail('ACTION_MODULE_TYPE',pointer);
+        return {...intent,moduleId:moduleIds.get(module.id)!,aimOffset:typed(intent.aimOffset,'int')};
+      }
+      if(module.catalogId!=='shield')fail('ACTION_MODULE_TYPE',pointer);
+      return {...intent,moduleId:moduleIds.get(module.id)!};
+    });
+    const result:InlineRule={when:typed(rule.when,'bool'),intent:{thrust:{forward:typed(rule.intent.thrust.forward,'int'),strafe:typed(rule.intent.thrust.strafe,'int')},turn:typed(rule.intent.turn,'int'),modules:intents}};
+    if(rule.set) {
+      const written=new Set<string>();
+      result.set=rule.set.map(assignment=>{
+        emit();const variable=variableMap.get(assignment.variable);if(!variable)fail('VARIABLE_REFERENCE',pointer);
+        if(written.has(variable.id))fail('DUPLICATE_WRITE',pointer);written.add(variable.id);
+        return {variable:vars.get(variable.id)!,value:typed(assignment.value,variable.type)};
+      });
+    }
+    if(rule.nextState!==undefined) {
+      const target=typeof rule.nextState==='string'?rule.nextState:resolved.env.get(rule.nextState.parameter);
+      if(typeof target!=='string'||!states.has(target))fail('STATE_REFERENCE',pointer);
+      result.nextState=states.get(target)!;
+    }
+    return result;
+  };
+  // Unused skill definitions must be valid too; their emitted nodes do not belong to the IR.
+  for(const [index,skill] of source.skills.entries()) {
+    const env:Environment=new Map(skill.parameters.map(p=>[p.id,p.type==='state'?source.initialState:p.type==='int'?{kind:'const',value:0}:{kind:'bool',value:false}]));
+    const before=nodes;lower(skill.body,env,`/brain/skills/${index}/body`);nodes=before;
+  }
+  const sourceMap:Record<string,string>=Object.create(null) as Record<string,string>;
+  const normalizedIR={abiVersion:'2.0' as const,initialState:states.get(source.initialState)!,variables:source.variables.map((v,i)=>({...v,id:`v${i}`})),states:source.states.map((state,si)=>({id:`s${si}`,rules:state.rules.map((rule,ri)=>{
+    const key=`s${si}/r${ri}`,pointer=`/brain/states/${si}/rules/${ri}`;sourceMap[key]=pointer;
+    if('useSkill' in rule) sourceMap[`${key}/skill`]=`/brain/skills/${source.skills.findIndex(s=>s.id===rule.useSkill)}/body`;
+    return {id:`r${ri}`,...lower(rule,new Map(),pointer)};
+  })}))};
+  return {brainAbiVersion:'2.0',compilerDigest:COMPILER_DIGEST,normalizedIR,sourceMap,symbolMap:{modules:modules.map(m=>m.id),states:source.states.map(s=>s.id),variables:source.variables.map(v=>v.id)},nodeCount:nodes};
 }

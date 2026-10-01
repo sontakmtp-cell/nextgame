@@ -1,0 +1,7352 @@
+[
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -3000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -2000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": -1000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 0,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 1000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 2000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -3000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -2000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": -1000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 0,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 1000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 2000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": -128,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": -64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": 0,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": 64,
+    "jitterRight": 128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": -128
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": -64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 0
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 64
+  },
+  {
+    "yLeft": 3000,
+    "yRight": 3000,
+    "jitterLeft": 128,
+    "jitterRight": 128
+  }
+]

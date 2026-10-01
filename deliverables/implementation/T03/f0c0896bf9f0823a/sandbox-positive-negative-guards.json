@@ -1,0 +1,12 @@
+{
+  "label": "sandbox-positive-negative-guards",
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "scripts/sandbox-selfcheck.mjs"
+  ],
+  "exitCode": 0,
+  "startedAt": "2026-10-01T17:05:40.937Z",
+  "finishedAt": "2026-10-01T17:05:43.639Z",
+  "stdout": "READY\n{\"status\":\"passed\",\"cost\":72,\"irNodes\":42,\"compilerDigest\":\"57d2e758d8d73d52fd2b0cf0861590e21e0c4a876e22c2ad3734b56fa82b8cc2\",\"rss\":73224192}\nunprivileged/read-only/no host credentials/no network/capabilities guards passed\nInvalid schema rejected and compile containers cleaned up\n",
+  "stderr": ""
+}

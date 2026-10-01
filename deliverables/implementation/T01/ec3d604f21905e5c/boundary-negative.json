@@ -1,0 +1,12 @@
+{
+  "label": "boundary-negative",
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "scripts/boundary-selfcheck.mjs"
+  ],
+  "exitCode": 0,
+  "startedAt": "2026-10-01T17:14:42.891Z",
+  "finishedAt": "2026-10-01T17:14:43.170Z",
+  "stdout": "Boundary negative injection rejected Node I/O, cross-package import and clock\n",
+  "stderr": ""
+}

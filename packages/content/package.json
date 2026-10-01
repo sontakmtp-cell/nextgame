@@ -1,19 +1,13 @@
 {
-  "name": "@nextgame/content",
-  "version": "1.0.0",
+  "name": "@prompt-chien/content",
+  "version": "0.0.0",
+  "private": true,
   "type": "module",
-  "description": "PROMPT Chiến - Game Content, alpha-0 Catalog and Reference Bots",
-  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "types": "./dist/index.d.ts",
-  "scripts": {
-    "build": "tsc",
-    "check": "tsc --noEmit",
-    "test": "vitest run"
-  },
   "dependencies": {
-    "@nextgame/contracts": "workspace:*"
-  },
-  "devDependencies": {
-    "typescript": "^7.0.2"
+    "@prompt-chien/contracts": "workspace:*"
   }
 }

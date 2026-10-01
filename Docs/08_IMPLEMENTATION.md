@@ -1,6 +1,8 @@
 # 08 — Kế hoạch triển khai có thể giao Agent
 
-**Đầu vào hiện tại:** repository chỉ tài liệu; không có engine/app/schema/test hay deployment v2. Tất cả ticket dưới đây **chưa bắt đầu**. Kế hoạch không dùng các trạng thái M1/M2/M3 lịch sử làm dependency đã đạt. Chỉ triển khai theo nguồn chính thức [README](../../README.md).
+**Đầu vào ban đầu:** repository chỉ tài liệu; không có engine/app/schema/test hay deployment v2. Kế hoạch không dùng các trạng thái M1/M2/M3 lịch sử làm dependency đã đạt. Chỉ triển khai theo nguồn chính thức [README](../README.md).
+
+**Trạng thái triển khai:** G0 (T01–T03) được bàn giao cùng code, checks và [báo cáo evidence](../deliverables/implementation/G0_REPORT.md). T04–T16 chưa triển khai. Xem báo cáo để phân biệt checks đã chạy với remote CI/những gate giai đoạn sau chưa chạy; không suy game hoàn chỉnh từ G0.
 
 ## 1. Nguyên tắc giao việc
 

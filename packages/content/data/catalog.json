@@ -1,0 +1,102 @@
+[
+  {
+    "id": "core",
+    "cost": 20,
+    "mass": 12,
+    "hp": 800,
+    "enabled": true,
+    "damage": false,
+    "max": 1,
+    "footprint": 2
+  },
+  {
+    "id": "thruster",
+    "cost": 6,
+    "mass": 3,
+    "hp": 180,
+    "enabled": true,
+    "damage": false,
+    "max": 6,
+    "footprint": 1
+  },
+  {
+    "id": "armor",
+    "cost": 4,
+    "mass": 4,
+    "hp": 300,
+    "enabled": true,
+    "damage": false,
+    "max": 24,
+    "footprint": 1
+  },
+  {
+    "id": "blade",
+    "cost": 14,
+    "mass": 5,
+    "hp": 220,
+    "enabled": true,
+    "damage": true,
+    "max": 3,
+    "footprint": 1
+  },
+  {
+    "id": "lance",
+    "cost": 18,
+    "mass": 6,
+    "hp": 200,
+    "enabled": false,
+    "damage": true,
+    "max": 3,
+    "footprint": 1
+  },
+  {
+    "id": "burst",
+    "cost": 16,
+    "mass": 5,
+    "hp": 180,
+    "enabled": true,
+    "damage": true,
+    "max": 3,
+    "footprint": 1
+  },
+  {
+    "id": "shield",
+    "cost": 12,
+    "mass": 4,
+    "hp": 260,
+    "enabled": true,
+    "damage": false,
+    "max": 1,
+    "footprint": 1
+  },
+  {
+    "id": "breaker",
+    "cost": 12,
+    "mass": 4,
+    "hp": 180,
+    "enabled": false,
+    "damage": true,
+    "max": 3,
+    "footprint": 1
+  },
+  {
+    "id": "capacitor",
+    "cost": 8,
+    "mass": 2,
+    "hp": 160,
+    "enabled": true,
+    "damage": false,
+    "max": 2,
+    "footprint": 1
+  },
+  {
+    "id": "radiator",
+    "cost": 6,
+    "mass": 2,
+    "hp": 160,
+    "enabled": true,
+    "damage": false,
+    "max": 2,
+    "footprint": 1
+  }
+]
