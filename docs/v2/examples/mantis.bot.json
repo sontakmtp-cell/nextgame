@@ -1,0 +1,292 @@
+{
+  "schemaVersion": "2.0",
+  "name": "Mantis — fixture cú pháp và canonicalization",
+  "body": {
+    "grid": "square-12-v1",
+    "modules": [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "cell": {
+          "x": 5,
+          "y": 5
+        },
+        "orientation": 0
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "cell": {
+          "x": 4,
+          "y": 5
+        },
+        "orientation": 0
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "cell": {
+          "x": 4,
+          "y": 6
+        },
+        "orientation": 0
+      },
+      {
+        "id": "bladeFront",
+        "catalogId": "blade",
+        "cell": {
+          "x": 7,
+          "y": 5
+        },
+        "orientation": 0
+      },
+      {
+        "id": "shieldMain",
+        "catalogId": "shield",
+        "cell": {
+          "x": 7,
+          "y": 6
+        },
+        "orientation": 0
+      },
+      {
+        "id": "cooler",
+        "catalogId": "radiator",
+        "cell": {
+          "x": 5,
+          "y": 4
+        },
+        "orientation": 0
+      },
+      {
+        "id": "plateTop",
+        "catalogId": "armor",
+        "cell": {
+          "x": 6,
+          "y": 4
+        },
+        "orientation": 0
+      },
+      {
+        "id": "plateBottom",
+        "catalogId": "armor",
+        "cell": {
+          "x": 6,
+          "y": 7
+        },
+        "orientation": 0
+      }
+    ]
+  },
+  "brain": {
+    "abiVersion": "2.0",
+    "initialState": "engage",
+    "variables": [],
+    "skills": [],
+    "states": [
+      {
+        "id": "engage",
+        "rules": [
+          {
+            "id": "evadeWindup",
+            "when": {
+              "kind": "compare",
+              "op": "eq",
+              "left": {
+                "kind": "sensor",
+                "name": "enemy.telegraph"
+              },
+              "right": {
+                "kind": "const",
+                "value": 1
+              }
+            },
+            "intent": {
+              "thrust": {
+                "forward": {
+                  "kind": "const",
+                  "value": 0
+                },
+                "strafe": {
+                  "kind": "const",
+                  "value": 1000
+                }
+              },
+              "turn": {
+                "kind": "clamp",
+                "value": {
+                  "kind": "sensor",
+                  "name": "enemy.bearing"
+                },
+                "min": {
+                  "kind": "const",
+                  "value": -1000
+                },
+                "max": {
+                  "kind": "const",
+                  "value": 1000
+                }
+              },
+              "modules": []
+            },
+            "nextState": "recover"
+          },
+          {
+            "id": "strike",
+            "when": {
+              "kind": "compare",
+              "op": "lte",
+              "left": {
+                "kind": "sensor",
+                "name": "enemy.distance"
+              },
+              "right": {
+                "kind": "const",
+                "value": 3500
+              }
+            },
+            "intent": {
+              "thrust": {
+                "forward": {
+                  "kind": "const",
+                  "value": 700
+                },
+                "strafe": {
+                  "kind": "const",
+                  "value": 0
+                }
+              },
+              "turn": {
+                "kind": "clamp",
+                "value": {
+                  "kind": "sensor",
+                  "name": "enemy.bearing"
+                },
+                "min": {
+                  "kind": "const",
+                  "value": -1000
+                },
+                "max": {
+                  "kind": "const",
+                  "value": 1000
+                }
+              },
+              "modules": [
+                {
+                  "moduleId": "bladeFront",
+                  "action": "activate",
+                  "aimOffset": {
+                    "kind": "const",
+                    "value": 0
+                  },
+                  "priority": 0
+                }
+              ]
+            }
+          },
+          {
+            "id": "approach",
+            "when": {
+              "kind": "bool",
+              "value": true
+            },
+            "intent": {
+              "thrust": {
+                "forward": {
+                  "kind": "const",
+                  "value": 800
+                },
+                "strafe": {
+                  "kind": "const",
+                  "value": 0
+                }
+              },
+              "turn": {
+                "kind": "clamp",
+                "value": {
+                  "kind": "sensor",
+                  "name": "enemy.bearing"
+                },
+                "min": {
+                  "kind": "const",
+                  "value": -1000
+                },
+                "max": {
+                  "kind": "const",
+                  "value": 1000
+                }
+              },
+              "modules": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "recover",
+        "rules": [
+          {
+            "id": "returnToFight",
+            "when": {
+              "kind": "compare",
+              "op": "gte",
+              "left": {
+                "kind": "sensor",
+                "name": "clock.stateAge"
+              },
+              "right": {
+                "kind": "const",
+                "value": 3
+              }
+            },
+            "intent": {
+              "thrust": {
+                "forward": {
+                  "kind": "const",
+                  "value": 0
+                },
+                "strafe": {
+                  "kind": "const",
+                  "value": 0
+                }
+              },
+              "turn": {
+                "kind": "const",
+                "value": 0
+              },
+              "modules": []
+            },
+            "nextState": "engage"
+          },
+          {
+            "id": "continueEvade",
+            "when": {
+              "kind": "bool",
+              "value": true
+            },
+            "intent": {
+              "thrust": {
+                "forward": {
+                  "kind": "const",
+                  "value": -400
+                },
+                "strafe": {
+                  "kind": "const",
+                  "value": 800
+                }
+              },
+              "turn": {
+                "kind": "const",
+                "value": 0
+              },
+              "modules": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "cosmetic": {
+    "skinId": "ceramic-default",
+    "paletteId": "team-auto"
+  }
+}

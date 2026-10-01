@@ -1,0 +1,38 @@
+[
+  {
+    "file": "BRAIN.md",
+    "bytes": 8360,
+    "sha256": "5128a7436cf210087763b4cf6d3e3c20724049557706ec08e70695e76d13c24f",
+    "lines": 91
+  },
+  {
+    "file": "PLAN.md",
+    "bytes": 26074,
+    "sha256": "54c187bf02d7114002d6c8efe7f4adb2252a3c9ba41cd09fa8d985f719b61cd2",
+    "lines": 220
+  },
+  {
+    "file": "can_bang.md",
+    "bytes": 52739,
+    "sha256": "bbcd559f80d3bbc3073eb504d5d025b4f3c8aebb85f9c649e75ed279b3f223b8",
+    "lines": 787
+  },
+  {
+    "file": "gameplay.md",
+    "bytes": 46746,
+    "sha256": "4461357829c3d33c20ea18a577ebf205dba07b37a431e5496d0c612abae2525b",
+    "lines": 566
+  },
+  {
+    "file": "ky_thuat_my_thuat.md",
+    "bytes": 50637,
+    "sha256": "1b750ea63a9136968546efd0e2c574abfb19dafe1608a6b402b55211574651f9",
+    "lines": 664
+  },
+  {
+    "file": "spec_demo.md",
+    "bytes": 33948,
+    "sha256": "2eef4d5ddbc3c651648157d8492c617c769c70e7a10d50fe9afded3c8e8cf582",
+    "lines": 1434
+  }
+]

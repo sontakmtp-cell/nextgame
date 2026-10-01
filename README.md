@@ -1,0 +1,36 @@
+# PROMPT Chiến — xây dựng trí tuệ, chứng minh trên đấu trường
+
+Bộ đặc tả sản phẩm **v2, ngày 01/10/2026**. Người chơi cùng AI qua MCP thiết kế cơ thể và lập trình trí tuệ cho bot; bot tự chiến đấu trong web game 2D, tiến hóa qua thử nghiệm và thi đấu xếp hạng.
+
+Đây là **baseline thiết kế để triển khai**, chưa phải game đã xây hoặc được nghiệm thu. Checkout hiện chỉ có tài liệu. “Cảm giác AAA” là mục tiêu về tính đồng bộ, độ tinh chỉnh và khả năng đọc trận, được chuyển thành các gate kiểm chứng; không phải tuyên bố ngân sách hay chất lượng đã đạt.
+
+## Bộ tài liệu chính thức
+
+| Đọc theo thứ tự | Nội dung và nguồn quyết định |
+|---|---|
+| [01 — Sản phẩm](docs/v2/01_PRODUCT.md) | Định vị, vòng lặp, phạm vi, tiêu chí hấp dẫn |
+| [02 — Gameplay và chiến đấu](docs/v2/02_GAMEPLAY.md) | Cơ thể, module, luật chiến đấu, công thức, thứ tự tick |
+| [03 — Bot và Brain](docs/v2/03_BOT_BRAIN.md) | Schema logic, ngôn ngữ trí tuệ, ABI, mở rộng cơ chế |
+| [04 — Kiến trúc](docs/v2/04_ARCHITECTURE.md) | Stack, monorepo, dữ liệu, worker, replay, vận hành |
+| [05 — MCP và nền tảng AI](docs/v2/05_MCP_PLATFORM.md) | Hợp đồng tools, đồng sáng tạo, OAuth, tương thích host |
+| [06 — Mỹ thuật và UX](docs/v2/06_ART_UX.md) | Art direction, bảng màu, layout, chuyển động, âm thanh |
+| [07 — Ranked và LiveOps](docs/v2/07_RANKED_LIVEOPS.md) | Ghép trận, rating, leaderboard, mùa giải, công bằng |
+| [08 — Kế hoạch Agent](docs/v2/08_IMPLEMENTATION.md) | DAG công việc, quyền sở hữu, đầu ra, gate và prompt giao việc |
+| [09 — Chất lượng và bảo mật](docs/v2/09_QUALITY_SECURITY.md) | Test matrix, threat model, release, điều kiện dừng |
+| [Sổ quyết định](docs/v2/DECISIONS.md) | Quyết định đã chọn, phương án bỏ, giả thuyết cần đo |
+| [Đọc và chuyển đổi tài liệu cũ](docs/v2/SOURCE_REVIEW.md) | Nguồn đã đọc, mâu thuẫn, map v1 → v2 |
+
+Để bắt đầu giao Agent: đọc 01 → 02 → 03 → 04, rồi nhận đúng ticket trong 08. Đối với AI tích hợp sản phẩm, đọc thêm 05. Tài liệu tham chiếu chéo thay cho sao chép luật sang nhiều nơi.
+
+## Quy tắc sử dụng
+
+- **Nguồn luật:** 02; **nguồn hợp đồng Bot/Brain:** 03; **nguồn tool:** 05; **nguồn ranked:** 07; **nguồn giao diện:** 06. Nếu có xung đột, dừng ticket liên quan và sửa nguồn cùng người phụ trách, không tự chọn hai phiên bản khác nhau.
+- `alpha-0` là bộ số để dựng prototype, phải qua fun/balance gate trước ranked. Mọi thay đổi luật tạo digest mới và đánh giá lại bot; không sửa trận đã khóa.
+- Trong task này chưa có build, gameplay test, benchmark, render hay host QA của v2. Không thừa kế các trạng thái “M1/M2/M3 đã đạt” trong tài liệu lịch sử.
+- Bốn bất biến: đồng sáng tạo qua MCP; autonomous combat 2D; ranked + leaderboard; bot có ngôn ngữ hành vi và đường mở rộng cơ chế.
+
+## Tài liệu lịch sử
+
+Sáu file gốc đã được giữ nguyên byte tại [docs/archive/v1](docs/archive/v1/README.md), có [manifest SHA-256](docs/archive/v1/source-manifest.json). Chúng là nguồn tham khảo lịch sử, không là luật v2. Các đường dẫn gốc nay dẫn đến tài liệu thay thế để tránh Agent dùng nhầm đặc tả.
+
+Báo cáo [Software Workshop Expert Teams](deliverables/gstack/redesign-nextgame-2026-10-01.md) ghi quyết định hợp nhất, kết quả của năm chuyên gia và giới hạn bằng chứng. Xem [QA tài liệu](deliverables/gstack/raw/qa.md) để biết các phép kiểm tra đã chạy và các gate runtime còn phải thực hiện.
