@@ -1,0 +1,10 @@
+{
+  "label": "replay",
+  "command": "pnpm verify:replay",
+  "exitCode": 0,
+  "durationMs": 18033,
+  "startedAt": "2026-10-02T02:52:23.808Z",
+  "finishedAt": "2026-10-02T02:52:41.841Z",
+  "stdout": "\n> prompt-chien@0.0.0 verify:replay H:\\AI\\nextgame\n> tsc -b && vitest run tests/replay.test.ts\n\n\n RUN  v5.0.3 H:/AI/nextgame\n\n ✓ tests/replay.test.ts (6 tests) 16298ms\n   ✓ binary public codec round trips every frame, arbitrary seeks equal playback, no private fields 655ms\n   ✓ every checkpoint interval restores identically, hence every suffix reaches the same final state 1542ms\n   ✓ module rename/permutation does not change gameplay hash, and manifest tampering is rejected 1177ms\n   ✓ full combat whole-world 180 degree + actor relabel preserves outcomes 661ms\n   ✓ a full 5400-tick replay of the largest point-budget legal idle Bodies stays below 8 MiB 1282ms\n   ✓ two near-IR-cap Brains share only frozen code; private snapshots fit quotas and fully verify 10979ms\n\n Test Files  1 passed (1)\n      Tests  6 passed (6)\n   Start at  09:52:24\n   Duration  16.99s (tests 97%, import 3%, transform 1%)\n\n",
+  "stderr": ""
+}

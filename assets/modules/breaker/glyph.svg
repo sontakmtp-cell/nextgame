@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Breaker: Impact block bifurcated by fissure -->
+  <rect x="2" y="2" width="28" height="28" rx="3" fill="#39434C" stroke="#293640" stroke-width="2"/>
+  <rect x="5" y="5" width="22" height="22" rx="2" fill="#D9D4C8"/>
+  <rect x="8" y="8" width="16" height="16" fill="#F1EADC" stroke="#39434C" stroke-width="2"/>
+  <path d="M16 8 L14 15 L18 19 L16 24" stroke="#39434C" stroke-width="2.5" fill="none"/>
+</svg>

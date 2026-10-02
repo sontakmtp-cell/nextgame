@@ -1,0 +1,104 @@
+{
+  "$schema": "https://prompt-chien.dev/schemas/assets-manifest-v1.json",
+  "version": "1.0.0",
+  "license": "MIT (Clean Room Authored)",
+  "theme": "Gốm Sống / Cốt Graphite (06_ART_UX.md)",
+  "arena": {
+    "widthMeters": 40,
+    "heightMeters": 28,
+    "baseScalePxPerMeter": 25,
+    "floorColor": "#0E141A",
+    "gridColor": "#293640",
+    "wallColor": "#8193A0"
+  },
+  "teams": {
+    "A": {
+      "name": "Team A",
+      "color": "#F27B59",
+      "emblem": "assets/teams/a/emblem.svg",
+      "shape": "circle",
+      "notchCount": 1,
+      "stripeStyle": "solid"
+    },
+    "B": {
+      "name": "Team B",
+      "color": "#65C8D4",
+      "emblem": "assets/teams/b/emblem.svg",
+      "shape": "hexagon",
+      "notchCount": 2,
+      "stripeStyle": "segmented"
+    }
+  },
+  "modules": {
+    "core": {
+      "name": "Ý Thức Tâm (Core)",
+      "footprint": [2, 2],
+      "pointCost": 0,
+      "glyph": "assets/modules/core/glyph.svg",
+      "description": "Concentric gold circles with cross-axis alignment marks."
+    },
+    "thruster": {
+      "name": "Động Cơ Đẩy (Thruster)",
+      "footprint": [1, 1],
+      "pointCost": 6,
+      "glyph": "assets/modules/thruster/glyph.svg",
+      "description": "Dual rear exhaust slits with titanium throat chamber."
+    },
+    "armor": {
+      "name": "Tấm Giáp Gốm (Armor)",
+      "footprint": [1, 1],
+      "pointCost": 3,
+      "glyph": "assets/modules/armor/glyph.svg",
+      "description": "Stepped double ceramic plates with alloy corner fasteners."
+    },
+    "blade": {
+      "name": "Lưỡi Chém Gốm (Blade)",
+      "footprint": [1, 1],
+      "pointCost": 12,
+      "glyph": "assets/modules/blade/glyph.svg",
+      "description": "Diagonal ceramic cutting wedge with polished bevel."
+    },
+    "burst": {
+      "name": "Pháo Bắn Đợt (Burst)",
+      "footprint": [1, 1],
+      "pointCost": 15,
+      "glyph": "assets/modules/burst/glyph.svg",
+      "description": "Triple radiant projectile tubes with collimator rings."
+    },
+    "shield": {
+      "name": "Khiên Từ Trường (Shield)",
+      "footprint": [1, 1],
+      "pointCost": 14,
+      "glyph": "assets/modules/shield/glyph.svg",
+      "description": "Concave dual-layer protective arc hugging inward."
+    },
+    "capacitor": {
+      "name": "Tụ Trữ Năng (Capacitor)",
+      "footprint": [1, 1],
+      "pointCost": 8,
+      "glyph": "assets/modules/capacitor/glyph.svg",
+      "description": "Triple segmented charge storage dielectric bars."
+    },
+    "radiator": {
+      "name": "Lá Tản Nhiệt (Radiator)",
+      "footprint": [1, 1],
+      "pointCost": 8,
+      "glyph": "assets/modules/radiator/glyph.svg",
+      "description": "Triple parallel convective heat dissipation fins."
+    },
+    "lance": {
+      "name": "Thương Đột Kích (Lance)",
+      "footprint": [1, 1],
+      "pointCost": 14,
+      "glyph": "assets/modules/lance/glyph.svg",
+      "description": "Elongated piercing spearhead extending along forward axis."
+    },
+    "breaker": {
+      "name": "Khối Phá Giáp (Breaker)",
+      "footprint": [1, 1],
+      "pointCost": 16,
+      "glyph": "assets/modules/breaker/glyph.svg",
+      "description": "Heavy impact block bifurcated by stress relief fissure."
+    }
+  }
+}

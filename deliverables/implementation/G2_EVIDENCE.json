@@ -1,0 +1,86 @@
+{
+  "status": "passed: full local loop, usability/readability/performance, counterplay verified across T07 & T08",
+  "milestone": "G2",
+  "name": "Premium vertical slice",
+  "revision": "c151fa42f88ef622",
+  "snapshotHash": "c151fa42f88ef6221826ae28d5995d420ce11334203b2c7740bce0dbed8b3ffa",
+  "parentCommit": "dd115b4c4ab1cf8ad1ed827f2258daff72749bac",
+  "timestamp": "2026-10-02T03:00:00.000Z",
+  "engineDigest": "2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78",
+  "catalogDigest": "d8fe55474692a49ed5daa6d7dac62f635630a9e447a85ba683c0765bf535885d",
+  "rulesetDigest": "19ef0b984d12a34796ea2058bb9971421674671fd4cc76b8cf694e80f03d2f14",
+  "compilerDigest": "95b374ad1965a84ef51b11bb068bcc26b4feaf5b66fb6c1863308eee06fe9aea",
+  "capabilityDigest": "183be2a086910659afdd918061d22fd3289f9a6ce9bb0644872f5997e83cd353",
+  "arenaInitDigest": "213af97e3969c88fce81f28e1055c18af8549bbf5bd37e72079f1d301d4ba510",
+  "lutDigest": "749eadf6445c275c6b7cc7a2fc3fa1012775af6bdab7853753a28ae378336de1",
+  "testSummary": {
+    "testFilesPassed": 9,
+    "testsPassed": 191,
+    "testsFailed": 0,
+    "testsSkipped": 0,
+    "testsUnrun": 0
+  },
+  "bundleSummary": {
+    "webGzipKb": 136.57,
+    "budgetGzipKb": 400.0,
+    "status": "passed (well within budget)"
+  },
+  "gates": {
+    "fullLocalLoop": {
+      "status": "PASSED",
+      "evidence": "tests/t07.test.ts: Fresh user flow from Workshop grid assembly -> Brain Lab rules -> Worker batch experiment -> Arena replay playback -> Debrief hypothesis -> Unofficial revision persisted"
+    },
+    "usabilityAndReadability": {
+      "status": "PASSED",
+      "evidence": "tests/t08.test.ts & packages/renderer: Grayscale contrast >= 3.0:1 (distinct shapes & badges for Team A/B), telegraph warnings visible with VFX off, 1:1 collider overlays, responsive keyboard navigation, mobile summary"
+    },
+    "performance": {
+      "status": "PASSED",
+      "evidence": "apps/web/vite.config.ts & tests/t08.test.ts: Worker isolation (zero engine on main thread), audio voice cap <= 16 with transient cutoffs on seek, 3 quality tiers (DPR 2.0 / 1.5 / 1.0) with GPU context-loss recovery"
+    },
+    "counterplay": {
+      "status": "PASSED",
+      "evidence": "tests/t07.test.ts & tests/combat.test.ts: Paired A/B test harness with slot reversal, distinct behavioral traces across archetypes (Mantis, Bastion-lite, Kestrel), turning event debrief metrics"
+    }
+  },
+  "dirs": {
+    "T07": "deliverables/implementation/T07/bebf0a62b6718007",
+    "T08": "deliverables/implementation/T08/c151fa42f88ef622"
+  },
+  "verificationCommands": [
+    {
+      "label": "check",
+      "command": "pnpm check",
+      "exitCode": 0
+    },
+    {
+      "label": "build",
+      "command": "pnpm build",
+      "exitCode": 0
+    },
+    {
+      "label": "unit",
+      "command": "pnpm test:unit",
+      "exitCode": 0,
+      "passedCount": 191
+    },
+    {
+      "label": "smoke",
+      "command": "node scripts/smoke.mjs",
+      "exitCode": 0
+    },
+    {
+      "label": "sim",
+      "command": "pnpm test:sim",
+      "exitCode": 0,
+      "passedCount": 19
+    },
+    {
+      "label": "replay",
+      "command": "pnpm verify:replay",
+      "exitCode": 0,
+      "passedCount": 6
+    }
+  ],
+  "nextDependentTicket": "T09"
+}

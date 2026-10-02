@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Lance: Elongated piercing spearhead -->
+  <rect x="2" y="2" width="28" height="28" rx="3" fill="#39434C" stroke="#293640" stroke-width="2"/>
+  <rect x="5" y="5" width="22" height="22" rx="2" fill="#D9D4C8"/>
+  <polygon points="16,5 8,24 24,24" fill="#F1EADC" stroke="#39434C" stroke-width="2"/>
+  <line x1="16" y1="5" x2="16" y2="24" stroke="#39434C" stroke-width="2"/>
+</svg>

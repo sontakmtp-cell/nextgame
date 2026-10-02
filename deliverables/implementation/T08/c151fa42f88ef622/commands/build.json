@@ -1,0 +1,10 @@
+{
+  "label": "build",
+  "command": "pnpm build",
+  "exitCode": 0,
+  "durationMs": 1468,
+  "startedAt": "2026-10-02T02:51:48.985Z",
+  "finishedAt": "2026-10-02T02:51:50.453Z",
+  "stdout": "\n> prompt-chien@0.0.0 build H:\\AI\\nextgame\n> tsc -b && pnpm --filter @prompt-chien/web build\n\n\n> @prompt-chien/web@0.0.0 build H:\\AI\\nextgame\\apps\\web\n> vite build\n\nvite v8.3.2 building client environment for production...\ntransforming...\n✓ 130 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   0.36 kB │ gzip:   0.28 kB\ndist/assets/worker-C3xn8PaF.js  264.83 kB\ndist/assets/index-OwLBARJL.css    8.35 kB │ gzip:   2.14 kB\ndist/assets/index-Dh8QA8n_.js   465.63 kB │ gzip: 136.57 kB\n\n✓ built in 185ms\n",
+  "stderr": ""
+}
