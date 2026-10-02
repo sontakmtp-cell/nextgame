@@ -1,0 +1,67 @@
+{
+  "ticket": "T07",
+  "revision": "bebf0a62b6718007",
+  "snapshotHash": "bebf0a62b671800702c850df51504ec87a2a5dfc113ea3390776cb7818788277",
+  "criteria": {
+    "freshUserLoop": {
+      "status": "PASSED",
+      "evidence": "tests/t07.test.ts: completes the entire end-to-end user loop with determinism and replay verification"
+    },
+    "conflictSafeStorage": {
+      "status": "PASSED",
+      "evidence": "apps/web/src/storage.ts & tests/t07.test.ts: IndexedDB CAS rejects stale expectedRevision with ConflictError, tags drafts with isUnofficial: true"
+    },
+    "jsonErrorPointerHighlighting": {
+      "status": "PASSED",
+      "evidence": "apps/web/src/validation.ts & tests/t07.test.ts: exact line and column pointers for JSON syntax errors and ContractError pointer paths"
+    },
+    "workerCrashRecovery": {
+      "status": "PASSED",
+      "evidence": "apps/web/src/worker-bridge.ts & tests/t07.test.ts: transparent worker instance recreation upon unhandled worker crash"
+    },
+    "keyboardControls": {
+      "status": "PASSED",
+      "evidence": "apps/web/src/workshop.tsx, apps/web/src/arena.tsx & tests/t07.test.ts: Space (play/pause), ArrowLeft/Right (seek), R (rotate), Del (delete), D (duplicate), Ctrl+Z/Y (undo/redo), Ctrl+S (save)"
+    },
+    "mainThreadIsolation": {
+      "status": "PASSED",
+      "evidence": "apps/web/vite.config.ts & tests/t07.test.ts: production build strictly separates index chunk (no engine) and worker chunk (simulation & brain compiler)"
+    },
+    "mobileSummaryAndCtaClarity": {
+      "status": "PASSED",
+      "evidence": "apps/web/src/workshop.tsx, apps/web/src/style.css & tests/t07.test.ts: no hidden disabled CTA buttons; responsive viewport CSS with mobile summary"
+    }
+  },
+  "commands": [
+    {
+      "label": "check",
+      "exitCode": 0,
+      "durationMs": 4622
+    },
+    {
+      "label": "build",
+      "exitCode": 0,
+      "durationMs": 1797
+    },
+    {
+      "label": "unit",
+      "exitCode": 0,
+      "durationMs": 20863
+    },
+    {
+      "label": "smoke",
+      "exitCode": 0,
+      "durationMs": 850
+    },
+    {
+      "label": "sim",
+      "exitCode": 0,
+      "durationMs": 13562
+    },
+    {
+      "label": "replay",
+      "exitCode": 0,
+      "durationMs": 18334
+    }
+  ]
+}

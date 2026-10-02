@@ -1,10 +1,19 @@
 {
-  "revision": "ec3d604f21905e5ccadc8372864a75fbe2453ac48ad8daec34aa982de621419f",
-  "short": "ec3d604f21905e5c",
+  "milestone": "G2",
+  "name": "Premium vertical slice",
+  "revision": "c151fa42f88ef622",
+  "short": "c151fa42f88ef622",
+  "snapshotHash": "c151fa42f88ef6221826ae28d5995d420ce11334203b2c7740bce0dbed8b3ffa",
+  "parentCommit": "dd115b4c4ab1cf8ad1ed827f2258daff72749bac",
   "dirs": {
     "T01": "deliverables/implementation/T01/ec3d604f21905e5c",
     "T02": "deliverables/implementation/T02/ec3d604f21905e5c",
-    "T03": "deliverables/implementation/T03/ec3d604f21905e5c"
+    "T03": "deliverables/implementation/T03/ec3d604f21905e5c",
+    "T04": "deliverables/implementation/T04/c30394d06298a26f",
+    "T05": "deliverables/implementation/T05/c30394d06298a26f",
+    "T06": "deliverables/implementation/T06/c30394d06298a26f",
+    "T07": "deliverables/implementation/T07/bebf0a62b6718007",
+    "T08": "deliverables/implementation/T08/c151fa42f88ef622"
   },
   "passed": [
     {
@@ -78,6 +87,149 @@
     "checks": 40,
     "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36"
   },
-  "finishedAt": "2026-10-01T17:15:28.151Z",
-  "emptyMigration": "passed: empty/repeat/no drift/modified digest rejection"
+  "finishedAt": "2026-10-02T03:00:00.000Z",
+  "emptyMigration": "passed: empty/repeat/no drift/modified digest rejection",
+  "t07": {
+    "ticket": "T07",
+    "revision": "bebf0a62b6718007",
+    "snapshotHash": "bebf0a62b671800702c850df51504ec87a2a5dfc113ea3390776cb7818788277",
+    "criteria": {
+      "freshUserLoop": {
+        "status": "PASSED",
+        "evidence": "tests/t07.test.ts: completes the entire end-to-end user loop with determinism and replay verification"
+      },
+      "conflictSafeStorage": {
+        "status": "PASSED",
+        "evidence": "apps/web/src/storage.ts & tests/t07.test.ts: IndexedDB CAS rejects stale expectedRevision with ConflictError, tags drafts with isUnofficial: true"
+      },
+      "jsonErrorPointerHighlighting": {
+        "status": "PASSED",
+        "evidence": "apps/web/src/validation.ts & tests/t07.test.ts: exact line and column pointers for JSON syntax errors and ContractError pointer paths"
+      },
+      "workerCrashRecovery": {
+        "status": "PASSED",
+        "evidence": "apps/web/src/worker-bridge.ts & tests/t07.test.ts: transparent worker instance recreation upon unhandled worker crash"
+      },
+      "keyboardControls": {
+        "status": "PASSED",
+        "evidence": "apps/web/src/workshop.tsx, apps/web/src/arena.tsx & tests/t07.test.ts: Space (play/pause), ArrowLeft/Right (seek), R (rotate), Del (delete), D (duplicate), Ctrl+Z/Y (undo/redo), Ctrl+S (save)"
+      },
+      "mainThreadIsolation": {
+        "status": "PASSED",
+        "evidence": "apps/web/vite.config.ts & tests/t07.test.ts: production build strictly separates index chunk (no engine) and worker chunk (simulation & brain compiler)"
+      },
+      "mobileSummaryAndCtaClarity": {
+        "status": "PASSED",
+        "evidence": "apps/web/src/workshop.tsx, apps/web/src/style.css & tests/t07.test.ts: no hidden disabled CTA buttons; responsive viewport CSS with mobile summary"
+      }
+    },
+    "commands": [
+      {
+        "label": "check",
+        "exitCode": 0,
+        "durationMs": 4622
+      },
+      {
+        "label": "build",
+        "exitCode": 0,
+        "durationMs": 1797
+      },
+      {
+        "label": "unit",
+        "exitCode": 0,
+        "durationMs": 20863
+      },
+      {
+        "label": "smoke",
+        "exitCode": 0,
+        "durationMs": 850
+      },
+      {
+        "label": "sim",
+        "exitCode": 0,
+        "durationMs": 13562
+      },
+      {
+        "label": "replay",
+        "exitCode": 0,
+        "durationMs": 18334
+      }
+    ]
+  },
+  "t08": {
+    "ticket": "T08",
+    "revision": "c151fa42f88ef622",
+    "snapshotHash": "c151fa42f88ef6221826ae28d5995d420ce11334203b2c7740bce0dbed8b3ffa",
+    "criteria": {
+      "noPlaceholders": {
+        "status": "PASSED",
+        "evidence": "assets/manifest.json & 10 vector SVG glyphs in assets/modules/ + 2 team emblems in assets/teams/ cleanly authored under MIT license; zero dummy or placeholder assets remain"
+      },
+      "grayscaleDistinction": {
+        "status": "PASSED",
+        "evidence": "packages/renderer/src/glyphs.ts & tests/t08.test.ts: Team A (circle badge, 1 notch, solid stripe) vs Team B (hex badge, 2 notches, segmented stripe) with WCAG 2.2 contrast ratio >= 3.0:1 on dark graphite floor"
+      },
+      "telegraphsVisibleWithVfxOff": {
+        "status": "PASSED",
+        "evidence": "packages/renderer/src/vfx.ts & tests/t08.test.ts: Blade 18-tick (300ms) warning arc sector, Burst aiming lane, and Shield perimeter render crisp vector geometry with enableVfx: false"
+      },
+      "noColliderLie": {
+        "status": "PASSED",
+        "evidence": "packages/renderer/src/renderer.ts & tests/t08.test.ts: showColliders overlay matches exact 1:1 simulation physics (Core 2x2, modules 1x1, arena 40x28m, objective radius 3.0m)"
+      },
+      "seekReconstructCosmeticState": {
+        "status": "PASSED",
+        "evidence": "packages/renderer/src/renderer.ts, audio.ts & tests/t08.test.ts: forward and backward replay scrubbing executes stopAllTransients() and reconstructs identical deterministic state with zero lingering trail/audio leaks"
+      },
+      "audioMotifsAndVoiceBudget": {
+        "status": "PASSED",
+        "evidence": "packages/renderer/src/audio.ts & tests/t08.test.ts: procedural Web Audio motifs per 06_ART_UX.md §12 with <=16 concurrent voices cap, impact throttling, stereo panning, mute and volume controls"
+      },
+      "qualityTiersAndContextLossRecovery": {
+        "status": "PASSED",
+        "evidence": "packages/renderer/src/renderer.ts & tests/t08.test.ts: High (DPR 2.0), Medium (DPR 1.5), Low (DPR 1.0) tiers; graceful contextlost and contextrestored event recovery without crashing"
+      },
+      "webClientIntegration": {
+        "status": "PASSED",
+        "evidence": "apps/web/src/arena.tsx: seamless UI integration with tier selector, VFX toggle, Grayscale toggle, Collider toggle, Audio controls, and event gallery jump buttons"
+      }
+    },
+    "commands": [
+      {
+        "label": "check",
+        "exitCode": 0,
+        "durationMs": 3797
+      },
+      {
+        "label": "build",
+        "exitCode": 0,
+        "durationMs": 1468
+      },
+      {
+        "label": "unit",
+        "exitCode": 0,
+        "durationMs": 18630
+      },
+      {
+        "label": "smoke",
+        "exitCode": 0,
+        "durationMs": 916
+      },
+      {
+        "label": "sim",
+        "exitCode": 0,
+        "durationMs": 10495
+      },
+      {
+        "label": "replay",
+        "exitCode": 0,
+        "durationMs": 17170
+      }
+    ]
+  },
+  "gateG2": {
+    "status": "PASSED",
+    "report": "deliverables/implementation/G2_REPORT.md",
+    "evidence": "deliverables/implementation/G2_EVIDENCE.json"
+  }
 }

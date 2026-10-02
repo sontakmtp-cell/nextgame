@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Team B Emblem: Hexagonal badge with dual horizontal notches -->
+  <polygon points="16,4 27,10 27,22 16,28 5,22 5,10" stroke="#65C8D4" stroke-width="3" fill="#141C24"/>
+  <rect x="1" y="14" width="6" height="4" rx="1" fill="#65C8D4"/>
+  <rect x="25" y="14" width="6" height="4" rx="1" fill="#65C8D4"/>
+  <circle cx="16" cy="16" r="4" fill="#65C8D4"/>
+</svg>

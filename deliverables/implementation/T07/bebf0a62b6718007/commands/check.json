@@ -1,0 +1,13 @@
+{
+  "label": "check",
+  "command": "pnpm",
+  "args": [
+    "check"
+  ],
+  "cwd": ".",
+  "exitCode": 0,
+  "startedAt": "2026-10-02T02:18:57.311Z",
+  "finishedAt": "2026-10-02T02:19:01.933Z",
+  "stdout": "\n> prompt-chien@0.0.0 check H:\\AI\\nextgame\n> tsc -b && tsc -p tests/tsconfig.json && tsc -p tests/g1-browser/tsconfig.json && node scripts/boundaries.mjs\n\nStrict types + package boundaries: passed\n",
+  "stderr": ""
+}

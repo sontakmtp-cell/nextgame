@@ -1,0 +1,72 @@
+{
+  "ticket": "T08",
+  "milestone": "G2",
+  "revision": "c151fa42f88ef622",
+  "snapshotHash": "c151fa42f88ef6221826ae28d5995d420ce11334203b2c7740bce0dbed8b3ffa",
+  "criteria": {
+    "noPlaceholders": {
+      "status": "PASSED",
+      "evidence": "assets/manifest.json & 10 vector SVG glyphs in assets/modules/ + 2 team emblems in assets/teams/ cleanly authored under MIT license; zero dummy or placeholder assets remain"
+    },
+    "grayscaleDistinction": {
+      "status": "PASSED",
+      "evidence": "packages/renderer/src/glyphs.ts & tests/t08.test.ts: Team A (circle badge, 1 notch, solid stripe) vs Team B (hex badge, 2 notches, segmented stripe) with WCAG 2.2 contrast ratio >= 3.0:1 on dark graphite floor"
+    },
+    "telegraphsVisibleWithVfxOff": {
+      "status": "PASSED",
+      "evidence": "packages/renderer/src/vfx.ts & tests/t08.test.ts: Blade 18-tick (300ms) warning arc sector, Burst aiming lane, and Shield perimeter render crisp vector geometry with enableVfx: false"
+    },
+    "noColliderLie": {
+      "status": "PASSED",
+      "evidence": "packages/renderer/src/renderer.ts & tests/t08.test.ts: showColliders overlay matches exact 1:1 simulation physics (Core 2x2, modules 1x1, arena 40x28m, objective radius 3.0m)"
+    },
+    "seekReconstructCosmeticState": {
+      "status": "PASSED",
+      "evidence": "packages/renderer/src/renderer.ts, audio.ts & tests/t08.test.ts: forward and backward replay scrubbing executes stopAllTransients() and reconstructs identical deterministic state with zero lingering trail/audio leaks"
+    },
+    "audioMotifsAndVoiceBudget": {
+      "status": "PASSED",
+      "evidence": "packages/renderer/src/audio.ts & tests/t08.test.ts: procedural Web Audio motifs per 06_ART_UX.md §12 with <=16 concurrent voices cap, impact throttling, stereo panning, mute and volume controls"
+    },
+    "qualityTiersAndContextLossRecovery": {
+      "status": "PASSED",
+      "evidence": "packages/renderer/src/renderer.ts & tests/t08.test.ts: High (DPR 2.0), Medium (DPR 1.5), Low (DPR 1.0) tiers; graceful contextlost and contextrestored event recovery without crashing"
+    },
+    "webClientIntegration": {
+      "status": "PASSED",
+      "evidence": "apps/web/src/arena.tsx: seamless UI integration with tier selector, VFX toggle, Grayscale toggle, Collider toggle, Audio controls, and event gallery jump buttons"
+    }
+  },
+  "commands": [
+    {
+      "label": "check",
+      "exitCode": 0,
+      "durationMs": 3797
+    },
+    {
+      "label": "build",
+      "exitCode": 0,
+      "durationMs": 1468
+    },
+    {
+      "label": "unit",
+      "exitCode": 0,
+      "durationMs": 19293
+    },
+    {
+      "label": "smoke",
+      "exitCode": 0,
+      "durationMs": 916
+    },
+    {
+      "label": "sim",
+      "exitCode": 0,
+      "durationMs": 13142
+    },
+    {
+      "label": "replay",
+      "exitCode": 0,
+      "durationMs": 18033
+    }
+  ]
+}

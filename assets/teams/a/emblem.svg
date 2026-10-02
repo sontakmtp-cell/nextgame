@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Team A Emblem: Circular badge with single top notch -->
+  <circle cx="16" cy="17" r="11" stroke="#F27B59" stroke-width="3" fill="#141C24"/>
+  <rect x="14" y="2" width="4" height="6" rx="1" fill="#F27B59"/>
+  <circle cx="16" cy="17" r="5" fill="#F27B59"/>
+</svg>

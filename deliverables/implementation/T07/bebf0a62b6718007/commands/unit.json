@@ -1,0 +1,13 @@
+{
+  "label": "unit",
+  "command": "pnpm",
+  "args": [
+    "test:unit"
+  ],
+  "cwd": ".",
+  "exitCode": 0,
+  "startedAt": "2026-10-02T02:19:03.731Z",
+  "finishedAt": "2026-10-02T02:19:24.594Z",
+  "stdout": "\n> prompt-chien@0.0.0 test:unit H:\\AI\\nextgame\n> tsc -b && vitest run\n\n\n RUN  v5.0.3 H:/AI/nextgame\n\n ✓ tests/parity.test.ts (1 test) 123ms\n ✓ tests/brain.test.ts (87 tests) 422ms\n ✓ tests/spatial.test.ts (4 tests) 215ms\n ✓ tests/schemas.test.ts (4 tests) 84ms\n ✓ tests/contracts.test.ts (42 tests) 1956ms\n   ✓ scenario mapping (2)\n     ✓ has exactly 1225 lexicographic presets and 100/200 disjoint sample units 1699ms\n ✓ tests/t07.test.ts (16 tests) 1292ms\n   ✓ T07 — Web Workshop, Brain Lab, and Local Experiments (16)\n     ✓ Full User Journey Loop: Create → Edit → Validate → Experiment → Replay → Revision (1)\n       ✓ completes the entire end-to-end user loop with determinism and replay verification 1272ms\n ✓ tests/combat.test.ts (15 tests) 2039ms\n   ✓ same body passive/adaptive brains select different trace/actions and a full match is deterministic 1734ms\n ✓ tests/replay.test.ts (6 tests) 18369ms\n   ✓ binary public codec round trips every frame, arbitrary seeks equal playback, no private fields 1649ms\n   ✓ every checkpoint interval restores identically, hence every suffix reaches the same final state 1856ms\n   ✓ module rename/permutation does not change gameplay hash, and manifest tampering is rejected 1278ms\n   ✓ full combat whole-world 180 degree + actor relabel preserves outcomes 779ms\n   ✓ a full 5400-tick replay of the largest point-budget legal idle Bodies stays below 8 MiB 1394ms\n   ✓ two near-IR-cap Brains share only frozen code; private snapshots fit quotas and fully verify 11411ms\n\n Test Files  8 passed (8)\n      Tests  175 passed (175)\n   Start at  09:19:04\n   Duration  19.80s (tests 75%, import 19%, transform 5%)\n\n",
+  "stderr": ""
+}

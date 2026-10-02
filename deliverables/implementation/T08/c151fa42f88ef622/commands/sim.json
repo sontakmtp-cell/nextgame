@@ -1,0 +1,10 @@
+{
+  "label": "sim",
+  "command": "pnpm test:sim",
+  "exitCode": 0,
+  "durationMs": 13142,
+  "startedAt": "2026-10-02T02:52:10.665Z",
+  "finishedAt": "2026-10-02T02:52:23.807Z",
+  "stdout": "\n> prompt-chien@0.0.0 test:sim H:\\AI\\nextgame\n> tsc -b && vitest run tests/spatial.test.ts tests/combat.test.ts && node scripts/g1-corpus.mjs --compare tests/g1/corpus.json --count 10\n\n\n RUN  v5.0.3 H:/AI/nextgame\n\n ✓ tests/spatial.test.ts (4 tests) 99ms\n ✓ tests/combat.test.ts (15 tests) 1006ms\n   ✓ same body passive/adaptive brains select different trace/actions and a full match is deterministic 903ms\n\n Test Files  2 passed (2)\n      Tests  19 passed (19)\n   Start at  09:52:11\n   Duration  1.80s (tests 45%, import 41%, transform 14%)\n\n{\"engineDigest\":\"2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78\",\"records\":10,\"corpusDigest\":\"8af6f738395fc4d90451d7d2c2ddd511d877592c10a6162ba24f3ec62788f98f\",\"status\":\"passed\",\"baselineGameplayParity\":null,\"runtime\":\"v24.18.0\",\"platform\":\"win32\",\"arch\":\"x64\",\"cpu\":\"12th Gen Intel(R) Core(TM) i3-12100F\",\"logicalCpus\":8,\"concurrency\":4,\"wallMs\":10016.7871,\"profile\":{\"p50Ms\":1151.5335,\"p95Ms\":2335.1854,\"maxMs\":2614.135,\"sampledProcessPeakRss\":371171328,\"sampledWorkerPeakHeap\":65765896,\"vmSerializedBytes\":137},\"checkpointIntervals\":755}\n",
+  "stderr": ""
+}

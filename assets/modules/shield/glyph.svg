@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Shield: Concave double arc hugging inward -->
+  <rect x="2" y="2" width="28" height="28" rx="3" fill="#39434C" stroke="#293640" stroke-width="2"/>
+  <rect x="5" y="5" width="22" height="22" rx="2" fill="#D9D4C8"/>
+  <path d="M7 12 C10 20, 22 20, 25 12" stroke="#39434C" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M10 15 C12 21, 20 21, 22 15" stroke="#65C8D4" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

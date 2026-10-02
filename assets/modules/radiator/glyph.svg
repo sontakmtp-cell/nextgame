@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Radiator: Triple parallel heat cooling fins -->
+  <rect x="2" y="2" width="28" height="28" rx="3" fill="#39434C" stroke="#293640" stroke-width="2"/>
+  <rect x="5" y="5" width="22" height="22" rx="2" fill="#D9D4C8"/>
+  <line x1="7" y1="10" x2="25" y2="10" stroke="#39434C" stroke-width="2"/>
+  <line x1="7" y1="16" x2="25" y2="16" stroke="#39434C" stroke-width="2"/>
+  <line x1="7" y1="22" x2="25" y2="22" stroke="#39434C" stroke-width="2"/>
+  <line x1="16" y1="7" x2="16" y2="25" stroke="#F0B85B" stroke-width="3"/>
+</svg>
