@@ -3,7 +3,7 @@
   "packageManager": "pnpm@10.34.6", "engines": {"node": "24.18.0", "pnpm": "10.34.6"},
   "scripts": {
     "build": "tsc -b && pnpm --filter @prompt-chien/web build",
-    "check": "tsc -b && tsc -p tests/tsconfig.json && node scripts/boundaries.mjs",
+    "check": "tsc -b && tsc -p tests/tsconfig.json && tsc -p tests/g1-browser/tsconfig.json && node scripts/boundaries.mjs",
     "test:unit": "tsc -b && vitest run",
     "dev": "node scripts/dev.mjs",
     "env:init": "node scripts/env.mjs",
@@ -13,8 +13,10 @@
     "test:linux": "node scripts/linux-check.mjs",
     "test:browser": "node apps/web/node_modules/vite/bin/vite.js --config tests/browser/vite.config.ts",
     "test:e2e": "node scripts/smoke.mjs",
-    "test:sim": "node scripts/deferred.mjs G1 simulation",
-    "verify:replay": "node scripts/deferred.mjs T06 replay"
+    "test:sim": "tsc -b && vitest run tests/spatial.test.ts tests/combat.test.ts && node scripts/g1-corpus.mjs --compare tests/g1/corpus.json --count 10",
+    "verify:replay": "tsc -b && vitest run tests/replay.test.ts",
+    "test:g1:browser": "node apps/web/node_modules/vite/bin/vite.js --config tests/g1-browser/vite.config.ts",
+    "engine:freeze": "node scripts/g1-freeze.mjs"
   },
   "devDependencies": {"typescript": "5.9.3", "@types/node": "24.10.1", "@types/react": "19.3.0", "@types/react-dom": "19.3.0", "vitest": "5.0.3"}
 }

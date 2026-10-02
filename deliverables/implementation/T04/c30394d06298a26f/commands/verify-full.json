@@ -1,0 +1,14 @@
+{
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "apps/cli/dist/index.js",
+    "verify",
+    ".local/g1/release-demo",
+    "--full"
+  ],
+  "startedAt": "2026-10-01T19:21:58.931Z",
+  "finishedAt": "2026-10-01T19:22:00.311Z",
+  "exitCode": 0,
+  "stdout": "{\"status\":\"passed\",\"scope\":\"authorized full simulation + every checkpoint interval\",\"local\":\"unofficial\",\"simulationHash\":\"4ebd80218b53bf01271d8ac9d92eaf348301565123e6d0e8448436eb2c7376c2\",\"publicReplayHash\":\"29bf01b2db3f4f1e2f685be1d1f1673b678a6d59927092947f8703767614c140\",\"privateTraceHash\":\"74482f5b3644294fb84e2943a8ac0783bc28680e079ce5a5c9ce00ba325412e3\",\"checkpoints\":45,\"signature\":\"unsigned\"}\n",
+  "stderr": ""
+}

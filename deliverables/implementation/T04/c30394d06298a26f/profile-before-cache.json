@@ -1,0 +1,137 @@
+{
+  "engineDigest": "42439279b0dfa3538f072298759e4a66b256a3aa81935dd1e0f004682315e44d",
+  "runtime": "v24.18.0",
+  "platform": "win32",
+  "cpu": "AMD Ryzen 5 7600 6-Core Processor              ",
+  "concurrency": 1,
+  "stress": {
+    "modules": 17,
+    "cost": 98,
+    "mass": 75,
+    "irNodes": 1836,
+    "variables": 64
+  },
+  "claim": "Sampled process memory/serialized VM, not a proof of peak interpreter allocations or OS-enforced isolation. Run with other simulation workloads stopped for reference timings.",
+  "rows": [
+    {
+      "bot": "Mantis",
+      "run": 0,
+      "elapsedTicks": 5400,
+      "wallMs": 3575.7938000000004,
+      "sampledRss": 113106944,
+      "sampledHeap": 35128792,
+      "maxGas": 27,
+      "vmSerializedBytes": 137
+    },
+    {
+      "bot": "Mantis",
+      "run": 1,
+      "elapsedTicks": 5400,
+      "wallMs": 2551.564,
+      "sampledRss": 114651136,
+      "sampledHeap": 36850472,
+      "maxGas": 27,
+      "vmSerializedBytes": 136
+    },
+    {
+      "bot": "Mantis",
+      "run": 2,
+      "elapsedTicks": 2742,
+      "wallMs": 857.9513999999999,
+      "sampledRss": 117002240,
+      "sampledHeap": 38083416,
+      "maxGas": 33,
+      "vmSerializedBytes": 136
+    },
+    {
+      "bot": "Bastion-lite",
+      "run": 0,
+      "elapsedTicks": 1513,
+      "wallMs": 392.46230000000014,
+      "sampledRss": 117743616,
+      "sampledHeap": 38517640,
+      "maxGas": 27,
+      "vmSerializedBytes": 132
+    },
+    {
+      "bot": "Bastion-lite",
+      "run": 1,
+      "elapsedTicks": 5400,
+      "wallMs": 679.1165000000001,
+      "sampledRss": 120909824,
+      "sampledHeap": 39282512,
+      "maxGas": 33,
+      "vmSerializedBytes": 136
+    },
+    {
+      "bot": "Bastion-lite",
+      "run": 2,
+      "elapsedTicks": 5400,
+      "wallMs": 2078.424499999999,
+      "sampledRss": 118022144,
+      "sampledHeap": 39722896,
+      "maxGas": 27,
+      "vmSerializedBytes": 137
+    },
+    {
+      "bot": "Kestrel",
+      "run": 0,
+      "elapsedTicks": 3769,
+      "wallMs": 262.5837999999985,
+      "sampledRss": 123707392,
+      "sampledHeap": 39974400,
+      "maxGas": 33,
+      "vmSerializedBytes": 134
+    },
+    {
+      "bot": "Kestrel",
+      "run": 1,
+      "elapsedTicks": 1135,
+      "wallMs": 313.16519999999946,
+      "sampledRss": 120762368,
+      "sampledHeap": 40287392,
+      "maxGas": 33,
+      "vmSerializedBytes": 136
+    },
+    {
+      "bot": "Kestrel",
+      "run": 2,
+      "elapsedTicks": 4394,
+      "wallMs": 904.1948000000011,
+      "sampledRss": 157716480,
+      "sampledHeap": 62709392,
+      "maxGas": 33,
+      "vmSerializedBytes": 136
+    },
+    {
+      "bot": "G1 legal capacity fixture",
+      "run": 0,
+      "elapsedTicks": 5400,
+      "wallMs": 9394.0892,
+      "sampledRss": 158691328,
+      "sampledHeap": 55951352,
+      "maxGas": 1770,
+      "vmSerializedBytes": 762
+    },
+    {
+      "bot": "G1 legal capacity fixture",
+      "run": 1,
+      "elapsedTicks": 5400,
+      "wallMs": 5216.609800000002,
+      "sampledRss": 158900224,
+      "sampledHeap": 56140584,
+      "maxGas": 1770,
+      "vmSerializedBytes": 763
+    },
+    {
+      "bot": "G1 legal capacity fixture",
+      "run": 2,
+      "elapsedTicks": 5400,
+      "wallMs": 4270.8348000000005,
+      "sampledRss": 159481856,
+      "sampledHeap": 56577896,
+      "maxGas": 1770,
+      "vmSerializedBytes": 764
+    }
+  ]
+}

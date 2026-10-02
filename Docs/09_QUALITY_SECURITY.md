@@ -1,6 +1,6 @@
 # 09 — Chất lượng, bảo mật và điều kiện phát hành
 
-**Đây là kế hoạch nghiệm thu v2, không báo cáo game đã chạy.** Đầu vào01/10/2026 chỉ có tài liệu; G0 hiện có test runner/contracts/Brain và smoke web/API. Bằng chứng Q01–Q03 phần G0 ở [G0 report](../deliverables/implementation/G0_REPORT.md); các gate gameplay/host/alpha dưới đây vẫn unrun. Không dùng báo cáo tài liệu lịch sử thay runtime evidence.
+**Đây là kế hoạch nghiệm thu v2.** Đầu vào01/10/2026 chỉ có tài liệu; bằng chứng Q01–Q03 phần G0 ở [G0 report](../deliverables/implementation/G0_REPORT.md), combat/replay/differential prototype G1 ở [G1 report](../deliverables/implementation/G1_REPORT.md). Đọc trạng thái/giới hạn từng gate ở report; host/alpha và các human quality gates không được suy là đạt. Không dùng báo cáo tài liệu lịch sử thay runtime evidence.
 
 ## 1. Phân tầng kiểm chứng
 

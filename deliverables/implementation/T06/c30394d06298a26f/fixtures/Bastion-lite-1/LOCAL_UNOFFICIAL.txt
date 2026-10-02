@@ -1,0 +1,1 @@
+Local combat proof; unsigned. private/ contains both authorized Bot sources, resources and Brain trace. Publish only manifest.json and chunk-*.bin.gz.

@@ -1,0 +1,929 @@
+{
+  "status": "passed",
+  "engineDigest": "2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78",
+  "local": "unofficial",
+  "claim": "Same Bodies, paired seeds/slots; observed action differences. No statistical improvement or fun pass claim.",
+  "rows": [
+    {
+      "kit": "Mantis",
+      "opponent": "Bastion-lite",
+      "scenario": {
+        "scenarioId": 0,
+        "seed": "00000000000000000000000000000622"
+      },
+      "baseline": [
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 5125,
+          "scores": {
+            "A": 0,
+            "B": 5945
+          }
+        },
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 4855,
+          "scores": {
+            "A": 138,
+            "B": 6265
+          }
+        }
+      ],
+      "candidate": [
+        {
+          "winner": "B",
+          "cause": "timeout",
+          "elapsedTicks": 5400,
+          "scores": {
+            "A": 1972,
+            "B": 3109
+          }
+        },
+        {
+          "winner": "B",
+          "cause": "timeout",
+          "elapsedTicks": 5400,
+          "scores": {
+            "A": 2252,
+            "B": 4756
+          }
+        }
+      ],
+      "difference": {
+        "tick": 0,
+        "baseline": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r0",
+          "gas": 7,
+          "fault": null,
+          "observationsUsed": {},
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 0,
+            "modules": [
+              {
+                "moduleOrdinal": 4,
+                "action": "activate",
+                "aimOffset": 0,
+                "priority": 1
+              }
+            ]
+          },
+          "rejections": []
+        },
+        "candidate": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r4",
+          "gas": 27,
+          "fault": null,
+          "observationsUsed": {
+            "self.outsideRing": 0,
+            "self.overheated": 0,
+            "enemy.telegraph": 0,
+            "enemy.distance": 24000,
+            "arena.centerBearing": 287
+          },
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 1000,
+            "modules": []
+          },
+          "rejections": []
+        }
+      }
+    },
+    {
+      "kit": "Mantis",
+      "opponent": "Bastion-lite",
+      "scenario": {
+        "scenarioId": 1,
+        "seed": "00000000000000000000000000000edc"
+      },
+      "baseline": [
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 5125,
+          "scores": {
+            "A": 0,
+            "B": 5950
+          }
+        },
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 5144,
+          "scores": {
+            "A": 741,
+            "B": 6598
+          }
+        }
+      ],
+      "candidate": [
+        {
+          "winner": "A",
+          "cause": "core",
+          "elapsedTicks": 4588,
+          "scores": {
+            "A": 4535,
+            "B": 1427
+          }
+        },
+        {
+          "winner": "B",
+          "cause": "timeout",
+          "elapsedTicks": 5400,
+          "scores": {
+            "A": 2981,
+            "B": 5433
+          }
+        }
+      ],
+      "difference": {
+        "tick": 0,
+        "baseline": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r0",
+          "gas": 7,
+          "fault": null,
+          "observationsUsed": {},
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 0,
+            "modules": [
+              {
+                "moduleOrdinal": 4,
+                "action": "activate",
+                "aimOffset": 0,
+                "priority": 1
+              }
+            ]
+          },
+          "rejections": []
+        },
+        "candidate": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r4",
+          "gas": 27,
+          "fault": null,
+          "observationsUsed": {
+            "self.outsideRing": 0,
+            "self.overheated": 0,
+            "enemy.telegraph": 0,
+            "enemy.distance": 24000,
+            "arena.centerBearing": 287
+          },
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 1000,
+            "modules": []
+          },
+          "rejections": []
+        }
+      }
+    },
+    {
+      "kit": "Mantis",
+      "opponent": "Bastion-lite",
+      "scenario": {
+        "scenarioId": 2,
+        "seed": "00000000000000000000000000000240"
+      },
+      "baseline": [
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 5125,
+          "scores": {
+            "A": 0,
+            "B": 5925
+          }
+        },
+        {
+          "winner": "B",
+          "cause": "timeout",
+          "elapsedTicks": 5400,
+          "scores": {
+            "A": 663,
+            "B": 6687
+          }
+        }
+      ],
+      "candidate": [
+        {
+          "winner": "A",
+          "cause": "timeout",
+          "elapsedTicks": 5400,
+          "scores": {
+            "A": 3921,
+            "B": 3777
+          }
+        },
+        {
+          "winner": "A",
+          "cause": "timeout",
+          "elapsedTicks": 5400,
+          "scores": {
+            "A": 3417,
+            "B": 3285
+          }
+        }
+      ],
+      "difference": {
+        "tick": 0,
+        "baseline": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r0",
+          "gas": 7,
+          "fault": null,
+          "observationsUsed": {},
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 0,
+            "modules": [
+              {
+                "moduleOrdinal": 4,
+                "action": "activate",
+                "aimOffset": 0,
+                "priority": 1
+              }
+            ]
+          },
+          "rejections": []
+        },
+        "candidate": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r4",
+          "gas": 27,
+          "fault": null,
+          "observationsUsed": {
+            "self.outsideRing": 0,
+            "self.overheated": 0,
+            "enemy.telegraph": 0,
+            "enemy.distance": 24000,
+            "arena.centerBearing": 287
+          },
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 1000,
+            "modules": []
+          },
+          "rejections": []
+        }
+      }
+    },
+    {
+      "kit": "Bastion-lite",
+      "opponent": "Kestrel",
+      "scenario": {
+        "scenarioId": 0,
+        "seed": "00000000000000000000000000000622"
+      },
+      "baseline": [
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 4948,
+          "scores": {
+            "A": 0,
+            "B": 4503
+          }
+        },
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 5092,
+          "scores": {
+            "A": 0,
+            "B": 4864
+          }
+        }
+      ],
+      "candidate": [
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 4795,
+          "scores": {
+            "A": 1993,
+            "B": 6632
+          }
+        },
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 4864,
+          "scores": {
+            "A": 2285,
+            "B": 5157
+          }
+        }
+      ],
+      "difference": {
+        "tick": 0,
+        "baseline": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r0",
+          "gas": 7,
+          "fault": null,
+          "observationsUsed": {},
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 0,
+            "modules": [
+              {
+                "moduleOrdinal": 3,
+                "action": "activate",
+                "aimOffset": 0,
+                "priority": 1
+              }
+            ]
+          },
+          "rejections": []
+        },
+        "candidate": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r4",
+          "gas": 26,
+          "fault": null,
+          "observationsUsed": {
+            "self.outsideRing": 0,
+            "self.overheated": 0,
+            "enemy.telegraph": 0,
+            "enemy.distance": 24000,
+            "arena.centerBearing": 287
+          },
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 1000,
+            "modules": []
+          },
+          "rejections": []
+        }
+      }
+    },
+    {
+      "kit": "Bastion-lite",
+      "opponent": "Kestrel",
+      "scenario": {
+        "scenarioId": 1,
+        "seed": "00000000000000000000000000000edc"
+      },
+      "baseline": [
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 4948,
+          "scores": {
+            "A": 0,
+            "B": 4503
+          }
+        },
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 5239,
+          "scores": {
+            "A": 0,
+            "B": 4894
+          }
+        }
+      ],
+      "candidate": [
+        {
+          "winner": "A",
+          "cause": "timeout",
+          "elapsedTicks": 5400,
+          "scores": {
+            "A": 7135,
+            "B": 2021
+          }
+        },
+        {
+          "winner": "A",
+          "cause": "timeout",
+          "elapsedTicks": 5400,
+          "scores": {
+            "A": 3673,
+            "B": 3521
+          }
+        }
+      ],
+      "difference": {
+        "tick": 0,
+        "baseline": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r0",
+          "gas": 7,
+          "fault": null,
+          "observationsUsed": {},
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 0,
+            "modules": [
+              {
+                "moduleOrdinal": 3,
+                "action": "activate",
+                "aimOffset": 0,
+                "priority": 1
+              }
+            ]
+          },
+          "rejections": []
+        },
+        "candidate": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r4",
+          "gas": 26,
+          "fault": null,
+          "observationsUsed": {
+            "self.outsideRing": 0,
+            "self.overheated": 0,
+            "enemy.telegraph": 0,
+            "enemy.distance": 24000,
+            "arena.centerBearing": 287
+          },
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 1000,
+            "modules": []
+          },
+          "rejections": []
+        }
+      }
+    },
+    {
+      "kit": "Bastion-lite",
+      "opponent": "Kestrel",
+      "scenario": {
+        "scenarioId": 2,
+        "seed": "00000000000000000000000000000240"
+      },
+      "baseline": [
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 4948,
+          "scores": {
+            "A": 0,
+            "B": 4503
+          }
+        },
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 5296,
+          "scores": {
+            "A": 0,
+            "B": 5210
+          }
+        }
+      ],
+      "candidate": [
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 4321,
+          "scores": {
+            "A": 2608,
+            "B": 5608
+          }
+        },
+        {
+          "winner": "A",
+          "cause": "timeout",
+          "elapsedTicks": 5400,
+          "scores": {
+            "A": 4850,
+            "B": 2419
+          }
+        }
+      ],
+      "difference": {
+        "tick": 0,
+        "baseline": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r0",
+          "gas": 7,
+          "fault": null,
+          "observationsUsed": {},
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 0,
+            "modules": [
+              {
+                "moduleOrdinal": 3,
+                "action": "activate",
+                "aimOffset": 0,
+                "priority": 1
+              }
+            ]
+          },
+          "rejections": []
+        },
+        "candidate": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r4",
+          "gas": 26,
+          "fault": null,
+          "observationsUsed": {
+            "self.outsideRing": 0,
+            "self.overheated": 0,
+            "enemy.telegraph": 0,
+            "enemy.distance": 24000,
+            "arena.centerBearing": 287
+          },
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 1000,
+            "modules": []
+          },
+          "rejections": []
+        }
+      }
+    },
+    {
+      "kit": "Kestrel",
+      "opponent": "Mantis",
+      "scenario": {
+        "scenarioId": 0,
+        "seed": "00000000000000000000000000000622"
+      },
+      "baseline": [
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 5114,
+          "scores": {
+            "A": 0,
+            "B": 4370
+          }
+        },
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 4876,
+          "scores": {
+            "A": 468,
+            "B": 5253
+          }
+        }
+      ],
+      "candidate": [
+        {
+          "winner": "A",
+          "cause": "core",
+          "elapsedTicks": 3144,
+          "scores": {
+            "A": 5466,
+            "B": 885
+          }
+        },
+        {
+          "winner": "B",
+          "cause": "timeout",
+          "elapsedTicks": 5400,
+          "scores": {
+            "A": 1455,
+            "B": 5260
+          }
+        }
+      ],
+      "difference": {
+        "tick": 0,
+        "baseline": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r0",
+          "gas": 10,
+          "fault": null,
+          "observationsUsed": {
+            "enemy.bearing": 128
+          },
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 0,
+            "modules": [
+              {
+                "moduleOrdinal": 3,
+                "action": "activate",
+                "aimOffset": 128,
+                "priority": 1
+              }
+            ]
+          },
+          "rejections": []
+        },
+        "candidate": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r5",
+          "gas": 30,
+          "fault": null,
+          "observationsUsed": {
+            "self.outsideRing": 0,
+            "self.overheated": 0,
+            "enemy.distance": 24000,
+            "arena.centerBearing": 287
+          },
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 1000,
+            "modules": []
+          },
+          "rejections": []
+        }
+      }
+    },
+    {
+      "kit": "Kestrel",
+      "opponent": "Mantis",
+      "scenario": {
+        "scenarioId": 1,
+        "seed": "00000000000000000000000000000edc"
+      },
+      "baseline": [
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 5114,
+          "scores": {
+            "A": 0,
+            "B": 4370
+          }
+        },
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 5118,
+          "scores": {
+            "A": 678,
+            "B": 4360
+          }
+        }
+      ],
+      "candidate": [
+        {
+          "winner": "A",
+          "cause": "core",
+          "elapsedTicks": 2676,
+          "scores": {
+            "A": 4325,
+            "B": 535
+          }
+        },
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 2137,
+          "scores": {
+            "A": 1003,
+            "B": 4490
+          }
+        }
+      ],
+      "difference": {
+        "tick": 0,
+        "baseline": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r0",
+          "gas": 10,
+          "fault": null,
+          "observationsUsed": {
+            "enemy.bearing": 128
+          },
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 0,
+            "modules": [
+              {
+                "moduleOrdinal": 3,
+                "action": "activate",
+                "aimOffset": 128,
+                "priority": 1
+              }
+            ]
+          },
+          "rejections": []
+        },
+        "candidate": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r5",
+          "gas": 30,
+          "fault": null,
+          "observationsUsed": {
+            "self.outsideRing": 0,
+            "self.overheated": 0,
+            "enemy.distance": 24000,
+            "arena.centerBearing": 287
+          },
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 1000,
+            "modules": []
+          },
+          "rejections": []
+        }
+      }
+    },
+    {
+      "kit": "Kestrel",
+      "opponent": "Mantis",
+      "scenario": {
+        "scenarioId": 2,
+        "seed": "00000000000000000000000000000240"
+      },
+      "baseline": [
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 5114,
+          "scores": {
+            "A": 0,
+            "B": 4375
+          }
+        },
+        {
+          "winner": "B",
+          "cause": "core",
+          "elapsedTicks": 5303,
+          "scores": {
+            "A": 696,
+            "B": 5018
+          }
+        }
+      ],
+      "candidate": [
+        {
+          "winner": "A",
+          "cause": "core",
+          "elapsedTicks": 2748,
+          "scores": {
+            "A": 4465,
+            "B": 390
+          }
+        },
+        {
+          "winner": "B",
+          "cause": "timeout",
+          "elapsedTicks": 5400,
+          "scores": {
+            "A": 1462,
+            "B": 5255
+          }
+        }
+      ],
+      "difference": {
+        "tick": 0,
+        "baseline": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r0",
+          "gas": 10,
+          "fault": null,
+          "observationsUsed": {
+            "enemy.bearing": 128
+          },
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 0,
+            "modules": [
+              {
+                "moduleOrdinal": 3,
+                "action": "activate",
+                "aimOffset": 128,
+                "priority": 1
+              }
+            ]
+          },
+          "rejections": []
+        },
+        "candidate": {
+          "tick": 0,
+          "actor": "A",
+          "stateId": "s0",
+          "ruleId": "r5",
+          "gas": 30,
+          "fault": null,
+          "observationsUsed": {
+            "self.outsideRing": 0,
+            "self.overheated": 0,
+            "enemy.distance": 24000,
+            "arena.centerBearing": 287
+          },
+          "varDiff": {},
+          "intent": {
+            "thrust": {
+              "forward": 1000,
+              "strafe": 0
+            },
+            "turn": 1000,
+            "modules": []
+          },
+          "rejections": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "C:/Program Files/nodejs/node_modules/npm/bin/npx-cli.js",
+    "--yes",
+    "pnpm@10.34.6",
+    "test:sim"
+  ],
+  "startedAt": "2026-10-01T19:28:00.194Z",
+  "finishedAt": "2026-10-01T19:28:13.216Z",
+  "exitCode": 0,
+  "stdout": "\n> prompt-chien@0.0.0 test:sim D:\\AI\\nextgame\n> tsc -b && vitest run tests/spatial.test.ts tests/combat.test.ts && node scripts/g1-corpus.mjs --compare tests/g1/corpus.json --count 10\n\n\n RUN  v5.0.3 D:/AI/nextgame\n\n\n Test Files  2 passed (2)\n      Tests  19 passed (19)\n   Start at  02:28:01\n   Duration  1.49s (tests 55%, import 30%, transform 15%)\n\n{\"engineDigest\":\"2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78\",\"records\":10,\"corpusDigest\":\"8af6f738395fc4d90451d7d2c2ddd511d877592c10a6162ba24f3ec62788f98f\",\"status\":\"passed\",\"baselineGameplayParity\":null,\"runtime\":\"v24.18.0\",\"platform\":\"win32\",\"arch\":\"x64\",\"cpu\":\"AMD Ryzen 5 7600 6-Core Processor              \",\"logicalCpus\":12,\"concurrency\":4,\"wallMs\":9499.1537,\"profile\":{\"p50Ms\":944.5483999999999,\"p95Ms\":2020.4652,\"maxMs\":2269.2880999999998,\"sampledProcessPeakRss\":379256832,\"sampledWorkerPeakHeap\":65848840,\"vmSerializedBytes\":137},\"checkpointIntervals\":755}\n",
+  "stderr": "npm warn Unknown project config \"auto-install-peers\". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.\n"
+}

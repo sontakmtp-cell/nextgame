@@ -11,6 +11,12 @@
       "path": "packages/brain"
     },
     {
+      "path": "packages/engine"
+    },
+    {
+      "path": "packages/replay"
+    },
+    {
       "path": "apps/api"
     },
     {

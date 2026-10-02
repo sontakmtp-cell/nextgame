@@ -1,0 +1,14 @@
+{
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "apps/cli/dist/index.js",
+    "seek",
+    ".local/g1/release-demo",
+    "120"
+  ],
+  "startedAt": "2026-10-01T19:22:16.962Z",
+  "finishedAt": "2026-10-01T19:22:17.341Z",
+  "exitCode": 0,
+  "stdout": "{\"boundary\":120,\"actors\":{\"A\":{\"pose\":{\"x\":-6272,\"y\":-1099,\"heading\":114},\"overheated\":false,\"controlTicks\":0,\"modules\":[{\"ordinal\":0,\"catalogId\":\"radiator\",\"x\":5,\"y\":4,\"orientation\":0,\"hp\":160,\"status\":\"alive\",\"phase\":\"idle\",\"phaseOffset\":0,\"shield\":false,\"aim\":0},{\"ordinal\":1,\"catalogId\":\"armor\",\"x\":6,\"y\":4,\"orientation\":0,\"hp\":300,\"status\":\"alive\",\"phase\":\"idle\",\"phaseOffset\":0,\"shield\":false,\"aim\":0},{\"ordinal\":2,\"catalogId\":\"thruster\",\"x\":4,\"y\":5,\"orientation\":0,\"hp\":180,\"status\":\"alive\",\"phase\":\"idle\",\"phaseOffset\":0,\"shield\":false,\"aim\":0},{\"ordinal\":3,\"catalogId\":\"core\",\"x\":5,\"y\":5,\"orientation\":0,\"hp\":800,\"status\":\"alive\",\"phase\":\"idle\",\"phaseOffset\":0,\"shield\":false,\"aim\":0},{\"ordinal\":4,\"catalogId\":\"blade\",\"x\":7,\"y\":5,\"orientation\":0,\"hp\":220,\"status\":\"alive\",\"phase\":\"idle\",\"phaseOffset\":0,\"shield\":false,\"aim\":0},{\"ordinal\":5,\"catalogId\":\"thruster\",\"x\":4,\"y\":6,\"orientation\":0,\"hp\":180,\"status\":\"alive\",\"phase\":\"idle\",\"phaseOffset\":0,\"shield\":false,\"aim\":0}]},\"B\":{\"pose\":{\"x\":5494,\"y\":-67,\"heading\":2091},\"overheated\":false,\"controlTicks\":0,\"modules\":[{\"ordinal\":0,\"catalogId\":\"capacitor\",\"x\":5,\"y\":4,\"orientation\":0,\"hp\":160,\"status\":\"alive\",\"phase\":\"idle\",\"phaseOffset\":0,\"shield\":false,\"aim\":0},{\"ordinal\":1,\"catalogId\":\"thruster\",\"x\":4,\"y\":5,\"orientation\":0,\"hp\":180,\"status\":\"alive\",\"phase\":\"idle\",\"phaseOffset\":0,\"shield\":false,\"aim\":0},{\"ordinal\":2,\"catalogId\":\"core\",\"x\":5,\"y\":5,\"orientation\":0,\"hp\":800,\"status\":\"alive\",\"phase\":\"idle\",\"phaseOffset\":0,\"shield\":false,\"aim\":0},{\"ordinal\":3,\"catalogId\":\"burst\",\"x\":7,\"y\":5,\"orientation\":0,\"hp\":180,\"status\":\"alive\",\"phase\":\"active\",\"phaseOffset\":0,\"shield\":false,\"aim\":62},{\"ordinal\":4,\"catalogId\":\"thruster\",\"x\":4,\"y\":6,\"orientation\":0,\"hp\":180,\"status\":\"alive\",\"phase\":\"idle\",\"phaseOffset\":0,\"shield\":false,\"aim\":0}]}},\"projectiles\":[],\"controlOwner\":\"neutral\",\"ringRadius\":25000,\"events\":[]}\n",
+  "stderr": ""
+}

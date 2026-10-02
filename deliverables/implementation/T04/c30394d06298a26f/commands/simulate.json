@@ -1,0 +1,15 @@
+{
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "apps/cli/dist/index.js",
+    "simulate",
+    "packages/content/data/g1/Mantis.bot.json",
+    "packages/content/data/g1/Kestrel.bot.json",
+    ".local/g1/release-demo"
+  ],
+  "startedAt": "2026-10-01T19:19:48.812Z",
+  "finishedAt": "2026-10-01T19:19:49.866Z",
+  "exitCode": 0,
+  "stdout": "{\"status\":\"passed\",\"local\":\"unofficial\",\"output\":\".local/g1/release-demo\",\"result\":{\"winner\":\"B\",\"cause\":\"core\",\"elapsedTicks\":2602,\"scores\":{\"A\":885,\"B\":5002}},\"simulationHash\":\"4ebd80218b53bf01271d8ac9d92eaf348301565123e6d0e8448436eb2c7376c2\",\"publicReplayHash\":\"29bf01b2db3f4f1e2f685be1d1f1673b678a6d59927092947f8703767614c140\"}\n",
+  "stderr": ""
+}

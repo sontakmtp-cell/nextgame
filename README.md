@@ -2,7 +2,7 @@
 
 Bộ đặc tả sản phẩm **v2, ngày 01/10/2026**. Người chơi cùng AI qua MCP thiết kế cơ thể và lập trình trí tuệ cho bot; bot tự chiến đấu trong web game 2D, tiến hóa qua thử nghiệm và thi đấu xếp hạng.
 
-Đây là **baseline thiết kế để triển khai**, chưa phải game đã xây hoặc được nghiệm thu. Checkout đã có nền **G0 (T01–T03)**: workspace, contracts/content, compiler và Brain VM. Cách chạy/kiểm tra ở [G0 Development](Docs/G0_DEVELOPMENT.md); bằng chứng nghiệm thu ở [G0 report](deliverables/implementation/G0_REPORT.md). “Cảm giác AAA” là mục tiêu về tính đồng bộ, độ tinh chỉnh và khả năng đọc trận, được chuyển thành các gate kiểm chứng; không phải tuyên bố ngân sách hay chất lượng đã đạt.
+Đây là **baseline thiết kế để triển khai**, chưa phải game hoàn chỉnh hoặc alpha được nghiệm thu. Checkout có nền **G0 (T01–T03)** và implementation prototype **G1 (T04–T06)**: engine headless, Blade/Burst/Shield, ba archetype, CLI và replay. Chạy G1 ở [G1 Development](Docs/G1_DEVELOPMENT.md), xem gate/giới hạn thực tế ở [G1 report](deliverables/implementation/G1_REPORT.md); G0 setup/evidence vẫn ở [G0 Development](Docs/G0_DEVELOPMENT.md) và [G0 report](deliverables/implementation/G0_REPORT.md). “Cảm giác AAA” là mục tiêu phải kiểm chứng, chưa là chất lượng đã đạt.
 
 ## Bộ tài liệu chính thức
 
@@ -26,6 +26,6 @@ Bộ đặc tả sản phẩm **v2, ngày 01/10/2026**. Người chơi cùng AI 
 
 - **Nguồn luật:** 02; **nguồn hợp đồng Bot/Brain:** 03; **nguồn tool:** 05; **nguồn ranked:** 07; **nguồn giao diện:** 06. Nếu có xung đột, dừng ticket liên quan và sửa nguồn cùng người phụ trách, không tự chọn hai phiên bản khác nhau.
 - `alpha-0` là bộ số để dựng prototype, phải qua fun/balance gate trước ranked. Mọi thay đổi luật tạo digest mới và đánh giá lại bot; không sửa trận đã khóa.
-- G0 có build/schema/Brain/smoke/hash-parity checks; gameplay, replay simulation, balance, render và AI host QA vẫn chưa chạy. Không thừa kế các trạng thái “M1/M2/M3 đã đạt” trong tài liệu lịch sử.
+- G0 có build/schema/Brain/smoke/hash-parity checks; G1 có combat/replay/differential harness và Canvas debug. Trạng thái từng gate theo G1 report; balance, art premium, AI host và ranked chưa được nghiệm thu. Không thừa kế các trạng thái “M1/M2/M3 đã đạt” trong tài liệu lịch sử.
 - Bốn bất biến: đồng sáng tạo qua MCP; autonomous combat 2D; ranked + leaderboard; bot có ngôn ngữ hành vi và đường mở rộng cơ chế.
 

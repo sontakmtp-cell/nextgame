@@ -1,0 +1,13 @@
+{
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "node_modules/vitest/vitest.mjs",
+    "run",
+    "tests/replay.test.ts"
+  ],
+  "startedAt": "2026-10-01T19:23:26.656Z",
+  "finishedAt": "2026-10-01T19:23:42.368Z",
+  "exitCode": 0,
+  "stdout": "\n RUN  v5.0.3 D:/AI/nextgame\n\n\n Test Files  1 passed (1)\n      Tests  6 passed (6)\n   Start at  02:23:26\n   Duration  15.37s (tests 97%, import 2%, transform 1%)\n\n",
+  "stderr": ""
+}

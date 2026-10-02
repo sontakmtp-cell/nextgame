@@ -1,0 +1,17 @@
+{
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "scripts/g1-corpus.mjs",
+    "--count",
+    "10",
+    "--baseline",
+    ".local/g1/before-geometry-cache-corpus.json",
+    "--out",
+    ".local/g1/release-baseline-smoke.json"
+  ],
+  "startedAt": "2026-10-01T19:17:28.377Z",
+  "finishedAt": "2026-10-01T19:17:35.476Z",
+  "exitCode": 0,
+  "stdout": "{\"engineDigest\":\"2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78\",\"records\":10,\"corpusDigest\":\"8af6f738395fc4d90451d7d2c2ddd511d877592c10a6162ba24f3ec62788f98f\",\"status\":\"passed\",\"baselineGameplayParity\":true,\"runtime\":\"v24.18.0\",\"platform\":\"win32\",\"arch\":\"x64\",\"cpu\":\"AMD Ryzen 5 7600 6-Core Processor              \",\"logicalCpus\":12,\"concurrency\":4,\"wallMs\":6761.6771,\"profile\":{\"p50Ms\":636.1124,\"p95Ms\":1449.3441000000003,\"maxMs\":1572.6766000000002,\"sampledProcessPeakRss\":386715648,\"sampledWorkerPeakHeap\":61657696,\"vmSerializedBytes\":137},\"checkpointIntervals\":755}\n",
+  "stderr": ""
+}

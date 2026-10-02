@@ -1,0 +1,12 @@
+{
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "scripts/g1-behavior.mjs",
+    ".local/g1/release-behavior.json"
+  ],
+  "startedAt": "2026-10-01T19:18:15.635Z",
+  "finishedAt": "2026-10-01T19:18:40.476Z",
+  "exitCode": 0,
+  "stdout": "{\"status\":\"passed\",\"rows\":9,\"out\":\".local/g1/release-behavior.json\"}\n",
+  "stderr": ""
+}

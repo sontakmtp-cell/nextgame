@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Mantis",
+    "goal": "Áp sát, né windup rồi đánh Blade.",
+    "weakness": "Burst kiểm soát đường áp sát; orbit dễ nhường vùng trung tâm."
+  },
+  {
+    "name": "Bastion-lite",
+    "goal": "Giữ hướng về đối thủ, bật Shield khi thấy windup và dùng Blade cận chiến.",
+    "weakness": "Energy dùng chung khiên/vũ khí; flank ngoài cung 90°."
+  },
+  {
+    "name": "Kestrel",
+    "goal": "Giữ khoảng cách Burst, đổi lane và trở về ring khi bị ép.",
+    "weakness": "Kiting nhường control; góc aim giới hạn và có thể tự che muzzle."
+  }
+]

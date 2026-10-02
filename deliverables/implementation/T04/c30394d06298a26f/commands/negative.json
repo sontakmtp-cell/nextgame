@@ -1,0 +1,13 @@
+{
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "scripts/g1-cli-negative.mjs",
+    ".local/g1/release-negative",
+    ".local/g1/release-fixtures/Mantis-0"
+  ],
+  "startedAt": "2026-10-01T19:22:16.699Z",
+  "finishedAt": "2026-10-01T19:22:24.228Z",
+  "exitCode": 0,
+  "stdout": "{\"status\":\"passed\",\"checks\":10,\"out\":\".local/g1/release-negative/results.json\"}\n",
+  "stderr": ""
+}

@@ -1,2 +1,2 @@
 // SHA256 of sorted brain and contracts sources (excluding this identity file).
-export const COMPILER_DIGEST = '2fafc70e15f577f697c4224d00da9a5c1e353ee43815e965b8a869ae3c4983ee';
+export const COMPILER_DIGEST = '95b374ad1965a84ef51b11bb068bcc26b4feaf5b66fb6c1863308eee06fe9aea';

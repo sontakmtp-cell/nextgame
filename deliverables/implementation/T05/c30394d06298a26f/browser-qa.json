@@ -1,0 +1,21 @@
+{
+  "startedAt": "2026-10-01T19:23:25.207Z",
+  "status": "passed",
+  "checks": [
+    "Browser binary encode/decode/seek and hashes equal CLI",
+    "play advances, pause holds, home returns boundary0",
+    "windup seek and terminal seek render",
+    "390px mobile without horizontal overflow"
+  ],
+  "errors": [],
+  "codec": {
+    "status": "passed",
+    "engineDigest": "2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78",
+    "publicReplayHash": "29bf01b2db3f4f1e2f685be1d1f1673b678a6d59927092947f8703767614c140",
+    "simulationHash": "4ebd80218b53bf01271d8ac9d92eaf348301565123e6d0e8448436eb2c7376c2",
+    "frameCount": 2603,
+    "seekChecks": 72,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36"
+  },
+  "finishedAt": "2026-10-01T19:24:04.261Z"
+}

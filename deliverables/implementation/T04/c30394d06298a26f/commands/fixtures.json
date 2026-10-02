@@ -1,0 +1,12 @@
+{
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "scripts/g1-fixtures.mjs",
+    ".local/g1/release-fixtures"
+  ],
+  "startedAt": "2026-10-01T19:18:05.233Z",
+  "finishedAt": "2026-10-01T19:18:35.016Z",
+  "exitCode": 0,
+  "stdout": "Fixture Mantis/0: full verify passed\nFixture Mantis/1: full verify passed\nFixture Mantis/2: full verify passed\nFixture Bastion-lite/0: full verify passed\nFixture Bastion-lite/1: full verify passed\nFixture Bastion-lite/2: full verify passed\nFixture Kestrel/0: full verify passed\nFixture Kestrel/1: full verify passed\nFixture Kestrel/2: full verify passed\n",
+  "stderr": ""
+}

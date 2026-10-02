@@ -48,6 +48,12 @@ importers:
       '@prompt-chien/contracts':
         specifier: workspace:*
         version: link:../../packages/contracts
+      '@prompt-chien/engine':
+        specifier: workspace:*
+        version: link:../../packages/engine
+      '@prompt-chien/replay':
+        specifier: workspace:*
+        version: link:../../packages/replay
 
   apps/web:
     dependencies:
@@ -79,6 +85,24 @@ importers:
       ajv:
         specifier: 8.20.0
         version: 8.20.0
+
+  packages/engine:
+    dependencies:
+      '@prompt-chien/brain':
+        specifier: workspace:*
+        version: link:../brain
+      '@prompt-chien/content':
+        specifier: workspace:*
+        version: link:../content
+      '@prompt-chien/contracts':
+        specifier: workspace:*
+        version: link:../contracts
+
+  packages/replay:
+    dependencies:
+      '@prompt-chien/contracts':
+        specifier: workspace:*
+        version: link:../contracts
 
 packages:
 

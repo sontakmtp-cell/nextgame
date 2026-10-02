@@ -1,4 +1,4 @@
-name: G0
+name: G0 + G1
 on: [push, pull_request]
 jobs:
   contracts-brain:
@@ -19,6 +19,8 @@ jobs:
       - run: pnpm build
       - run: pnpm check
       - run: pnpm test:unit
+      - run: pnpm test:sim
+      - run: pnpm verify:replay
       - run: node apps/cli/dist/index.js validate Docs/examples/mantis.bot.json
       - if: runner.os == 'Linux'
         run: |

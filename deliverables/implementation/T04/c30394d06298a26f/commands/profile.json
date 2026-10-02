@@ -1,0 +1,12 @@
+{
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "scripts/g1-profile.mjs",
+    ".local/g1/release-profile.json"
+  ],
+  "startedAt": "2026-10-01T19:16:50.782Z",
+  "finishedAt": "2026-10-01T19:17:02.328Z",
+  "exitCode": 0,
+  "stdout": "{\"out\":\".local/g1/release-profile.json\",\"stressIr\":1836,\"rows\":12}\n",
+  "stderr": ""
+}

@@ -138,7 +138,7 @@ Asset tiers high/medium/low, DPR cap2, texture atlases≤2048² baseline; lazy l
 
 ## 9. Dev, deploy và vận hành
 
-T01 tạo `pnpm install --frozen-lockfile`, `pnpm dev`, `pnpm check`, `pnpm test:unit`, `pnpm test:sim`, `pnpm test:e2e`, `pnpm build`, `pnpm verify:replay`. Các lệnh nền đã triển khai ở G0; `test:sim`/`verify:replay` trả deferred exit1 chờT04–T06, `test:e2e` hiện là HTTP smoke, chưa là gameplay flow. Compose G0 có postgres/minio; API/web qua `pnpm dev`, simulation worker ởT10. Setup exact runtime ở [G0 Development](G0_DEVELOPMENT.md); public secrets ngoài git, `.env.example` chỉ names/non-secret defaults. CLI validate chạy local không cần auth/network.
+T01 tạo `pnpm install --frozen-lockfile`, `pnpm dev`, `pnpm check`, `pnpm test:unit`, `pnpm test:sim`, `pnpm test:e2e`, `pnpm build`, `pnpm verify:replay`. G1 đã thay deferred bằng spatial/combat/corpus checks và replay checks; `test:e2e` vẫn là HTTP smoke, chưa là full player flow T07. Compose G0 có postgres/minio; API/web qua `pnpm dev`, isolated simulation worker ởT10. Setup exact runtime ở [G0 Development](G0_DEVELOPMENT.md), headless/debug G1 ở [G1 Development](G1_DEVELOPMENT.md); public secrets ngoài git, `.env.example` chỉ names/non-secret defaults. CLI offline không cần auth/network.
 
 Một origin production `play.<domain>` phục vụ web,/api,/auth,/mcp qua reverse proxy HTTPS; không quyết định production domain từ claims v1. Static CDN cache immutable hashed assets, auth/MCP/API private no-store, replay URLs phải kiểm ACL. Dev/staging/prod separate credentials/buckets/DB. Migrations expand→deploy compatible→backfill→contract lần sau, rollback image không undo DB destructive migration.
 

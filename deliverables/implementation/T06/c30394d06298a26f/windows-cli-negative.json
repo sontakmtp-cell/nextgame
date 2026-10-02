@@ -1,0 +1,142 @@
+{
+  "status": "passed",
+  "records": [
+    {
+      "label": "public verifies without either Brain",
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "apps/cli/dist/index.js",
+        "verify",
+        ".local/g1/release-negative/public-only"
+      ],
+      "exitCode": 0,
+      "expectedExit": 0,
+      "stdout": "{\"status\":\"passed\",\"scope\":\"public integrity only\",\"local\":\"unofficial\",\"frames\":5401,\"publicReplayHash\":\"73d0460da2b0941484465351d853f2852c326b58d98d10179dc9e481b193c255\",\"signature\":\"unsigned\"}\n",
+      "stderr": ""
+    },
+    {
+      "label": "full cannot pretend to verify without private sources",
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "apps/cli/dist/index.js",
+        "verify",
+        ".local/g1/release-negative/public-only",
+        "--full"
+      ],
+      "exitCode": 1,
+      "expectedExit": 1,
+      "stdout": "",
+      "stderr": "{\"message\":\"Error: ENOENT: no such file or directory, stat 'D:\\\\AI\\\\nextgame\\\\.local\\\\g1\\\\release-negative\\\\public-only\\\\private\\\\manifest.json'\"}\n"
+    },
+    {
+      "label": "corrupt compressed bytes",
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "apps/cli/dist/index.js",
+        "verify",
+        ".local/g1/release-negative/corrupt"
+      ],
+      "exitCode": 1,
+      "expectedExit": 1,
+      "stdout": "",
+      "stderr": "{\"message\":\"Error: incorrect header check\"}\n"
+    },
+    {
+      "label": "missing chunk",
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "apps/cli/dist/index.js",
+        "verify",
+        ".local/g1/release-negative/missing-chunk"
+      ],
+      "exitCode": 1,
+      "expectedExit": 1,
+      "stdout": "",
+      "stderr": "{\"message\":\"Error: ENOENT: no such file or directory, stat 'D:\\\\AI\\\\nextgame\\\\.local\\\\g1\\\\release-negative\\\\missing-chunk\\\\chunk-0.bin.gz'\"}\n"
+    },
+    {
+      "label": "gzip decompression cap",
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "apps/cli/dist/index.js",
+        "verify",
+        ".local/g1/release-negative/gzip-cap"
+      ],
+      "exitCode": 1,
+      "expectedExit": 1,
+      "stdout": "",
+      "stderr": "{\"message\":\"RangeError [ERR_BUFFER_TOO_LARGE]: Cannot create a Buffer larger than 1048576 bytes\"}\n"
+    },
+    {
+      "label": "index hash tamper",
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "apps/cli/dist/index.js",
+        "verify",
+        ".local/g1/release-negative/missing"
+      ],
+      "exitCode": 1,
+      "expectedExit": 1,
+      "stdout": "",
+      "stderr": "{\"code\":\"PUBLIC_REPLAY_HASH\",\"pointer\":\"/replay\",\"message\":\"PUBLIC_REPLAY_HASH\"}\n"
+    },
+    {
+      "label": "engine binding tamper",
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "apps/cli/dist/index.js",
+        "verify",
+        ".local/g1/release-negative/manifest-tamper"
+      ],
+      "exitCode": 1,
+      "expectedExit": 1,
+      "stdout": "",
+      "stderr": "{\"code\":\"PUBLIC_REPLAY_HASH\",\"pointer\":\"/replay\",\"message\":\"PUBLIC_REPLAY_HASH\"}\n"
+    },
+    {
+      "label": "private checkpoint tamper before restore",
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "apps/cli/dist/index.js",
+        "verify",
+        ".local/g1/release-negative/private-tamper",
+        "--full"
+      ],
+      "exitCode": 1,
+      "expectedExit": 1,
+      "stdout": "",
+      "stderr": "{\"code\":\"CHECKPOINT_HASH\",\"pointer\":\"/archive\",\"message\":\"CHECKPOINT_HASH\"}\n"
+    },
+    {
+      "label": "existing output refuses overwrite",
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "apps/cli/dist/index.js",
+        "simulate",
+        "packages/content/data/g1/Mantis.bot.json",
+        "packages/content/data/g1/Kestrel.bot.json",
+        ".local/g1/release-fixtures/Mantis-0"
+      ],
+      "exitCode": 1,
+      "expectedExit": 1,
+      "stdout": "",
+      "stderr": "{\"message\":\"Error: EEXIST: file already exists, mkdir 'D:\\\\AI\\\\nextgame\\\\.local\\\\g1\\\\release-fixtures\\\\Mantis-0'\"}\n"
+    },
+    {
+      "label": "duplicate scenario sample",
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "apps/cli/dist/index.js",
+        "experiment",
+        "packages/content/data/g1/Mantis.passive.bot.json",
+        "packages/content/data/g1/Mantis.bot.json",
+        "packages/content/data/g1/Kestrel.bot.json",
+        ".local/g1/release-negative/duplicate-seeds.json"
+      ],
+      "exitCode": 1,
+      "expectedExit": 1,
+      "stdout": "",
+      "stderr": "{\"message\":\"Error: Duplicate scenario ID does not increase sample size.\"}\n"
+    }
+  ]
+}

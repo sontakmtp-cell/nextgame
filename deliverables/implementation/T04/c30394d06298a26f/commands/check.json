@@ -1,0 +1,14 @@
+{
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "C:/Program Files/nodejs/node_modules/npm/bin/npx-cli.js",
+    "--yes",
+    "pnpm@10.34.6",
+    "check"
+  ],
+  "startedAt": "2026-10-01T19:17:14.014Z",
+  "finishedAt": "2026-10-01T19:17:17.054Z",
+  "exitCode": 0,
+  "stdout": "\n> prompt-chien@0.0.0 check D:\\AI\\nextgame\n> tsc -b && tsc -p tests/tsconfig.json && tsc -p tests/g1-browser/tsconfig.json && node scripts/boundaries.mjs\n\nStrict types + package boundaries: passed\n",
+  "stderr": "npm warn Unknown project config \"auto-install-peers\". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.\n"
+}

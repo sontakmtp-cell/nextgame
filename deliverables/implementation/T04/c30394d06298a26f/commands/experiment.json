@@ -1,0 +1,15 @@
+{
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "apps/cli/dist/index.js",
+    "experiment",
+    "packages/content/data/g1/Mantis.passive.bot.json",
+    "packages/content/data/g1/Mantis.bot.json",
+    "packages/content/data/g1/Kestrel.bot.json"
+  ],
+  "startedAt": "2026-10-01T19:19:49.297Z",
+  "finishedAt": "2026-10-01T19:20:08.622Z",
+  "exitCode": 0,
+  "stdout": "{\"status\":\"completed\",\"local\":\"unofficial\",\"engineDigest\":\"2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78\",\"pairedResults\":[{\"scenarioId\":0,\"baseline\":0,\"candidate\":500},{\"scenarioId\":1,\"baseline\":0,\"candidate\":500},{\"scenarioId\":2,\"baseline\":0,\"candidate\":500},{\"scenarioId\":3,\"baseline\":0,\"candidate\":1000},{\"scenarioId\":4,\"baseline\":0,\"candidate\":1000},{\"scenarioId\":5,\"baseline\":0,\"candidate\":500},{\"scenarioId\":6,\"baseline\":0,\"candidate\":500},{\"scenarioId\":7,\"baseline\":0,\"candidate\":500},{\"scenarioId\":8,\"baseline\":0,\"candidate\":500},{\"scenarioId\":9,\"baseline\":0,\"candidate\":500}],\"meanDeltaMillionths\":600000,\"confidence\":null,\"limitation\":\"G1 paired comparison; no balance or statistical pass claim.\"}\n",
+  "stderr": ""
+}

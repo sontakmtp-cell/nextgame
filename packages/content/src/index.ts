@@ -1,5 +1,6 @@
 import { ContractError, digest, sha256 } from '@prompt-chien/contracts';
 import type { CatalogEntry, BotDefinition, PresetValues } from '@prompt-chien/contracts';
+import { buildSlice } from './slice.js';
 export { SIN, COS } from './lut.js';
 export { contentManifest } from './manifest.js';
 export const catalog: readonly CatalogEntry[] = [
@@ -72,3 +73,5 @@ export const referenceKits: readonly BotDefinition[] = definitions.map(({name,ce
   brain:{abiVersion:'2.0',initialState:'idle',variables:[],skills:[],states:[{id:'idle',rules:[{id:'wait',when:{kind:'bool',value:true},intent:{thrust:{forward:constant(0),strafe:constant(0)},turn:constant(0),modules:[]}}]}]},
   cosmetic:{skinId:'ceramic-default',paletteId:'team-auto'}
 }));
+export const sliceKits=buildSlice(referenceKits);
+export { passiveVariant, behaviorCards } from './slice.js';

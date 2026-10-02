@@ -1,0 +1,196 @@
+{
+  "version": "g1-fixtures-v1",
+  "status": "passed",
+  "local": "unofficial",
+  "rows": [
+    {
+      "kit": "Mantis",
+      "opponent": "Bastion-lite",
+      "seed": "00000000000000000000000000000622",
+      "scenarioId": 0,
+      "path": "Mantis-0",
+      "result": {
+        "winner": "B",
+        "cause": "timeout",
+        "elapsedTicks": 5400,
+        "scores": {
+          "A": 1972,
+          "B": 3109
+        }
+      },
+      "simulationHash": "58663275bbb458ca2e21b8f0b5890bcfceca74dbfed5821aa4aa8615bf9503be",
+      "publicReplayHash": "73d0460da2b0941484465351d853f2852c326b58d98d10179dc9e481b193c255",
+      "privateTraceHash": "7667a5f5021c32cd1f442827f96b5c9c4152fea400be95ea4609e6983431fdf6",
+      "checkpoints": 91,
+      "publicBytes": 1969560
+    },
+    {
+      "kit": "Mantis",
+      "opponent": "Bastion-lite",
+      "seed": "00000000000000000000000000000edc",
+      "scenarioId": 1,
+      "path": "Mantis-1",
+      "result": {
+        "winner": "A",
+        "cause": "core",
+        "elapsedTicks": 4588,
+        "scores": {
+          "A": 4535,
+          "B": 1427
+        }
+      },
+      "simulationHash": "4c832b3f1dd77422c23ff9d804dda2497d6e26c8d421f384baf0b88f60d07e93",
+      "publicReplayHash": "21f605d1e6eabf4710a3cc916cda59f986e2e0e158f0efe9b7fcd2f489f4f0d0",
+      "privateTraceHash": "1148f32c76c517ff7d3a27c26fa15d467eeb9064b967c66cc881d41fc8b3e801",
+      "checkpoints": 78,
+      "publicBytes": 1650424
+    },
+    {
+      "kit": "Mantis",
+      "opponent": "Bastion-lite",
+      "seed": "00000000000000000000000000000240",
+      "scenarioId": 2,
+      "path": "Mantis-2",
+      "result": {
+        "winner": "A",
+        "cause": "timeout",
+        "elapsedTicks": 5400,
+        "scores": {
+          "A": 3921,
+          "B": 3777
+        }
+      },
+      "simulationHash": "4e0142c43cd87d1d5fb69117eb750ee3c2f4d32aa55105268cbe6ddefc5237bf",
+      "publicReplayHash": "357b3c45565381a9e6a612c53234bf9b64bb35b3ac06b67fa906f38dc92112df",
+      "privateTraceHash": "5d304486aa55f8d2b9f7c8883f7c791f6bac388dae3295b89a516f2e8dcb22d8",
+      "checkpoints": 91,
+      "publicBytes": 1925796
+    },
+    {
+      "kit": "Bastion-lite",
+      "opponent": "Kestrel",
+      "seed": "00000000000000000000000000000622",
+      "scenarioId": 0,
+      "path": "Bastion-lite-0",
+      "result": {
+        "winner": "B",
+        "cause": "core",
+        "elapsedTicks": 4795,
+        "scores": {
+          "A": 1993,
+          "B": 6632
+        }
+      },
+      "simulationHash": "33f77e8f3d22e34cf97d3301d77971d74f1355a8a7c732fcc31d9d5ff74d9e0d",
+      "publicReplayHash": "5b40bfce5eed5a21901f32f8f0974ce4db544fb4a37a69ad34fedf2503dc7aa5",
+      "privateTraceHash": "0dbcbd52801e708036b1a9c5473d30f0d39fa08a91f90293fd019a33ea12871d",
+      "checkpoints": 81,
+      "publicBytes": 1630680
+    },
+    {
+      "kit": "Bastion-lite",
+      "opponent": "Kestrel",
+      "seed": "00000000000000000000000000000edc",
+      "scenarioId": 1,
+      "path": "Bastion-lite-1",
+      "result": {
+        "winner": "A",
+        "cause": "timeout",
+        "elapsedTicks": 5400,
+        "scores": {
+          "A": 7135,
+          "B": 2021
+        }
+      },
+      "simulationHash": "992beb13092e657eb63eca1a2c334c41552d5c59ae597794daae8917eb25f3b2",
+      "publicReplayHash": "341c41ba8ff86542bf92d11d35a496abfa9e07840d4ba6247a539ae7dac27541",
+      "privateTraceHash": "4da48b0e99bc8cca7ce182dcd0ca78fa89d57f7650b75c052869541f186ba00b",
+      "checkpoints": 91,
+      "publicBytes": 1790952
+    },
+    {
+      "kit": "Bastion-lite",
+      "opponent": "Kestrel",
+      "seed": "00000000000000000000000000000240",
+      "scenarioId": 2,
+      "path": "Bastion-lite-2",
+      "result": {
+        "winner": "B",
+        "cause": "core",
+        "elapsedTicks": 4321,
+        "scores": {
+          "A": 2608,
+          "B": 5608
+        }
+      },
+      "simulationHash": "3f2bf3f0e54e9251d140157f5a42c3b1a4937b667e56e4675e5ce77eb9ea7892",
+      "publicReplayHash": "7323c4fd76a5f7197f75691dc33d0674e77c8da6c96c6c3c0ea0f11c1e51a075",
+      "privateTraceHash": "81d7911290d8ae527f6fac7bf29799432d809297003e359c599fe61183c6c5e7",
+      "checkpoints": 74,
+      "publicBytes": 1452924
+    },
+    {
+      "kit": "Kestrel",
+      "opponent": "Mantis",
+      "seed": "00000000000000000000000000000622",
+      "scenarioId": 0,
+      "path": "Kestrel-0",
+      "result": {
+        "winner": "A",
+        "cause": "core",
+        "elapsedTicks": 3144,
+        "scores": {
+          "A": 5466,
+          "B": 885
+        }
+      },
+      "simulationHash": "5833d3c2cd949705bc31f98b38de66e6458c5b23e777cbaba90f6e9300ff9577",
+      "publicReplayHash": "922975d02aa7102156c82fc0fea015bf31fd16e5a5222a5111842a3ffc7ebf38",
+      "privateTraceHash": "94ca8542fd5702e3357d1bb0034afe3f76d8e8f77d7a27195ad8d7dead6e74d3",
+      "checkpoints": 54,
+      "publicBytes": 1065220
+    },
+    {
+      "kit": "Kestrel",
+      "opponent": "Mantis",
+      "seed": "00000000000000000000000000000edc",
+      "scenarioId": 1,
+      "path": "Kestrel-1",
+      "result": {
+        "winner": "A",
+        "cause": "core",
+        "elapsedTicks": 2676,
+        "scores": {
+          "A": 4325,
+          "B": 535
+        }
+      },
+      "simulationHash": "b09bea21182d114b1a7ef9c4e4b55a3683465bd9db6ed5d5f6b4c5c2480bb518",
+      "publicReplayHash": "6d9ee6a0bb2879e7ff1039afddb2c8f09cf0d67a38a5f828fe8320232bd9022f",
+      "privateTraceHash": "eaa0fe723b16b59adbe1be524c5fb8362c74688191de6da05f658ae61ca94992",
+      "checkpoints": 46,
+      "publicBytes": 905112
+    },
+    {
+      "kit": "Kestrel",
+      "opponent": "Mantis",
+      "seed": "00000000000000000000000000000240",
+      "scenarioId": 2,
+      "path": "Kestrel-2",
+      "result": {
+        "winner": "A",
+        "cause": "core",
+        "elapsedTicks": 2748,
+        "scores": {
+          "A": 4465,
+          "B": 390
+        }
+      },
+      "simulationHash": "546c2b5fac7dd1688f5d4a42b3562ea1f198c6e683b1b18b480fa10571a96c75",
+      "publicReplayHash": "6653fcab4eddc71e3c18126bc3afab06b7d35a1843d80443be8d417587383041",
+      "privateTraceHash": "631d6ed2bdbbc398c5066123b357fb5a709ff06b120dea190fb7ca87b2ccf496",
+      "checkpoints": 47,
+      "publicBytes": 932548
+    }
+  ]
+}

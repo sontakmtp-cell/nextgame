@@ -1,0 +1,13 @@
+{
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "apps/cli/dist/index.js",
+    "validate",
+    "packages/content/data/g1/Mantis.bot.json"
+  ],
+  "startedAt": "2026-10-01T19:19:49.048Z",
+  "finishedAt": "2026-10-01T19:19:49.422Z",
+  "exitCode": 0,
+  "stdout": "{\"status\":\"passed\",\"cost\":56,\"mass\":29,\"irNodes\":64,\"compilerDigest\":\"95b374ad1965a84ef51b11bb068bcc26b4feaf5b66fb6c1863308eee06fe9aea\"}\n",
+  "stderr": ""
+}

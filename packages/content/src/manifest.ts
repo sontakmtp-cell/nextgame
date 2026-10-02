@@ -18,7 +18,7 @@ export const contentManifest = {
     "replay": "706df6b108b1d3884906d16a56ade351f639f61c9c32680fad9f2abbd39131f0",
     "ratings": "893c9c7ee331a910231462c0166b9e0f4b8923f891c73e8bd5d1ae61ab10dfea"
   },
-  "compilerDigest": "2fafc70e15f577f697c4224d00da9a5c1e353ee43815e965b8a869ae3c4983ee",
+  "compilerDigest": "95b374ad1965a84ef51b11bb068bcc26b4feaf5b66fb6c1863308eee06fe9aea",
   "catalogDigest": "d8fe55474692a49ed5daa6d7dac62f635630a9e447a85ba683c0765bf535885d",
   "rulesetDigest": "19ef0b984d12a34796ea2058bb9971421674671fd4cc76b8cf694e80f03d2f14",
   "arenaInitDigest": "213af97e3969c88fce81f28e1055c18af8549bbf5bd37e72079f1d301d4ba510",

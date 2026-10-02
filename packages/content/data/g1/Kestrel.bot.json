@@ -1,0 +1,432 @@
+{
+  "schemaVersion": "2.0",
+  "name": "Kestrel",
+  "body": {
+    "grid": "square-12-v1",
+    "modules": [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "cell": {
+          "x": 5,
+          "y": 5
+        },
+        "orientation": 0
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "cell": {
+          "x": 4,
+          "y": 5
+        },
+        "orientation": 0
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "cell": {
+          "x": 4,
+          "y": 6
+        },
+        "orientation": 0
+      },
+      {
+        "id": "part0",
+        "catalogId": "burst",
+        "cell": {
+          "x": 7,
+          "y": 5
+        },
+        "orientation": 0
+      },
+      {
+        "id": "part1",
+        "catalogId": "capacitor",
+        "cell": {
+          "x": 5,
+          "y": 4
+        },
+        "orientation": 0
+      }
+    ]
+  },
+  "brain": {
+    "abiVersion": "2.0",
+    "initialState": "hunt",
+    "variables": [],
+    "skills": [],
+    "states": [
+      {
+        "id": "hunt",
+        "rules": [
+          {
+            "id": "returnToRing",
+            "when": {
+              "kind": "compare",
+              "op": "eq",
+              "left": {
+                "kind": "sensor",
+                "name": "self.outsideRing"
+              },
+              "right": {
+                "kind": "const",
+                "value": 1
+              }
+            },
+            "intent": {
+              "thrust": {
+                "forward": {
+                  "kind": "const",
+                  "value": 1000
+                },
+                "strafe": {
+                  "kind": "const",
+                  "value": 0
+                }
+              },
+              "turn": {
+                "kind": "clamp",
+                "value": {
+                  "kind": "op",
+                  "op": "mul",
+                  "left": {
+                    "kind": "sensor",
+                    "name": "arena.centerBearing"
+                  },
+                  "right": {
+                    "kind": "const",
+                    "value": 4
+                  }
+                },
+                "min": {
+                  "kind": "const",
+                  "value": -1000
+                },
+                "max": {
+                  "kind": "const",
+                  "value": 1000
+                }
+              },
+              "modules": []
+            }
+          },
+          {
+            "id": "coolAndControl",
+            "when": {
+              "kind": "compare",
+              "op": "eq",
+              "left": {
+                "kind": "sensor",
+                "name": "self.overheated"
+              },
+              "right": {
+                "kind": "const",
+                "value": 1
+              }
+            },
+            "intent": {
+              "thrust": {
+                "forward": {
+                  "kind": "const",
+                  "value": 700
+                },
+                "strafe": {
+                  "kind": "const",
+                  "value": 0
+                }
+              },
+              "turn": {
+                "kind": "clamp",
+                "value": {
+                  "kind": "op",
+                  "op": "mul",
+                  "left": {
+                    "kind": "sensor",
+                    "name": "arena.centerBearing"
+                  },
+                  "right": {
+                    "kind": "const",
+                    "value": 4
+                  }
+                },
+                "min": {
+                  "kind": "const",
+                  "value": -1000
+                },
+                "max": {
+                  "kind": "const",
+                  "value": 1000
+                }
+              },
+              "modules": []
+            }
+          },
+          {
+            "id": "kite",
+            "when": {
+              "kind": "compare",
+              "op": "lt",
+              "left": {
+                "kind": "sensor",
+                "name": "enemy.distance"
+              },
+              "right": {
+                "kind": "const",
+                "value": 7000
+              }
+            },
+            "intent": {
+              "thrust": {
+                "forward": {
+                  "kind": "const",
+                  "value": -700
+                },
+                "strafe": {
+                  "kind": "const",
+                  "value": 700
+                }
+              },
+              "turn": {
+                "kind": "clamp",
+                "value": {
+                  "kind": "op",
+                  "op": "mul",
+                  "left": {
+                    "kind": "sensor",
+                    "name": "enemy.bearing"
+                  },
+                  "right": {
+                    "kind": "const",
+                    "value": 4
+                  }
+                },
+                "min": {
+                  "kind": "const",
+                  "value": -1000
+                },
+                "max": {
+                  "kind": "const",
+                  "value": 1000
+                }
+              },
+              "modules": [
+                {
+                  "moduleId": "part0",
+                  "action": "activate",
+                  "aimOffset": {
+                    "kind": "clamp",
+                    "value": {
+                      "kind": "sensor",
+                      "name": "enemy.bearing"
+                    },
+                    "min": {
+                      "kind": "const",
+                      "value": -256
+                    },
+                    "max": {
+                      "kind": "const",
+                      "value": 256
+                    }
+                  },
+                  "priority": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": "fireAtRange",
+            "when": {
+              "kind": "compare",
+              "op": "lt",
+              "left": {
+                "kind": "sensor",
+                "name": "enemy.distance"
+              },
+              "right": {
+                "kind": "const",
+                "value": 12500
+              }
+            },
+            "intent": {
+              "thrust": {
+                "forward": {
+                  "kind": "const",
+                  "value": 0
+                },
+                "strafe": {
+                  "kind": "const",
+                  "value": 500
+                }
+              },
+              "turn": {
+                "kind": "clamp",
+                "value": {
+                  "kind": "op",
+                  "op": "mul",
+                  "left": {
+                    "kind": "sensor",
+                    "name": "enemy.bearing"
+                  },
+                  "right": {
+                    "kind": "const",
+                    "value": 4
+                  }
+                },
+                "min": {
+                  "kind": "const",
+                  "value": -1000
+                },
+                "max": {
+                  "kind": "const",
+                  "value": 1000
+                }
+              },
+              "modules": [
+                {
+                  "moduleId": "part0",
+                  "action": "activate",
+                  "aimOffset": {
+                    "kind": "clamp",
+                    "value": {
+                      "kind": "sensor",
+                      "name": "enemy.bearing"
+                    },
+                    "min": {
+                      "kind": "const",
+                      "value": -256
+                    },
+                    "max": {
+                      "kind": "const",
+                      "value": 256
+                    }
+                  },
+                  "priority": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": "engage",
+            "when": {
+              "kind": "compare",
+              "op": "lt",
+              "left": {
+                "kind": "sensor",
+                "name": "enemy.distance"
+              },
+              "right": {
+                "kind": "const",
+                "value": 14000
+              }
+            },
+            "intent": {
+              "thrust": {
+                "forward": {
+                  "kind": "const",
+                  "value": 800
+                },
+                "strafe": {
+                  "kind": "const",
+                  "value": 0
+                }
+              },
+              "turn": {
+                "kind": "clamp",
+                "value": {
+                  "kind": "op",
+                  "op": "mul",
+                  "left": {
+                    "kind": "sensor",
+                    "name": "enemy.bearing"
+                  },
+                  "right": {
+                    "kind": "const",
+                    "value": 4
+                  }
+                },
+                "min": {
+                  "kind": "const",
+                  "value": -1000
+                },
+                "max": {
+                  "kind": "const",
+                  "value": 1000
+                }
+              },
+              "modules": [
+                {
+                  "moduleId": "part0",
+                  "action": "activate",
+                  "aimOffset": {
+                    "kind": "clamp",
+                    "value": {
+                      "kind": "sensor",
+                      "name": "enemy.bearing"
+                    },
+                    "min": {
+                      "kind": "const",
+                      "value": -256
+                    },
+                    "max": {
+                      "kind": "const",
+                      "value": 256
+                    }
+                  },
+                  "priority": 1
+                }
+              ]
+            }
+          },
+          {
+            "id": "takeCenter",
+            "when": {
+              "kind": "bool",
+              "value": true
+            },
+            "intent": {
+              "thrust": {
+                "forward": {
+                  "kind": "const",
+                  "value": 1000
+                },
+                "strafe": {
+                  "kind": "const",
+                  "value": 0
+                }
+              },
+              "turn": {
+                "kind": "clamp",
+                "value": {
+                  "kind": "op",
+                  "op": "mul",
+                  "left": {
+                    "kind": "sensor",
+                    "name": "arena.centerBearing"
+                  },
+                  "right": {
+                    "kind": "const",
+                    "value": 4
+                  }
+                },
+                "min": {
+                  "kind": "const",
+                  "value": -1000
+                },
+                "max": {
+                  "kind": "const",
+                  "value": 1000
+                }
+              },
+              "modules": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "cosmetic": {
+    "skinId": "ceramic-default",
+    "paletteId": "team-auto"
+  }
+}

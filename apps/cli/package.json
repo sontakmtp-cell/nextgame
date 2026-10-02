@@ -1,1 +1,1 @@
-{"name":"@prompt-chien/cli","version":"0.0.0","private":true,"type":"module","bin":{"prompt-chien":"dist/index.js"},"dependencies":{"@prompt-chien/contracts":"workspace:*","@prompt-chien/brain":"workspace:*","@prompt-chien/content":"workspace:*"}}
+{"name":"@prompt-chien/cli","version":"0.0.0","private":true,"type":"module","bin":{"prompt-chien":"dist/index.js"},"dependencies":{"@prompt-chien/contracts":"workspace:*","@prompt-chien/brain":"workspace:*","@prompt-chien/content":"workspace:*","@prompt-chien/engine":"workspace:*","@prompt-chien/replay":"workspace:*"}}

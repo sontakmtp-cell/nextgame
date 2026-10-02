@@ -51,7 +51,7 @@ pnpm compile:sandbox Docs/examples/mantis.bot.json
 
 Container unprivileged, filesystem read-only, network none, 1 CPU, 256 MiB RAM, 64 PIDs, drop capabilities. Supervisor bắt đầu deadline **2 giây** sau `READY`, bao gồm đọc input/parse/validate/compile; startup có cap riêng 10 giây. Timeout/process failure là infraFailure; không gán thua bot. CLI offline `validate` không cần Docker/network; full isolation của simulation jobs là T10.
 
-`test:sim` và `verify:replay` trả exit 1 với thông báo deferred T04–T06; chúng không tạo giả evidence. `test:e2e` sẽ mở rộng ở T07. Không cài MCP SDK/auth/extensions ở G0: plan pin server2.2.0/fastify adapter2.0.0 đã kiểm metadata/peers, không trộn SDK1; thực thi/wire/AI host QA ở T11.
+Trong snapshot G0, `test:sim` và `verify:replay` là deferred exit1. Checkout hiện có đã thay chúng bằng G1 checks; xem [G1 Development](G1_DEVELOPMENT.md) và G1 report cho trạng thái hiện tại, không thay đổi evidence G0 lịch sử. `test:e2e` sẽ mở rộng ở T07. Không cài MCP SDK/auth/extensions ở G0: plan pin server2.2.0/fastify adapter2.0.0 đã kiểm metadata/peers, không trộn SDK1; thực thi/wire/AI host QA ở T11.
 
 MinIO local được build từ [release nguồn chính thức](https://github.com/minio/minio/releases/tag/RELEASE.2025-10-15T17-29-55Z), khóa archive SHA256 và base image digests. Hai image registry cũ đã pull fail; không dùng image giả. Lần build đầu tải Go dependencies nên chậm hơn; đây là setup local, không deployment production.
 

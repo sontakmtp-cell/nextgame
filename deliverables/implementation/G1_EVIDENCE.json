@@ -1,0 +1,17 @@
+{
+  "status": "technical checks passed; G1 acceptance pending human fun/readability and numeric prototype signoff",
+  "revision": "c30394d06298a26f",
+  "snapshotHash": "c30394d06298a26fca8fd871f102d12ec3ea9d21d6a7ba05e0748c0ab79775fb",
+  "engineDigest": "2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78",
+  "corpusDigest": "6f40100e4267a2fc82a4aa9d6d2af768365de02aba7a4c9270d8563e490387f3",
+  "windowsRows": 1000,
+  "linuxRows": 1000,
+  "browserRows": 100,
+  "checkpointIntervalsPerPlatform": 75510,
+  "archiveFixtureParity": 9,
+  "dirs": {
+    "T04": "deliverables/implementation/T04/c30394d06298a26f",
+    "T05": "deliverables/implementation/T05/c30394d06298a26f",
+    "T06": "deliverables/implementation/T06/c30394d06298a26f"
+  }
+}

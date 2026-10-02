@@ -1,0 +1,19 @@
+{
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "scripts/g1-corpus.mjs",
+    "--count",
+    "1000",
+    "--write",
+    "tests/g1/corpus.json",
+    "--out",
+    ".local/g1/release-windows-corpus.json",
+    "--baseline",
+    ".local/g1/before-geometry-cache-corpus.json"
+  ],
+  "startedAt": "2026-10-01T19:17:54.791Z",
+  "finishedAt": "2026-10-01T19:23:57.732Z",
+  "exitCode": 0,
+  "stdout": "G1 corpus 50/1000\nG1 corpus 100/1000\nG1 corpus 150/1000\nG1 corpus 200/1000\nG1 corpus 250/1000\nG1 corpus 300/1000\nG1 corpus 350/1000\nG1 corpus 400/1000\nG1 corpus 450/1000\nG1 corpus 500/1000\nG1 corpus 550/1000\nG1 corpus 600/1000\nG1 corpus 650/1000\nG1 corpus 700/1000\nG1 corpus 750/1000\nG1 corpus 800/1000\nG1 corpus 850/1000\nG1 corpus 900/1000\nG1 corpus 950/1000\nG1 corpus 1000/1000\n{\"engineDigest\":\"2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78\",\"records\":1000,\"corpusDigest\":\"6f40100e4267a2fc82a4aa9d6d2af768365de02aba7a4c9270d8563e490387f3\",\"status\":\"passed\",\"baselineGameplayParity\":true,\"runtime\":\"v24.18.0\",\"platform\":\"win32\",\"arch\":\"x64\",\"cpu\":\"AMD Ryzen 5 7600 6-Core Processor              \",\"logicalCpus\":12,\"concurrency\":4,\"wallMs\":362529.3479,\"profile\":{\"p50Ms\":591.0561,\"p95Ms\":1334.3612999999896,\"maxMs\":1925.6525000000256,\"sampledProcessPeakRss\":841699328,\"sampledWorkerPeakHeap\":137392440,\"vmSerializedBytes\":138},\"checkpointIntervals\":75510}\n",
+  "stderr": ""
+}

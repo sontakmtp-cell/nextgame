@@ -1,0 +1,1 @@
+{"name":"@prompt-chien/engine","version":"0.0.0","private":true,"type":"module","exports":{".":"./dist/index.js"},"types":"./dist/index.d.ts","dependencies":{"@prompt-chien/contracts":"workspace:*","@prompt-chien/content":"workspace:*","@prompt-chien/brain":"workspace:*"}}
