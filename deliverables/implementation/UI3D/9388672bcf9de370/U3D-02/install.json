@@ -1,0 +1,4 @@
+{
+  "command": "npx --yes pnpm@10.34.6 install --frozen-lockfile --offline",
+  "exit": 0
+}

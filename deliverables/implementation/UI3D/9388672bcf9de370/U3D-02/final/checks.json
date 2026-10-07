@@ -1,0 +1,57 @@
+[
+  {
+    "name": "typing",
+    "exit": 0,
+    "ms": 107.14609999999999
+  },
+  {
+    "name": "test-typing",
+    "exit": 0,
+    "ms": 1875.1378
+  },
+  {
+    "name": "g1-typing",
+    "exit": 0,
+    "ms": 918.7173
+  },
+  {
+    "name": "g2-typing",
+    "exit": 0,
+    "ms": 1210.0933000000005
+  },
+  {
+    "name": "scene-typing",
+    "exit": 0,
+    "ms": 1042.4849999999997
+  },
+  {
+    "name": "boundaries",
+    "exit": 0,
+    "ms": 316.8238000000001
+  },
+  {
+    "name": "negative-boundaries",
+    "exit": 0,
+    "ms": 981.3944000000001
+  },
+  {
+    "name": "unit",
+    "exit": 0,
+    "ms": 16159.0473
+  },
+  {
+    "name": "corpus",
+    "exit": 0,
+    "ms": 10294.248600000003
+  },
+  {
+    "name": "build",
+    "exit": 0,
+    "ms": 614.811099999999
+  },
+  {
+    "name": "scene-build",
+    "exit": 0,
+    "ms": 605.9264999999941
+  }
+]

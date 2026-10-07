@@ -1,0 +1,86 @@
+{
+  "command": "node scripts/u3d02-faults.mjs",
+  "status": "passed",
+  "cases": [
+    {
+      "kind": "delayed-high",
+      "passed": true,
+      "intermediate": {
+        "renders": 6,
+        "connected": true,
+        "qualities": [
+          "medium"
+        ],
+        "drawCalls": 42,
+        "triangles": 108358,
+        "geometries": 31,
+        "textures": 20,
+        "modules": 6,
+        "energyLinks": 15,
+        "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+        "dpr": 1,
+        "camera": [
+          16.33374952734355,
+          26.994814179910243,
+          16.83374952734355
+        ],
+        "zoom": 139.4027276195187
+      }
+    },
+    {
+      "kind": "missing-model",
+      "passed": true,
+      "messages": [
+        "Error: Không tải được model (404)Không mở được cảnh 3D. Chuyển 2D",
+        "Error: Không tải được model (404)"
+      ],
+      "expectedErrors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ]
+    },
+    {
+      "kind": "missing-transcoder",
+      "passed": true,
+      "messages": [
+        "Error: Không tải được decoder KTX2 (404)Không mở được cảnh 3D. Chuyển 2D",
+        "Error: Không tải được decoder KTX2 (404)"
+      ],
+      "expectedErrors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ]
+    },
+    {
+      "kind": "corrupt-model",
+      "passed": true,
+      "messages": [
+        "Error: Model không khớp manifestKhông mở được cảnh 3D. Chuyển 2D",
+        "Error: Model không khớp manifest"
+      ],
+      "expectedErrors": []
+    },
+    {
+      "kind": "10 scene cycles",
+      "passed": true,
+      "canvas": 1
+    }
+  ],
+  "browser": "154.0.8037.98",
+  "memory": {
+    "kind": "Chrome Runtime.getHeapUsage.usedSize after forced GC; JS heap only, not GPU memory",
+    "cycles": 10,
+    "before": {
+      "usedSize": 8772348,
+      "totalSize": 9289728,
+      "embedderHeapUsedSize": 712824,
+      "backingStorageSize": 82309222
+    },
+    "after": {
+      "usedSize": 16358908,
+      "totalSize": 17940480,
+      "embedderHeapUsedSize": 2317416,
+      "backingStorageSize": 82310053
+    },
+    "driftBytes": 7586560
+  }
+}

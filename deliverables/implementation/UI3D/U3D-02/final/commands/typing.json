@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "node_modules/typescript/bin/tsc",
+    "-b"
+  ],
+  "exit": 0,
+  "ms": 115.95039999999999,
+  "stdout": "",
+  "stderr": ""
+}

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "node_modules/typescript/bin/tsc",
+    "-p",
+    "tests/tsconfig.json"
+  ],
+  "exit": 2,
+  "ms": 1551.3018,
+  "stdout": "tests/renderer3d.test.ts(7,31): error TS6142: Module '../packages/renderer3d/src/CoreLinks.js' was resolved to 'D:/AI/nextgame/packages/renderer3d/src/CoreLinks.tsx', but '--jsx' is not set.\r\ntests/renderer3d.test.ts(56,21): error TS7006: Parameter 'p' implicitly has an 'any' type.\r\ntests/renderer3d.test.ts(57,34): error TS7006: Parameter 'p' implicitly has an 'any' type.\r\n",
+  "stderr": ""
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "apps/web/node_modules/vite/bin/vite.js",
+    "build",
+    "--config",
+    "tests/u3d02/vite.config.mjs"
+  ],
+  "exit": 0,
+  "ms": 643.0511999999981,
+  "stdout": "vite v8.3.2 building client environment for production...\ntransforming...\n✓ 596 modules transformed.\nrendering chunks...\ncomputing gzip size...\n.local/u3d02/dist/index.html                                 0.39 kB │ gzip:   0.29 kB\n.local/u3d02/dist/fixture.json                              11.60 kB │ gzip:   1.13 kB\n.local/u3d02/dist/assets/basis_transcoder-o4Hde_L7.js       57.52 kB\n.local/u3d02/dist/assets/basis_transcoder-VXdx5NbI.wasm    527.33 kB │ gzip: 248.94 kB\n.local/u3d02/dist/assets/index-B6tMtoAe.css                  1.84 kB │ gzip:   0.89 kB\n.local/u3d02/dist/assets/index-BfpKFNIh.js               1,449.96 kB │ gzip: 421.27 kB\n\n✓ built in 449ms\n",
+  "stderr": "[plugin builtin:vite-reporter] \n(!) Some chunks are larger than 500 kB after minification. Consider:\n- Using dynamic import() to code-split the application\n- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting\n- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.\n"
+}

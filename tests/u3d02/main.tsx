@@ -1,0 +1,32 @@
+import { createRoot } from 'react-dom/client';
+import { useCallback, useLayoutEffect, useRef, useState } from 'react';
+import { ArenaScene, WorkshopScene, SynthPreview, arenaCamera, workshopCamera, fitPreviewCamera } from '@prompt-chien/renderer3d';
+import type { ArenaLayout, CameraState, CellSelection, PresentationManifest, Quality, WorkshopSceneProps } from '@prompt-chien/renderer3d';
+import './style.css';
+import { Probe } from './Probe.js';
+type Fixture = { body: WorkshopSceneProps['body']; fourDirections: WorkshopSceneProps['body']; twentyFour: WorkshopSceneProps['body']; footprints: WorkshopSceneProps['footprintByCatalogId']; frames: Parameters<typeof ArenaScene>[0]['frames']; layout: ArenaLayout };
+const fixture = await (await fetch('/fixture.json')).json() as Fixture;
+const manifest = await (await fetch('/assets/ui3d/u3d01/manifest.json')).json() as PresentationManifest;
+function Demo() {
+  const [quality, setQuality] = useState<Quality>('high'), [camera, setCamera] = useState<CameraState>(workshopCamera), [mode, setMode] = useState('Workshop');
+  const [selected, setSelected] = useState<string | null>(null), [cursor, setCursor] = useState<CellSelection>({ x: 8, y: 6 }), [variant, setVariant] = useState<'body' | 'fourDirections' | 'twentyFour'>('body');
+  const [graphics, setGraphics] = useState('loading'), [error, setError] = useState<string | null>(null), [locked, setLocked] = useState(false), [gray, setGray] = useState(false), [confirmed, setConfirmed] = useState(0), [ghost, setGhost] = useState(false);
+  const [vfx,setVfx]=useState(true),[reducedMotion,setReducedMotion]=useState(false);
+  const onGraphicsState = useCallback((state: string, message: string | null) => { setGraphics(state); setError(message); }, []);
+  const viewport = { quality, camera, cameraLocked: locked, reducedMotion, grayscale: gray, onCameraChange: setCamera, onGraphicsState, onReady: () => {}, onRequest2d: () => { setError('2D fallback requested; app integration belongs to U3D-03/04'); } };
+  const body=fixture[variant], shared = { body, footprintByCatalogId: fixture.footprints, manifest, viewport };
+  const host=useRef<HTMLDivElement>(null),[size,setSize]=useState({width:1310,height:900});
+  useLayoutEffect(()=>{if(!host.current)return;const resize=new ResizeObserver(entries=>{const r=entries[0]?.contentRect;if(r)setSize({width:r.width,height:r.height});});resize.observe(host.current);return()=>resize.disconnect();},[]);
+  const defaultCamera=mode==='Arena'?{...arenaCamera,zoom:Math.min(arenaCamera.zoom,size.width/(fixture.layout.width+4),size.height/(fixture.layout.depth+4))}:fitPreviewCamera(body,fixture.footprints,manifest,size,workshopCamera);
+  useLayoutEffect(()=>{setCamera(defaultCamera);},[mode,variant,size]);
+  return <main><header><span className="brand">P / PROMPT CHIẾN</span><span>U3D-02 · CẢNH MẪU</span><span className="badge">Mô phỏng 2D · Hiển thị 3D</span></header>
+    <nav>{['Workshop', 'Arena', 'My Synths'].map(label => <button key={label} aria-pressed={mode === label} onClick={() => { setMode(label); setCamera(label === 'Arena' ? arenaCamera : workshopCamera); }}>{label}</button>)}<span>Brain Lab giữ 2D pixel art trong ứng dụng chính.</span></nav>
+    <div className="content"><section className="scene"><div className="title"><h1>{mode === 'Arena' ? 'Sân thực nghiệm' : variant === 'twentyFour' ? '24 module · bất đối xứng' : 'Mantis'}</h1><p>Body thật · Core là tâm · ảnh sáng theo mức tài nguyên</p></div><div className="viewport" data-testid="viewport" ref={host}>
+      {mode === 'Workshop' ? <WorkshopScene {...shared} selectedModuleId={selected} cursor={cursor} ghost={ghost ? { id:'ghost',catalogId:'armor',cell:cursor,orientation:2 } : null} onSelectModule={m => setSelected(m.moduleId)} onSelectCell={setCursor} onConfirmPlacement={() => setConfirmed(c => c+1)}><Probe body={body} /></WorkshopScene> : mode === 'Arena' ? <ArenaScene frames={fixture.frames} position={0} layout={fixture.layout} footprintByCatalogId={fixture.footprints} manifest={manifest} viewport={viewport} vfx={vfx}><Probe body={body} /></ArenaScene> : <SynthPreview {...shared}><Probe body={body} /></SynthPreview>}
+    </div></section><aside><h2>Kiểm cảnh & tài nguyên</h2><label>Mức chi tiết<select aria-label="Mức chi tiết" value={quality} onChange={e=>setQuality(e.target.value as Quality)}>{(['high','medium','low'] as const).map(q=><option key={q}>{q}</option>)}</select></label><label>Body kiểm tra<select aria-label="Body kiểm tra" value={variant} onChange={e=>setVariant(e.target.value as typeof variant)}><option value="body">Mantis hiện hành</option><option value="fourDirections">Bốn hướng</option><option value="twentyFour">24 module · Core lệch</option></select></label>
+      <button onClick={()=>setCamera(defaultCamera)}>Đặt lại góc nhìn</button>{mode!=='Arena'&&<button onClick={()=>{const core=body.modules.find(m=>m.catalogId==='core')!;setCamera({...workshopCamera,target:[5-core.cell.x,.2,core.cell.y-5],zoom:Math.max(12,Math.min(size.width/22,size.height/18))});}}>Toàn cảnh bàn</button>}{mode==='Arena'&&<label><input type="checkbox" checked={vfx} onChange={e=>setVfx(e.target.checked)} />Tia sét Core</label>}<label><input type="checkbox" checked={reducedMotion} onChange={e=>setReducedMotion(e.target.checked)} />Giảm chuyển động</label><label><input type="checkbox" checked={locked} onChange={e=>setLocked(e.target.checked)} />Khóa camera</label><label><input type="checkbox" checked={gray} onChange={e=>setGray(e.target.checked)} />Grayscale</label><label><input type="checkbox" checked={ghost} onChange={e=>setGhost(e.target.checked)} />Xem trước ô lắp</label>
+      <p>Trái: chọn ô/module<br />Phải: xoay cảnh<br />Cuộn: zoom<br />Nhấp đúp ô trống: phát ý định lắp</p><dl><dt>Đồ họa</dt><dd data-testid="graphics">{graphics}</dd><dt>Module chọn</dt><dd data-testid="selected">{selected??'—'}</dd><dt>Ô chọn</dt><dd data-testid="cell">{cursor.x}, {cursor.y}</dd><dt>Ý định xác nhận</dt><dd data-testid="confirmed">{confirmed}</dd></dl>{error&&<p role="alert">{error}</p>}
+      <details><summary>Camera</summary><output data-testid="camera">{JSON.stringify(camera)}</output></details><p className="note">Cảnh nền Arena chưa có replay, telegraph hay VFX đầy đủ; phần đó thuộc U3D-04.</p>
+    </aside></div><footer>ASSET REVISION {manifest.assetRevision} <span>Không sửa Body · Không lưu IndexedDB</span></footer></main>;
+}
+createRoot(document.getElementById('root')!).render(<Demo />);

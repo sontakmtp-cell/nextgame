@@ -1,0 +1,10 @@
+{
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "scripts/boundaries.mjs"
+  ],
+  "exit": 0,
+  "ms": 316.8238000000001,
+  "stdout": "Strict types + package boundaries: passed\n",
+  "stderr": ""
+}

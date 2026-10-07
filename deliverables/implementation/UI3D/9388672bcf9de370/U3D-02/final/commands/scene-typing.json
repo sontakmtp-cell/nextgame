@@ -1,0 +1,12 @@
+{
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "node_modules/typescript/bin/tsc",
+    "-p",
+    "tests/u3d02/tsconfig.json"
+  ],
+  "exit": 0,
+  "ms": 1042.4849999999997,
+  "stdout": "",
+  "stderr": ""
+}

@@ -1,0 +1,3283 @@
+{
+  "command": "node scripts/u3d02-browser.mjs",
+  "channel": "chrome",
+  "status": "passed",
+  "errors": [],
+  "requests": [
+    {
+      "url": "/assets/ui3d/u3d01/manifest.json",
+      "status": 200,
+      "bytes": 52018,
+      "time": 812.8754
+    },
+    {
+      "url": "/fonts/font-1.woff2",
+      "status": 200,
+      "bytes": 108256,
+      "time": 823.4285
+    },
+    {
+      "url": "/assets/ui3d/u3d02/floor.webp",
+      "status": 200,
+      "bytes": 41310,
+      "time": 1645.5503
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "status": 200,
+      "bytes": 0,
+      "time": 1646.4002
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "status": 200,
+      "bytes": 0,
+      "time": 1646.6177
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "status": 200,
+      "bytes": 668156,
+      "time": 1742.1756
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "status": 200,
+      "bytes": 678744,
+      "time": 1744.836
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "status": 200,
+      "bytes": 690784,
+      "time": 1752.829
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "status": 200,
+      "bytes": 699136,
+      "time": 1759.9709
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "status": 200,
+      "bytes": 703120,
+      "time": 1766.4131
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "status": 200,
+      "bytes": 527333,
+      "time": 1781.0691
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "status": 200,
+      "bytes": 57529,
+      "time": 1781.0776
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "status": 200,
+      "bytes": 2203280,
+      "time": 2032.0783
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "status": 200,
+      "bytes": 2247156,
+      "time": 2051.9207
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "status": 200,
+      "bytes": 2376128,
+      "time": 2068.5234
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "status": 200,
+      "bytes": 2374680,
+      "time": 2087.977
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "status": 200,
+      "bytes": 2389420,
+      "time": 2109.7209
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "status": 200,
+      "bytes": 213588,
+      "time": 6535.1804
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "status": 200,
+      "bytes": 204012,
+      "time": 6537.2358
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "status": 200,
+      "bytes": 211004,
+      "time": 6538.0074
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/low/model.glb",
+      "status": 200,
+      "bytes": 210920,
+      "time": 6538.8856
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "status": 200,
+      "bytes": 218888,
+      "time": 6541.0748
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "status": 200,
+      "bytes": 0,
+      "time": 12972.0667
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "status": 200,
+      "bytes": 0,
+      "time": 12972.2683
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "status": 200,
+      "bytes": 204012,
+      "time": 12990.9697
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "status": 200,
+      "bytes": 213588,
+      "time": 12991.7327
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "status": 200,
+      "bytes": 211004,
+      "time": 12992.3167
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/low/model.glb",
+      "status": 200,
+      "bytes": 210920,
+      "time": 12994.8994
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "status": 200,
+      "bytes": 218888,
+      "time": 12997.1464
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/low/model.glb",
+      "status": 200,
+      "bytes": 210440,
+      "time": 12998.4593
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "status": 200,
+      "bytes": 57529,
+      "time": 13003.9385
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "status": 200,
+      "bytes": 527333,
+      "time": 13010.0652
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "status": 200,
+      "bytes": 668156,
+      "time": 13289.4345
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "status": 200,
+      "bytes": 678744,
+      "time": 13295.5506
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "status": 200,
+      "bytes": 690784,
+      "time": 13302.9727
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "status": 200,
+      "bytes": 699136,
+      "time": 13308.5558
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "status": 200,
+      "bytes": 703120,
+      "time": 13316.1314
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "status": 200,
+      "bytes": 672004,
+      "time": 13327.2261
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "status": 200,
+      "bytes": 2203280,
+      "time": 13409.6832
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "status": 200,
+      "bytes": 2247156,
+      "time": 13427.4798
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "status": 200,
+      "bytes": 2376128,
+      "time": 13448.4658
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "status": 200,
+      "bytes": 2374680,
+      "time": 13468.3763
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "status": 200,
+      "bytes": 2389420,
+      "time": 13487.4268
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "status": 200,
+      "bytes": 2080168,
+      "time": 13505.1713
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "status": 200,
+      "bytes": 0,
+      "time": 14530.5827
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "status": 200,
+      "bytes": 0,
+      "time": 14530.6336
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "status": 200,
+      "bytes": 668156,
+      "time": 14553.8471
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "status": 200,
+      "bytes": 678744,
+      "time": 14561.6756
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "status": 200,
+      "bytes": 690784,
+      "time": 14564.9995
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "status": 200,
+      "bytes": 699136,
+      "time": 14571.7348
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "status": 200,
+      "bytes": 703120,
+      "time": 14578.2523
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "status": 200,
+      "bytes": 57529,
+      "time": 14583.3555
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "status": 200,
+      "bytes": 527333,
+      "time": 14590.9554
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "status": 200,
+      "bytes": 2203280,
+      "time": 14751.1152
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "status": 200,
+      "bytes": 2247156,
+      "time": 14775.066
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "status": 200,
+      "bytes": 2376128,
+      "time": 14785.9127
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "status": 200,
+      "bytes": 2374680,
+      "time": 14806.8003
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "status": 200,
+      "bytes": 2389420,
+      "time": 14827.8354
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "status": 200,
+      "bytes": 0,
+      "time": 15704.9615
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "status": 200,
+      "bytes": 0,
+      "time": 15704.9942
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "status": 200,
+      "bytes": 668156,
+      "time": 15726.4094
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "status": 200,
+      "bytes": 678744,
+      "time": 15729.2069
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "status": 200,
+      "bytes": 690784,
+      "time": 15735.2064
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "status": 200,
+      "bytes": 699136,
+      "time": 15741.5134
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "status": 200,
+      "bytes": 703120,
+      "time": 15751.1674
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "status": 200,
+      "bytes": 57529,
+      "time": 15754.0904
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "status": 200,
+      "bytes": 527333,
+      "time": 15758.9174
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "status": 200,
+      "bytes": 2203280,
+      "time": 15916.6829
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "status": 200,
+      "bytes": 2247156,
+      "time": 15935.2353
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "status": 200,
+      "bytes": 2376128,
+      "time": 15953.7954
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "status": 200,
+      "bytes": 2374680,
+      "time": 15972.971
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "status": 200,
+      "bytes": 2389420,
+      "time": 15995.0785
+    }
+  ],
+  "checks": [
+    "One canvas; unique GLB per type/LOD; no source GLB; Medium before High",
+    "High/Medium/Low real render, hovering modules + cast shadows at every quality; 120 CPU submission samples each",
+    "All placements selected at four cardinal orientations; four Core quadrants",
+    "Empty cell selection/confirm callback and ghost do not edit Body",
+    "Right orbit, wheel zoom, reset and camera lock",
+    "24 module offset Core and shared stage/preview/Arena foundation",
+    "Context loss and restore",
+    "1920/1024/768/390/320 no horizontal overflow (desktop emulation)"
+  ],
+  "renders": {
+    "workshop-high-1600": {
+      "renders": 13,
+      "connected": true,
+      "qualities": [
+        "high"
+      ],
+      "drawCalls": 42,
+      "triangles": 371210,
+      "geometries": 74,
+      "textures": 50,
+      "modules": 6,
+      "energyLinks": 5,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        16.33374952734355,
+        26.994814179910243,
+        16.83374952734355
+      ],
+      "zoom": 139.4027276195187
+    },
+    "workshop-table-geometry": {
+      "renders": 7,
+      "connected": true,
+      "qualities": [
+        "high"
+      ],
+      "drawCalls": 75,
+      "triangles": 374566,
+      "geometries": 69,
+      "textures": 35,
+      "modules": 6,
+      "energyLinks": 5,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        16.33374952734355,
+        26.494814179910243,
+        16.33374952734355
+      ],
+      "zoom": 51.44444444444444
+    },
+    "workshop-medium-1600": {
+      "renders": 10,
+      "connected": true,
+      "qualities": [
+        "medium"
+      ],
+      "drawCalls": 42,
+      "triangles": 107158,
+      "geometries": 69,
+      "textures": 35,
+      "modules": 6,
+      "energyLinks": 5,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        16.33374952734355,
+        26.994814179910243,
+        16.83374952734355
+      ],
+      "zoom": 139.4027276195187
+    },
+    "workshop-low-1600": {
+      "renders": 12,
+      "connected": true,
+      "qualities": [
+        "low"
+      ],
+      "drawCalls": 42,
+      "triangles": 34236,
+      "geometries": 74,
+      "textures": 50,
+      "modules": 6,
+      "energyLinks": 5,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        16.33374952734355,
+        26.994814179910243,
+        16.83374952734355
+      ],
+      "zoom": 139.4027276195187
+    },
+    "four-directions": {
+      "renders": 16,
+      "connected": true,
+      "qualities": [
+        "high"
+      ],
+      "drawCalls": 46,
+      "triangles": 371258,
+      "geometries": 78,
+      "textures": 50,
+      "modules": 6,
+      "energyLinks": 5,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        16.33374952734355,
+        26.994814179910243,
+        16.83374952734355
+      ],
+      "zoom": 139.4027276195187
+    },
+    "ghost-preview": {
+      "renders": 18,
+      "connected": true,
+      "qualities": [
+        "high"
+      ],
+      "drawCalls": 52,
+      "triangles": 431106,
+      "geometries": 82,
+      "textures": 50,
+      "modules": 6,
+      "energyLinks": 5,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        16.33374952734355,
+        26.994814179910243,
+        16.83374952734355
+      ],
+      "zoom": 139.4027276195187
+    },
+    "asymmetric-24": {
+      "renders": 33,
+      "connected": true,
+      "qualities": [
+        "high"
+      ],
+      "drawCalls": 106,
+      "triangles": 1456586,
+      "geometries": 92,
+      "textures": 50,
+      "modules": 24,
+      "energyLinks": 23,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        17.83374952734355,
+        26.994814179910243,
+        15.83374952734355
+      ],
+      "zoom": 99.58272008943288
+    },
+    "asymmetric-24-low-grayscale": {
+      "renders": 35,
+      "connected": true,
+      "qualities": [
+        "low"
+      ],
+      "drawCalls": 106,
+      "triangles": 108170,
+      "geometries": 92,
+      "textures": 50,
+      "modules": 24,
+      "energyLinks": 23,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        17.83374952734355,
+        26.994814179910243,
+        15.83374952734355
+      ],
+      "zoom": 99.58272008943288
+    },
+    "arena-low": {
+      "renders": 5,
+      "connected": true,
+      "qualities": [
+        "low",
+        "low"
+      ],
+      "drawCalls": 147,
+      "triangles": 74964,
+      "geometries": 123,
+      "textures": 23,
+      "modules": 12,
+      "energyLinks": 10,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        0,
+        31.946737909118234,
+        14.297060430945512
+      ],
+      "zoom": 23
+    },
+    "arena-high": {
+      "renders": 11,
+      "connected": true,
+      "qualities": [
+        "high",
+        "high"
+      ],
+      "drawCalls": 147,
+      "triangles": 748910,
+      "geometries": 135,
+      "textures": 59,
+      "modules": 12,
+      "energyLinks": 10,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        0,
+        31.946737909118234,
+        14.297060430945512
+      ],
+      "zoom": 23
+    },
+    "arena-vfx-off": {
+      "renders": 12,
+      "connected": true,
+      "qualities": [
+        "high",
+        "high"
+      ],
+      "drawCalls": 141,
+      "triangles": 744110,
+      "geometries": 129,
+      "textures": 59,
+      "modules": 12,
+      "energyLinks": 0,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        0,
+        31.946737909118234,
+        14.297060430945512
+      ],
+      "zoom": 23
+    },
+    "synth-preview-high": {
+      "renders": 6,
+      "connected": true,
+      "qualities": [
+        "high"
+      ],
+      "drawCalls": 40,
+      "triangles": 371206,
+      "geometries": 34,
+      "textures": 35,
+      "modules": 6,
+      "energyLinks": 5,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        16.33374952734355,
+        26.994814179910243,
+        16.83374952734355
+      ],
+      "zoom": 139.4027276195187
+    },
+    "context-restored": {
+      "renders": 7,
+      "connected": true,
+      "qualities": [
+        "high"
+      ],
+      "drawCalls": 46,
+      "triangles": 371258,
+      "geometries": 35,
+      "textures": 19,
+      "modules": 6,
+      "energyLinks": 5,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        16.33374952734355,
+        26.994814179910243,
+        16.83374952734355
+      ],
+      "zoom": 139.4027276195187
+    },
+    "workshop-1920": {
+      "renders": 8,
+      "connected": true,
+      "qualities": [
+        "high"
+      ],
+      "drawCalls": 49,
+      "triangles": 371294,
+      "geometries": 38,
+      "textures": 19,
+      "modules": 6,
+      "energyLinks": 5,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        16.33374952734355,
+        26.994814179910243,
+        16.83374952734355
+      ],
+      "zoom": 139.4027276195187
+    },
+    "workshop-1024": {
+      "renders": 9,
+      "connected": true,
+      "qualities": [
+        "high"
+      ],
+      "drawCalls": 46,
+      "triangles": 371258,
+      "geometries": 41,
+      "textures": 19,
+      "modules": 6,
+      "energyLinks": 5,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        16.33374952734355,
+        26.994814179910243,
+        16.83374952734355
+      ],
+      "zoom": 105.61534837738932
+    },
+    "workshop-768": {
+      "renders": 10,
+      "connected": true,
+      "qualities": [
+        "high"
+      ],
+      "drawCalls": 44,
+      "triangles": 371234,
+      "geometries": 41,
+      "textures": 19,
+      "modules": 6,
+      "energyLinks": 5,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        16.33374952734355,
+        26.994814179910243,
+        16.83374952734355
+      ],
+      "zoom": 97.8528865579775
+    },
+    "workshop-390": {
+      "renders": 11,
+      "connected": true,
+      "qualities": [
+        "high"
+      ],
+      "drawCalls": 48,
+      "triangles": 371282,
+      "geometries": 43,
+      "textures": 19,
+      "modules": 6,
+      "energyLinks": 5,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        16.33374952734355,
+        26.994814179910243,
+        16.83374952734355
+      ],
+      "zoom": 56.1171469580134
+    },
+    "workshop-320": {
+      "renders": 12,
+      "connected": true,
+      "qualities": [
+        "high"
+      ],
+      "drawCalls": 49,
+      "triangles": 371294,
+      "geometries": 44,
+      "textures": 19,
+      "modules": 6,
+      "energyLinks": 5,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        16.33374952734355,
+        26.994814179910243,
+        16.83374952734355
+      ],
+      "zoom": 46.04483852965202
+    }
+  },
+  "shadows": {
+    "workshop-high-1600": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 2048,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "coremount",
+          "minY": 0.4000043219834167,
+          "maxY": 1.3815692001074953
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "blademount",
+          "minY": 0.4000044257785744,
+          "maxY": 0.7318783788536125
+        },
+        {
+          "name": "radiatormount",
+          "minY": 0.39999652983075107,
+          "maxY": 0.9181988012658981
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        }
+      ],
+      "catcher": true
+    },
+    "workshop-table-geometry": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 2048,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "coremount",
+          "minY": 0.4000043219834167,
+          "maxY": 1.3815692001074953
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "blademount",
+          "minY": 0.4000044257785744,
+          "maxY": 0.7318783788536125
+        },
+        {
+          "name": "radiatormount",
+          "minY": 0.39999652983075107,
+          "maxY": 0.9181988012658981
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        }
+      ],
+      "catcher": true
+    },
+    "workshop-medium-1600": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 1024,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.40000396757798606,
+          "maxY": 1.3789474865846116
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000047756882355,
+          "maxY": 1.0241589711455659
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000047756882355,
+          "maxY": 1.0241589711455659
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.3999973460644003,
+          "maxY": 0.7318568185359721
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000017503664208,
+          "maxY": 0.9179963489606666
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.3999947971368064,
+          "maxY": 0.7954898887610208
+        }
+      ],
+      "catcher": true
+    },
+    "workshop-low-1600": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 512,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.39999715478818926,
+          "maxY": 1.3675505003174016
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000029280351997,
+          "maxY": 1.0240998432469963
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000029280351997,
+          "maxY": 1.0240998432469963
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.399994046217784,
+          "maxY": 0.7318601183825884
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.40000387779447666,
+          "maxY": 0.9179619754197873
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        }
+      ],
+      "catcher": true
+    },
+    "four-directions": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 2048,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "coremount",
+          "minY": 0.4000043219834167,
+          "maxY": 1.3815692001074953
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "blademount",
+          "minY": 0.4000044257785744,
+          "maxY": 0.7318783788536125
+        },
+        {
+          "name": "radiatormount",
+          "minY": 0.39999652983075107,
+          "maxY": 0.9181988012658981
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        }
+      ],
+      "catcher": true
+    },
+    "ghost-preview": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 2048,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "coremount",
+          "minY": 0.4000043219834167,
+          "maxY": 1.3815692001074953
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "blademount",
+          "minY": 0.4000044257785744,
+          "maxY": 0.7318783788536125
+        },
+        {
+          "name": "radiatormount",
+          "minY": 0.39999652983075107,
+          "maxY": 0.9181988012658981
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        }
+      ],
+      "catcher": true
+    },
+    "asymmetric-24": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 2048,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "coremount",
+          "minY": 0.4000043219834167,
+          "maxY": 1.3815692001074953
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        }
+      ],
+      "catcher": true
+    },
+    "asymmetric-24-low-grayscale": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 512,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.39999715478818926,
+          "maxY": 1.3675505003174016
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        }
+      ],
+      "catcher": true
+    },
+    "arena-low": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 512,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.40000387779447666,
+          "maxY": 0.9179619754197873
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000029280351997,
+          "maxY": 1.0240998432469963
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.39999715478818926,
+          "maxY": 1.3675505003174016
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.399994046217784,
+          "maxY": 0.7318601183825884
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000029280351997,
+          "maxY": 1.0240998432469963
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000004810709853,
+          "maxY": 0.795469840107451
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000029280351997,
+          "maxY": 1.0240998432469963
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.39999715478818926,
+          "maxY": 1.3675505003174016
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.399994046217784,
+          "maxY": 0.7318601183825884
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000029280351997,
+          "maxY": 1.0240998432469963
+        },
+        {
+          "name": "BAKE_TARGET",
+          "minY": 0.4000062174887028,
+          "maxY": 0.758454775085989
+        }
+      ],
+      "catcher": true
+    },
+    "arena-high": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 2048,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "radiatormount",
+          "minY": 0.39999652983075107,
+          "maxY": 0.9181988012658981
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "coremount",
+          "minY": 0.4000043219834167,
+          "maxY": 1.3815692001074953
+        },
+        {
+          "name": "blademount",
+          "minY": 0.4000044257785744,
+          "maxY": 0.7318783788536125
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "coremount",
+          "minY": 0.4000043219834167,
+          "maxY": 1.3815692001074953
+        },
+        {
+          "name": "blademount",
+          "minY": 0.4000044257785744,
+          "maxY": 0.7318783788536125
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "shieldmount",
+          "minY": 0.3999995446021052,
+          "maxY": 0.7588773989861517
+        }
+      ],
+      "catcher": true
+    },
+    "arena-vfx-off": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 2048,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "radiatormount",
+          "minY": 0.39999652983075107,
+          "maxY": 0.9181988012658981
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "coremount",
+          "minY": 0.4000043219834167,
+          "maxY": 1.3815692001074953
+        },
+        {
+          "name": "blademount",
+          "minY": 0.4000044257785744,
+          "maxY": 0.7318783788536125
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "coremount",
+          "minY": 0.4000043219834167,
+          "maxY": 1.3815692001074953
+        },
+        {
+          "name": "blademount",
+          "minY": 0.4000044257785744,
+          "maxY": 0.7318783788536125
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "shieldmount",
+          "minY": 0.3999995446021052,
+          "maxY": 0.7588773989861517
+        }
+      ],
+      "catcher": true
+    },
+    "synth-preview-high": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 2048,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "coremount",
+          "minY": 0.4000043219834167,
+          "maxY": 1.3815692001074953
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "blademount",
+          "minY": 0.4000044257785744,
+          "maxY": 0.7318783788536125
+        },
+        {
+          "name": "radiatormount",
+          "minY": 0.39999652983075107,
+          "maxY": 0.9181988012658981
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        }
+      ],
+      "catcher": true
+    },
+    "context-restored": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 2048,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "coremount",
+          "minY": 0.4000043219834167,
+          "maxY": 1.3815692001074953
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "blademount",
+          "minY": 0.4000044257785744,
+          "maxY": 0.7318783788536125
+        },
+        {
+          "name": "radiatormount",
+          "minY": 0.39999652983075107,
+          "maxY": 0.9181988012658981
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        }
+      ],
+      "catcher": true
+    },
+    "workshop-1920": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 2048,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "coremount",
+          "minY": 0.4000043219834167,
+          "maxY": 1.3815692001074953
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "blademount",
+          "minY": 0.4000044257785744,
+          "maxY": 0.7318783788536125
+        },
+        {
+          "name": "radiatormount",
+          "minY": 0.39999652983075107,
+          "maxY": 0.9181988012658981
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        }
+      ],
+      "catcher": true
+    },
+    "workshop-1024": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 2048,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "coremount",
+          "minY": 0.4000043219834167,
+          "maxY": 1.3815692001074953
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "blademount",
+          "minY": 0.4000044257785744,
+          "maxY": 0.7318783788536125
+        },
+        {
+          "name": "radiatormount",
+          "minY": 0.39999652983075107,
+          "maxY": 0.9181988012658981
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        }
+      ],
+      "catcher": true
+    },
+    "workshop-768": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 2048,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "coremount",
+          "minY": 0.4000043219834167,
+          "maxY": 1.3815692001074953
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "blademount",
+          "minY": 0.4000044257785744,
+          "maxY": 0.7318783788536125
+        },
+        {
+          "name": "radiatormount",
+          "minY": 0.39999652983075107,
+          "maxY": 0.9181988012658981
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        }
+      ],
+      "catcher": true
+    },
+    "workshop-390": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 2048,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "coremount",
+          "minY": 0.4000043219834167,
+          "maxY": 1.3815692001074953
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "blademount",
+          "minY": 0.4000044257785744,
+          "maxY": 0.7318783788536125
+        },
+        {
+          "name": "radiatormount",
+          "minY": 0.39999652983075107,
+          "maxY": 0.9181988012658981
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        }
+      ],
+      "catcher": true
+    },
+    "workshop-320": {
+      "enabled": true,
+      "type": 1,
+      "lights": [
+        {
+          "cast": true,
+          "map": 2048,
+          "radius": 3
+        },
+        {
+          "cast": false,
+          "radius": 1
+        }
+      ],
+      "meshes": [
+        {
+          "name": "coremount",
+          "minY": 0.4000043219834167,
+          "maxY": 1.3815692001074953
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "thrustermount",
+          "minY": 0.39999397547330817,
+          "maxY": 1.0247398897877698
+        },
+        {
+          "name": "blademount",
+          "minY": 0.4000044257785744,
+          "maxY": 0.7318783788536125
+        },
+        {
+          "name": "radiatormount",
+          "minY": 0.39999652983075107,
+          "maxY": 0.9181988012658981
+        },
+        {
+          "name": "armormount",
+          "minY": 0.4000049956112206,
+          "maxY": 0.7958669416637123
+        }
+      ],
+      "catcher": true
+    }
+  },
+  "profiles": {
+    "medium": {
+      "samples": [
+        0.7999999523162842,
+        0.6999999284744263,
+        0.5,
+        0.7000000476837158,
+        0.6000000238418579,
+        0.5,
+        0.3999999761581421,
+        0.5,
+        0.6000000238418579,
+        0.3999999761581421,
+        0.40000009536743164,
+        0.5,
+        0.2999999523162842,
+        0.3999999761581421,
+        0.5,
+        0.5,
+        0.40000009536743164,
+        0.5,
+        0.5,
+        0.6000000238418579,
+        0.6000000238418579,
+        0.5999999046325684,
+        0.6000000238418579,
+        0.7000000476837158,
+        0.6999999284744263,
+        0.7000000476837158,
+        0.7999999523162842,
+        0.6999999284744263,
+        0.6000000238418579,
+        0.7999999523162842,
+        0.5999999046325684,
+        0.8000000715255737,
+        0.3999999761581421,
+        0.5,
+        0.5999999046325684,
+        0.5,
+        0.5,
+        0.5,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.5,
+        0.2999999523162842,
+        0.30000007152557373,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.40000009536743164,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.2999999523162842,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.2999999523162842,
+        0.20000004768371582,
+        0.19999992847442627,
+        0.19999992847442627,
+        0.30000007152557373,
+        0.3999999761581421,
+        0.2999999523162842,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.2999999523162842,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.30000007152557373,
+        0.19999992847442627,
+        0.2999999523162842,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.40000009536743164,
+        0.6000000238418579,
+        0.2999999523162842,
+        0.6000000238418579,
+        0.30000007152557373,
+        0.3999999761581421,
+        0.40000009536743164,
+        0.2999999523162842,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.40000009536743164,
+        0.3999999761581421,
+        0.40000009536743164,
+        0.6000000238418579,
+        0.3999999761581421,
+        0.5,
+        0.5,
+        0.3999999761581421,
+        0.5,
+        0.5,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.2999999523162842,
+        0.6000000238418579,
+        0.3999999761581421,
+        0.40000009536743164,
+        0.30000007152557373,
+        0.5,
+        0.20000004768371582,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.5,
+        0.30000007152557373,
+        0.5,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.40000009536743164,
+        0.40000009536743164,
+        0.2999999523162842,
+        0.2999999523162842,
+        0.3999999761581421
+      ],
+      "intervals": [
+        0.6000000238418579,
+        16.600000023841858,
+        16.699999928474426,
+        16.600000023841858,
+        16.799999952316284,
+        16.600000023841858,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.600000023841858,
+        16.799999952316284,
+        16.700000047683716,
+        16.600000023841858,
+        16.799999952316284,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.600000023841858,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.799999952316284,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.59999990463257,
+        16.700000047683716,
+        16.700000047683716,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.700000047683716,
+        16.5,
+        16.700000047683716,
+        16.59999990463257,
+        16.800000071525574,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.800000071525574,
+        16.5,
+        16.699999928474426,
+        16.600000023841858,
+        16.799999952316284,
+        16.5,
+        16.800000071525574,
+        16.600000023841858,
+        16.699999928474426
+      ],
+      "kind": "manual render CPU submission + RAF intervals; not GPU completion or 120s stress",
+      "cpuP95": 0.7000000476837158,
+      "cpuP99": 0.7999999523162842,
+      "rafP95": 16.799999952316284
+    },
+    "low": {
+      "samples": [
+        0.5,
+        0.6000000238418579,
+        0.40000009536743164,
+        0.20000004768371582,
+        0.2999999523162842,
+        0.5,
+        0.2999999523162842,
+        0.3999999761581421,
+        0.2999999523162842,
+        0.3999999761581421,
+        0.2999999523162842,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.10000002384185791,
+        0.3999999761581421,
+        0.2999999523162842,
+        0.2999999523162842,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.3999999761581421,
+        0.2999999523162842,
+        0.30000007152557373,
+        0.19999992847442627,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.2999999523162842,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.20000004768371582,
+        0.20000004768371582,
+        0.19999992847442627,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.40000009536743164,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.5,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.2999999523162842,
+        0.30000007152557373,
+        0.3999999761581421,
+        0.5,
+        0.2999999523162842,
+        0.3999999761581421,
+        0.5,
+        0.7000000476837158,
+        0.2999999523162842,
+        0.10000002384185791,
+        0.30000007152557373,
+        0.3999999761581421,
+        0.20000004768371582,
+        0.20000004768371582,
+        0.3999999761581421,
+        0.20000004768371582,
+        0.20000004768371582,
+        0.19999992847442627,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.30000007152557373,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.30000007152557373,
+        0.20000004768371582,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.3999999761581421,
+        0.5,
+        0.5,
+        0.5,
+        0.3999999761581421,
+        0.6000000238418579,
+        0.5999999046325684,
+        0.40000009536743164,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.6000000238418579,
+        0.7000000476837158,
+        0.7000000476837158,
+        0.7000000476837158,
+        0.3999999761581421,
+        0.6000000238418579,
+        0.5,
+        0.5,
+        0.5,
+        0.5999999046325684,
+        0.40000009536743164,
+        0.6000000238418579,
+        0.19999992847442627,
+        0.30000007152557373,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.6000000238418579,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.6000000238418579,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.3999999761581421,
+        0.6999999284744263,
+        0.5
+      ],
+      "intervals": [
+        7.100000023841858,
+        16.100000023841858,
+        16.799999952316284,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.700000047683716,
+        16.5,
+        16.700000047683716,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.799999952316284,
+        16.700000047683716,
+        16.5,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.800000071525574,
+        16.59999990463257,
+        16.800000071525574,
+        16.5,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.600000023841858,
+        16.899999976158142,
+        16.600000023841858,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.600000023841858,
+        16.699999928474426,
+        16.800000071525574,
+        16.59999990463257,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.700000047683716,
+        16.700000047683716,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.799999952316284,
+        16.600000023841858,
+        16.600000023841858,
+        16.59999990463257,
+        16.800000071525574,
+        16.699999928474426,
+        16.600000023841858,
+        16.600000023841858,
+        16.600000023841858,
+        16.799999952316284,
+        16.600000023841858,
+        16.799999952316284,
+        16.600000023841858,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.59999990463257,
+        16.700000047683716,
+        16.700000047683716,
+        16.59999990463257,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426
+      ],
+      "kind": "manual render CPU submission + RAF intervals; not GPU completion or 120s stress",
+      "cpuP95": 0.6000000238418579,
+      "cpuP99": 0.7000000476837158,
+      "rafP95": 16.799999952316284
+    },
+    "high": {
+      "samples": [
+        0.3999999761581421,
+        0.3999999761581421,
+        0.5,
+        0.6000000238418579,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.2999999523162842,
+        0.2999999523162842,
+        0.20000004768371582,
+        0.19999992847442627,
+        0.30000007152557373,
+        0.3999999761581421,
+        0.2999999523162842,
+        0.2999999523162842,
+        0.2999999523162842,
+        0.2999999523162842,
+        0.20000004768371582,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.20000004768371582,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.40000009536743164,
+        0.5,
+        0.2999999523162842,
+        0.30000007152557373,
+        0.5,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.20000004768371582,
+        0.5,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.2999999523162842,
+        0.30000007152557373,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.5,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.40000009536743164,
+        0.3999999761581421,
+        0.5,
+        0.30000007152557373,
+        0.5,
+        0.3999999761581421,
+        0.6000000238418579,
+        0.5,
+        0.5,
+        0.3999999761581421,
+        0.7999999523162842,
+        0.3999999761581421,
+        0.5,
+        0.3999999761581421,
+        0.2999999523162842,
+        0.40000009536743164,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.5,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.6000000238418579,
+        0.6000000238418579,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.40000009536743164,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.5,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.2999999523162842,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.6000000238418579,
+        0.2999999523162842,
+        0.3999999761581421,
+        0.20000004768371582,
+        0.3999999761581421,
+        0.6000000238418579,
+        0.5,
+        0.5,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.3999999761581421,
+        0.5,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.3999999761581421,
+        0.40000009536743164,
+        0.3999999761581421,
+        0.6000000238418579,
+        0.5,
+        0.5,
+        0.3999999761581421,
+        0.40000009536743164,
+        0.30000007152557373,
+        0.2999999523162842,
+        0.30000007152557373,
+        0.20000004768371582,
+        0.19999992847442627,
+        0.20000004768371582,
+        0.30000007152557373,
+        0.3999999761581421,
+        0.30000007152557373,
+        0.3999999761581421,
+        0.2999999523162842,
+        0.30000007152557373
+      ],
+      "intervals": [
+        5.299999952316284,
+        16.600000023841858,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.600000023841858,
+        16.799999952316284,
+        16.700000047683716,
+        16.59999990463257,
+        16.600000023841858,
+        16.700000047683716,
+        16.600000023841858,
+        16.799999952316284,
+        16.600000023841858,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.600000023841858,
+        16.799999952316284,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.799999952316284,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.59999990463257,
+        16.700000047683716,
+        16.700000047683716,
+        16.59999990463257,
+        16.600000023841858,
+        16.800000071525574,
+        16.59999990463257,
+        16.700000047683716,
+        16.700000047683716,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.600000023841858,
+        16.600000023841858,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.799999952316284,
+        16.600000023841858,
+        16.600000023841858,
+        16.799999952316284,
+        16.600000023841858,
+        16.700000047683716,
+        16.5,
+        16.799999952316284,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.700000047683716,
+        16.5,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.600000023841858,
+        16.699999928474426,
+        16.700000047683716,
+        16.600000023841858,
+        16.799999952316284,
+        16.600000023841858,
+        16.600000023841858,
+        16.699999928474426,
+        16.600000023841858,
+        16.800000071525574,
+        16.59999990463257,
+        16.700000047683716,
+        16.600000023841858,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426,
+        16.600000023841858,
+        16.700000047683716,
+        16.699999928474426
+      ],
+      "kind": "manual render CPU submission + RAF intervals; not GPU completion or 120s stress",
+      "cpuP95": 0.6000000238418579,
+      "cpuP99": 0.6000000238418579,
+      "rafP95": 16.799999952316284
+    }
+  },
+  "attemptTime": "2026-10-07T16:30:36.354Z",
+  "browser": "154.0.8037.98",
+  "initialRequests": [
+    {
+      "url": "/assets/ui3d/u3d01/manifest.json",
+      "status": 200,
+      "bytes": 52018,
+      "time": 812.8754
+    },
+    {
+      "url": "/fonts/font-1.woff2",
+      "status": 200,
+      "bytes": 108256,
+      "time": 823.4285
+    },
+    {
+      "url": "/assets/ui3d/u3d02/floor.webp",
+      "status": 200,
+      "bytes": 41310,
+      "time": 1645.5503
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "status": 200,
+      "bytes": 0,
+      "time": 1646.4002
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "status": 200,
+      "bytes": 0,
+      "time": 1646.6177
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "status": 200,
+      "bytes": 668156,
+      "time": 1742.1756
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "status": 200,
+      "bytes": 678744,
+      "time": 1744.836
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "status": 200,
+      "bytes": 690784,
+      "time": 1752.829
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "status": 200,
+      "bytes": 699136,
+      "time": 1759.9709
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "status": 200,
+      "bytes": 703120,
+      "time": 1766.4131
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "status": 200,
+      "bytes": 527333,
+      "time": 1781.0691
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "status": 200,
+      "bytes": 57529,
+      "time": 1781.0776
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "status": 200,
+      "bytes": 2203280,
+      "time": 2032.0783
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "status": 200,
+      "bytes": 2247156,
+      "time": 2051.9207
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "status": 200,
+      "bytes": 2376128,
+      "time": 2068.5234
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "status": 200,
+      "bytes": 2374680,
+      "time": 2087.977
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "status": 200,
+      "bytes": 2389420,
+      "time": 2109.7209
+    }
+  ],
+  "idle": {
+    "ms": 1200,
+    "newFrames": 0
+  },
+  "resourceEntries": [
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/manifest.json",
+      "transferSize": 9500,
+      "encodedBodySize": 9200,
+      "duration": 2.0999999046325684
+    },
+    {
+      "url": "http://127.0.0.1:5197/fonts/font-1.woff2",
+      "transferSize": 108556,
+      "encodedBodySize": 108256,
+      "duration": 4.700000047683716
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "transferSize": 300,
+      "encodedBodySize": 0,
+      "duration": 2.600000023841858
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "transferSize": 300,
+      "encodedBodySize": 0,
+      "duration": 3.100000023841858
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d02/floor.webp",
+      "transferSize": 41610,
+      "encodedBodySize": 41310,
+      "duration": 2.100000023841858
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "transferSize": 668456,
+      "encodedBodySize": 668156,
+      "duration": 8.599999904632568
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "transferSize": 679044,
+      "encodedBodySize": 678744,
+      "duration": 8.899999976158142
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "transferSize": 691084,
+      "encodedBodySize": 690784,
+      "duration": 9
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "transferSize": 699436,
+      "encodedBodySize": 699136,
+      "duration": 9.400000095367432
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "transferSize": 703420,
+      "encodedBodySize": 703120,
+      "duration": 9.700000047683716
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "transferSize": 15469,
+      "encodedBodySize": 15169,
+      "duration": 3
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "transferSize": 527633,
+      "encodedBodySize": 527333,
+      "duration": 3.0999999046325684
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "transferSize": 2203580,
+      "encodedBodySize": 2203280,
+      "duration": 113.39999997615814
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "transferSize": 2247456,
+      "encodedBodySize": 2247156,
+      "duration": 114.60000002384186
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "transferSize": 2376428,
+      "encodedBodySize": 2376128,
+      "duration": 116.10000002384186
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "transferSize": 2374980,
+      "encodedBodySize": 2374680,
+      "duration": 117.29999995231628
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "transferSize": 2389720,
+      "encodedBodySize": 2389420,
+      "duration": 118.19999992847443
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "transferSize": 204312,
+      "encodedBodySize": 204012,
+      "duration": 4.600000023841858
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "transferSize": 213888,
+      "encodedBodySize": 213588,
+      "duration": 4.399999976158142
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "transferSize": 211304,
+      "encodedBodySize": 211004,
+      "duration": 4.600000023841858
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/radiator/low/model.glb",
+      "transferSize": 211220,
+      "encodedBodySize": 210920,
+      "duration": 4.700000047683716
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "transferSize": 219188,
+      "encodedBodySize": 218888,
+      "duration": 5
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "transferSize": 300,
+      "encodedBodySize": 0,
+      "duration": 2.299999952316284
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "transferSize": 300,
+      "encodedBodySize": 0,
+      "duration": 2.700000047683716
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 204012,
+      "duration": 2.1999999284744263
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 213588,
+      "duration": 2.5
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 211004,
+      "duration": 2.9000000953674316
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/radiator/low/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 210920,
+      "duration": 3.200000047683716
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 218888,
+      "duration": 3.700000047683716
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/shield/low/model.glb",
+      "transferSize": 210740,
+      "encodedBodySize": 210440,
+      "duration": 5.100000023841858
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "transferSize": 300,
+      "encodedBodySize": 15169,
+      "duration": 1.3000000715255737
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "transferSize": 300,
+      "encodedBodySize": 527333,
+      "duration": 1.7000000476837158
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 668156,
+      "duration": 2.299999952316284
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 678744,
+      "duration": 2.5
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 690784,
+      "duration": 2.9000000953674316
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 699136,
+      "duration": 3.200000047683716
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 703120,
+      "duration": 3.700000047683716
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "transferSize": 672304,
+      "encodedBodySize": 672004,
+      "duration": 6.800000071525574
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 2203280,
+      "duration": 9.600000023841858
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 2247156,
+      "duration": 11.5
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 2376128,
+      "duration": 13.399999976158142
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 2374680,
+      "duration": 14.399999976158142
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 2389420,
+      "duration": 15.700000047683716
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "transferSize": 2080468,
+      "encodedBodySize": 2080168,
+      "duration": 6.900000095367432
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "transferSize": 300,
+      "encodedBodySize": 0,
+      "duration": 1.399999976158142
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "transferSize": 300,
+      "encodedBodySize": 0,
+      "duration": 1.8000000715255737
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 668156,
+      "duration": 2.100000023841858
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 678744,
+      "duration": 2.5999999046325684
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 690784,
+      "duration": 3.399999976158142
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 699136,
+      "duration": 3.600000023841858
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 703120,
+      "duration": 3.8000000715255737
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "transferSize": 300,
+      "encodedBodySize": 15169,
+      "duration": 1.6999999284744263
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "transferSize": 300,
+      "encodedBodySize": 527333,
+      "duration": 2
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 2203280,
+      "duration": 28
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 2247156,
+      "duration": 29.5
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 2376128,
+      "duration": 30.90000009536743
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 2374680,
+      "duration": 32.300000071525574
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 2389420,
+      "duration": 33.700000047683716
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "transferSize": 300,
+      "encodedBodySize": 0,
+      "duration": 1.5999999046325684
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "transferSize": 300,
+      "encodedBodySize": 0,
+      "duration": 1.7000000476837158
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 668156,
+      "duration": 2
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 678744,
+      "duration": 2.5
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 690784,
+      "duration": 2.899999976158142
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 699136,
+      "duration": 3.299999952316284
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 703120,
+      "duration": 3.5999999046325684
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "transferSize": 300,
+      "encodedBodySize": 15169,
+      "duration": 1.7000000476837158
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "transferSize": 300,
+      "encodedBodySize": 527333,
+      "duration": 2.100000023841858
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 2203280,
+      "duration": 26.899999976158142
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 2247156,
+      "duration": 28.100000023841858
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 2376128,
+      "duration": 29.600000023841858
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 2374680,
+      "duration": 31
+    },
+    {
+      "url": "http://127.0.0.1:5197/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "transferSize": 300,
+      "encodedBodySize": 2389420,
+      "duration": 32.5
+    }
+  ]
+}

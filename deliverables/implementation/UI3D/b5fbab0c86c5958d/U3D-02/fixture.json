@@ -1,0 +1,568 @@
+{
+  "body": {
+    "grid": "square-12-v1",
+    "modules": [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "cell": {
+          "x": 5,
+          "y": 5
+        },
+        "orientation": 0
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "cell": {
+          "x": 4,
+          "y": 5
+        },
+        "orientation": 0
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "cell": {
+          "x": 4,
+          "y": 6
+        },
+        "orientation": 0
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "cell": {
+          "x": 7,
+          "y": 5
+        },
+        "orientation": 0
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "cell": {
+          "x": 5,
+          "y": 4
+        },
+        "orientation": 0
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "cell": {
+          "x": 6,
+          "y": 4
+        },
+        "orientation": 0
+      }
+    ]
+  },
+  "fourDirections": {
+    "grid": "square-12-v1",
+    "modules": [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "cell": {
+          "x": 5,
+          "y": 5
+        },
+        "orientation": 0
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "cell": {
+          "x": 4,
+          "y": 5
+        },
+        "orientation": 0
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "cell": {
+          "x": 4,
+          "y": 6
+        },
+        "orientation": 1
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "cell": {
+          "x": 7,
+          "y": 5
+        },
+        "orientation": 2
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "cell": {
+          "x": 5,
+          "y": 4
+        },
+        "orientation": 3
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "cell": {
+          "x": 6,
+          "y": 4
+        },
+        "orientation": 0
+      }
+    ]
+  },
+  "twentyFour": {
+    "grid": "square-12-v1",
+    "modules": [
+      {
+        "id": "offset-core",
+        "catalogId": "core",
+        "cell": {
+          "x": 3,
+          "y": 4
+        },
+        "orientation": 3
+      },
+      {
+        "id": "plate-0",
+        "catalogId": "armor",
+        "cell": {
+          "x": 2,
+          "y": 3
+        },
+        "orientation": 0
+      },
+      {
+        "id": "plate-1",
+        "catalogId": "armor",
+        "cell": {
+          "x": 3,
+          "y": 3
+        },
+        "orientation": 1
+      },
+      {
+        "id": "plate-2",
+        "catalogId": "armor",
+        "cell": {
+          "x": 4,
+          "y": 3
+        },
+        "orientation": 2
+      },
+      {
+        "id": "plate-3",
+        "catalogId": "armor",
+        "cell": {
+          "x": 5,
+          "y": 3
+        },
+        "orientation": 3
+      },
+      {
+        "id": "plate-4",
+        "catalogId": "armor",
+        "cell": {
+          "x": 6,
+          "y": 3
+        },
+        "orientation": 0
+      },
+      {
+        "id": "plate-5",
+        "catalogId": "armor",
+        "cell": {
+          "x": 7,
+          "y": 3
+        },
+        "orientation": 1
+      },
+      {
+        "id": "plate-6",
+        "catalogId": "armor",
+        "cell": {
+          "x": 8,
+          "y": 3
+        },
+        "orientation": 2
+      },
+      {
+        "id": "plate-7",
+        "catalogId": "armor",
+        "cell": {
+          "x": 2,
+          "y": 4
+        },
+        "orientation": 3
+      },
+      {
+        "id": "plate-10",
+        "catalogId": "armor",
+        "cell": {
+          "x": 5,
+          "y": 4
+        },
+        "orientation": 2
+      },
+      {
+        "id": "plate-11",
+        "catalogId": "armor",
+        "cell": {
+          "x": 6,
+          "y": 4
+        },
+        "orientation": 3
+      },
+      {
+        "id": "plate-12",
+        "catalogId": "armor",
+        "cell": {
+          "x": 7,
+          "y": 4
+        },
+        "orientation": 0
+      },
+      {
+        "id": "plate-13",
+        "catalogId": "armor",
+        "cell": {
+          "x": 8,
+          "y": 4
+        },
+        "orientation": 1
+      },
+      {
+        "id": "plate-14",
+        "catalogId": "armor",
+        "cell": {
+          "x": 2,
+          "y": 5
+        },
+        "orientation": 2
+      },
+      {
+        "id": "plate-17",
+        "catalogId": "armor",
+        "cell": {
+          "x": 5,
+          "y": 5
+        },
+        "orientation": 1
+      },
+      {
+        "id": "plate-18",
+        "catalogId": "armor",
+        "cell": {
+          "x": 6,
+          "y": 5
+        },
+        "orientation": 2
+      },
+      {
+        "id": "plate-19",
+        "catalogId": "armor",
+        "cell": {
+          "x": 7,
+          "y": 5
+        },
+        "orientation": 3
+      },
+      {
+        "id": "plate-20",
+        "catalogId": "armor",
+        "cell": {
+          "x": 8,
+          "y": 5
+        },
+        "orientation": 0
+      },
+      {
+        "id": "plate-21",
+        "catalogId": "armor",
+        "cell": {
+          "x": 2,
+          "y": 6
+        },
+        "orientation": 1
+      },
+      {
+        "id": "plate-22",
+        "catalogId": "armor",
+        "cell": {
+          "x": 3,
+          "y": 6
+        },
+        "orientation": 2
+      },
+      {
+        "id": "extension-2",
+        "catalogId": "armor",
+        "cell": {
+          "x": 2,
+          "y": 7
+        },
+        "orientation": 2
+      },
+      {
+        "id": "extension-3",
+        "catalogId": "armor",
+        "cell": {
+          "x": 3,
+          "y": 7
+        },
+        "orientation": 3
+      },
+      {
+        "id": "extension-4",
+        "catalogId": "armor",
+        "cell": {
+          "x": 4,
+          "y": 7
+        },
+        "orientation": 0
+      },
+      {
+        "id": "extension-5",
+        "catalogId": "armor",
+        "cell": {
+          "x": 5,
+          "y": 7
+        },
+        "orientation": 1
+      }
+    ]
+  },
+  "footprints": {
+    "core": 2,
+    "thruster": 1,
+    "armor": 1,
+    "blade": 1,
+    "lance": 1,
+    "burst": 1,
+    "shield": 1,
+    "breaker": 1,
+    "capacitor": 1,
+    "radiator": 1
+  },
+  "frames": [
+    {
+      "boundary": 0,
+      "actors": {
+        "A": {
+          "pose": {
+            "x": -12000,
+            "y": -1000,
+            "heading": 17
+          },
+          "overheated": false,
+          "controlTicks": 0,
+          "modules": [
+            {
+              "ordinal": 0,
+              "catalogId": "radiator",
+              "x": 5,
+              "y": 4,
+              "orientation": 0,
+              "hp": 160,
+              "status": "alive",
+              "phase": "idle",
+              "phaseOffset": 0,
+              "shield": false,
+              "aim": 0
+            },
+            {
+              "ordinal": 1,
+              "catalogId": "armor",
+              "x": 6,
+              "y": 4,
+              "orientation": 0,
+              "hp": 300,
+              "status": "alive",
+              "phase": "idle",
+              "phaseOffset": 0,
+              "shield": false,
+              "aim": 0
+            },
+            {
+              "ordinal": 2,
+              "catalogId": "thruster",
+              "x": 4,
+              "y": 5,
+              "orientation": 0,
+              "hp": 180,
+              "status": "alive",
+              "phase": "idle",
+              "phaseOffset": 0,
+              "shield": false,
+              "aim": 0
+            },
+            {
+              "ordinal": 3,
+              "catalogId": "core",
+              "x": 5,
+              "y": 5,
+              "orientation": 0,
+              "hp": 800,
+              "status": "alive",
+              "phase": "idle",
+              "phaseOffset": 0,
+              "shield": false,
+              "aim": 0
+            },
+            {
+              "ordinal": 4,
+              "catalogId": "blade",
+              "x": 7,
+              "y": 5,
+              "orientation": 0,
+              "hp": 220,
+              "status": "alive",
+              "phase": "idle",
+              "phaseOffset": 0,
+              "shield": false,
+              "aim": 0
+            },
+            {
+              "ordinal": 5,
+              "catalogId": "thruster",
+              "x": 4,
+              "y": 6,
+              "orientation": 0,
+              "hp": 180,
+              "status": "alive",
+              "phase": "idle",
+              "phaseOffset": 0,
+              "shield": false,
+              "aim": 0
+            }
+          ]
+        },
+        "B": {
+          "pose": {
+            "x": 12000,
+            "y": 2000,
+            "heading": 2129
+          },
+          "overheated": false,
+          "controlTicks": 0,
+          "modules": [
+            {
+              "ordinal": 0,
+              "catalogId": "armor",
+              "x": 6,
+              "y": 4,
+              "orientation": 0,
+              "hp": 300,
+              "status": "alive",
+              "phase": "idle",
+              "phaseOffset": 0,
+              "shield": false,
+              "aim": 0
+            },
+            {
+              "ordinal": 1,
+              "catalogId": "thruster",
+              "x": 4,
+              "y": 5,
+              "orientation": 0,
+              "hp": 180,
+              "status": "alive",
+              "phase": "idle",
+              "phaseOffset": 0,
+              "shield": false,
+              "aim": 0
+            },
+            {
+              "ordinal": 2,
+              "catalogId": "core",
+              "x": 5,
+              "y": 5,
+              "orientation": 0,
+              "hp": 800,
+              "status": "alive",
+              "phase": "idle",
+              "phaseOffset": 0,
+              "shield": false,
+              "aim": 0
+            },
+            {
+              "ordinal": 3,
+              "catalogId": "blade",
+              "x": 7,
+              "y": 5,
+              "orientation": 0,
+              "hp": 220,
+              "status": "alive",
+              "phase": "idle",
+              "phaseOffset": 0,
+              "shield": false,
+              "aim": 0
+            },
+            {
+              "ordinal": 4,
+              "catalogId": "thruster",
+              "x": 4,
+              "y": 6,
+              "orientation": 0,
+              "hp": 180,
+              "status": "alive",
+              "phase": "idle",
+              "phaseOffset": 0,
+              "shield": false,
+              "aim": 0
+            },
+            {
+              "ordinal": 5,
+              "catalogId": "shield",
+              "x": 7,
+              "y": 6,
+              "orientation": 0,
+              "hp": 260,
+              "status": "alive",
+              "phase": "idle",
+              "phaseOffset": 0,
+              "shield": false,
+              "aim": 0
+            }
+          ]
+        }
+      },
+      "projectiles": [],
+      "controlOwner": "neutral",
+      "ringRadius": 25000,
+      "events": []
+    }
+  ],
+  "layout": {
+    "width": 40,
+    "depth": 28,
+    "objective": {
+      "x": 0,
+      "z": 0,
+      "radius": 3
+    },
+    "props": [
+      {
+        "x": 22,
+        "z": 0,
+        "width": 1.5,
+        "depth": 5,
+        "height": 1.8
+      },
+      {
+        "x": -22,
+        "z": 0,
+        "width": 1.5,
+        "depth": 5,
+        "height": 1.8
+      }
+    ]
+  },
+  "provenance": "Body from current sliceKits, frame from current createWorld/publicFrame; no private actor resources or Brain in browser DTO; 24-module fixture is render stress, not ranked valid"
+}

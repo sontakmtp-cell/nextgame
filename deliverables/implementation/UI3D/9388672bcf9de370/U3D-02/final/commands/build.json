@@ -1,0 +1,12 @@
+{
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "apps/web/node_modules/vite/bin/vite.js",
+    "build",
+    "apps/web"
+  ],
+  "exit": 0,
+  "ms": 614.811099999999,
+  "stdout": "vite v8.3.2 building client environment for production...\ntransforming...\n✓ 739 modules transformed.\nrendering chunks...\ncomputing gzip size...\napps/web/dist/index.html                                     0.90 kB │ gzip:  0.50 kB\napps/web/dist/assets/local.worker-BQhOk49w.js              260.64 kB\napps/web/dist/assets/index-B4FffMcK.css                     27.54 kB │ gzip:  6.36 kB\napps/web/dist/assets/webworkerAll-nRp5JauP.js                0.05 kB │ gzip:  0.06 kB\napps/web/dist/assets/WebGLRenderer-DXbFtAGJ.js               0.06 kB │ gzip:  0.08 kB\napps/web/dist/assets/CanvasRenderer-Cb_8mo84.js              0.06 kB │ gzip:  0.08 kB\napps/web/dist/assets/WebGPURenderer-DQQJ7uRD.js              0.06 kB │ gzip:  0.08 kB\napps/web/dist/assets/getTextureBatchBindGroup-4GDuH05j.js    0.34 kB │ gzip:  0.27 kB\napps/web/dist/assets/rolldown-runtime-hePW80VL.js            0.71 kB │ gzip:  0.42 kB\napps/web/dist/assets/canvasUtils-DpS9y4Pr.js                 6.05 kB │ gzip:  2.05 kB\napps/web/dist/assets/getTexelRangeRects-Bi69DcTx.js         11.31 kB │ gzip:  2.97 kB\napps/web/dist/assets/init-DyEZsQ4H.js                       15.22 kB │ gzip:  4.76 kB\napps/web/dist/assets/browserAll-Dg7uArt2.js                 43.48 kB │ gzip: 11.29 kB\napps/web/dist/assets/RenderTargetSystem-BgHM3BWQ.js         78.13 kB │ gzip: 22.13 kB\napps/web/dist/assets/CanvasPool-lybbAKSH.js                112.36 kB │ gzip: 34.19 kB\napps/web/dist/assets/Arena-D-TLe4HP.js                     266.69 kB │ gzip: 79.11 kB\napps/web/dist/assets/index-BfCOIcuS.js                     276.91 kB │ gzip: 86.71 kB\n\n✓ built in 415ms\n",
+  "stderr": ""
+}

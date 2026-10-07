@@ -1,0 +1,74 @@
+{
+  "command": "node scripts/u3d02-app-smoke.mjs",
+  "status": "passed",
+  "errors": [],
+  "glbRequests": [],
+  "brain": [
+    {
+      "width": 1600,
+      "identical": true,
+      "sha256": "ca35456904273b6846362402365ebef64027d124144ccbbabbb8b895d53f3179"
+    },
+    {
+      "width": 1920,
+      "identical": true,
+      "sha256": "4ed533805265470e53cca1fce6e6d1159ef32f61b3eeb456501de268e8218c44"
+    }
+  ],
+  "checks": [
+    "Brain Lab screenshots equal original baseline at 1600/1920; no canvas",
+    "Revision 1 reload in isolated browser context; IndexedDB v1 heads/revisions preserved",
+    "Default practice manifest/result/simulation/replay/frames/event order exact parity"
+  ],
+  "browser": "154.0.8037.98",
+  "database": {
+    "version": 1,
+    "stores": [
+      "heads",
+      "revisions"
+    ]
+  },
+  "match": {
+    "manifest": {
+      "engineDigest": "2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78",
+      "rulesetDigest": "19ef0b984d12a34796ea2058bb9971421674671fd4cc76b8cf694e80f03d2f14",
+      "catalogDigest": "d8fe55474692a49ed5daa6d7dac62f635630a9e447a85ba683c0765bf535885d",
+      "compilerDigest": "95b374ad1965a84ef51b11bb068bcc26b4feaf5b66fb6c1863308eee06fe9aea",
+      "brainAbiVersion": "2.0",
+      "packageHashes": {
+        "A": "094cc7ba8882f796478b0e7afa5fdbad5867b211326542ab3fcce286859963fb",
+        "B": "117c29cc725d45388458a867f363723aec693728f8d6081d762785096592d681"
+      },
+      "seed": "00000000000000000000000000000000",
+      "arenaDigest": "9828f7049a82dd2e8d685623132eef684b6377a0c5f81a9d76923beb7fc8e84d",
+      "arenaInitDigest": "213af97e3969c88fce81f28e1055c18af8549bbf5bd37e72079f1d301d4ba510",
+      "scenarioId": 257,
+      "presetValues": {
+        "yLeft": -2000,
+        "yRight": 0,
+        "jitterLeft": -64,
+        "jitterRight": 0
+      },
+      "spawnSlotAssignment": {
+        "A": "left",
+        "B": "right"
+      },
+      "maxTicks": 5400,
+      "numericalAbiVersion": "milli-v1"
+    },
+    "result": {
+      "winner": "B",
+      "cause": "core",
+      "elapsedTicks": 2602,
+      "scores": {
+        "A": 885,
+        "B": 5002
+      }
+    },
+    "simulationHash": "4ebd80218b53bf01271d8ac9d92eaf348301565123e6d0e8448436eb2c7376c2",
+    "publicReplayHash": "29bf01b2db3f4f1e2f685be1d1f1673b678a6d59927092947f8703767614c140",
+    "orderedEventsHash": "e6844b657976b2468ec0ff69f72b9ab3822c38b151f8fa56ecd56fb368515693",
+    "publicFramesHash": "c6de202faacb45ababdf04ac03f193238f1ce7d80d457c696ff55ef2def2fcec",
+    "frameCount": 2603
+  }
+}

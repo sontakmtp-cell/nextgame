@@ -1,0 +1,20 @@
+{
+  "source": "assets/arena/tiles/floor-02.png",
+  "sourceSha256": "54a5cec774cc102ef3e99cea30b96466157ede5b3498d2bf822bfde14face643",
+  "crop": {
+    "left": 18,
+    "top": 18,
+    "width": 165,
+    "height": 155
+  },
+  "seam": "4px mirror average before and after resize fill; lossless WebP",
+  "tool": "sharp 0.35.5",
+  "output": "apps/web/public/assets/ui3d/u3d02/floor.webp",
+  "sha256": "c183742efaae9f4993b7366e023c974ae9d3542ab097d2f1c3031ff95819eb67",
+  "bytes": 41310,
+  "width": 256,
+  "height": 256,
+  "hasAlpha": false,
+  "maxEdgeDelta": 0,
+  "objectiveBaked": false
+}

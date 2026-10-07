@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "runs": [
+    {
+      "command": "node scripts/u3d02-assets.mjs",
+      "attempt": 1,
+      "exit": 0,
+      "ms": 177.6678,
+      "stdout": "{\"source\":\"assets/arena/tiles/floor-02.png\",\"sourceSha256\":\"54a5cec774cc102ef3e99cea30b96466157ede5b3498d2bf822bfde14face643\",\"crop\":{\"left\":18,\"top\":18,\"width\":165,\"height\":155},\"seam\":\"4px mirror average before and after resize fill; lossless WebP\",\"tool\":\"sharp 0.35.5\",\"output\":\"apps/web/public/assets/ui3d/u3d02/floor.webp\",\"sha256\":\"c183742efaae9f4993b7366e023c974ae9d3542ab097d2f1c3031ff95819eb67\",\"bytes\":41310,\"width\":256,\"height\":256,\"hasAlpha\":false,\"maxEdgeDelta\":0,\"objectiveBaked\":false}\n",
+      "stderr": ""
+    },
+    {
+      "command": "node scripts/u3d02-assets.mjs",
+      "attempt": 2,
+      "exit": 0,
+      "ms": 168.3915,
+      "stdout": "{\"source\":\"assets/arena/tiles/floor-02.png\",\"sourceSha256\":\"54a5cec774cc102ef3e99cea30b96466157ede5b3498d2bf822bfde14face643\",\"crop\":{\"left\":18,\"top\":18,\"width\":165,\"height\":155},\"seam\":\"4px mirror average before and after resize fill; lossless WebP\",\"tool\":\"sharp 0.35.5\",\"output\":\"apps/web/public/assets/ui3d/u3d02/floor.webp\",\"sha256\":\"c183742efaae9f4993b7366e023c974ae9d3542ab097d2f1c3031ff95819eb67\",\"bytes\":41310,\"width\":256,\"height\":256,\"hasAlpha\":false,\"maxEdgeDelta\":0,\"objectiveBaked\":false}\n",
+      "stderr": ""
+    },
+    {
+      "script": "assets",
+      "reproducible": true,
+      "hashes": {
+        "apps/web/public/assets/ui3d/u3d02/floor.webp": "c183742efaae9f4993b7366e023c974ae9d3542ab097d2f1c3031ff95819eb67",
+        "apps/web/public/assets/ui3d/u3d02/recipe.json": "ec6f082303547d812526226dcf90522042bc4dc2b8b1242e7ae649449d772257"
+      }
+    },
+    {
+      "command": "node scripts/u3d02-fixture.mjs",
+      "attempt": 1,
+      "exit": 0,
+      "ms": 259.46520000000004,
+      "stdout": "fixture 6 modules; 24 fixture 24\n",
+      "stderr": ""
+    },
+    {
+      "command": "node scripts/u3d02-fixture.mjs",
+      "attempt": 2,
+      "exit": 0,
+      "ms": 281.2907,
+      "stdout": "fixture 6 modules; 24 fixture 24\n",
+      "stderr": ""
+    },
+    {
+      "script": "fixture",
+      "reproducible": true,
+      "hashes": {
+        ".local/u3d02/fixture.json": "a2b0d8b732333d1da2b1c18e940ae8008bfb2fa9170174c047de510822b30d9b"
+      }
+    }
+  ]
+}
