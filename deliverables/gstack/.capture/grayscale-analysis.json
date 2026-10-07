@@ -1,0 +1,31 @@
+{
+  "canvas": {
+    "w": 822,
+    "h": 576
+  },
+  "colorTeamA": {
+    "n": 334,
+    "cx": 162.4,
+    "cy": 345.1
+  },
+  "colorTeamB": {
+    "n": 255,
+    "cx": 659.9,
+    "cy": 291.9
+  },
+  "grayscaleRegionA": {
+    "mean": 94.5,
+    "min": 1.7,
+    "max": 209.8
+  },
+  "grayscaleRegionB": {
+    "mean": 133.9,
+    "min": 56,
+    "max": 209.8
+  },
+  "grayMeanLumRatioAoverB": 1.37,
+  "tokenLumRatioAoverB": 1.41,
+  "nonBgPctColor": 9.83,
+  "nonBgPctGray": 8.88,
+  "note": "colorTeamA/B = count+centroid of pixels within 60 RGB distance of each team accent in the COLOR render; grayscale regions sampled at those centroids from the GRAYSCALE render (host CSS filter grayscale(1))."
+}

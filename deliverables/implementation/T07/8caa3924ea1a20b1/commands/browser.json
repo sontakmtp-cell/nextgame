@@ -1,0 +1,11 @@
+{
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "scripts/g2-qa.mjs"
+  ],
+  "startedAt": "2026-10-02T12:29:23.021Z",
+  "finishedAt": "2026-10-02T12:29:41.128Z",
+  "exitCode": 0,
+  "stdout": "{\n  \"status\": \"passed\",\n  \"checks\": 18,\n  \"output\": \".local/g2/qa\",\n  \"errors\": []\n}\n",
+  "stderr": ""
+}

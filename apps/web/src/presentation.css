@@ -1,0 +1,17 @@
+/* U3D-00 selector only; Brain Lab never mounts this class. */
+.presentation-control {
+  flex: 0 0 18rem;
+  min-width: 0;
+}
+
+@media (max-width: 1023px) {
+  .topbar:has(.presentation-control) {
+    flex-wrap: wrap;
+  }
+  .presentation-control {
+    flex-basis: 100%;
+  }
+  .presentation-control select {
+    width: 100%;
+  }
+}

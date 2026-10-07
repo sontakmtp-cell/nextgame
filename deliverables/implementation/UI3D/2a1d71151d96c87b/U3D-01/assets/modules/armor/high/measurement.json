@@ -1,0 +1,37 @@
+{
+  "id": "armor",
+  "quality": "high",
+  "modelUrl": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+  "modelSha256": "ae83beb84c4c99010b1dc47cb5c9f60e0b8b0f61467c58d30ef93360adfed6bf",
+  "bytes": 2203280,
+  "triangles": 29900,
+  "textures": [
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/normal.ktx2",
+      "sha256": "d958f55b66239f80f6e7796c35622cebb87a21293bbf29431486a4f07dce6b48",
+      "bytes": 640016,
+      "width": 1024,
+      "height": 1024,
+      "format": "ktx2"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/baseColor.ktx2",
+      "sha256": "bb0c255bc43d58cd86a31eab14b6f7e6a8e98b2332df52c8137eb8e1d5695084",
+      "bytes": 501856,
+      "width": 2048,
+      "height": 2048,
+      "format": "ktx2"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/metallicRoughness.ktx2",
+      "sha256": "13e421a2613f5d8fae2f127c0f455a66776e09dd4c8d3b6732fae75975da8a69",
+      "bytes": 592808,
+      "width": 2048,
+      "height": 2048,
+      "format": "ktx2"
+    }
+  ],
+  "appearanceError": 0.001544020022265613,
+  "lodBaseCorrectionY": 0,
+  "elapsedMs": 1177.4578999999994
+}

@@ -1,0 +1,8 @@
+{
+  "command": "node node_modules/typescript/bin/tsc -p tests/g2-viewer/tsconfig.json",
+  "startedAt": "2026-10-07T14:08:59.356Z",
+  "elapsedMs": 1274.3842,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": ""
+}

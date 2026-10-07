@@ -1,0 +1,11 @@
+{
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "scripts/g2-profile.mjs"
+  ],
+  "startedAt": "2026-10-02T12:32:12.983Z",
+  "finishedAt": "2026-10-02T12:35:16.865Z",
+  "exitCode": 1,
+  "stdout": "Renderer stress: started actual 120-second desktop recording.\n{\n  \"status\": \"desktop-frame-target-failed\",\n  \"fixture\": \"Synthetic render-only stress on 21-module point-budget bodies (not ranked eligible); 128 projectiles + 256 events/tick\",\n  \"startedAt\": \"2026-10-02T12:32:25.964Z\",\n  \"cpu\": \"AMD Ryzen 5 7600 6-Core Processor              \",\n  \"platform\": \"win32\",\n  \"runtime\": \"v24.18.0\",\n  \"unrun\": [\n    \"Actual integrated GPU reference host\",\n    \"Actual Android mobile hardware\",\n    \"GPU memory drift proof\",\n    \"Production replay network seek\"\n  ],\n  \"browser\": \"154.0.8037.93\",\n  \"gpu\": \"ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)\",\n  \"desktop\": {\n    \"elapsedMs\": 120004.79999999702,\n    \"frames\": 7143,\n    \"drawP95Ms\": 1.4000000059604645,\n    \"drawP99Ms\": 1.7999999970197678,\n    \"frameP95Ms\": 16.799999999995634,\n    \"frameP99Ms\": 16.80000000000291,\n    \"viewport\": {\n      \"width\": 1600,\n      \"height\": 1100\n    },\n    \"dpr\": 1,\n    \"tier\": \"high\",\n    \"targetMet\": false\n  },\n  \"heap\": {\n    \"bytes\": [\n      14053836,\n      13798740,\n      13922024,\n      13971404,\n      14048256,\n      14074872,\n      14093104,\n      14143432,\n      14338092,\n      14418948,\n      14458144\n    ],\n    \"driftBytes\": 404308,\n    \"targetMet\": true\n  },\n  \"desktopMobileEmulation\": {\n    \"elapsedMs\": 15014.89999999106,\n    \"frameP95Ms\": 16.70000000001164,\n    \"viewport\": {\n      \"width\": 390,\n      \"height\": 844\n    },\n    \"tier\": \"low\",\n    \"actualMobile\": false\n  },\n  \"pageErrors\": [],\n  \"finishedAt\": \"2026-10-02T12:35:16.313Z\"\n}\n",
+  "stderr": ""
+}

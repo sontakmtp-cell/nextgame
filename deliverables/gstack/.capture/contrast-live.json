@@ -1,0 +1,158 @@
+{
+  "live": [
+    {
+      "sel": ".topbar h1",
+      "note": "view title",
+      "fg": "#f4f1e8",
+      "bg": "#090d11",
+      "fontSize": "30px",
+      "weight": "700",
+      "ratio": 17.26
+    },
+    {
+      "sel": ".topbar .eyebrow",
+      "note": "eyebrow 11px",
+      "fg": "#b9c2c9",
+      "bg": "#090d11",
+      "fontSize": "11px",
+      "weight": "600",
+      "ratio": 10.79
+    },
+    {
+      "sel": ".status-strip span",
+      "note": "status 13px",
+      "fg": "#b9c2c9",
+      "bg": "#090d11",
+      "fontSize": "13px",
+      "weight": "400",
+      "ratio": 10.79
+    },
+    {
+      "sel": ".synth-header .subtle",
+      "note": "subtle 13px",
+      "fg": "#b9c2c9",
+      "bg": "#090d11",
+      "fontSize": "13px",
+      "weight": "400",
+      "ratio": 10.79
+    },
+    {
+      "sel": ".inspector .budget > span",
+      "note": "budget label 10px",
+      "fg": "#b9c2c9",
+      "bg": "#141c24",
+      "fontSize": "10px",
+      "weight": "400",
+      "ratio": 9.52
+    },
+    {
+      "sel": ".axis",
+      "note": "axis 9px on arena bg",
+      "fg": "#94a1ab",
+      "bg": "#0e141a",
+      "fontSize": "9px",
+      "weight": "400",
+      "ratio": 7.01
+    },
+    {
+      "sel": "footer",
+      "note": "footer 11px",
+      "fg": "#94a1ab",
+      "bg": "#090d11",
+      "fontSize": "11px",
+      "weight": "400",
+      "ratio": 7.38
+    },
+    {
+      "sel": ".nav-number",
+      "note": "nav number 12px",
+      "fg": "#94a1ab",
+      "bg": "#1b2630",
+      "fontSize": "12px",
+      "weight": "400",
+      "ratio": 5.81
+    },
+    {
+      "sel": ".brand-caption",
+      "note": "brand caption 12px",
+      "fg": "#b9c2c9",
+      "bg": "#0e141a",
+      "fontSize": "12px",
+      "weight": "400",
+      "ratio": 10.25
+    },
+    {
+      "sel": "button.primary",
+      "note": "primary CTA",
+      "fg": "#090d11",
+      "bg": "#e8c56c",
+      "fontSize": "15px",
+      "weight": "600",
+      "ratio": 11.73
+    },
+    {
+      "sel": ".actions button:not(.primary)",
+      "note": "secondary button",
+      "fg": "#f4f1e8",
+      "bg": "#1b2630",
+      "fontSize": "15px",
+      "weight": "400",
+      "ratio": 13.61
+    },
+    {
+      "sel": ".module-choice small",
+      "note": "module small 12px",
+      "fg": "#b9c2c9",
+      "bg": "#141c24",
+      "fontSize": "12px",
+      "weight": "400",
+      "ratio": 9.52
+    },
+    {
+      "sel": "dl dt",
+      "note": "dl term",
+      "fg": "#b9c2c9",
+      "bg": "#141c24",
+      "fontSize": "13px",
+      "weight": "400",
+      "ratio": 9.52
+    },
+    {
+      "sel": ".panel .eyebrow",
+      "note": "panel eyebrow on surface",
+      "fg": "#b9c2c9",
+      "bg": "#141c24",
+      "fontSize": "11px",
+      "weight": "600",
+      "ratio": 9.52
+    },
+    {
+      "sel": ".panel h2",
+      "note": "panel title 22px",
+      "fg": "#f4f1e8",
+      "bg": "#141c24",
+      "fontSize": "22px",
+      "weight": "700",
+      "ratio": 15.22
+    },
+    {
+      "sel": ".panel p",
+      "note": "panel body 15px",
+      "fg": "#b9c2c9",
+      "bg": "#141c24",
+      "fontSize": "11px",
+      "weight": "600",
+      "ratio": 9.52
+    },
+    {
+      "sel": ".notice",
+      "note": "notice text",
+      "missing": true
+    },
+    {
+      "sel": "textarea",
+      "note": "textarea text",
+      "missing": true
+    }
+  ]
+}

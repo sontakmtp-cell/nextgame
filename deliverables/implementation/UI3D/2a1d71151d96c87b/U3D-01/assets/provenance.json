@@ -1,0 +1,165 @@
+{
+  "version": "u3d01-provenance-v1",
+  "assetRevision": "2a1d71151d96c87b",
+  "textureStorage": "GLB embeds KTX2. Sidecar .ktx2 files are byte-identical extraction artifacts; do not load both at runtime.",
+  "normalization": "Baked once into vertices, mount is node origin. Manifest transform describes source-to-output; renderer must not apply it twice. Meshopt quantization creates decode transforms that GLTFLoader applies.",
+  "toolchain": {
+    "name": "u3d01-asset-toolchain",
+    "private": true,
+    "type": "module",
+    "dependencies": {
+      "7zip-bin-full": "26.3.1",
+      "gltf-validator": "2.0.0-dev.3.10",
+      "@gltf-transform/cli": "4.5.1",
+      "@gltf-transform/core": "4.5.1",
+      "@gltf-transform/extensions": "4.5.1",
+      "@gltf-transform/functions": "4.5.1",
+      "meshoptimizer": "1.3.0",
+      "mikktspace": "1.1.1",
+      "three": "0.186.1",
+      "sharp": "0.35.5"
+    }
+  },
+  "ktx": {
+    "url": "https://github.com/KhronosGroup/KTX-Software/releases/download/v4.4.2/KTX-Software-4.4.2-Windows-x64.exe",
+    "sha256": "1f323b0fec19794f5e6c0425a61d4b1da396872a10be862d105f4f4b2d2957fe",
+    "version": "4.4.2",
+    "mode": "7zip extraction; installer never executed"
+  },
+  "settings": {
+    "schema": "u3d01-authoring-v1",
+    "algorithm": "meshoptimizer simplifyWithAttributes, weighted normals and UVs; original texture UV retained",
+    "attributeWeights": [
+      0.3,
+      0.3,
+      0.3,
+      0.5,
+      0.5
+    ],
+    "modules": {
+      "core": {
+        "yaw": -1.5707963267948966,
+        "span": 1.92,
+        "anchorX": 0,
+        "anchorZ": 0,
+        "note": "Symmetric hull; center of base, 2-cell visual envelope."
+      },
+      "armor": {
+        "yaw": -1.5707963267948966,
+        "span": 0.94,
+        "anchorX": 0,
+        "anchorZ": 0,
+        "note": "Symmetric plate; center of base."
+      },
+      "thruster": {
+        "yaw": -1.5707963267948966,
+        "span": 0.94,
+        "anchorX": 0,
+        "anchorZ": 0,
+        "note": "Nozzle must face -X for forward thrust. Verify source orientation in rendered turntable."
+      },
+      "blade": {
+        "yaw": 1.5707963267948966,
+        "span": 0.94,
+        "anchorX": 0,
+        "anchorZ": 0,
+        "note": "Source +Z tip maps to +X. Base envelope centered inside 1-cell footprint."
+      },
+      "burst": {
+        "yaw": 1.5707963267948966,
+        "span": 0.94,
+        "anchorX": 0,
+        "anchorZ": 0,
+        "note": "Source +Z barrels map to +X."
+      },
+      "lance": {
+        "yaw": 1.5707963267948966,
+        "span": 0.94,
+        "anchorX": 0,
+        "anchorZ": 0,
+        "note": "Source +Z tip maps to +X; art only, catalog remains authority."
+      },
+      "shield": {
+        "yaw": -1.5707963267948966,
+        "span": 0.94,
+        "anchorX": 0,
+        "anchorZ": 0,
+        "note": "Source -Z open crescent center and cyan front band map to +X."
+      },
+      "breaker": {
+        "yaw": 1.5707963267948966,
+        "span": 0.94,
+        "anchorX": 0,
+        "anchorZ": 0,
+        "note": "Source +Z weapon front maps to +X; art only."
+      },
+      "capacitor": {
+        "yaw": -1.5707963267948966,
+        "span": 0.94,
+        "anchorX": 0,
+        "anchorZ": 0,
+        "note": "Centered sealed housing."
+      },
+      "radiator": {
+        "yaw": -1.5707963267948966,
+        "span": 0.94,
+        "anchorX": 0,
+        "anchorZ": 0,
+        "note": "Centered fin housing."
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "core",
+      "pngSha256": "b0e17a06f0bd131e16cbd2cfacb41cf49da822d07fe7943bad4d7054d4b5533b",
+      "promptSha256": "f8ec9ba9c6147cb4d19c67d517c315d17b897943a7a67f7a8c27411c1ffa7ce7"
+    },
+    {
+      "id": "armor",
+      "pngSha256": "2d9e7766807569f95e1883c00a4f86329c61fc992e72d036c8cdb2c047dbd57c",
+      "promptSha256": "63d90337c7478b72173d5bcb95bbf1466a2cd2a83925b32e5e66fd732c88e4a9"
+    },
+    {
+      "id": "thruster",
+      "pngSha256": "bc1270d0d99d054e3fd4d10ee18932490450195ab631be46e9795416c5a173eb",
+      "promptSha256": "03dbbcd7e7685089234b12bc68b3d70691a65d72839c77a0a22a19d6cfc258d3"
+    },
+    {
+      "id": "blade",
+      "pngSha256": "70d550da02264f7029188919c008133ea561ed0773a0a4d91991f34dbd43041e",
+      "promptSha256": "6af724c729c0600e7f4c05f2e4b7aed13ed067bae0a74c285ede016cf38469f3"
+    },
+    {
+      "id": "burst",
+      "pngSha256": "755e2aa5872877cc80cbdb1d2df31c4df63e2ff39028a583d40c217a3b07596e",
+      "promptSha256": "58bd0fd6c0de3605ac35d4df57adb73774a4348642d1c96b156c27f01cb5cd2e"
+    },
+    {
+      "id": "lance",
+      "pngSha256": "229879e0592ca6286b939cb8b220bc010dc8a329e69cd57d06af9ced3a340f24",
+      "promptSha256": "6b010cf53b287bf006d7694e48d47bb8d2bb2ea102ed3b7d99f5ccf13430cbe6"
+    },
+    {
+      "id": "shield",
+      "pngSha256": "929ff8ffe4695ffe9ffa54eb612437d9191c8ea1d9ffc5f7fc3d21d22b4a78d3",
+      "promptSha256": "9d2bd2a21201e596fd33aa3c1f7d34749b3ed8e3f1478083e40bc119a29c1ffd"
+    },
+    {
+      "id": "breaker",
+      "pngSha256": "f96b238730fd49e61d5cfae27ed2c13c3458bc5e027a11690a3cdfe0817bb19a",
+      "promptSha256": "15f66bbef995b2b11dd7c45c3dd76672c7fce7bc746a7c173010800cb7cfbb82"
+    },
+    {
+      "id": "capacitor",
+      "pngSha256": "04ad9541354b373975b6d1d1b43a6465fae2bc6d518b94d2919d82e7b58e7d0d",
+      "promptSha256": "bd0bf673dd1210535b20e5963f8853263eb5a1d4658422874b663e461d400171"
+    },
+    {
+      "id": "radiator",
+      "pngSha256": "e599f53734a98d2b1eca312dcf60eadf3e70b45e9833f46ffa81d9df6bdfe6ca",
+      "promptSha256": "1297c09c7bc1ad5a12054e8a79268b7eef4118ee9ea99cdc8a342a71f9d02a05"
+    }
+  ],
+  "licenseStatus": "Decoder licenses bundled. PNG prompt records built-in ImageGen; external GLB generation terms are absent. Do not infer CC0 or release clearance."
+}

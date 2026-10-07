@@ -1,0 +1,47 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><link rel="icon" href="data:,"><title>U3D-01 asset inspection (not application runtime)</title>
+<style>body{margin:0;background:#eee8df}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"/three/build/three.module.js","three/addons/":"/three/examples/jsm/"}}</script></head><body>
+<script type="module">
+import * as THREE from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {KTX2Loader} from 'three/addons/loaders/KTX2Loader.js';
+import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
+import {MeshoptDecoder} from '/assets/ui3d/u3d01/decoders/meshopt_decoder.module.js';
+const renderer=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});
+renderer.setPixelRatio(1);renderer.setSize(400,400);renderer.outputColorSpace=THREE.SRGBColorSpace;
+renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1;
+document.body.append(renderer.domElement);
+const gl=renderer.getContext(),debug=gl.getExtension('WEBGL_debug_renderer_info');
+window.environment={gpu:debug?gl.getParameter(debug.UNMASKED_RENDERER_WEBGL):'unavailable',webglVersion:gl.getParameter(gl.VERSION),dpr:devicePixelRatio,three:THREE.REVISION};
+const scene=new THREE.Scene(),camera=new THREE.OrthographicCamera(-1,1,1,-1,.01,100);
+const pmrem=new THREE.PMREMGenerator(renderer),room=new RoomEnvironment();
+const env=pmrem.fromScene(room,.04);scene.environment=env.texture;scene.environmentIntensity=.6;
+room.dispose();pmrem.dispose();
+scene.add(new THREE.HemisphereLight(0xfff3dd,0x323642,1.8));
+const key=new THREE.DirectionalLight(0xffebd2,3);key.position.set(3,5,2);scene.add(key);
+const fill=new THREE.DirectionalLight(0xc5e1e8,1);fill.position.set(-2,2,-3);scene.add(fill);
+const ktx=new KTX2Loader().setTranscoderPath('/assets/ui3d/u3d01/decoders/').setWorkerLimit(1).detectSupport(renderer);
+const loader=new GLTFLoader().setMeshoptDecoder(MeshoptDecoder).setKTX2Loader(ktx);
+const settings=await(await fetch('/settings')).json();
+let model,current;const heightCache={};
+function dispose(object){const textures=new Set();object.traverse(o=>{if(o.geometry)o.geometry.dispose();if(o.material)for(const m of Array.isArray(o.material)?o.material:[o.material]){for(const v of Object.values(m))if(v?.isTexture)textures.add(v);m.dispose();}});textures.forEach(t=>t.dispose());}
+window.renderAsset=async(id,quality,view='hero',mask=false)=>{
+ const url=quality==='source'?`/source/${id}.glb`:`/assets/ui3d/u3d01/modules/${id}/${quality}/model.glb`;
+ if(current!==url){if(model){scene.remove(model);dispose(model);}model=(await loader.loadAsync(url)).scene;current=url;
+  if(quality==='source'){model.rotation.y=settings.modules[id].yaw;model.updateMatrixWorld(true);const box=new THREE.Box3().setFromObject(model);const size=box.getSize(new THREE.Vector3()),center=box.getCenter(new THREE.Vector3());const s=settings.modules[id].span/Math.max(size.x,size.z);model.scale.setScalar(s);model.position.set(-center.x*s+settings.modules[id].anchorX,-box.min.y*s,-center.z*s+settings.modules[id].anchorZ);}
+  scene.add(model);model.updateMatrixWorld(true);
+ }
+ const span=settings.modules[id].span,box=new THREE.Box3().setFromObject(model);
+ const height=heightCache[id]??=(await(await fetch(`/normalization/${id}.json`)).json()).bounds.max[1];
+ const target=new THREE.Vector3(0,height*.5,0),directions={hero:[3,2.8,3],opposite:[-3,2.8,-3],top:[0,5,0]};
+ camera.up.set(view==='top'?1:0,view==='top'?0:1,0);
+ camera.position.copy(target).add(new THREE.Vector3(...directions[view]));camera.lookAt(target);
+ const framing=span*.85;camera.left=-framing;camera.right=framing;camera.top=framing;camera.bottom=-framing;camera.updateProjectionMatrix();
+ const materials=[];
+ if(mask)model.traverse(o=>{if(o.isMesh){materials.push([o,o.material]);o.material=new THREE.MeshBasicMaterial({color:0x000000,side:THREE.DoubleSide});}});
+ renderer.setClearColor(mask?0xffffff:0xeee8df,1);renderer.render(scene,camera);
+ if(mask)for(const[o,m]of materials){o.material.dispose();o.material=m;}
+ return {triangles:renderer.info.render.triangles,drawCalls:renderer.info.render.calls,geometries:renderer.info.memory.geometries,textures:renderer.info.memory.textures,bounds:{min:box.min.toArray(),max:box.max.toArray()},camera:{position:camera.position.toArray(),target:target.toArray(),framing,up:camera.up.toArray()},url};
+};
+window.assetReady=true;
+</script></body></html>

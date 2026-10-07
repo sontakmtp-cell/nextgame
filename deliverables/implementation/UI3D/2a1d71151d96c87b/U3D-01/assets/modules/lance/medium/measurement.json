@@ -1,0 +1,37 @@
+{
+  "id": "lance",
+  "quality": "medium",
+  "modelUrl": "/assets/ui3d/u3d01/modules/lance/medium/model.glb",
+  "modelSha256": "ae21670d9b3e52f2eedb2e28fb62549381684f5105359f294499b924c204642f",
+  "bytes": 686116,
+  "triangles": 7900,
+  "textures": [
+    {
+      "url": "/assets/ui3d/u3d01/modules/lance/medium/normal.ktx2",
+      "sha256": "b73b6c91c91c6953979b41e2d5a11d2a27edd2f3100db93ab8beb2792ab0051f",
+      "bytes": 272320,
+      "width": 512,
+      "height": 512,
+      "format": "ktx2"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/lance/medium/baseColor.ktx2",
+      "sha256": "7085c86bb3c9e6e36c54ba2773b5ba536961a26012ab9afbf49b1199adc96ef8",
+      "bytes": 217276,
+      "width": 1024,
+      "height": 1024,
+      "format": "ktx2"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/lance/medium/metallicRoughness.ktx2",
+      "sha256": "c97780292ac72e5064d25a15b25bd3bf09fa064c14f35f8d91f19d6f0101ac78",
+      "bytes": 68486,
+      "width": 512,
+      "height": 512,
+      "format": "ktx2"
+    }
+  ],
+  "appearanceError": 0.003717488842085004,
+  "lodBaseCorrectionY": -0.00009681518713477999,
+  "elapsedMs": 6602.935699999987
+}

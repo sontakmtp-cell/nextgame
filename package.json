@@ -1,9 +1,16 @@
 {
-  "name": "prompt-chien", "version": "0.0.0", "private": true, "type": "module",
-  "packageManager": "pnpm@10.34.6", "engines": {"node": "24.18.0", "pnpm": "10.34.6"},
+  "name": "prompt-chien",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.34.6",
+  "engines": {
+    "node": "24.18.0",
+    "pnpm": "10.34.6"
+  },
   "scripts": {
     "build": "tsc -b && pnpm --filter @prompt-chien/web build",
-    "check": "tsc -b && tsc -p tests/tsconfig.json && tsc -p tests/g1-browser/tsconfig.json && node scripts/boundaries.mjs",
+    "check": "tsc -b && tsc -p tests/tsconfig.json && tsc -p tests/g1-browser/tsconfig.json && tsc -p tests/g2-viewer/tsconfig.json && node scripts/boundaries.mjs",
     "test:unit": "tsc -b && vitest run",
     "dev": "node scripts/dev.mjs",
     "env:init": "node scripts/env.mjs",
@@ -16,7 +23,15 @@
     "test:sim": "tsc -b && vitest run tests/spatial.test.ts tests/combat.test.ts && node scripts/g1-corpus.mjs --compare tests/g1/corpus.json --count 10",
     "verify:replay": "tsc -b && vitest run tests/replay.test.ts",
     "test:g1:browser": "node apps/web/node_modules/vite/bin/vite.js --config tests/g1-browser/vite.config.ts",
-    "engine:freeze": "node scripts/g1-freeze.mjs"
+    "engine:freeze": "node scripts/g1-freeze.mjs",
+    "test:g2": "pnpm build && node scripts/g2-qa.mjs",
+    "profile:g2": "tsc -b && node scripts/g2-profile.mjs"
   },
-  "devDependencies": {"typescript": "5.9.3", "@types/node": "24.10.1", "@types/react": "19.3.0", "@types/react-dom": "19.3.0", "vitest": "5.0.3"}
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/node": "24.10.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "vitest": "5.0.3"
+  }
 }

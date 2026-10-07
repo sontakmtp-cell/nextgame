@@ -1,0 +1,37 @@
+{
+  "id": "breaker",
+  "quality": "medium",
+  "modelUrl": "/assets/ui3d/u3d01/modules/breaker/medium/model.glb",
+  "modelSha256": "4d6e0daf32a03e195183a11f98aea340ed91704f65637b04b31cd47957d05758",
+  "bytes": 692612,
+  "triangles": 7881,
+  "textures": [
+    {
+      "url": "/assets/ui3d/u3d01/modules/breaker/medium/normal.ktx2",
+      "sha256": "4fbe1ab69ecf0e86df41977e36f872de40e51fe8b20d1efb267eafc93e9b63ae",
+      "bytes": 274057,
+      "width": 512,
+      "height": 512,
+      "format": "ktx2"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/breaker/medium/baseColor.ktx2",
+      "sha256": "06bb72074a5a99ad7f39fa592084635cf024b8639130115dd87d5d1f967c8fbd",
+      "bytes": 208738,
+      "width": 1024,
+      "height": 1024,
+      "format": "ktx2"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/breaker/medium/metallicRoughness.ktx2",
+      "sha256": "50ca6e49fead202946c5cad7fea142ff0fcba0fd84202f3770be57a1760601e4",
+      "bytes": 71076,
+      "width": 512,
+      "height": 512,
+      "format": "ktx2"
+    }
+  ],
+  "appearanceError": 0.009955113753676414,
+  "lodBaseCorrectionY": -0.00023307642550207675,
+  "elapsedMs": 6943.111799999999
+}

@@ -1,0 +1,19 @@
+{
+  "command": "node scripts/u3d01-app-smoke.mjs",
+  "status": "passed",
+  "errors": [],
+  "glbRequests": [],
+  "brain": [
+    {
+      "width": 1600,
+      "sha256": "ca35456904273b6846362402365ebef64027d124144ccbbabbb8b895d53f3179",
+      "identical": true
+    },
+    {
+      "width": 1920,
+      "sha256": "4ed533805265470e53cca1fce6e6d1159ef32f61b3eeb456501de268e8218c44",
+      "identical": true
+    }
+  ],
+  "browser": "154.0.8037.98"
+}

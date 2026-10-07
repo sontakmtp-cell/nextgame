@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" shape-rendering="crispEdges">
+
+<rect width="128" height="128" fill="#091322"/>
+<rect x="4" y="4" width="120" height="120" fill="#12243d"/>
+<rect x="4" y="4" width="120" height="4" fill="#20426d"/>
+<rect x="4" y="4" width="4" height="120" fill="#20426d"/>
+<rect x="4" y="120" width="120" height="4" fill="#060d17"/>
+<rect x="120" y="4" width="4" height="120" fill="#060d17"/>
+<rect x="8" y="8" width="8" height="8" fill="#060d17"/>
+<rect x="10" y="10" width="4" height="4" fill="#20426d"/>
+<rect x="112" y="8" width="8" height="8" fill="#060d17"/>
+<rect x="114" y="10" width="4" height="4" fill="#20426d"/>
+<rect x="8" y="112" width="8" height="8" fill="#060d17"/>
+<rect x="10" y="114" width="4" height="4" fill="#20426d"/>
+<rect x="112" y="112" width="8" height="8" fill="#060d17"/>
+<rect x="114" y="114" width="4" height="4" fill="#20426d"/>
+<rect x="58" y="0" width="12" height="10" fill="#060d17"/>
+<rect x="62" y="0" width="4" height="10" fill="#00f0ff"/>
+<rect x="58" y="118" width="12" height="10" fill="#060d17"/>
+<rect x="62" y="118" width="4" height="10" fill="#00f0ff"/>
+<rect x="0" y="58" width="10" height="12" fill="#060d17"/>
+<rect x="0" y="62" width="10" height="4" fill="#00f0ff"/>
+<rect x="118" y="58" width="10" height="12" fill="#060d17"/>
+<rect x="118" y="62" width="10" height="4" fill="#00f0ff"/>
+
+
+<rect x="22" y="22" width="84" height="84" fill="#08101c"/>
+<polygon points="64,24 104,44 104,84 64,104 24,84 24,44" fill="#10223a" stroke="#20426d" stroke-width="2"/>
+<rect x="26" y="26" width="12" height="12" fill="#ffe600"/>
+<rect x="90" y="26" width="12" height="12" fill="#ffe600"/>
+<rect x="26" y="90" width="12" height="12" fill="#ffe600"/>
+<rect x="90" y="90" width="12" height="12" fill="#ffe600"/>
+<polygon points="64,36 92,50 92,78 64,92 36,78 36,50" fill="#003d5c" stroke="#00f0ff" stroke-width="3"/>
+<polygon points="64,44 84,54 84,74 64,84 44,74 44,54" fill="#00aacc"/>
+<circle cx="64" cy="64" r="12" fill="#00f0ff"/>
+<circle cx="64" cy="64" r="6" fill="#ffffff"/>
+<line x1="64" y1="36" x2="64" y2="92" stroke="#ffffff" stroke-width="1.5"/>
+<line x1="36" y1="50" x2="92" y2="78" stroke="#ffffff" stroke-width="1.5"/>
+<line x1="36" y1="78" x2="92" y2="50" stroke="#ffffff" stroke-width="1.5"/>
+
+</svg>

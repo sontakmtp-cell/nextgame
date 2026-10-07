@@ -1,0 +1,7 @@
+{
+  "command": "node scripts/boundary-selfcheck.mjs",
+  "exitCode": 0,
+  "elapsedMs": 907.3202999999999,
+  "stdout": "Boundary negative injection rejected Node I/O, cross-package import and clock\nWeb main-thread engine and eager worker import rejected\nRenderer3d domain, legacy renderer, Pixi and worker imports rejected\n",
+  "stderr": ""
+}

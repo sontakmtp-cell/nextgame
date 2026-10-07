@@ -1,0 +1,580 @@
+[
+  {
+    "boundary": 0,
+    "actors": {
+      "A": {
+        "pose": {
+          "x": -12000,
+          "y": -2000,
+          "heading": 4086
+        },
+        "overheated": false,
+        "controlTicks": 0,
+        "modules": [
+          {
+            "ordinal": 0,
+            "catalogId": "radiator",
+            "x": 5,
+            "y": 4,
+            "orientation": 0,
+            "hp": 160,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 1,
+            "catalogId": "armor",
+            "x": 6,
+            "y": 4,
+            "orientation": 0,
+            "hp": 300,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 2,
+            "catalogId": "thruster",
+            "x": 4,
+            "y": 5,
+            "orientation": 0,
+            "hp": 180,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 3,
+            "catalogId": "core",
+            "x": 5,
+            "y": 5,
+            "orientation": 0,
+            "hp": 800,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 4,
+            "catalogId": "blade",
+            "x": 7,
+            "y": 5,
+            "orientation": 0,
+            "hp": 220,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 5,
+            "catalogId": "thruster",
+            "x": 4,
+            "y": 6,
+            "orientation": 0,
+            "hp": 180,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          }
+        ]
+      },
+      "B": {
+        "pose": {
+          "x": 12000,
+          "y": 0,
+          "heading": 2102
+        },
+        "overheated": false,
+        "controlTicks": 0,
+        "modules": [
+          {
+            "ordinal": 0,
+            "catalogId": "capacitor",
+            "x": 5,
+            "y": 4,
+            "orientation": 0,
+            "hp": 160,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 1,
+            "catalogId": "thruster",
+            "x": 4,
+            "y": 5,
+            "orientation": 0,
+            "hp": 180,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 2,
+            "catalogId": "core",
+            "x": 5,
+            "y": 5,
+            "orientation": 0,
+            "hp": 800,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 3,
+            "catalogId": "burst",
+            "x": 7,
+            "y": 5,
+            "orientation": 0,
+            "hp": 180,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 4,
+            "catalogId": "thruster",
+            "x": 4,
+            "y": 6,
+            "orientation": 0,
+            "hp": 180,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          }
+        ]
+      }
+    },
+    "projectiles": [],
+    "controlOwner": "neutral",
+    "ringRadius": 25000,
+    "events": []
+  },
+  {
+    "boundary": 103,
+    "actors": {
+      "A": {
+        "pose": {
+          "x": -7194,
+          "y": -1262,
+          "heading": 114
+        },
+        "overheated": false,
+        "controlTicks": 0,
+        "modules": [
+          {
+            "ordinal": 0,
+            "catalogId": "radiator",
+            "x": 5,
+            "y": 4,
+            "orientation": 0,
+            "hp": 160,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 1,
+            "catalogId": "armor",
+            "x": 6,
+            "y": 4,
+            "orientation": 0,
+            "hp": 300,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 2,
+            "catalogId": "thruster",
+            "x": 4,
+            "y": 5,
+            "orientation": 0,
+            "hp": 180,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 3,
+            "catalogId": "core",
+            "x": 5,
+            "y": 5,
+            "orientation": 0,
+            "hp": 800,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 4,
+            "catalogId": "blade",
+            "x": 7,
+            "y": 5,
+            "orientation": 0,
+            "hp": 220,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 5,
+            "catalogId": "thruster",
+            "x": 4,
+            "y": 6,
+            "orientation": 0,
+            "hp": 180,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          }
+        ]
+      },
+      "B": {
+        "pose": {
+          "x": 6347,
+          "y": -26,
+          "heading": 2045
+        },
+        "overheated": false,
+        "controlTicks": 0,
+        "modules": [
+          {
+            "ordinal": 0,
+            "catalogId": "capacitor",
+            "x": 5,
+            "y": 4,
+            "orientation": 0,
+            "hp": 160,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 1,
+            "catalogId": "thruster",
+            "x": 4,
+            "y": 5,
+            "orientation": 0,
+            "hp": 180,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 2,
+            "catalogId": "core",
+            "x": 5,
+            "y": 5,
+            "orientation": 0,
+            "hp": 800,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 3,
+            "catalogId": "burst",
+            "x": 7,
+            "y": 5,
+            "orientation": 0,
+            "hp": 180,
+            "status": "alive",
+            "phase": "windup",
+            "phaseOffset": 1,
+            "shield": false,
+            "aim": 62
+          },
+          {
+            "ordinal": 4,
+            "catalogId": "thruster",
+            "x": 4,
+            "y": 6,
+            "orientation": 0,
+            "hp": 180,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          }
+        ]
+      }
+    },
+    "projectiles": [],
+    "controlOwner": "neutral",
+    "ringRadius": 25000,
+    "events": [
+      {
+        "tick": 102,
+        "kind": "activation",
+        "actor": "B",
+        "module": 3,
+        "target": 0,
+        "value": 18,
+        "key": 0
+      }
+    ]
+  },
+  {
+    "boundary": 2602,
+    "actors": {
+      "A": {
+        "pose": {
+          "x": 3547,
+          "y": 3451,
+          "heading": 1591
+        },
+        "overheated": false,
+        "controlTicks": 850,
+        "modules": [
+          {
+            "ordinal": 0,
+            "catalogId": "radiator",
+            "x": 5,
+            "y": 4,
+            "orientation": 0,
+            "hp": 0,
+            "status": "destroyed",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 1,
+            "catalogId": "armor",
+            "x": 6,
+            "y": 4,
+            "orientation": 0,
+            "hp": 212,
+            "status": "detached",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 2,
+            "catalogId": "thruster",
+            "x": 4,
+            "y": 5,
+            "orientation": 0,
+            "hp": 0,
+            "status": "destroyed",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 3,
+            "catalogId": "core",
+            "x": 5,
+            "y": 5,
+            "orientation": 0,
+            "hp": 0,
+            "status": "destroyed",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 4,
+            "catalogId": "blade",
+            "x": 7,
+            "y": 5,
+            "orientation": 0,
+            "hp": 0,
+            "status": "destroyed",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 5,
+            "catalogId": "thruster",
+            "x": 4,
+            "y": 6,
+            "orientation": 0,
+            "hp": 148,
+            "status": "detached",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          }
+        ]
+      },
+      "B": {
+        "pose": {
+          "x": -24,
+          "y": 1917,
+          "heading": 508
+        },
+        "overheated": false,
+        "controlTicks": 567,
+        "modules": [
+          {
+            "ordinal": 0,
+            "catalogId": "capacitor",
+            "x": 5,
+            "y": 4,
+            "orientation": 0,
+            "hp": 160,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 1,
+            "catalogId": "thruster",
+            "x": 4,
+            "y": 5,
+            "orientation": 0,
+            "hp": 180,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 2,
+            "catalogId": "core",
+            "x": 5,
+            "y": 5,
+            "orientation": 0,
+            "hp": 800,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          },
+          {
+            "ordinal": 3,
+            "catalogId": "burst",
+            "x": 7,
+            "y": 5,
+            "orientation": 0,
+            "hp": 180,
+            "status": "alive",
+            "phase": "recovery",
+            "phaseOffset": 1,
+            "shield": false,
+            "aim": -256
+          },
+          {
+            "ordinal": 4,
+            "catalogId": "thruster",
+            "x": 4,
+            "y": 6,
+            "orientation": 0,
+            "hp": 180,
+            "status": "alive",
+            "phase": "idle",
+            "phaseOffset": 0,
+            "shield": false,
+            "aim": 0
+          }
+        ]
+      }
+    },
+    "projectiles": [],
+    "controlOwner": "B",
+    "ringRadius": 25000,
+    "events": [
+      {
+        "tick": 2601,
+        "kind": "result",
+        "actor": "world",
+        "module": 0,
+        "target": 0,
+        "value": 2,
+        "key": 0
+      },
+      {
+        "tick": 2601,
+        "kind": "detached",
+        "actor": "A",
+        "module": 1,
+        "target": 0,
+        "value": 0,
+        "key": 0
+      },
+      {
+        "tick": 2601,
+        "kind": "destroyed",
+        "actor": "A",
+        "module": 3,
+        "target": 0,
+        "value": 0,
+        "key": 0
+      },
+      {
+        "tick": 2601,
+        "kind": "detached",
+        "actor": "A",
+        "module": 5,
+        "target": 0,
+        "value": 0,
+        "key": 0
+      },
+      {
+        "tick": 2601,
+        "kind": "hit",
+        "actor": "B",
+        "module": 3,
+        "target": 3,
+        "value": 32,
+        "key": 16
+      }
+    ]
+  }
+]

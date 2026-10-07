@@ -1,0 +1,7 @@
+{
+  "command": "node node_modules/typescript/bin/tsc -b",
+  "exitCode": 0,
+  "elapsedMs": 100.093,
+  "stdout": "",
+  "stderr": ""
+}

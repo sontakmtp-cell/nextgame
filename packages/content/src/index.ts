@@ -1,6 +1,8 @@
 import { ContractError, digest, sha256 } from '@prompt-chien/contracts';
 import type { CatalogEntry, BotDefinition, PresetValues } from '@prompt-chien/contracts';
 import { buildSlice } from './slice.js';
+import { tacticalKits, tacticalCards } from './tactical.js';
+import { behaviorCards } from './slice.js';
 export { SIN, COS } from './lut.js';
 export { contentManifest } from './manifest.js';
 export const catalog: readonly CatalogEntry[] = [
@@ -75,3 +77,6 @@ export const referenceKits: readonly BotDefinition[] = definitions.map(({name,ce
 }));
 export const sliceKits=buildSlice(referenceKits);
 export { passiveVariant, behaviorCards } from './slice.js';
+export { tacticalKits, tacticalCards } from './tactical.js';
+export const sampleKits:readonly BotDefinition[]=[...sliceKits,...tacticalKits];
+export const sampleCards=[...behaviorCards,...tacticalCards];

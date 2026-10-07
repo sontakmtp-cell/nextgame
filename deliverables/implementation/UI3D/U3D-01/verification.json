@@ -1,0 +1,5499 @@
+{
+  "command": "node scripts/u3d01-verify.mjs",
+  "status": "passed",
+  "assetRevision": "2a1d71151d96c87b",
+  "rows": [
+    {
+      "id": "core",
+      "quality": "high",
+      "bytes": 2376128,
+      "triangles": 29900,
+      "textureDimension": 2048,
+      "bounds": {
+        "min": [
+          -0.9599193930625916,
+          0.000004309030625648802,
+          -0.958245887980377
+        ],
+        "max": [
+          0.9599120616912842,
+          0.9815692130602862,
+          0.9585388448094481
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/high/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/high/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/high/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "core",
+      "quality": "medium",
+      "bytes": 690784,
+      "triangles": 7898,
+      "textureDimension": 1024,
+      "bounds": {
+        "min": [
+          -0.9596118330955505,
+          0.000003974290754271692,
+          -0.9582461130605946
+        ],
+        "max": [
+          0.9599047899246216,
+          0.9789474798718434,
+          0.9584586036192189
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/medium/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/medium/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/medium/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "core",
+      "quality": "low",
+      "bytes": 211004,
+      "triangles": 1900,
+      "textureDimension": 512,
+      "bounds": {
+        "min": [
+          -0.9591503143310547,
+          -0.0000028286851332381957,
+          -0.9577120600606577
+        ],
+        "max": [
+          0.9588061571121216,
+          0.9675504837907241,
+          0.9584299384023325
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/low/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/low/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/low/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "armor",
+      "quality": "high",
+      "bytes": 2203280,
+      "triangles": 29900,
+      "textureDimension": 2048,
+      "bounds": {
+        "min": [
+          -0.46993547677993774,
+          0.000004999734526833777,
+          -0.46871108474096346
+        ],
+        "max": [
+          0.46993905305862427,
+          0.395866937540406,
+          0.46872536005338716
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/high/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/high/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/high/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "armor",
+      "quality": "medium",
+      "bytes": 668156,
+      "triangles": 7899,
+      "textureDimension": 1024,
+      "bounds": {
+        "min": [
+          -0.46993547677993774,
+          -0.000005204429706306968,
+          -0.46870389204079554
+        ],
+        "max": [
+          0.46995338797569275,
+          0.39548989032753346,
+          0.46871816735321925
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/medium/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/medium/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/medium/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "armor",
+      "quality": "low",
+      "bytes": 204012,
+      "triangles": 1900,
+      "textureDimension": 512,
+      "bounds": {
+        "min": [
+          -0.46964141726493835,
+          4.838790852446095e-7,
+          -0.4683302586346052
+        ],
+        "max": [
+          0.4695051610469818,
+          0.39546983729935103,
+          0.46795015981487253
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/low/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/low/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/low/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "thruster",
+      "quality": "high",
+      "bytes": 2389420,
+      "triangles": 29900,
+      "textureDimension": 2048,
+      "bounds": {
+        "min": [
+          -0.4696879982948303,
+          -0.0000060347303501018246,
+          -0.2933458879198838
+        ],
+        "max": [
+          0.4693509638309479,
+          0.624739899991428,
+          0.29317017342708596
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/high/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/high/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/high/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "thruster",
+      "quality": "medium",
+      "bytes": 703120,
+      "triangles": 7892,
+      "textureDimension": 1024,
+      "bounds": {
+        "min": [
+          -0.4696091115474701,
+          0.0000047624318719741154,
+          -0.2928296476495946
+        ],
+        "max": [
+          0.4688417911529541,
+          0.6241589844019293,
+          0.2922021299493993
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/medium/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/medium/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/medium/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "thruster",
+      "quality": "low",
+      "bytes": 218888,
+      "triangles": 1898,
+      "textureDimension": 512,
+      "bounds": {
+        "min": [
+          -0.4696091115474701,
+          0.0000029418728253460813,
+          -0.29143847937859313
+        ],
+        "max": [
+          0.4688417911529541,
+          0.6240998294093707,
+          0.2912448238877179
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/low/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/low/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/low/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "blade",
+      "quality": "high",
+      "bytes": 2247156,
+      "triangles": 29900,
+      "textureDimension": 2048,
+      "bounds": {
+        "min": [
+          -0.4699462056159973,
+          0.000004419805737398974,
+          -0.295780511857906
+        ],
+        "max": [
+          0.4699426293373108,
+          0.3318783848264495,
+          0.2957410535830647
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/high/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/high/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/high/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "blade",
+      "quality": "medium",
+      "bytes": 678744,
+      "triangles": 7899,
+      "textureDimension": 1024,
+      "bounds": {
+        "min": [
+          -0.4698529541492462,
+          -0.000002658156060597605,
+          -0.29560619460689175
+        ],
+        "max": [
+          0.46967005729675293,
+          0.3318568227564329,
+          0.2957138107930337
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/medium/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/medium/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/medium/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "blade",
+      "quality": "low",
+      "bytes": 213588,
+      "triangles": 1898,
+      "textureDimension": 512,
+      "bounds": {
+        "min": [
+          -0.46980994939804077,
+          -0.000005953627678856321,
+          -0.29541223842690023
+        ],
+        "max": [
+          0.46892067790031433,
+          0.33186011822805117,
+          0.29572417933533224
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/low/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/low/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/low/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "burst",
+      "quality": "high",
+      "bytes": 2237632,
+      "triangles": 29900,
+      "textureDimension": 2048,
+      "bounds": {
+        "min": [
+          -0.4699785113334656,
+          -0.000004857646254130543,
+          -0.3411270635079582
+        ],
+        "max": [
+          0.469853013753891,
+          0.5002997814286028,
+          0.3410230832051475
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/high/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/high/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/high/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "burst",
+      "quality": "medium",
+      "bytes": 681620,
+      "triangles": 7891,
+      "textureDimension": 1024,
+      "bounds": {
+        "min": [
+          -0.46989959478378296,
+          -0.0000018143105799950376,
+          -0.34112891161031555
+        ],
+        "max": [
+          0.469853013753891,
+          0.5002034568238551,
+          0.34096395575589966
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/medium/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/medium/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/medium/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "burst",
+      "quality": "low",
+      "bytes": 208304,
+      "triangles": 1896,
+      "textureDimension": 512,
+      "bounds": {
+        "min": [
+          -0.46989598870277405,
+          0.0000055938552163681265,
+          -0.34086772719053116
+        ],
+        "max": [
+          0.46973466873168945,
+          0.5002893299271323,
+          0.3410219244065651
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/low/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/low/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/low/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "lance",
+      "quality": "high",
+      "bytes": 2356020,
+      "triangles": 29900,
+      "textureDimension": 2048,
+      "bounds": {
+        "min": [
+          -0.4699426293373108,
+          0.0000010082530224053698,
+          -0.2732528589644261
+        ],
+        "max": [
+          0.4699031710624695,
+          0.275727724094466,
+          0.27320982441089825
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/lance/high/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/lance/high/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/lance/high/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "lance",
+      "quality": "medium",
+      "bytes": 686116,
+      "triangles": 7900,
+      "textureDimension": 1024,
+      "bounds": {
+        "min": [
+          -0.4699964225292206,
+          0.000002087978844045324,
+          -0.27325415595551483
+        ],
+        "max": [
+          0.4699031710624695,
+          0.27574458536672175,
+          0.273211121401987
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/lance/medium/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/lance/medium/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/lance/medium/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "lance",
+      "quality": "low",
+      "bytes": 217392,
+      "triangles": 1899,
+      "textureDimension": 512,
+      "bounds": {
+        "min": [
+          -0.4699964225292206,
+          -0.000005500080980880284,
+          -0.2732450241908353
+        ],
+        "max": [
+          0.4696127474308014,
+          0.2756804690388819,
+          0.27305139850228244
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/lance/low/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/lance/low/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/lance/low/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "shield",
+      "quality": "high",
+      "bytes": 2080168,
+      "triangles": 29900,
+      "textureDimension": 2048,
+      "bounds": {
+        "min": [
+          -0.4699605703353882,
+          -4.5523077929487954e-7,
+          -0.44435762794066136
+        ],
+        "max": [
+          0.4698852300643921,
+          0.35887739881903613,
+          0.44428955943632786
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/shield/high/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/shield/high/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/shield/high/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "shield",
+      "quality": "medium",
+      "bytes": 672004,
+      "triangles": 7900,
+      "textureDimension": 1024,
+      "bounds": {
+        "min": [
+          -0.4697955846786499,
+          -0.000001247363446310601,
+          -0.44435495185379636
+        ],
+        "max": [
+          0.4698852300643921,
+          0.35869890018021877,
+          0.44399285363678587
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/shield/medium/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/shield/medium/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/shield/medium/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "shield",
+      "quality": "low",
+      "bytes": 210440,
+      "triangles": 1900,
+      "textureDimension": 512,
+      "bounds": {
+        "min": [
+          -0.46960198879241943,
+          0.000006214594021614062,
+          -0.4443648760453556
+        ],
+        "max": [
+          0.46964502334594727,
+          0.35845477798067016,
+          0.4440027778283451
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/shield/low/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/shield/low/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/shield/low/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "breaker",
+      "quality": "high",
+      "bytes": 2472712,
+      "triangles": 29900,
+      "textureDimension": 2048,
+      "bounds": {
+        "min": [
+          -0.4695983827114105,
+          -0.000003220944072346299,
+          -0.403719513692117
+        ],
+        "max": [
+          0.4698924422264099,
+          0.5998981021925465,
+          0.4037373950855496
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/breaker/high/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/breaker/high/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/breaker/high/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "breaker",
+      "quality": "medium",
+      "bytes": 692612,
+      "triangles": 7881,
+      "textureDimension": 1024,
+      "bounds": {
+        "min": [
+          -0.4692254662513733,
+          -0.0000055471439104337605,
+          -0.4037210577547228
+        ],
+        "max": [
+          0.46993547677993774,
+          0.5994845071811419,
+          0.4037389391481554
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/breaker/medium/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/breaker/medium/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/breaker/medium/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "breaker",
+      "quality": "low",
+      "bytes": 207956,
+      "triangles": 1881,
+      "textureDimension": 512,
+      "bounds": {
+        "min": [
+          -0.46847599744796753,
+          -0.000004856769227679081,
+          -0.4036042015454866
+        ],
+        "max": [
+          0.4695266783237457,
+          0.5990893532673356,
+          0.40363290118194595
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/breaker/low/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/breaker/low/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/breaker/low/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "capacitor",
+      "quality": "high",
+      "bytes": 1930248,
+      "triangles": 29896,
+      "textureDimension": 2048,
+      "bounds": {
+        "min": [
+          -0.46991389989852905,
+          0.0000034868339930937964,
+          -0.3701898376275228
+        ],
+        "max": [
+          0.46982789039611816,
+          0.6497379839797581,
+          0.37020059626590474
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/high/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/high/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/high/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "capacitor",
+      "quality": "medium",
+      "bytes": 646068,
+      "triangles": 7880,
+      "textureDimension": 1024,
+      "bounds": {
+        "min": [
+          -0.4699031710624695,
+          0.0000018662301926042346,
+          -0.3694246111156687
+        ],
+        "max": [
+          0.46977049112319946,
+          0.6493451410444351,
+          0.36933493592760414
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/medium/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/medium/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/medium/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "capacitor",
+      "quality": "low",
+      "bytes": 213440,
+      "triangles": 1880,
+      "textureDimension": 512,
+      "bounds": {
+        "min": [
+          -0.4699031710624695,
+          0.000004416610506652319,
+          -0.36828368350699403
+        ],
+        "max": [
+          0.46950873732566833,
+          0.6490521372301306,
+          0.3639914338274286
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/low/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/low/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/low/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "radiator",
+      "quality": "high",
+      "bytes": 2374680,
+      "triangles": 29900,
+      "textureDimension": 2048,
+      "bounds": {
+        "min": [
+          -0.4699856638908386,
+          -0.000003462487185856844,
+          -0.46359237286502974
+        ],
+        "max": [
+          0.46994978189468384,
+          0.518198793583835,
+          0.46383621546680587
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/high/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/high/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/high/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "radiator",
+      "quality": "medium",
+      "bytes": 699136,
+      "triangles": 7894,
+      "textureDimension": 1024,
+      "bounds": {
+        "min": [
+          -0.4699856638908386,
+          0.0000017554219073900867,
+          -0.4635928085078076
+        ],
+        "max": [
+          0.4698852598667145,
+          0.51799634390518,
+          0.4638007989157513
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/medium/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/medium/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/medium/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    },
+    {
+      "id": "radiator",
+      "quality": "low",
+      "bytes": 210920,
+      "triangles": 1899,
+      "textureDimension": 512,
+      "bounds": {
+        "min": [
+          -0.46987810730934143,
+          0.0000038841614813378555,
+          -0.463036828770476
+        ],
+        "max": [
+          0.46977049112319946,
+          0.5179619690527826,
+          0.46339183403475825
+        ]
+      },
+      "ktxValidation": [
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/low/normal.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/low/baseColor.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/low/metallicRoughness.ktx2",
+          "exitCode": 0,
+          "stdout": "{\"$schema\":\"https://schema.khronos.org/ktx/validate_v0.json\",\"valid\":true,\"messages\":[]}",
+          "stderr": ""
+        }
+      ],
+      "compressedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/2"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "decodedValidation": {
+        "numErrors": 0,
+        "numWarnings": 6,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/0/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/1/mimeType"
+          },
+          {
+            "code": "VALUE_NOT_IN_LIST",
+            "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+            "severity": 1,
+            "pointer": "/images/2/mimeType"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/images/2"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/0"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_UNRECOGNIZED_FORMAT",
+            "message": "Image format not recognized.",
+            "severity": 1,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      }
+    }
+  ],
+  "decoderBytes": 613881,
+  "note": "Numeric validation is not independent art signoff. Runtime request/decode evidence in render report."
+}

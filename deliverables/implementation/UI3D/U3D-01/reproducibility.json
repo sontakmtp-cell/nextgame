@@ -1,0 +1,81 @@
+{
+  "command": "node scripts/u3d01-reproduce.mjs thruster",
+  "status": "passed",
+  "elapsedMs": 14921.4647,
+  "rows": [
+    {
+      "path": "apps/web/public/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "sha256": "c3c753f37ed6038aedf44c4a634b15dc3c37d130ead28b1630d2b7858c043d09",
+      "after": "c3c753f37ed6038aedf44c4a634b15dc3c37d130ead28b1630d2b7858c043d09",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/assets/ui3d/u3d01/modules/thruster/high/baseColor.ktx2",
+      "sha256": "940534f01581a2e88395646103d6cd7db87f19b57636ee58cf1bc2aa913bb154",
+      "after": "940534f01581a2e88395646103d6cd7db87f19b57636ee58cf1bc2aa913bb154",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/assets/ui3d/u3d01/modules/thruster/high/normal.ktx2",
+      "sha256": "c7c3fbc7a371ca99a9a58fae46ca69ed16c05aeeadeb4d157d925855594a08ac",
+      "after": "c7c3fbc7a371ca99a9a58fae46ca69ed16c05aeeadeb4d157d925855594a08ac",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/assets/ui3d/u3d01/modules/thruster/high/metallicRoughness.ktx2",
+      "sha256": "736cc727760f040f4621e926cf457a6ea59df0903873a9241f4ac7fb900e0a82",
+      "after": "736cc727760f040f4621e926cf457a6ea59df0903873a9241f4ac7fb900e0a82",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "sha256": "53f9b0cf84a80419359477353aaa6d42da29ea52706e5cd9d871c9d99e1a67b4",
+      "after": "53f9b0cf84a80419359477353aaa6d42da29ea52706e5cd9d871c9d99e1a67b4",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/assets/ui3d/u3d01/modules/thruster/medium/baseColor.ktx2",
+      "sha256": "4e5c76e3217858d4ca6d3f80e03bb730b159376ad30dde3c7e85188040c19f32",
+      "after": "4e5c76e3217858d4ca6d3f80e03bb730b159376ad30dde3c7e85188040c19f32",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/assets/ui3d/u3d01/modules/thruster/medium/normal.ktx2",
+      "sha256": "d9fcc8ae554f50d9dab75a03960d63c3bd99e66e521231ff1d0a1096b2c4f3e1",
+      "after": "d9fcc8ae554f50d9dab75a03960d63c3bd99e66e521231ff1d0a1096b2c4f3e1",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/assets/ui3d/u3d01/modules/thruster/medium/metallicRoughness.ktx2",
+      "sha256": "f08e42ee964072fe389c0f92a4373d9528a373229519b696fe28f8c853bdbc21",
+      "after": "f08e42ee964072fe389c0f92a4373d9528a373229519b696fe28f8c853bdbc21",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "sha256": "32c26f80e96ae0300831aa6d23341458cffb1a56de1155216207b01808083f00",
+      "after": "32c26f80e96ae0300831aa6d23341458cffb1a56de1155216207b01808083f00",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/assets/ui3d/u3d01/modules/thruster/low/baseColor.ktx2",
+      "sha256": "dd4807e8b4af8e9a268785d37698c105df8b86a78bd1244ce9c18f70c59af586",
+      "after": "dd4807e8b4af8e9a268785d37698c105df8b86a78bd1244ce9c18f70c59af586",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/assets/ui3d/u3d01/modules/thruster/low/normal.ktx2",
+      "sha256": "2fed6e8c3c930dfcbc25ed8fd5c833b55bb826173523cea71087104fb0f4796f",
+      "after": "2fed6e8c3c930dfcbc25ed8fd5c833b55bb826173523cea71087104fb0f4796f",
+      "identical": true
+    },
+    {
+      "path": "apps/web/public/assets/ui3d/u3d01/modules/thruster/low/metallicRoughness.ktx2",
+      "sha256": "e134c0794f0ba4a727380b7dd842b1bfed56ccb16bc87876c7c08e2389288726",
+      "after": "e134c0794f0ba4a727380b7dd842b1bfed56ccb16bc87876c7c08e2389288726",
+      "identical": true
+    }
+  ],
+  "log": "prune: Removed types... Accessor (5)\nprune: Removed types... Accessor (2)\nthruster/high: 29900 triangles, 2389420 bytes, error 0.00271\nprune: Removed types... Accessor (5)\nprune: Removed types... Accessor (2)\nthruster/medium: 7892 triangles, 703120 bytes, error 0.01203\nprune: Removed types... Accessor (5)\nprune: Removed types... Accessor (2)\nthruster/low: 1898 triangles, 218888 bytes, error 0.04353\n",
+  "note": "Actual repeat of one pilot module, including fresh Blender bake. Other modules are not claimed repeated."
+}

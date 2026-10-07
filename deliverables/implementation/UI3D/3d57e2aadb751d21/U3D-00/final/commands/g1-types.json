@@ -1,0 +1,8 @@
+{
+  "command": "node node_modules/typescript/bin/tsc -p tests/g1-browser/tsconfig.json",
+  "startedAt": "2026-10-07T14:23:13.230Z",
+  "elapsedMs": 938.5789999999997,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": ""
+}

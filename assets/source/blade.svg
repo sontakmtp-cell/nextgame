@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" shape-rendering="crispEdges">
+
+<rect width="128" height="128" fill="#091322"/>
+<rect x="4" y="4" width="120" height="120" fill="#12243d"/>
+<rect x="4" y="4" width="120" height="4" fill="#20426d"/>
+<rect x="4" y="4" width="4" height="120" fill="#20426d"/>
+<rect x="4" y="120" width="120" height="4" fill="#060d17"/>
+<rect x="120" y="4" width="4" height="120" fill="#060d17"/>
+<rect x="8" y="8" width="8" height="8" fill="#060d17"/>
+<rect x="10" y="10" width="4" height="4" fill="#20426d"/>
+<rect x="112" y="8" width="8" height="8" fill="#060d17"/>
+<rect x="114" y="10" width="4" height="4" fill="#20426d"/>
+<rect x="8" y="112" width="8" height="8" fill="#060d17"/>
+<rect x="10" y="114" width="4" height="4" fill="#20426d"/>
+<rect x="112" y="112" width="8" height="8" fill="#060d17"/>
+<rect x="114" y="114" width="4" height="4" fill="#20426d"/>
+<rect x="58" y="0" width="12" height="10" fill="#060d17"/>
+<rect x="62" y="0" width="4" height="10" fill="#00f0ff"/>
+<rect x="58" y="118" width="12" height="10" fill="#060d17"/>
+<rect x="62" y="118" width="4" height="10" fill="#00f0ff"/>
+<rect x="0" y="58" width="10" height="12" fill="#060d17"/>
+<rect x="0" y="62" width="10" height="4" fill="#00f0ff"/>
+<rect x="118" y="58" width="10" height="12" fill="#060d17"/>
+<rect x="118" y="62" width="10" height="4" fill="#00f0ff"/>
+
+
+<rect x="24" y="76" width="30" height="30" fill="#08101c"/>
+<rect x="26" y="78" width="26" height="26" fill="#1b3964"/>
+<circle cx="39" cy="91" r="7" fill="#ffe600"/>
+<polygon points="36,78 64,50 78,64 50,92" fill="#10223a" stroke="#24446e" stroke-width="2"/>
+<polygon points="48,76 96,28 108,40 60,88" fill="#00f0ff"/>
+<polygon points="56,74 98,32 104,38 62,80" fill="#ffffff"/>
+<polygon points="68,44 76,36 78,44" fill="#00f0ff"/>
+<polygon points="80,32 88,24 90,32" fill="#00f0ff"/>
+<polygon points="92,20 100,12 102,20" fill="#ffffff"/>
+<line x1="28" y1="100" x2="62" y2="66" stroke="#ffe600" stroke-width="3"/>
+
+</svg>

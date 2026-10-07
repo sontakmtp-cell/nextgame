@@ -1,0 +1,1399 @@
+{
+  "source": "D:\\AI\\nextgame\\assets\\Bo-gach-nen-san-dau.png",
+  "source_size_px": [
+    1254,
+    1254
+  ],
+  "component_rule": "alpha > 64; 8-connected; foreground run area >= 500 px; 6 px crop padding",
+  "count": 60,
+  "counts_by_category": {
+    "floor": 10,
+    "wall-h": 5,
+    "wall-v": 1,
+    "wall-junction": 19,
+    "structure": 12,
+    "debris-vfx": 13
+  },
+  "assets": [
+    {
+      "id": "floor-01",
+      "file": "floor-01.png",
+      "category": "floor",
+      "source_bbox": [
+        843,
+        22,
+        1219,
+        340
+      ],
+      "crop_bbox_with_padding": [
+        837,
+        16,
+        1225,
+        346
+      ],
+      "size_px": [
+        388,
+        330
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 118852
+    },
+    {
+      "id": "floor-02",
+      "file": "floor-02.png",
+      "category": "floor",
+      "source_bbox": [
+        22,
+        32,
+        211,
+        211
+      ],
+      "crop_bbox_with_padding": [
+        16,
+        26,
+        217,
+        217
+      ],
+      "size_px": [
+        201,
+        191
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 33818
+    },
+    {
+      "id": "floor-03",
+      "file": "floor-03.png",
+      "category": "floor",
+      "source_bbox": [
+        229,
+        32,
+        421,
+        211
+      ],
+      "crop_bbox_with_padding": [
+        223,
+        26,
+        427,
+        217
+      ],
+      "size_px": [
+        204,
+        191
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 34022
+    },
+    {
+      "id": "floor-04",
+      "file": "floor-04.png",
+      "category": "floor",
+      "source_bbox": [
+        441,
+        32,
+        620,
+        211
+      ],
+      "crop_bbox_with_padding": [
+        435,
+        26,
+        626,
+        217
+      ],
+      "size_px": [
+        191,
+        191
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 31847
+    },
+    {
+      "id": "floor-05",
+      "file": "floor-05.png",
+      "category": "floor",
+      "source_bbox": [
+        636,
+        32,
+        820,
+        211
+      ],
+      "crop_bbox_with_padding": [
+        630,
+        26,
+        826,
+        217
+      ],
+      "size_px": [
+        196,
+        191
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 32735
+    },
+    {
+      "id": "floor-06",
+      "file": "floor-06.png",
+      "category": "floor",
+      "source_bbox": [
+        22,
+        236,
+        174,
+        381
+      ],
+      "crop_bbox_with_padding": [
+        16,
+        230,
+        180,
+        387
+      ],
+      "size_px": [
+        164,
+        157
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 21881
+    },
+    {
+      "id": "floor-07",
+      "file": "floor-07.png",
+      "category": "floor",
+      "source_bbox": [
+        189,
+        237,
+        341,
+        381
+      ],
+      "crop_bbox_with_padding": [
+        183,
+        231,
+        347,
+        387
+      ],
+      "size_px": [
+        164,
+        156
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 21839
+    },
+    {
+      "id": "floor-08",
+      "file": "floor-08.png",
+      "category": "floor",
+      "source_bbox": [
+        356,
+        237,
+        496,
+        380
+      ],
+      "crop_bbox_with_padding": [
+        350,
+        231,
+        502,
+        386
+      ],
+      "size_px": [
+        152,
+        155
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 19823
+    },
+    {
+      "id": "floor-09",
+      "file": "floor-09.png",
+      "category": "floor",
+      "source_bbox": [
+        513,
+        237,
+        664,
+        381
+      ],
+      "crop_bbox_with_padding": [
+        507,
+        231,
+        670,
+        387
+      ],
+      "size_px": [
+        163,
+        156
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 21615
+    },
+    {
+      "id": "floor-10",
+      "file": "floor-10.png",
+      "category": "floor",
+      "source_bbox": [
+        681,
+        237,
+        825,
+        384
+      ],
+      "crop_bbox_with_padding": [
+        675,
+        231,
+        831,
+        390
+      ],
+      "size_px": [
+        156,
+        159
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 20991
+    },
+    {
+      "id": "wall-corner-or-junction-01",
+      "file": "wall-corner-or-junction-01.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        867,
+        400,
+        1135,
+        599
+      ],
+      "crop_bbox_with_padding": [
+        861,
+        394,
+        1141,
+        605
+      ],
+      "size_px": [
+        280,
+        211
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 31186
+    },
+    {
+      "id": "wall-straight-h-01",
+      "file": "wall-straight-h-01.png",
+      "category": "wall-h",
+      "source_bbox": [
+        98,
+        402,
+        849,
+        507
+      ],
+      "crop_bbox_with_padding": [
+        92,
+        396,
+        855,
+        513
+      ],
+      "size_px": [
+        763,
+        117
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 62897
+    },
+    {
+      "id": "wall-corner-or-junction-02",
+      "file": "wall-corner-or-junction-02.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        1151,
+        403,
+        1229,
+        504
+      ],
+      "crop_bbox_with_padding": [
+        1145,
+        397,
+        1235,
+        510
+      ],
+      "size_px": [
+        90,
+        113
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 7150
+    },
+    {
+      "id": "wall-corner-or-junction-03",
+      "file": "wall-corner-or-junction-03.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        28,
+        416,
+        84,
+        501
+      ],
+      "crop_bbox_with_padding": [
+        22,
+        410,
+        90,
+        507
+      ],
+      "size_px": [
+        68,
+        97
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 4230
+    },
+    {
+      "id": "wall-corner-or-junction-04",
+      "file": "wall-corner-or-junction-04.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        21,
+        521,
+        102,
+        610
+      ],
+      "crop_bbox_with_padding": [
+        15,
+        515,
+        108,
+        616
+      ],
+      "size_px": [
+        93,
+        101
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 6218
+    },
+    {
+      "id": "wall-corner-or-junction-05",
+      "file": "wall-corner-or-junction-05.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        1117,
+        521,
+        1229,
+        688
+      ],
+      "crop_bbox_with_padding": [
+        1111,
+        515,
+        1235,
+        694
+      ],
+      "size_px": [
+        124,
+        179
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 14508
+    },
+    {
+      "id": "wall-corner-or-junction-06",
+      "file": "wall-corner-or-junction-06.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        785,
+        522,
+        869,
+        609
+      ],
+      "crop_bbox_with_padding": [
+        779,
+        516,
+        875,
+        615
+      ],
+      "size_px": [
+        96,
+        99
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 6413
+    },
+    {
+      "id": "wall-straight-h-02",
+      "file": "wall-straight-h-02.png",
+      "category": "wall-h",
+      "source_bbox": [
+        123,
+        527,
+        768,
+        612
+      ],
+      "crop_bbox_with_padding": [
+        117,
+        521,
+        774,
+        618
+      ],
+      "size_px": [
+        657,
+        97
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 50620
+    },
+    {
+      "id": "wall-corner-or-junction-07",
+      "file": "wall-corner-or-junction-07.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        827,
+        555,
+        1042,
+        786
+      ],
+      "crop_bbox_with_padding": [
+        821,
+        549,
+        1048,
+        792
+      ],
+      "size_px": [
+        227,
+        243
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 29396
+    },
+    {
+      "id": "wall-corner-or-junction-08",
+      "file": "wall-corner-or-junction-08.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        26,
+        630,
+        91,
+        732
+      ],
+      "crop_bbox_with_padding": [
+        20,
+        624,
+        97,
+        738
+      ],
+      "size_px": [
+        77,
+        114
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 6172
+    },
+    {
+      "id": "wall-straight-v-01",
+      "file": "wall-straight-v-01.png",
+      "category": "wall-v",
+      "source_bbox": [
+        762,
+        633,
+        806,
+        731
+      ],
+      "crop_bbox_with_padding": [
+        756,
+        627,
+        812,
+        737
+      ],
+      "size_px": [
+        56,
+        110
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 3895
+    },
+    {
+      "id": "wall-corner-or-junction-09",
+      "file": "wall-corner-or-junction-09.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        1052,
+        633,
+        1094,
+        706
+      ],
+      "crop_bbox_with_padding": [
+        1046,
+        627,
+        1100,
+        712
+      ],
+      "size_px": [
+        54,
+        85
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 2749
+    },
+    {
+      "id": "wall-straight-h-03",
+      "file": "wall-straight-h-03.png",
+      "category": "wall-h",
+      "source_bbox": [
+        555,
+        634,
+        743,
+        727
+      ],
+      "crop_bbox_with_padding": [
+        549,
+        628,
+        749,
+        733
+      ],
+      "size_px": [
+        200,
+        105
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 16209
+    },
+    {
+      "id": "wall-corner-or-junction-10",
+      "file": "wall-corner-or-junction-10.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        421,
+        636,
+        538,
+        728
+      ],
+      "crop_bbox_with_padding": [
+        415,
+        630,
+        544,
+        734
+      ],
+      "size_px": [
+        129,
+        104
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 10401
+    },
+    {
+      "id": "wall-straight-h-04",
+      "file": "wall-straight-h-04.png",
+      "category": "wall-h",
+      "source_bbox": [
+        120,
+        639,
+        408,
+        729
+      ],
+      "crop_bbox_with_padding": [
+        114,
+        633,
+        414,
+        735
+      ],
+      "size_px": [
+        300,
+        102
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 23146
+    },
+    {
+      "id": "wall-corner-or-junction-11",
+      "file": "wall-corner-or-junction-11.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        1053,
+        713,
+        1225,
+        851
+      ],
+      "crop_bbox_with_padding": [
+        1047,
+        707,
+        1231,
+        857
+      ],
+      "size_px": [
+        184,
+        150
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 17519
+    },
+    {
+      "id": "wall-corner-or-junction-12",
+      "file": "wall-corner-or-junction-12.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        751,
+        752,
+        818,
+        841
+      ],
+      "crop_bbox_with_padding": [
+        745,
+        746,
+        824,
+        847
+      ],
+      "size_px": [
+        79,
+        101
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 5639
+    },
+    {
+      "id": "wall-corner-or-junction-13",
+      "file": "wall-corner-or-junction-13.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        291,
+        754,
+        366,
+        850
+      ],
+      "crop_bbox_with_padding": [
+        285,
+        748,
+        372,
+        856
+      ],
+      "size_px": [
+        87,
+        108
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 6335
+    },
+    {
+      "id": "wall-corner-or-junction-14",
+      "file": "wall-corner-or-junction-14.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        29,
+        758,
+        167,
+        841
+      ],
+      "crop_bbox_with_padding": [
+        23,
+        752,
+        173,
+        847
+      ],
+      "size_px": [
+        150,
+        95
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 10567
+    },
+    {
+      "id": "wall-corner-or-junction-15",
+      "file": "wall-corner-or-junction-15.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        190,
+        761,
+        261,
+        840
+      ],
+      "crop_bbox_with_padding": [
+        184,
+        755,
+        267,
+        846
+      ],
+      "size_px": [
+        83,
+        91
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 5050
+    },
+    {
+      "id": "wall-corner-or-junction-16",
+      "file": "wall-corner-or-junction-16.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        639,
+        764,
+        728,
+        832
+      ],
+      "crop_bbox_with_padding": [
+        633,
+        758,
+        734,
+        838
+      ],
+      "size_px": [
+        101,
+        80
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 5970
+    },
+    {
+      "id": "wall-corner-or-junction-17",
+      "file": "wall-corner-or-junction-17.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        390,
+        768,
+        492,
+        829
+      ],
+      "crop_bbox_with_padding": [
+        384,
+        762,
+        498,
+        835
+      ],
+      "size_px": [
+        114,
+        73
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 6028
+    },
+    {
+      "id": "wall-straight-h-05",
+      "file": "wall-straight-h-05.png",
+      "category": "wall-h",
+      "source_bbox": [
+        508,
+        772,
+        625,
+        821
+      ],
+      "crop_bbox_with_padding": [
+        502,
+        766,
+        631,
+        827
+      ],
+      "size_px": [
+        129,
+        61
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 5539
+    },
+    {
+      "id": "wall-corner-or-junction-18",
+      "file": "wall-corner-or-junction-18.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        862,
+        799,
+        975,
+        890
+      ],
+      "crop_bbox_with_padding": [
+        856,
+        793,
+        981,
+        896
+      ],
+      "size_px": [
+        125,
+        103
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 6322
+    },
+    {
+      "id": "wall-corner-or-junction-19",
+      "file": "wall-corner-or-junction-19.png",
+      "category": "wall-junction",
+      "source_bbox": [
+        994,
+        811,
+        1088,
+        891
+      ],
+      "crop_bbox_with_padding": [
+        988,
+        805,
+        1094,
+        897
+      ],
+      "size_px": [
+        106,
+        92
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 5366
+    },
+    {
+      "id": "arena-structure-01",
+      "file": "arena-structure-01.png",
+      "category": "structure",
+      "source_bbox": [
+        491,
+        860,
+        558,
+        987
+      ],
+      "crop_bbox_with_padding": [
+        485,
+        854,
+        564,
+        993
+      ],
+      "size_px": [
+        79,
+        139
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 7081
+    },
+    {
+      "id": "arena-structure-02",
+      "file": "arena-structure-02.png",
+      "category": "structure",
+      "source_bbox": [
+        399,
+        861,
+        469,
+        989
+      ],
+      "crop_bbox_with_padding": [
+        393,
+        855,
+        475,
+        995
+      ],
+      "size_px": [
+        82,
+        140
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 7808
+    },
+    {
+      "id": "arena-structure-03",
+      "file": "arena-structure-03.png",
+      "category": "structure",
+      "source_bbox": [
+        95,
+        870,
+        179,
+        987
+      ],
+      "crop_bbox_with_padding": [
+        89,
+        864,
+        185,
+        993
+      ],
+      "size_px": [
+        96,
+        129
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 8582
+    },
+    {
+      "id": "arena-structure-04",
+      "file": "arena-structure-04.png",
+      "category": "structure",
+      "source_bbox": [
+        580,
+        871,
+        847,
+        948
+      ],
+      "crop_bbox_with_padding": [
+        574,
+        865,
+        853,
+        954
+      ],
+      "size_px": [
+        279,
+        89
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 17636
+    },
+    {
+      "id": "arena-structure-05",
+      "file": "arena-structure-05.png",
+      "category": "structure",
+      "source_bbox": [
+        295,
+        872,
+        373,
+        981
+      ],
+      "crop_bbox_with_padding": [
+        289,
+        866,
+        379,
+        987
+      ],
+      "size_px": [
+        90,
+        121
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 7792
+    },
+    {
+      "id": "arena-structure-06",
+      "file": "arena-structure-06.png",
+      "category": "structure",
+      "source_bbox": [
+        27,
+        876,
+        78,
+        970
+      ],
+      "crop_bbox_with_padding": [
+        21,
+        870,
+        84,
+        976
+      ],
+      "size_px": [
+        63,
+        106
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 4128
+    },
+    {
+      "id": "arena-structure-07",
+      "file": "arena-structure-07.png",
+      "category": "structure",
+      "source_bbox": [
+        199,
+        885,
+        271,
+        985
+      ],
+      "crop_bbox_with_padding": [
+        193,
+        879,
+        277,
+        991
+      ],
+      "size_px": [
+        84,
+        112
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 6457
+    },
+    {
+      "id": "arena-structure-08",
+      "file": "arena-structure-08.png",
+      "category": "structure",
+      "source_bbox": [
+        1142,
+        907,
+        1228,
+        986
+      ],
+      "crop_bbox_with_padding": [
+        1136,
+        901,
+        1234,
+        992
+      ],
+      "size_px": [
+        98,
+        91
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 4824
+    },
+    {
+      "id": "arena-structure-09",
+      "file": "arena-structure-09.png",
+      "category": "structure",
+      "source_bbox": [
+        865,
+        917,
+        978,
+        996
+      ],
+      "crop_bbox_with_padding": [
+        859,
+        911,
+        984,
+        1002
+      ],
+      "size_px": [
+        125,
+        91
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 5784
+    },
+    {
+      "id": "arena-structure-10",
+      "file": "arena-structure-10.png",
+      "category": "structure",
+      "source_bbox": [
+        1063,
+        922,
+        1128,
+        998
+      ],
+      "crop_bbox_with_padding": [
+        1057,
+        916,
+        1134,
+        1004
+      ],
+      "size_px": [
+        77,
+        88
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 4665
+    },
+    {
+      "id": "arena-structure-11",
+      "file": "arena-structure-11.png",
+      "category": "structure",
+      "source_bbox": [
+        946,
+        923,
+        1052,
+        998
+      ],
+      "crop_bbox_with_padding": [
+        940,
+        917,
+        1058,
+        1004
+      ],
+      "size_px": [
+        118,
+        87
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 5917
+    },
+    {
+      "id": "arena-structure-12",
+      "file": "arena-structure-12.png",
+      "category": "structure",
+      "source_bbox": [
+        579,
+        956,
+        847,
+        999
+      ],
+      "crop_bbox_with_padding": [
+        573,
+        950,
+        853,
+        1005
+      ],
+      "size_px": [
+        280,
+        55
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 7451
+    },
+    {
+      "id": "debris-or-vfx-01",
+      "file": "debris-or-vfx-01.png",
+      "category": "debris-vfx",
+      "source_bbox": [
+        924,
+        1005,
+        1219,
+        1094
+      ],
+      "crop_bbox_with_padding": [
+        918,
+        999,
+        1225,
+        1100
+      ],
+      "size_px": [
+        307,
+        101
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 13631
+    },
+    {
+      "id": "debris-or-vfx-02",
+      "file": "debris-or-vfx-02.png",
+      "category": "debris-vfx",
+      "source_bbox": [
+        164,
+        1017,
+        189,
+        1048
+      ],
+      "crop_bbox_with_padding": [
+        158,
+        1011,
+        195,
+        1054
+      ],
+      "size_px": [
+        37,
+        43
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 613
+    },
+    {
+      "id": "debris-or-vfx-03",
+      "file": "debris-or-vfx-03.png",
+      "category": "debris-vfx",
+      "source_bbox": [
+        25,
+        1027,
+        55,
+        1061
+      ],
+      "crop_bbox_with_padding": [
+        19,
+        1021,
+        61,
+        1067
+      ],
+      "size_px": [
+        42,
+        46
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 736
+    },
+    {
+      "id": "debris-or-vfx-04",
+      "file": "debris-or-vfx-04.png",
+      "category": "debris-vfx",
+      "source_bbox": [
+        107,
+        1028,
+        153,
+        1085
+      ],
+      "crop_bbox_with_padding": [
+        101,
+        1022,
+        159,
+        1091
+      ],
+      "size_px": [
+        58,
+        69
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 1780
+    },
+    {
+      "id": "debris-or-vfx-05",
+      "file": "debris-or-vfx-05.png",
+      "category": "debris-vfx",
+      "source_bbox": [
+        494,
+        1053,
+        614,
+        1190
+      ],
+      "crop_bbox_with_padding": [
+        488,
+        1047,
+        620,
+        1196
+      ],
+      "size_px": [
+        132,
+        149
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 8943
+    },
+    {
+      "id": "debris-or-vfx-06",
+      "file": "debris-or-vfx-06.png",
+      "category": "debris-vfx",
+      "source_bbox": [
+        290,
+        1059,
+        436,
+        1201
+      ],
+      "crop_bbox_with_padding": [
+        284,
+        1053,
+        442,
+        1207
+      ],
+      "size_px": [
+        158,
+        154
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 11215
+    },
+    {
+      "id": "debris-or-vfx-07",
+      "file": "debris-or-vfx-07.png",
+      "category": "debris-vfx",
+      "source_bbox": [
+        712,
+        1078,
+        851,
+        1221
+      ],
+      "crop_bbox_with_padding": [
+        706,
+        1072,
+        857,
+        1227
+      ],
+      "size_px": [
+        151,
+        155
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 3430
+    },
+    {
+      "id": "debris-or-vfx-08",
+      "file": "debris-or-vfx-08.png",
+      "category": "debris-vfx",
+      "source_bbox": [
+        28,
+        1107,
+        99,
+        1191
+      ],
+      "crop_bbox_with_padding": [
+        22,
+        1101,
+        105,
+        1197
+      ],
+      "size_px": [
+        83,
+        96
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 3382
+    },
+    {
+      "id": "debris-or-vfx-09",
+      "file": "debris-or-vfx-09.png",
+      "category": "debris-vfx",
+      "source_bbox": [
+        1142,
+        1108,
+        1224,
+        1200
+      ],
+      "crop_bbox_with_padding": [
+        1136,
+        1102,
+        1230,
+        1206
+      ],
+      "size_px": [
+        94,
+        104
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 7418
+    },
+    {
+      "id": "debris-or-vfx-10",
+      "file": "debris-or-vfx-10.png",
+      "category": "debris-vfx",
+      "source_bbox": [
+        146,
+        1110,
+        238,
+        1220
+      ],
+      "crop_bbox_with_padding": [
+        140,
+        1104,
+        244,
+        1226
+      ],
+      "size_px": [
+        104,
+        122
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 5198
+    },
+    {
+      "id": "debris-or-vfx-11",
+      "file": "debris-or-vfx-11.png",
+      "category": "debris-vfx",
+      "source_bbox": [
+        984,
+        1142,
+        1026,
+        1170
+      ],
+      "crop_bbox_with_padding": [
+        978,
+        1136,
+        1032,
+        1176
+      ],
+      "size_px": [
+        54,
+        40
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 601
+    },
+    {
+      "id": "debris-or-vfx-12",
+      "file": "debris-or-vfx-12.png",
+      "category": "debris-vfx",
+      "source_bbox": [
+        111,
+        1168,
+        142,
+        1207
+      ],
+      "crop_bbox_with_padding": [
+        105,
+        1162,
+        148,
+        1213
+      ],
+      "size_px": [
+        43,
+        51
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 788
+    },
+    {
+      "id": "debris-or-vfx-13",
+      "file": "debris-or-vfx-13.png",
+      "category": "debris-vfx",
+      "source_bbox": [
+        940,
+        1179,
+        971,
+        1217
+      ],
+      "crop_bbox_with_padding": [
+        934,
+        1173,
+        977,
+        1223
+      ],
+      "size_px": [
+        43,
+        50
+      ],
+      "alpha": "preserved",
+      "foreground_run_pixels": 748
+    }
+  ]
+}

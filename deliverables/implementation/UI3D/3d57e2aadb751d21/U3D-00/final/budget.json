@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-10-07T14:23:38.839Z",
+  "shellFiles": [
+    {
+      "path": "index.html",
+      "bytes": 904,
+      "gzipBytes": 504,
+      "sha256": "fd9ddef5af5c82150b6610aa1511f8c24e4adb84dd07dc4451a4736ccb7dc6a8"
+    },
+    {
+      "path": "assets/index-vmu5PR_N.js",
+      "bytes": 276918,
+      "gzipBytes": 85893,
+      "sha256": "4ce14662ebacd65164eb55cefc84aea9b1ea21d11ccfabc43145e55d417a131b"
+    },
+    {
+      "path": "assets/index-B4FffMcK.css",
+      "bytes": 27542,
+      "gzipBytes": 6338,
+      "sha256": "55e875f9810f01272974d977f29f6176813b20b753ff379ab4bce2ee3906558d"
+    },
+    {
+      "path": "assets/local.worker-BQhOk49w.js",
+      "bytes": 260647,
+      "gzipBytes": 77968,
+      "sha256": "022577282943f4d6b733b36d70d5fb51bbd4825762b39bf4ae47eda537f429ee"
+    },
+    {
+      "path": "assets/rolldown-runtime-hePW80VL.js",
+      "bytes": 716,
+      "gzipBytes": 428,
+      "sha256": "580ad8c58061a4dde99bde0a56905e382f0568516ee2f5b84dbfb52085709021"
+    }
+  ],
+  "shellGzipBytes": 171131,
+  "legacyArtAndFontUpperBoundBytes": 500895,
+  "note": "Current 2D build bound. No 3D assets/decoders installed in U3D-00; not a U3D-07 3D budget pass."
+}

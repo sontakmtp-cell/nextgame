@@ -1,0 +1,1640 @@
+{
+  "command": "node scripts/u3d01-render.mjs armor thruster blade",
+  "status": "passed",
+  "errors": [],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:5194/",
+      "status": 200,
+      "bytes": 4223
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/environments/RoomEnvironment.js",
+      "status": 200,
+      "bytes": 4960
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/decoders/meshopt_decoder.module.js",
+      "status": 200,
+      "bytes": 29019
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/loaders/KTX2Loader.js",
+      "status": 200,
+      "bytes": 36567
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/loaders/GLTFLoader.js",
+      "status": 200,
+      "bytes": 117570
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/build/three.module.js",
+      "status": 200,
+      "bytes": 662772
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/utils/WorkerPool.js",
+      "status": 200,
+      "bytes": 3110
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/libs/zstddec.module.js",
+      "status": 200,
+      "bytes": 39754
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/math/ColorSpaces.js",
+      "status": 200,
+      "bytes": 4290
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/utils/SkeletonUtils.js",
+      "status": 200,
+      "bytes": 11535
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/libs/ktx-parse.module.js",
+      "status": 200,
+      "bytes": 19932
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/utils/BufferGeometryUtils.js",
+      "status": 200,
+      "bytes": 37712
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/build/three.core.js",
+      "status": 200,
+      "bytes": 1458113
+    },
+    {
+      "url": "http://127.0.0.1:5194/settings",
+      "status": 200,
+      "bytes": 1640
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/armor.glb",
+      "status": 200,
+      "bytes": 33333608
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f8c45e89-0a50-4035-8411-be31ba81bfde",
+      "status": 200,
+      "bytes": 3718879
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/d1b1cd84-cd7b-41a3-b929-63c079fc2d48",
+      "status": 200,
+      "bytes": 4170180
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/da50c73d-8abc-49ce-9354-4d2656785eb6",
+      "status": 200,
+      "bytes": 4637124
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "status": 200,
+      "bytes": 2067412
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b8eb4f95-a952-47ed-a890-a700771eb672",
+      "status": 200,
+      "bytes": 501856
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3081cf62-dafe-421b-b57d-174b5554e9c5",
+      "status": 200,
+      "bytes": 592808
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a1a6a090-b8b2-4184-b242-dfc4a079a475",
+      "status": 200,
+      "bytes": 640016
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "status": 200,
+      "bytes": 57529
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "status": 200,
+      "bytes": 527333
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/dd07e1fa-367c-4312-a2bb-56b478eec086",
+      "status": 200,
+      "bytes": 68718
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "status": 200,
+      "bytes": 621896
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/24435279-ebb7-4610-9f12-5f57814b3e20",
+      "status": 200,
+      "bytes": 170928
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a8281eaf-a2b5-4c35-97d9-e60c055705c4",
+      "status": 200,
+      "bytes": 171875
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/37a8033e-1df5-4dc8-8f76-3e8eb4aeb9dc",
+      "status": 200,
+      "bytes": 178735
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "status": 200,
+      "bytes": 199632
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/9a5ed356-4cf2-495a-aff1-ddd34ee07ef2",
+      "status": 200,
+      "bytes": 64446
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4606387f-83e6-4de0-83a0-a631ca442566",
+      "status": 200,
+      "bytes": 59086
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ccf98d53-468d-474d-8ea2-a35945e5953b",
+      "status": 200,
+      "bytes": 48558
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/armor.glb",
+      "status": 200,
+      "bytes": 33333608
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/92e444bb-1016-4b50-89f3-f26512d2781c",
+      "status": 200,
+      "bytes": 4170180
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3efdf90a-702d-4930-ab5c-98220632f873",
+      "status": 200,
+      "bytes": 4637124
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/01456eb0-86ea-4c2c-bf23-c100701c3f1e",
+      "status": 200,
+      "bytes": 3718879
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "status": 200,
+      "bytes": 2067412
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ca4d38d5-ad5c-4ec4-b4e1-f6e076860084",
+      "status": 200,
+      "bytes": 501856
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c12c86e9-f23d-4323-ab7b-e278bd292935",
+      "status": 200,
+      "bytes": 592808
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/8d367039-37ea-4b9e-85b0-086d4adb0f79",
+      "status": 200,
+      "bytes": 640016
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "status": 200,
+      "bytes": 621896
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/abb8cac6-84ac-4c4d-80e8-239dfc20814e",
+      "status": 200,
+      "bytes": 170928
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b74003b3-e493-428c-a03f-3a99af6bb8e2",
+      "status": 200,
+      "bytes": 171875
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/9b241657-4a13-4eaa-9615-b197b64b18b9",
+      "status": 200,
+      "bytes": 178735
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "status": 200,
+      "bytes": 199632
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/1904cf42-0844-442e-8544-366258c39eef",
+      "status": 200,
+      "bytes": 64446
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3c710fc3-1a9c-4163-a112-1edc549ce1f6",
+      "status": 200,
+      "bytes": 59086
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a7db3edc-1928-4a30-87fa-cdb4007d74fa",
+      "status": 200,
+      "bytes": 48558
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/armor.glb",
+      "status": 200,
+      "bytes": 33333608
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c7927ed1-55c8-4ee4-8d2c-8b4a8d6d4982",
+      "status": 200,
+      "bytes": 4170180
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b85e3914-c706-44eb-8cae-10d1284f6563",
+      "status": 200,
+      "bytes": 3718879
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/8df13e9f-2412-40bb-b533-8520416436ce",
+      "status": 200,
+      "bytes": 4637124
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "status": 200,
+      "bytes": 2067412
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a23c9f70-6774-4125-b47d-87cf83040097",
+      "status": 200,
+      "bytes": 501856
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ee3f5ce8-4941-4e2b-9ad4-4be030a34768",
+      "status": 200,
+      "bytes": 592808
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3b528cc2-20a9-4c5a-86a0-0e99eac1e363",
+      "status": 200,
+      "bytes": 640016
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "status": 200,
+      "bytes": 621896
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/6aab3026-002d-48be-9b7b-173f5935b4d7",
+      "status": 200,
+      "bytes": 170928
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/90168148-ea09-4dcb-b658-a3dbb5776877",
+      "status": 200,
+      "bytes": 171875
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a671b045-9676-4e3b-b50a-7d53dc2cb70a",
+      "status": 200,
+      "bytes": 178735
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "status": 200,
+      "bytes": 199632
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/5c2d7020-a891-4772-ad20-f2722a8a1d59",
+      "status": 200,
+      "bytes": 64446
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b03e2462-f5bc-4a2b-97a3-9ae2a1f2b410",
+      "status": 200,
+      "bytes": 59086
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a7658f55-1333-425d-985d-0c1e3f9c1fb6",
+      "status": 200,
+      "bytes": 48558
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/thruster.glb",
+      "status": 200,
+      "bytes": 33992516
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/627f6a6b-965d-42e5-a555-1f95dc1af885",
+      "status": 200,
+      "bytes": 3383016
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/7d08accc-b835-4073-a695-68606ba91d8e",
+      "status": 200,
+      "bytes": 3665404
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/8c1da198-8538-4b45-861b-0cf12e7b67b4",
+      "status": 200,
+      "bytes": 4345950
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "status": 200,
+      "bytes": 2214636
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/29660fa3-7de7-46ce-b68a-d223dfb3de75",
+      "status": 200,
+      "bytes": 567490
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e8af4e72-d644-462f-96d4-c4e13573b6c2",
+      "status": 200,
+      "bytes": 631129
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a776956f-ef61-4347-b219-b76b4fdce628",
+      "status": 200,
+      "bytes": 641514
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "status": 200,
+      "bytes": 718128
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/edd0496f-df45-4ede-98e6-3ff6779f6433",
+      "status": 200,
+      "bytes": 198632
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/9d818dd2-ba98-433e-981d-b00ae172a788",
+      "status": 200,
+      "bytes": 217784
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/1a0fca22-0017-4616-a4a8-907ea948645c",
+      "status": 200,
+      "bytes": 191428
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "status": 200,
+      "bytes": 234608
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/282a661c-62ae-4407-b648-2bd12de13eda",
+      "status": 200,
+      "bytes": 73917
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3e3626b0-5f53-41ea-8cec-9ca1bc4a9397",
+      "status": 200,
+      "bytes": 76352
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/bf18e0c7-dd07-4ebe-a735-60abcee35919",
+      "status": 200,
+      "bytes": 55942
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/thruster.glb",
+      "status": 200,
+      "bytes": 33992516
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b8d132c4-6d50-4dca-a411-722ac1bea3d1",
+      "status": 200,
+      "bytes": 3383016
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/7831a811-ee99-466a-abf8-9a0c9c17f3d7",
+      "status": 200,
+      "bytes": 3665404
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/77ca1398-f88d-4154-b2a4-600fe6a4632e",
+      "status": 200,
+      "bytes": 4345950
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "status": 200,
+      "bytes": 2214636
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b6a6a3ec-866b-49ee-9911-25d241fc763c",
+      "status": 200,
+      "bytes": 567490
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/36d40a01-cfea-492f-8ced-5d4195c2e835",
+      "status": 200,
+      "bytes": 631129
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/0eaaa2d9-dc28-4216-bcd4-948bfd42cb40",
+      "status": 200,
+      "bytes": 641514
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "status": 200,
+      "bytes": 718128
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ee8e12fa-8ffe-41e9-aadf-2f16c58b9c07",
+      "status": 200,
+      "bytes": 198632
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/2a3a66b4-76ec-4ac4-9645-52628ada9b22",
+      "status": 200,
+      "bytes": 217784
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/7454390c-731a-4e0c-8d5b-6c602615dccd",
+      "status": 200,
+      "bytes": 191428
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "status": 200,
+      "bytes": 234608
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ebd52097-c7d1-49f5-ab91-b5d0309a327c",
+      "status": 200,
+      "bytes": 73917
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3f636c09-3ca4-4df7-a877-faaadfa757b0",
+      "status": 200,
+      "bytes": 76352
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/873d61f4-667a-4fff-966c-14bfb002c461",
+      "status": 200,
+      "bytes": 55942
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/thruster.glb",
+      "status": 200,
+      "bytes": 33992516
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/19400c03-36d6-4e1c-a9bb-ab847977bcc9",
+      "status": 200,
+      "bytes": 3383016
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/60e868f1-7383-4b0b-a89f-278d02a05d5f",
+      "status": 200,
+      "bytes": 3665404
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b7fefcdf-7284-493b-9cc5-5afdcd9784b9",
+      "status": 200,
+      "bytes": 4345950
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "status": 200,
+      "bytes": 2214636
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/03f282db-c517-4857-9768-d100eaa6c43c",
+      "status": 200,
+      "bytes": 567490
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/89f68b79-c35d-4966-9485-56875407d000",
+      "status": 200,
+      "bytes": 631129
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/af93f82e-6466-4acb-b6b3-bc05cbec9b56",
+      "status": 200,
+      "bytes": 641514
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "status": 200,
+      "bytes": 718128
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/25aba2fe-3fdd-4fa9-b82b-a4ed1884be0b",
+      "status": 200,
+      "bytes": 198632
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a16f4fa9-655d-410f-a54c-6c89dc0b3ea0",
+      "status": 200,
+      "bytes": 217784
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/eec31e51-f806-4955-8a80-28ae68643ad8",
+      "status": 200,
+      "bytes": 191428
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "status": 200,
+      "bytes": 234608
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/0153e15f-6f53-4a80-bfa3-6f011985144f",
+      "status": 200,
+      "bytes": 73917
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4d003384-53f0-45c4-aa76-ca261a2ceae8",
+      "status": 200,
+      "bytes": 76352
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/bd582970-9304-464f-95b8-24ebcefadf70",
+      "status": 200,
+      "bytes": 55942
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/blade.glb",
+      "status": 200,
+      "bytes": 30877760
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/171dafe1-8795-403d-a676-515356ef1f8e",
+      "status": 200,
+      "bytes": 3682043
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/21b75238-6329-4fd9-845b-2eeaca612c8c",
+      "status": 200,
+      "bytes": 4196264
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/0255f35d-493f-4b17-a4bf-21397d26d2d0",
+      "status": 200,
+      "bytes": 4186329
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "status": 200,
+      "bytes": 2101748
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/87db16af-10f2-4b1c-88fa-6f0520ff9dd4",
+      "status": 200,
+      "bytes": 529466
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/7cc87b9c-082b-4f6a-ac95-9a71440ad1fe",
+      "status": 200,
+      "bytes": 563765
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a94ec9c6-6f8a-497b-be6a-ff3fd8cc9b27",
+      "status": 200,
+      "bytes": 682040
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "status": 200,
+      "bytes": 660732
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4d5f61cd-a51f-4505-8b13-3d4afd5adbff",
+      "status": 200,
+      "bytes": 183395
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a9c524f0-7137-4de8-b445-876bca9d7759",
+      "status": 200,
+      "bytes": 175628
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/0d6aaf32-83f1-47af-b27e-d22cc628e170",
+      "status": 200,
+      "bytes": 201376
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "status": 200,
+      "bytes": 219176
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e8b8846b-2ea2-4bca-8803-dd5d3c374a4e",
+      "status": 200,
+      "bytes": 69635
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c43076b3-9112-4d4f-aee6-99677e858e4c",
+      "status": 200,
+      "bytes": 62437
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/946d8084-9e79-4156-b830-1264b79ff6d7",
+      "status": 200,
+      "bytes": 58730
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/blade.glb",
+      "status": 200,
+      "bytes": 30877760
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/cdc71e35-47b6-4fe4-bd5b-56edf57f67b6",
+      "status": 200,
+      "bytes": 4196264
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/7d4cc5f0-34d5-421c-8def-0d22ef927f35",
+      "status": 200,
+      "bytes": 3682043
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/384dd489-679c-4a43-ba04-d7a362091c2e",
+      "status": 200,
+      "bytes": 4186329
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "status": 200,
+      "bytes": 2101748
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/2d9861f5-066d-42e5-a868-90b3d39383f7",
+      "status": 200,
+      "bytes": 529466
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/1e32447d-2274-4e20-813b-9fb568b7dc72",
+      "status": 200,
+      "bytes": 563765
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/66668d1d-4347-48d0-9f62-199dbdbb2c96",
+      "status": 200,
+      "bytes": 682040
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "status": 200,
+      "bytes": 660732
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3ced8fb3-b829-48a3-a4e8-426fbb5743c3",
+      "status": 200,
+      "bytes": 183395
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/28d291c1-477a-4d25-9381-8558e14e0f94",
+      "status": 200,
+      "bytes": 175628
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/41529d64-eeda-4763-8a54-d928d3dbe9db",
+      "status": 200,
+      "bytes": 201376
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "status": 200,
+      "bytes": 219176
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/73eef59a-dde6-482d-a5b1-aefbcaba85ad",
+      "status": 200,
+      "bytes": 69635
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3dc147dc-2f7b-4244-846a-a2c8e62baf79",
+      "status": 200,
+      "bytes": 62437
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/892ddf81-2651-4e01-8b14-3596fe3a13ae",
+      "status": 200,
+      "bytes": 58730
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/blade.glb",
+      "status": 200,
+      "bytes": 30877760
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c9f1b264-943d-4815-bac6-06ba8500d326",
+      "status": 200,
+      "bytes": 4196264
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/910296c6-dea6-4e8e-85d0-3a6073d42265",
+      "status": 200,
+      "bytes": 4186329
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/56e29519-c165-45a0-ba8a-e8b472c53594",
+      "status": 200,
+      "bytes": 3682043
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "status": 200,
+      "bytes": 2101748
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3d973b80-3ecc-4279-8442-da6b8fb1e597",
+      "status": 200,
+      "bytes": 529466
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/52d7c8b3-d890-4032-aee5-54059a7a86f3",
+      "status": 200,
+      "bytes": 563765
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/dcf55672-f2bf-40e9-8f7e-3c098bb1852a",
+      "status": 200,
+      "bytes": 682040
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "status": 200,
+      "bytes": 660732
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/03f1e128-a6fa-40ff-b4a5-2c1fe9e028fb",
+      "status": 200,
+      "bytes": 183395
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a8d9646c-476b-4561-9301-a75e877652ea",
+      "status": 200,
+      "bytes": 175628
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4601cd54-7a90-41e3-a1ac-758b5b9d9691",
+      "status": 200,
+      "bytes": 201376
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "status": 200,
+      "bytes": 219176
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/35e1c4ce-f063-44fc-8392-fbb55bdf4339",
+      "status": 200,
+      "bytes": 69635
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/52d33ed8-9758-452d-99a4-94a48b4f80a9",
+      "status": 200,
+      "bytes": 62437
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/d653e337-2d2e-4da6-93e6-b79d40ed3c51",
+      "status": 200,
+      "bytes": 58730
+    }
+  ],
+  "rows": [
+    {
+      "id": "armor",
+      "quality": "source",
+      "view": "hero",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47000000000000003,
+          0,
+          -0.4687575242549309
+        ],
+        "max": [
+          0.47000000000000003,
+          0.3959508457793258,
+          0.46875752425493084
+        ]
+      },
+      "url": "/source/armor.glb"
+    },
+    {
+      "id": "armor",
+      "quality": "high",
+      "view": "hero",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46993547677993774,
+          0.000004995611220581786,
+          -0.46871107554890123
+        ],
+        "max": [
+          0.46993905305862427,
+          0.3958669416637123,
+          0.46872535086132494
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "silhouetteIoU": 0.9994818774875769
+    },
+    {
+      "id": "armor",
+      "quality": "medium",
+      "view": "hero",
+      "triangles": 7900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46993547677993774,
+          0.0003497995634651474,
+          -0.46870388241090993
+        ],
+        "max": [
+          0.46995338797569275,
+          0.3958448911876795,
+          0.46871815772333364
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "silhouetteIoU": 0.9986810495077488
+    },
+    {
+      "id": "armor",
+      "quality": "low",
+      "view": "hero",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46964141726493835,
+          0.0003447265472842076,
+          -0.4683302708783483
+        ],
+        "max": [
+          0.4695051610469818,
+          0.39581408558375,
+          0.4679501720586156
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "silhouetteIoU": 0.991736899100711
+    },
+    {
+      "id": "armor",
+      "quality": "source",
+      "view": "opposite",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47000000000000003,
+          0,
+          -0.4687575242549309
+        ],
+        "max": [
+          0.47000000000000003,
+          0.3959508457793258,
+          0.46875752425493084
+        ]
+      },
+      "url": "/source/armor.glb"
+    },
+    {
+      "id": "armor",
+      "quality": "high",
+      "view": "opposite",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46993547677993774,
+          0.000004995611220581786,
+          -0.46871107554890123
+        ],
+        "max": [
+          0.46993905305862427,
+          0.3958669416637123,
+          0.46872535086132494
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "silhouetteIoU": 0.999576031656303
+    },
+    {
+      "id": "armor",
+      "quality": "medium",
+      "view": "opposite",
+      "triangles": 7900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46993547677993774,
+          0.0003497995634651474,
+          -0.46870388241090993
+        ],
+        "max": [
+          0.46995338797569275,
+          0.3958448911876795,
+          0.46871815772333364
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "silhouetteIoU": 0.9988223378948112
+    },
+    {
+      "id": "armor",
+      "quality": "low",
+      "view": "opposite",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46964141726493835,
+          0.0003447265472842076,
+          -0.4683302708783483
+        ],
+        "max": [
+          0.4695051610469818,
+          0.39581408558375,
+          0.4679501720586156
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "silhouetteIoU": 0.9932411746697124
+    },
+    {
+      "id": "armor",
+      "quality": "source",
+      "view": "top",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47000000000000003,
+          0,
+          -0.4687575242549309
+        ],
+        "max": [
+          0.47000000000000003,
+          0.3959508457793258,
+          0.46875752425493084
+        ]
+      },
+      "url": "/source/armor.glb"
+    },
+    {
+      "id": "armor",
+      "quality": "high",
+      "view": "top",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46993547677993774,
+          0.000004995611220581786,
+          -0.46871107554890123
+        ],
+        "max": [
+          0.46993905305862427,
+          0.3958669416637123,
+          0.46872535086132494
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "silhouetteIoU": 0.999512917825178
+    },
+    {
+      "id": "armor",
+      "quality": "medium",
+      "view": "top",
+      "triangles": 7900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46993547677993774,
+          0.0003497995634651474,
+          -0.46870388241090993
+        ],
+        "max": [
+          0.46995338797569275,
+          0.3958448911876795,
+          0.46871815772333364
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "silhouetteIoU": 0.9992694953430328
+    },
+    {
+      "id": "armor",
+      "quality": "low",
+      "view": "top",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46964141726493835,
+          0.0003447265472842076,
+          -0.4683302708783483
+        ],
+        "max": [
+          0.4695051610469818,
+          0.39581408558375,
+          0.4679501720586156
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "silhouetteIoU": 0.9936787081872885
+    },
+    {
+      "id": "thruster",
+      "quality": "source",
+      "view": "hero",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47,
+          0,
+          -0.2935467324872495
+        ],
+        "max": [
+          0.47000000000000003,
+          0.6248486238694175,
+          0.29354673248724944
+        ]
+      },
+      "url": "/source/thruster.glb"
+    },
+    {
+      "id": "thruster",
+      "quality": "high",
+      "view": "hero",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696879982948303,
+          0.00010872509924453322,
+          -0.29334588207116435
+        ],
+        "max": [
+          0.4693509638309479,
+          0.6248546394137061,
+          0.2931701675783665
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "silhouetteIoU": 0.9985189404727998
+    },
+    {
+      "id": "thruster",
+      "quality": "medium",
+      "view": "hero",
+      "triangles": 7898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696091115474701,
+          0.0001195253141718644,
+          -0.2928296527290241
+        ],
+        "max": [
+          0.4688417911529541,
+          0.6242737207715021,
+          0.2922021350288288
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "silhouetteIoU": 0.9920255183413078
+    },
+    {
+      "id": "thruster",
+      "quality": "low",
+      "view": "hero",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696091115474701,
+          0.0001786390355378864,
+          -0.2914384765909244
+        ],
+        "max": [
+          0.4688417911529541,
+          0.6242755542473346,
+          0.2912448211000492
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "silhouetteIoU": 0.9722356693339408
+    },
+    {
+      "id": "thruster",
+      "quality": "source",
+      "view": "opposite",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47,
+          0,
+          -0.2935467324872495
+        ],
+        "max": [
+          0.47000000000000003,
+          0.6248486238694175,
+          0.29354673248724944
+        ]
+      },
+      "url": "/source/thruster.glb"
+    },
+    {
+      "id": "thruster",
+      "quality": "high",
+      "view": "opposite",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696879982948303,
+          0.00010872509924453322,
+          -0.29334588207116435
+        ],
+        "max": [
+          0.4693509638309479,
+          0.6248546394137061,
+          0.2931701675783665
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "silhouetteIoU": 0.9980417754569191
+    },
+    {
+      "id": "thruster",
+      "quality": "medium",
+      "view": "opposite",
+      "triangles": 7898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696091115474701,
+          0.0001195253141718644,
+          -0.2928296527290241
+        ],
+        "max": [
+          0.4688417911529541,
+          0.6242737207715021,
+          0.2922021350288288
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "silhouetteIoU": 0.9931602100184476
+    },
+    {
+      "id": "thruster",
+      "quality": "low",
+      "view": "opposite",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696091115474701,
+          0.0001786390355378864,
+          -0.2914384765909244
+        ],
+        "max": [
+          0.4688417911529541,
+          0.6242755542473346,
+          0.2912448211000492
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "silhouetteIoU": 0.9761141527899918
+    },
+    {
+      "id": "thruster",
+      "quality": "source",
+      "view": "top",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47,
+          0,
+          -0.2935467324872495
+        ],
+        "max": [
+          0.47000000000000003,
+          0.6248486238694175,
+          0.29354673248724944
+        ]
+      },
+      "url": "/source/thruster.glb"
+    },
+    {
+      "id": "thruster",
+      "quality": "high",
+      "view": "top",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696879982948303,
+          0.00010872509924453322,
+          -0.29334588207116435
+        ],
+        "max": [
+          0.4693509638309479,
+          0.6248546394137061,
+          0.2931701675783665
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "silhouetteIoU": 0.9984599933043187
+    },
+    {
+      "id": "thruster",
+      "quality": "medium",
+      "view": "top",
+      "triangles": 7898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696091115474701,
+          0.0001195253141718644,
+          -0.2928296527290241
+        ],
+        "max": [
+          0.4688417911529541,
+          0.6242737207715021,
+          0.2922021350288288
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "silhouetteIoU": 0.9931401418819436
+    },
+    {
+      "id": "thruster",
+      "quality": "low",
+      "view": "top",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696091115474701,
+          0.0001786390355378864,
+          -0.2914384765909244
+        ],
+        "max": [
+          0.4688417911529541,
+          0.6242755542473346,
+          0.2912448211000492
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "silhouetteIoU": 0.981161643104828
+    },
+    {
+      "id": "blade",
+      "quality": "source",
+      "view": "hero",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47,
+          0,
+          -0.29577531479129726
+        ],
+        "max": [
+          0.4699999999999999,
+          0.331936610241372,
+          0.29577531479129726
+        ]
+      },
+      "url": "/source/blade.glb"
+    },
+    {
+      "id": "blade",
+      "quality": "high",
+      "view": "hero",
+      "triangles": 29898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699426293373108,
+          0.0000026443003703080503,
+          -0.2957142017363127
+        ],
+        "max": [
+          0.4699462056159973,
+          0.3318765973754084,
+          0.29572132449136335
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "silhouetteIoU": 0.9994638644649367
+    },
+    {
+      "id": "blade",
+      "quality": "medium",
+      "view": "hero",
+      "triangles": 7900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46945494413375854,
+          -0.000003362911742549324,
+          -0.29571456306229965
+        ],
+        "max": [
+          0.46989959478378296,
+          0.3318826045875213,
+          0.29552808993111984
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "silhouetteIoU": 0.9983918520503886
+    },
+    {
+      "id": "blade",
+      "quality": "low",
+      "view": "hero",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46882742643356323,
+          0.0002373488685279146,
+          -0.295612081144077
+        ],
+        "max": [
+          0.4697633385658264,
+          0.3318534652782674,
+          0.29537899718068283
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "silhouetteIoU": 0.989657574620867
+    },
+    {
+      "id": "blade",
+      "quality": "source",
+      "view": "opposite",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47,
+          0,
+          -0.29577531479129726
+        ],
+        "max": [
+          0.4699999999999999,
+          0.331936610241372,
+          0.29577531479129726
+        ]
+      },
+      "url": "/source/blade.glb"
+    },
+    {
+      "id": "blade",
+      "quality": "high",
+      "view": "opposite",
+      "triangles": 29898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699426293373108,
+          0.0000026443003703080503,
+          -0.2957142017363127
+        ],
+        "max": [
+          0.4699462056159973,
+          0.3318765973754084,
+          0.29572132449136335
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "silhouetteIoU": 0.9994535220503853
+    },
+    {
+      "id": "blade",
+      "quality": "medium",
+      "view": "opposite",
+      "triangles": 7900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46945494413375854,
+          -0.000003362911742549324,
+          -0.29571456306229965
+        ],
+        "max": [
+          0.46989959478378296,
+          0.3318826045875213,
+          0.29552808993111984
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "silhouetteIoU": 0.9986335811106253
+    },
+    {
+      "id": "blade",
+      "quality": "low",
+      "view": "opposite",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46882742643356323,
+          0.0002373488685279146,
+          -0.295612081144077
+        ],
+        "max": [
+          0.4697633385658264,
+          0.3318534652782674,
+          0.29537899718068283
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "silhouetteIoU": 0.9889641608391608
+    },
+    {
+      "id": "blade",
+      "quality": "source",
+      "view": "top",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47,
+          0,
+          -0.29577531479129726
+        ],
+        "max": [
+          0.4699999999999999,
+          0.331936610241372,
+          0.29577531479129726
+        ]
+      },
+      "url": "/source/blade.glb"
+    },
+    {
+      "id": "blade",
+      "quality": "high",
+      "view": "top",
+      "triangles": 29898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699426293373108,
+          0.0000026443003703080503,
+          -0.2957142017363127
+        ],
+        "max": [
+          0.4699462056159973,
+          0.3318765973754084,
+          0.29572132449136335
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "silhouetteIoU": 0.9989855846235985
+    },
+    {
+      "id": "blade",
+      "quality": "medium",
+      "view": "top",
+      "triangles": 7900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46945494413375854,
+          -0.000003362911742549324,
+          -0.29571456306229965
+        ],
+        "max": [
+          0.46989959478378296,
+          0.3318826045875213,
+          0.29552808993111984
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "silhouetteIoU": 0.9983982915109451
+    },
+    {
+      "id": "blade",
+      "quality": "low",
+      "view": "top",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46882742643356323,
+          0.0002373488685279146,
+          -0.295612081144077
+        ],
+        "max": [
+          0.4697633385658264,
+          0.3318534652782674,
+          0.29537899718068283
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "silhouetteIoU": 0.992638036809816
+    }
+  ],
+  "browser": "154.0.8037.98",
+  "environment": {
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "dpr": 1,
+    "three": "186"
+  }
+}

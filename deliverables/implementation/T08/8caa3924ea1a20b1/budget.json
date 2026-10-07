@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "timestamp": "2026-10-02T12:25:38.737Z",
+  "shellFiles": [
+    {
+      "file": "assets/index-CrLfhliD.js",
+      "bytes": 251524,
+      "gzipBytes": 78503
+    },
+    {
+      "file": "assets/index-BIGTzArn.css",
+      "bytes": 13129,
+      "gzipBytes": 3523
+    },
+    {
+      "file": "assets/local.worker-COAge1gk.js",
+      "bytes": 254624,
+      "gzipBytes": 76344
+    },
+    {
+      "file": "assets/rolldown-runtime-hePW80VL.js",
+      "bytes": 716,
+      "gzipBytes": 428
+    },
+    {
+      "file": "index.html",
+      "bytes": 535,
+      "gzipBytes": 357
+    }
+  ],
+  "shellGzipBytes": 159155,
+  "initialAssetUpperBoundBytes": 467789,
+  "atlas": {
+    "width": 640,
+    "height": 256
+  },
+  "mainThreadEngineAbsent": true,
+  "audio": [
+    {
+      "filename": "activation.wav",
+      "peakDbfs": -7.547367769279437
+    },
+    {
+      "filename": "shot.wav",
+      "peakDbfs": -7.536630021204509
+    },
+    {
+      "filename": "hit.wav",
+      "peakDbfs": -7.6817589168754985
+    },
+    {
+      "filename": "blocked.wav",
+      "peakDbfs": -7.462461036109098
+    },
+    {
+      "filename": "destroyed.wav",
+      "peakDbfs": -7.392644409357806
+    },
+    {
+      "filename": "shieldOn.wav",
+      "peakDbfs": -7.561283412514958
+    },
+    {
+      "filename": "shieldOff.wav",
+      "peakDbfs": -7.4063141719644685
+    },
+    {
+      "filename": "overheated.wav",
+      "peakDbfs": -7.405692352181258
+    },
+    {
+      "filename": "ringNotice.wav",
+      "peakDbfs": -7.411290333451513
+    },
+    {
+      "filename": "result.wav",
+      "peakDbfs": -7.4025839208278725
+    },
+    {
+      "filename": "ui.wav",
+      "peakDbfs": -7.5936284078379135
+    }
+  ],
+  "fonts": [
+    "font-0.woff2",
+    "font-1.woff2",
+    "font-2.woff2",
+    "font-3.woff2"
+  ],
+  "note": "Shell includes UI + worker + CSS + runtime + HTML; asset bound includes all art/audio/fonts. Lazy viewer chunks measured separately by browser QA."
+}

@@ -1,0 +1,1471 @@
+{
+  "version": "ui3d-v1",
+  "assetRevision": "2a1d71151d96c87b",
+  "unitsPerCell": 1,
+  "axes": "X-forward,Y-up,-Z-left",
+  "modules": [
+    {
+      "catalogId": "core",
+      "source": {
+        "path": "assets/concepts/modules/core-image-to-3d-v1.glb",
+        "sha256": "6ba5500707307ea32af5071800de7043bc7c2c56a0e9b786c59ddfad5f4dec77",
+        "license": "Project-supplied generated asset; external 3D generator terms not recorded in checkout",
+        "attribution": "PNG provenance and authoring prompt: assets/concepts/modules/core-image-to-3d-v1.prompt.txt"
+      },
+      "thumbnail": {
+        "url": "/assets/ui3d/u3d01/thumbnails/core.png",
+        "sha256": "f165ddaccf24d077af14a8b6ac56dd6d89ef35b28e7e54859cc5765e38926ce6",
+        "bytes": 46800
+      },
+      "levels": {
+        "high": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+          "modelSha256": "bd5438bc215d1fa2a470682abaff6a48377444a24736a2ad415996c60a80ce02",
+          "bytes": 2376128,
+          "triangles": 29900,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/core/high/normal.ktx2",
+              "sha256": "107f9817c84daa7e81811048f83c9673f3940cdd24e2114a259e4e8f06d94e1a",
+              "bytes": 700216,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/core/high/baseColor.ktx2",
+              "sha256": "9c07dfb3de052ff44223438fa83fd0d0fdc0e9602d875e91fdb005cd82cfe086",
+              "bytes": 572980,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/core/high/metallicRoughness.ktx2",
+              "sha256": "f61bee6eb2cc094b7b7aa3d741f2e39002f39aa6ab050640c3244526da982de1",
+              "bytes": 610972,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "medium": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+          "modelSha256": "03ec8baf69da0bb7ae3da168885b5ee8d98823716b6a0e3642e4db2aea8381a3",
+          "bytes": 690784,
+          "triangles": 7898,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/core/medium/normal.ktx2",
+              "sha256": "ab2b0493de0de802be8ab4d4176eaa80fdaec06538b341e4c3176d4cbd23c868",
+              "bytes": 267322,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/core/medium/baseColor.ktx2",
+              "sha256": "6f7340af3e54bc756452faae5ea0ac31569af1afd29170f6fcf2ecc97c813eaf",
+              "bytes": 212527,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/core/medium/metallicRoughness.ktx2",
+              "sha256": "301870c3e64dbfa7c2936ee4dd7dd45f5dea5b161ec1eb5f72e44766bd6c67d1",
+              "bytes": 72519,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "low": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/core/low/model.glb",
+          "modelSha256": "3a119ef10326342887209e3f1f8e9561506c6f3e25d83ff4c7c06be74dbbd5ae",
+          "bytes": 211004,
+          "triangles": 1900,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/core/low/normal.ktx2",
+              "sha256": "867c5edc7b3e23dd8bcae54a7f80f0536ac7d8328b609ad8f26c40eb04fbee4c",
+              "bytes": 77271,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/core/low/baseColor.ktx2",
+              "sha256": "42945f55aaa6247eeb45c5b74f4d0f333157ae90d69cbf705c24f4fec9194935",
+              "bytes": 76846,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/core/low/metallicRoughness.ktx2",
+              "sha256": "523688fe3fa47b59464e0ea3d19b1c7f340bcb36c9d1c25281424755bc563610",
+              "bytes": 21306,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            }
+          ]
+        }
+      },
+      "normalization": {
+        "uniformScale": 1.0214514109819681,
+        "rotationRadians": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "translation": [
+          0.000215648466211446,
+          0.49031879737319223,
+          0.000020639421243839693
+        ],
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "bounds": {
+          "min": [
+            -0.9599999785423279,
+            0,
+            -0.9586449861526489
+          ],
+          "max": [
+            0.9599999785423279,
+            0.9844959378242493,
+            0.9586449861526489
+          ]
+        },
+        "front": "+X",
+        "baseY": 0
+      }
+    },
+    {
+      "catalogId": "armor",
+      "source": {
+        "path": "assets/concepts/modules/armor-image-to-3d-v1.glb",
+        "sha256": "68c6065c10b90f4b441dbf9806bb6af13676563e1d56fab3f0b31dd21a07ed1d",
+        "license": "Project-supplied generated asset; external 3D generator terms not recorded in checkout",
+        "attribution": "PNG provenance and authoring prompt: assets/concepts/modules/armor-image-to-3d-v1.prompt.txt"
+      },
+      "thumbnail": {
+        "url": "/assets/ui3d/u3d01/thumbnails/armor.png",
+        "sha256": "76e19adb90890f9ce95d96076c41877119c28f7ee65564d3628d07fe607fa928",
+        "bytes": 43774
+      },
+      "levels": {
+        "high": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+          "modelSha256": "ae83beb84c4c99010b1dc47cb5c9f60e0b8b0f61467c58d30ef93360adfed6bf",
+          "bytes": 2203280,
+          "triangles": 29900,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/armor/high/normal.ktx2",
+              "sha256": "d958f55b66239f80f6e7796c35622cebb87a21293bbf29431486a4f07dce6b48",
+              "bytes": 640016,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/armor/high/baseColor.ktx2",
+              "sha256": "bb0c255bc43d58cd86a31eab14b6f7e6a8e98b2332df52c8137eb8e1d5695084",
+              "bytes": 501856,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/armor/high/metallicRoughness.ktx2",
+              "sha256": "13e421a2613f5d8fae2f127c0f455a66776e09dd4c8d3b6732fae75975da8a69",
+              "bytes": 592808,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "medium": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+          "modelSha256": "8ceea9ecbfd1372f596152de157e71b2bf8030ecc29d4acaf03d57ae2c584461",
+          "bytes": 668156,
+          "triangles": 7899,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/armor/medium/normal.ktx2",
+              "sha256": "76ef99b2973ce6937aaa25e6c929d1daedd7150f2f4e58738c9a9c3a4bc13d3b",
+              "bytes": 259677,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/armor/medium/baseColor.ktx2",
+              "sha256": "fc098e85bb143b4017c04152f9454eb2ba9f75a596319f1582d5375d7fe82841",
+              "bytes": 208403,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/armor/medium/metallicRoughness.ktx2",
+              "sha256": "799f90b35492c25993638697be63fba3c561f535dfa43eaf16f5e241819df013",
+              "bytes": 66777,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "low": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/armor/low/model.glb",
+          "modelSha256": "bf51c1c6a54f1fdbd9eb5ba74e1da48ba5dd159f760e9f1ea6b1c60009944238",
+          "bytes": 204012,
+          "triangles": 1900,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/armor/low/normal.ktx2",
+              "sha256": "32a568371b67fa89492c51452bc7f4fc4c136058490321bfdab02cc5b5507e9c",
+              "bytes": 76616,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/armor/low/baseColor.ktx2",
+              "sha256": "1a8de95e402d2261c8626cf6ce6622dcaaed671bde12193f651af3ac8e74de35",
+              "bytes": 73576,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/armor/low/metallicRoughness.ktx2",
+              "sha256": "9b3c93532d67724a0b677d425afce440d9f112330dd81b28dc6d2f9474a4981c",
+              "bytes": 19465,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            }
+          ]
+        }
+      },
+      "normalization": {
+        "uniformScale": 0.5097269580581006,
+        "rotationRadians": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "translation": [
+          0.0000825785322190474,
+          0.18095029987127043,
+          -0.00032539222960485567
+        ],
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "bounds": {
+          "min": [
+            -0.4699999988079071,
+            0,
+            -0.4687575101852417
+          ],
+          "max": [
+            0.4699999988079071,
+            0.3959508538246155,
+            0.4687575101852417
+          ]
+        },
+        "front": "+X",
+        "baseY": 0
+      }
+    },
+    {
+      "catalogId": "thruster",
+      "source": {
+        "path": "assets/concepts/modules/thruster-image-to-3d-v1.glb",
+        "sha256": "00b1379dddcef14782b2322ca90ba7e5f06de1d9d7292e7dca11c6f38eeca197",
+        "license": "Project-supplied generated asset; external 3D generator terms not recorded in checkout",
+        "attribution": "PNG provenance and authoring prompt: assets/concepts/modules/thruster-image-to-3d-v1.prompt.txt"
+      },
+      "thumbnail": {
+        "url": "/assets/ui3d/u3d01/thumbnails/thruster.png",
+        "sha256": "8cd5c781924eb889f680e15703d82003b3986ccbe6f9e33aaf70751d48a077c4",
+        "bytes": 41781
+      },
+      "levels": {
+        "high": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+          "modelSha256": "c3c753f37ed6038aedf44c4a634b15dc3c37d130ead28b1630d2b7858c043d09",
+          "bytes": 2389420,
+          "triangles": 29900,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/thruster/high/normal.ktx2",
+              "sha256": "c7c3fbc7a371ca99a9a58fae46ca69ed16c05aeeadeb4d157d925855594a08ac",
+              "bytes": 641514,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/thruster/high/baseColor.ktx2",
+              "sha256": "940534f01581a2e88395646103d6cd7db87f19b57636ee58cf1bc2aa913bb154",
+              "bytes": 567490,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/thruster/high/metallicRoughness.ktx2",
+              "sha256": "736cc727760f040f4621e926cf457a6ea59df0903873a9241f4ac7fb900e0a82",
+              "bytes": 631129,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "medium": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+          "modelSha256": "53f9b0cf84a80419359477353aaa6d42da29ea52706e5cd9d871c9d99e1a67b4",
+          "bytes": 703120,
+          "triangles": 7892,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/thruster/medium/normal.ktx2",
+              "sha256": "d9fcc8ae554f50d9dab75a03960d63c3bd99e66e521231ff1d0a1096b2c4f3e1",
+              "bytes": 278933,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/thruster/medium/baseColor.ktx2",
+              "sha256": "4e5c76e3217858d4ca6d3f80e03bb730b159376ad30dde3c7e85188040c19f32",
+              "bytes": 204768,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/thruster/medium/metallicRoughness.ktx2",
+              "sha256": "f08e42ee964072fe389c0f92a4373d9528a373229519b696fe28f8c853bdbc21",
+              "bytes": 73401,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "low": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+          "modelSha256": "32c26f80e96ae0300831aa6d23341458cffb1a56de1155216207b01808083f00",
+          "bytes": 218888,
+          "triangles": 1898,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/thruster/low/normal.ktx2",
+              "sha256": "2fed6e8c3c930dfcbc25ed8fd5c833b55bb826173523cea71087104fb0f4796f",
+              "bytes": 80895,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/thruster/low/baseColor.ktx2",
+              "sha256": "dd4807e8b4af8e9a268785d37698c105df8b86a78bd1244ce9c18f70c59af586",
+              "bytes": 77090,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/thruster/low/metallicRoughness.ktx2",
+              "sha256": "e134c0794f0ba4a727380b7dd842b1bfed56ccb16bc87876c7c08e2389288726",
+              "bytes": 21861,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            }
+          ]
+        }
+      },
+      "normalization": {
+        "uniformScale": 0.5159052936272578,
+        "rotationRadians": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "translation": [
+          -0.0006433588596146993,
+          0.31245592329632255,
+          -0.00006989554956047278
+        ],
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "bounds": {
+          "min": [
+            -0.4699999988079071,
+            0,
+            -0.29354673624038696
+          ],
+          "max": [
+            0.4699999988079071,
+            0.6248486042022705,
+            0.29354673624038696
+          ]
+        },
+        "front": "+X",
+        "baseY": 0
+      }
+    },
+    {
+      "catalogId": "blade",
+      "source": {
+        "path": "assets/concepts/modules/blade-image-to-3d-v1.glb",
+        "sha256": "3c33c365f5938a18ce97dd6e369d8f00a5f756305ab7d94261f758bc4de43c93",
+        "license": "Project-supplied generated asset; external 3D generator terms not recorded in checkout",
+        "attribution": "PNG provenance and authoring prompt: assets/concepts/modules/blade-image-to-3d-v1.prompt.txt"
+      },
+      "thumbnail": {
+        "url": "/assets/ui3d/u3d01/thumbnails/blade.png",
+        "sha256": "5185d1c0500004a9fc29db5ff358dba32c20140236f857f65558d99d6d1c7213",
+        "bytes": 24377
+      },
+      "levels": {
+        "high": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+          "modelSha256": "3d1f6de7ce5aa96afd65f9656f2e7865b9b0f831d170197c5aad0fa2e381df0a",
+          "bytes": 2247156,
+          "triangles": 29900,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/blade/high/normal.ktx2",
+              "sha256": "a449bd1332c561f3a61bca9749c360932a1e90b575d359a69f8d2295a2a5db53",
+              "bytes": 682040,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/blade/high/baseColor.ktx2",
+              "sha256": "37bd8206d24d6900e61ca9fb3500865067620d54dfe8866aa46e714326086888",
+              "bytes": 529466,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/blade/high/metallicRoughness.ktx2",
+              "sha256": "d2018aea97367831c45b0f6ccbf884661ac32bc46b8db2249ec820134f34c4a9",
+              "bytes": 563765,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "medium": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+          "modelSha256": "8ce1c731abc3e61c0a14389dbdd3236e9b52098142b3d13e8da524db38daf48d",
+          "bytes": 678744,
+          "triangles": 7899,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/blade/medium/normal.ktx2",
+              "sha256": "352f3beeff4eb7c4364080b78d275749f78ae50f577564186ea7b83a5bf03074",
+              "bytes": 268081,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/blade/medium/baseColor.ktx2",
+              "sha256": "debe20d821119340c7a88150fc4db91ca8e80bc2c58b6d846ef592afaa314a3c",
+              "bytes": 217089,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/blade/medium/metallicRoughness.ktx2",
+              "sha256": "42268bda8eae2fbb1023e69360fa4c98dadf3b1618c0d37e87fad7373c2b6e18",
+              "bytes": 68645,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "low": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/blade/low/model.glb",
+          "modelSha256": "5982fe1208cf5fde057cfb59eed2c5c32d96d25554f089918ff1122be724bfba",
+          "bytes": 213588,
+          "triangles": 1898,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/blade/low/normal.ktx2",
+              "sha256": "09df7cf91d191c1ffe75fae836eccb20b5558361d6580905ae182696f757d4ab",
+              "bytes": 78553,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/blade/low/baseColor.ktx2",
+              "sha256": "c78aec8b190d7a75c2f4bf385e0558f28e4535e70832d62bbe8367122b089ccc",
+              "bytes": 78006,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/blade/low/metallicRoughness.ktx2",
+              "sha256": "04dacabef24117b066ef8c9e60b4df9ea2294a307061a2f859f8e26bd0034935",
+              "bytes": 20097,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            }
+          ]
+        }
+      },
+      "normalization": {
+        "uniformScale": 0.5259695287800753,
+        "rotationRadians": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "translation": [
+          0.0009407262593569589,
+          0.15392024048692374,
+          -0.00013254875944150439
+        ],
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "bounds": {
+          "min": [
+            -0.4699999988079071,
+            0,
+            -0.29577532410621643
+          ],
+          "max": [
+            0.4699999988079071,
+            0.3319365978240967,
+            0.29577532410621643
+          ]
+        },
+        "front": "+X",
+        "baseY": 0
+      }
+    },
+    {
+      "catalogId": "burst",
+      "source": {
+        "path": "assets/concepts/modules/burst-image-to-3d-v1.glb",
+        "sha256": "582df9f76f9d4473d449f0c2c70a7fe13039bd8ca6ec5c9ba0a2d86de25b3207",
+        "license": "Project-supplied generated asset; external 3D generator terms not recorded in checkout",
+        "attribution": "PNG provenance and authoring prompt: assets/concepts/modules/burst-image-to-3d-v1.prompt.txt"
+      },
+      "thumbnail": {
+        "url": "/assets/ui3d/u3d01/thumbnails/burst.png",
+        "sha256": "938780e3bdd8383a376288df66d51748634bc40e6f5851386343ac4456cddeab",
+        "bytes": 37989
+      },
+      "levels": {
+        "high": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+          "modelSha256": "df9bc3c6fb1bb3cf9a4a6cbea48da0ae389ad499a72db7f2beee0418095e9396",
+          "bytes": 2237632,
+          "triangles": 29900,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/burst/high/normal.ktx2",
+              "sha256": "3874e6d4bd9d7773c3de11b364a0731d221f074e01f29b5fc99d33ea9d53f1eb",
+              "bytes": 644983,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/burst/high/baseColor.ktx2",
+              "sha256": "f7249c2e278817b875b3baf22024e25c87a707a59c0e36dfc1ab1446438beb7e",
+              "bytes": 478806,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/burst/high/metallicRoughness.ktx2",
+              "sha256": "4119487bd481292571bdc65bc6a5919a7ceffccf9e268f2f737f68f171860f7e",
+              "bytes": 588651,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "medium": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+          "modelSha256": "d288b8a5e13d892581bdf7d72e565fa0ae3fd4880020e2a52bccc1b21bb4d868",
+          "bytes": 681620,
+          "triangles": 7891,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/burst/medium/normal.ktx2",
+              "sha256": "9a9a83ef532de8fc063a3320454f5af37451fdfc03f6716738e9f9a75862e4fa",
+              "bytes": 277497,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/burst/medium/baseColor.ktx2",
+              "sha256": "89544416dc280750d6c31cdc46060031ca66cd74ac9de36f4e143aefd4058550",
+              "bytes": 189608,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/burst/medium/metallicRoughness.ktx2",
+              "sha256": "db6b3494ef1422f625b09201f293e30fa1e569bbbf6dc04ed3beb39a6490f152",
+              "bytes": 73017,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "low": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/burst/low/model.glb",
+          "modelSha256": "c38e875fbec541cd0444519dd2ad55c48dbe45ecb7749b6918bec6cbffd2f6b9",
+          "bytes": 208304,
+          "triangles": 1896,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/burst/low/normal.ktx2",
+              "sha256": "e556562c6e76d589dbe266f5b09715227247c9c9f63ea507d2eefae82dd792c0",
+              "bytes": 77895,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/burst/low/baseColor.ktx2",
+              "sha256": "d5b19d4d58c485b81c52642e6a7962c8a0e5b6f5484ec13d6b0f5853085973b7",
+              "bytes": 70941,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/burst/low/metallicRoughness.ktx2",
+              "sha256": "41696749847b435ee11367b34e2642d9fe7af0d71b34198a5362c3c3fca5eab4",
+              "bytes": 21519,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            }
+          ]
+        }
+      },
+      "normalization": {
+        "uniformScale": 0.5205245108801774,
+        "rotationRadians": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "translation": [
+          -0.00022720104415270917,
+          0.2500792399131228,
+          -0.0002622600609344327
+        ],
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "bounds": {
+          "min": [
+            -0.4699999988079071,
+            0,
+            -0.3411772847175598
+          ],
+          "max": [
+            0.4699999988079071,
+            0.5004813075065613,
+            0.3411772847175598
+          ]
+        },
+        "front": "+X",
+        "baseY": 0
+      }
+    },
+    {
+      "catalogId": "lance",
+      "source": {
+        "path": "assets/concepts/modules/lance-image-to-3d-v1.glb",
+        "sha256": "93396891006ab27964c6ffb72c33058cb453e290dc866034a0e187dedd749e92",
+        "license": "Project-supplied generated asset; external 3D generator terms not recorded in checkout",
+        "attribution": "PNG provenance and authoring prompt: assets/concepts/modules/lance-image-to-3d-v1.prompt.txt"
+      },
+      "thumbnail": {
+        "url": "/assets/ui3d/u3d01/thumbnails/lance.png",
+        "sha256": "314d591b43614f294e55f782e015aa618d7e1d7fda8e6b72fd3a756b1a2e237d",
+        "bytes": 20315
+      },
+      "levels": {
+        "high": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/lance/high/model.glb",
+          "modelSha256": "336fb9a8f51e1ab35fc049b923e3ffb0d660b8b4d2e43d5af7826789fe0ff255",
+          "bytes": 2356020,
+          "triangles": 29900,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/lance/high/normal.ktx2",
+              "sha256": "0ac0b34ccdfcd6aca115e64d7104a8e1e9161343ed079d83d20fa09eaf590815",
+              "bytes": 744851,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/lance/high/baseColor.ktx2",
+              "sha256": "f1d51dab165399dac1dc52caa8416b0067c108c4f7dea9360b3069b19f9c55f0",
+              "bytes": 547821,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/lance/high/metallicRoughness.ktx2",
+              "sha256": "ff95974abade2b6f2408ddd0a3fba20e2d7760be9862c8ab3e473d2c74afc2f0",
+              "bytes": 584277,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "medium": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/lance/medium/model.glb",
+          "modelSha256": "ae21670d9b3e52f2eedb2e28fb62549381684f5105359f294499b924c204642f",
+          "bytes": 686116,
+          "triangles": 7900,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/lance/medium/normal.ktx2",
+              "sha256": "b73b6c91c91c6953979b41e2d5a11d2a27edd2f3100db93ab8beb2792ab0051f",
+              "bytes": 272320,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/lance/medium/baseColor.ktx2",
+              "sha256": "7085c86bb3c9e6e36c54ba2773b5ba536961a26012ab9afbf49b1199adc96ef8",
+              "bytes": 217276,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/lance/medium/metallicRoughness.ktx2",
+              "sha256": "c97780292ac72e5064d25a15b25bd3bf09fa064c14f35f8d91f19d6f0101ac78",
+              "bytes": 68486,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "low": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/lance/low/model.glb",
+          "modelSha256": "004274513e93b23de22f6cb8ce67575da9ec04588e847582ba7195518a3cccc7",
+          "bytes": 217392,
+          "triangles": 1899,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/lance/low/normal.ktx2",
+              "sha256": "891f5a7266c1439427472a0785fd37c3adcd3cd53e31ed7c61ad0fc7483a7566",
+              "bytes": 79746,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/lance/low/baseColor.ktx2",
+              "sha256": "b960568bd44c24da4b61e69fd154f3eddaee052484fdd386afd2f81784935c89",
+              "bytes": 78198,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/lance/low/metallicRoughness.ktx2",
+              "sha256": "6cf8d753924bb88e222c34058ab5876836318e00e121011fcc484fba6caefc62",
+              "bytes": 19921,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            }
+          ]
+        }
+      },
+      "normalization": {
+        "uniformScale": 0.518031971738114,
+        "rotationRadians": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "translation": [
+          0.00005418933095934332,
+          0.12797266715373667,
+          -0.0001530887195991021
+        ],
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "bounds": {
+          "min": [
+            -0.4699999988079071,
+            0,
+            -0.27325811982154846
+          ],
+          "max": [
+            0.4699999988079071,
+            0.2759080231189728,
+            0.27325811982154846
+          ]
+        },
+        "front": "+X",
+        "baseY": 0
+      }
+    },
+    {
+      "catalogId": "shield",
+      "source": {
+        "path": "assets/concepts/modules/shield-image-to-3d-v1.glb",
+        "sha256": "b6e79f8316af42e256c7aa4364e86e18bcd9ebad6e8d3a4b054626c13157d118",
+        "license": "Project-supplied generated asset; external 3D generator terms not recorded in checkout",
+        "attribution": "PNG provenance and authoring prompt: assets/concepts/modules/shield-image-to-3d-v1.prompt.txt"
+      },
+      "thumbnail": {
+        "url": "/assets/ui3d/u3d01/thumbnails/shield.png",
+        "sha256": "f8084e259eab735e8e4e26087ba006c8cd15ee2add0b29d16663d148353410c9",
+        "bytes": 46203
+      },
+      "levels": {
+        "high": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+          "modelSha256": "50ae1e70d2326882b934ec065d1fb47b5a18a89ec0fc62927204e38ef8d82509",
+          "bytes": 2080168,
+          "triangles": 29900,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/shield/high/normal.ktx2",
+              "sha256": "563812262a4ebfa85614ddd39679fa58992f0d791f7bead929296c3e73ad5ee2",
+              "bytes": 602787,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/shield/high/baseColor.ktx2",
+              "sha256": "fb2a89b12db56946d6b8c530d3e48c2e4112c61cbebf84bbde0267f2ca175a18",
+              "bytes": 461134,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/shield/high/metallicRoughness.ktx2",
+              "sha256": "f4afae6c84e420255c3f01d762922db70600ecd5495a1a1f36eaad11e485c3f2",
+              "bytes": 545719,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "medium": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+          "modelSha256": "b9022cbf81442fe73b433243c2c85230371d35db10cba19d1f5e8323c22384f6",
+          "bytes": 672004,
+          "triangles": 7900,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/shield/medium/normal.ktx2",
+              "sha256": "4fecdfa34c07d678a98d42e2d5e99cd96824118da719662c7f224d726e837b58",
+              "bytes": 265817,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/shield/medium/baseColor.ktx2",
+              "sha256": "cfa291bd5e0586c870d8115629944cfe3cd3e79e872d461a070d9d0bf1c72ea3",
+              "bytes": 203147,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/shield/medium/metallicRoughness.ktx2",
+              "sha256": "55f89eca7aa01d3f1ca2ab24f30ff242b59436dde92605ec737187784dff0e00",
+              "bytes": 69407,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "low": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/shield/low/model.glb",
+          "modelSha256": "e61ff2ec7f0d9ba3206bd1b712cbcfaf61be6ee6ee31981713454a3e13ed4b40",
+          "bytes": 210440,
+          "triangles": 1900,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/shield/low/normal.ktx2",
+              "sha256": "af18ca3e219e4f167a24c18ad620969526d9ee0fb0bfaea8a839eef42b609350",
+              "bytes": 78157,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/shield/low/baseColor.ktx2",
+              "sha256": "7a7c0e3c13a889f7dff0beacdbf678f70c21cd782488aeaa9cd278ee8356a796",
+              "bytes": 74662,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/shield/low/metallicRoughness.ktx2",
+              "sha256": "7ef01c780cfebfaeb06ce3a3288ee25596f0b5f8769ed358f940fe29494a17d3",
+              "bytes": 20744,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            }
+          ]
+        }
+      },
+      "normalization": {
+        "uniformScale": 0.507340238610311,
+        "rotationRadians": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "translation": [
+          -0.000045087593541620594,
+          0.1792274179048002,
+          0.0008410605225842344
+        ],
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "bounds": {
+          "min": [
+            -0.4699999988079071,
+            0,
+            -0.4444742500782013
+          ],
+          "max": [
+            0.4699999988079071,
+            0.3589378893375397,
+            0.4444742500782013
+          ]
+        },
+        "front": "+X",
+        "baseY": 0
+      }
+    },
+    {
+      "catalogId": "breaker",
+      "source": {
+        "path": "assets/concepts/modules/breaker-image-to-3d-v1.glb",
+        "sha256": "6b15e0ce10dbd689d3dfe230f09154f8a518d2d237c8bf2a514050ed56728f16",
+        "license": "Project-supplied generated asset; external 3D generator terms not recorded in checkout",
+        "attribution": "PNG provenance and authoring prompt: assets/concepts/modules/breaker-image-to-3d-v1.prompt.txt"
+      },
+      "thumbnail": {
+        "url": "/assets/ui3d/u3d01/thumbnails/breaker.png",
+        "sha256": "b7e8b75d64eb7139644964a23f5a17e9d9b30f4fee4e9e00b01df37d74ebe351",
+        "bytes": 57390
+      },
+      "levels": {
+        "high": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/breaker/high/model.glb",
+          "modelSha256": "127f6a92aa746638a55b0d7d9238768cd68d78e03c9cb00e1abd6026c1ed0823",
+          "bytes": 2472712,
+          "triangles": 29900,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/breaker/high/normal.ktx2",
+              "sha256": "d4efee158e1b620937818a375bd6bfa39b2e69e3d9e72d26bd6e7c32bb32f5d9",
+              "bytes": 717692,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/breaker/high/baseColor.ktx2",
+              "sha256": "3e7ead1b190ccd88569ad9783cd5ca4bce0d688ca1050c3ff7263375066ef78a",
+              "bytes": 548953,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/breaker/high/metallicRoughness.ktx2",
+              "sha256": "8c3f9d50ef5969aae70dd68ab6a4270cb467a6a6157712093815c87aed8ebb35",
+              "bytes": 677689,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "medium": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/breaker/medium/model.glb",
+          "modelSha256": "4d6e0daf32a03e195183a11f98aea340ed91704f65637b04b31cd47957d05758",
+          "bytes": 692612,
+          "triangles": 7881,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/breaker/medium/normal.ktx2",
+              "sha256": "4fbe1ab69ecf0e86df41977e36f872de40e51fe8b20d1efb267eafc93e9b63ae",
+              "bytes": 274057,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/breaker/medium/baseColor.ktx2",
+              "sha256": "06bb72074a5a99ad7f39fa592084635cf024b8639130115dd87d5d1f967c8fbd",
+              "bytes": 208738,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/breaker/medium/metallicRoughness.ktx2",
+              "sha256": "50ca6e49fead202946c5cad7fea142ff0fcba0fd84202f3770be57a1760601e4",
+              "bytes": 71076,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "low": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/breaker/low/model.glb",
+          "modelSha256": "535451ae3f2789dc79e2d32ad051b192bd820d0f14754b1178659962d2318540",
+          "bytes": 207956,
+          "triangles": 1881,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/breaker/low/normal.ktx2",
+              "sha256": "d9bb4792124b071722e9a5daa18a3235feaa62fac24d9d9d1935f3ce5115c490",
+              "bytes": 77317,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/breaker/low/baseColor.ktx2",
+              "sha256": "a5c4cb241adb9387f3fc3dd20970c0561bff45e1cb0d75f59331f640692c0646",
+              "bytes": 74429,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/breaker/low/metallicRoughness.ktx2",
+              "sha256": "5403710c4595ff84f74e626144f43f92445cba0c26be9610b3ea3652fb04db35",
+              "bytes": 20919,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            }
+          ]
+        }
+      },
+      "normalization": {
+        "uniformScale": 0.518479648996008,
+        "rotationRadians": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "translation": [
+          0.0007099837932607107,
+          0.2995487263428159,
+          -0.00005021866736522394
+        ],
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "bounds": {
+          "min": [
+            -0.4699999988079071,
+            0,
+            -0.4037984013557434
+          ],
+          "max": [
+            0.4699999988079071,
+            0.6001458764076233,
+            0.4037984013557434
+          ]
+        },
+        "front": "+X",
+        "baseY": 0
+      }
+    },
+    {
+      "catalogId": "capacitor",
+      "source": {
+        "path": "assets/concepts/modules/capacitor-image-to-3d-v1.glb",
+        "sha256": "08052e4368f2658b4b0d60b456c84cc8eb0770b75b6f3834efe544a59c293610",
+        "license": "Project-supplied generated asset; external 3D generator terms not recorded in checkout",
+        "attribution": "PNG provenance and authoring prompt: assets/concepts/modules/capacitor-image-to-3d-v1.prompt.txt"
+      },
+      "thumbnail": {
+        "url": "/assets/ui3d/u3d01/thumbnails/capacitor.png",
+        "sha256": "311e6cb8e0707d2463f3a1d54dee46885c20067fa9b631e5ce722997f77385b9",
+        "bytes": 53074
+      },
+      "levels": {
+        "high": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+          "modelSha256": "dab2b62742c764a29ffff445154b436e99550281bf421db7b586f592dadbc9f0",
+          "bytes": 1930248,
+          "triangles": 29896,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/capacitor/high/normal.ktx2",
+              "sha256": "712a5625430e5cfb51768d44e2058bd492e0d2a848f99aced51ec0b1832d737a",
+              "bytes": 474807,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/capacitor/high/baseColor.ktx2",
+              "sha256": "51747f77cbcbc641e0a777785105e5837d575cbc84e9f6ecf760ad69787c287f",
+              "bytes": 374782,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/capacitor/high/metallicRoughness.ktx2",
+              "sha256": "6c06115c0aa1673b141dbf123215538531ff6ff6cd084b3f8ab879322b0bf1ad",
+              "bytes": 539547,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "medium": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+          "modelSha256": "c31d4428bdefcf7517707dfd7a5360cf7d5c4e6f4372bdf95664a70c38fff0f1",
+          "bytes": 646068,
+          "triangles": 7880,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/capacitor/medium/normal.ktx2",
+              "sha256": "81bcbc55ecc459062da20268c79d2592fd627165d130ffc196e27f8dee9cf8e3",
+              "bytes": 275461,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/capacitor/medium/baseColor.ktx2",
+              "sha256": "2318dee1af56dddfcbb7b700825ed4d041bf3084a44a3842861476fb74b7c799",
+              "bytes": 155905,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/capacitor/medium/metallicRoughness.ktx2",
+              "sha256": "bc9269193c93eb2517cf023bd67ddde329266b705caf23b738fad01480194f1d",
+              "bytes": 72868,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "low": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/capacitor/low/model.glb",
+          "modelSha256": "3b7c06d1b37aedcc521a384c5e87c6978e2161f60158f20b042184899b54448c",
+          "bytes": 213440,
+          "triangles": 1880,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/capacitor/low/normal.ktx2",
+              "sha256": "f6d4c7a726cb24335c55af3f0c2e4c3653f8fca8c00bfcb7b722626a0cd6f3bb",
+              "bytes": 81325,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/capacitor/low/baseColor.ktx2",
+              "sha256": "3f6cd29d5e94a1ba0a07904a7c2df5b7d1a5870cf28f5c512f29427052665bd2",
+              "bytes": 65986,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/capacitor/low/metallicRoughness.ktx2",
+              "sha256": "8533cf86d9368ee68720cf54c579a3b88e370448f909d065b5ff173de0fa028b",
+              "bytes": 22615,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            }
+          ]
+        }
+      },
+      "normalization": {
+        "uniformScale": 0.5176687582074709,
+        "rotationRadians": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "translation": [
+          0.00014141058438210723,
+          0.32498241205815714,
+          -0.0001087037941911769
+        ],
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "bounds": {
+          "min": [
+            -0.4699999988079071,
+            0,
+            -0.3702852725982666
+          ],
+          "max": [
+            0.4699999988079071,
+            0.6503403186798096,
+            0.3702852725982666
+          ]
+        },
+        "front": "+X",
+        "baseY": 0
+      }
+    },
+    {
+      "catalogId": "radiator",
+      "source": {
+        "path": "assets/concepts/modules/radiator-image-to-3d-v1.glb",
+        "sha256": "abe747ca42f85956acfd8821e3b5f14c395f2405463d9af23320869131483af2",
+        "license": "Project-supplied generated asset; external 3D generator terms not recorded in checkout",
+        "attribution": "PNG provenance and authoring prompt: assets/concepts/modules/radiator-image-to-3d-v1.prompt.txt"
+      },
+      "thumbnail": {
+        "url": "/assets/ui3d/u3d01/thumbnails/radiator.png",
+        "sha256": "bd2e2c8fc4d0cc6af56779f9888a2c8cc47dd3fa07bd92ad44cd63ddba7ec6a6",
+        "bytes": 54556
+      },
+      "levels": {
+        "high": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+          "modelSha256": "206baaa7750e7d695aae9f42ed4d2f93bfb2942a951688e0697b2dfd88656481",
+          "bytes": 2374680,
+          "triangles": 29900,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/radiator/high/normal.ktx2",
+              "sha256": "5344ea4fe67c45ef4127ee54975784c0c5aa2aefb319f1960c5a3d9bc5efb65c",
+              "bytes": 629415,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/radiator/high/baseColor.ktx2",
+              "sha256": "de75a621f9f6a384b2c98bd21d61647c176f42fd98197a7f562188be1ec747c1",
+              "bytes": 582369,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/radiator/high/metallicRoughness.ktx2",
+              "sha256": "1b689c0b677ab16208ac383806589345527ca1785c9aa290ad44fc620e1d5eaf",
+              "bytes": 632325,
+              "width": 2048,
+              "height": 2048,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "medium": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+          "modelSha256": "7452ac1caf0f6d8acd85df7aac00e250afa0ba9d8864f05d2d0e0d1b38695c1d",
+          "bytes": 699136,
+          "triangles": 7894,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/radiator/medium/normal.ktx2",
+              "sha256": "25e5e1521fda07169c2dd147696301de50fcf749d9237d12f71235a440f161ce",
+              "bytes": 271727,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/radiator/medium/baseColor.ktx2",
+              "sha256": "82ec407d07ae79b0e34280fa4fecf87415d8511537e5fed118fd779bb9ae1923",
+              "bytes": 213017,
+              "width": 1024,
+              "height": 1024,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/radiator/medium/metallicRoughness.ktx2",
+              "sha256": "bfa7f4b5549e9f71df7fc90b590a0e9de9e8bc269ea8ab54def098ed3fbb0276",
+              "bytes": 67690,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            }
+          ]
+        },
+        "low": {
+          "modelUrl": "/assets/ui3d/u3d01/modules/radiator/low/model.glb",
+          "modelSha256": "8eef97808279156a1516f458c44f546f9005d1777f64ad3294c59c7558dbb04a",
+          "bytes": 210920,
+          "triangles": 1899,
+          "textures": [
+            {
+              "url": "/assets/ui3d/u3d01/modules/radiator/low/normal.ktx2",
+              "sha256": "46902bd6cec9d1dce75d2290b10dd47b3917434dd34ffead1e96aaf0a14f0937",
+              "bytes": 78521,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/radiator/low/baseColor.ktx2",
+              "sha256": "b9d085fa143b54fa12c2f2fc0edcc545268a6adcf1d32e6294a2816c8e0f1651",
+              "bytes": 75222,
+              "width": 512,
+              "height": 512,
+              "format": "ktx2"
+            },
+            {
+              "url": "/assets/ui3d/u3d01/modules/radiator/low/metallicRoughness.ktx2",
+              "sha256": "dff56dce25156c3887db016bd348a454f07c53807bdb700f63582a7f989c5e09",
+              "bytes": 19874,
+              "width": 256,
+              "height": 256,
+              "format": "ktx2"
+            }
+          ]
+        }
+      },
+      "normalization": {
+        "uniformScale": 0.5206005283058232,
+        "rotationRadians": [
+          0,
+          -1.5707963267948966,
+          0
+        ],
+        "translation": [
+          0.002770439169895679,
+          0.24645914608824593,
+          0.00008269550847619883
+        ],
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "bounds": {
+          "min": [
+            -0.4699999988079071,
+            0,
+            -0.4638574719429016
+          ],
+          "max": [
+            0.4699999988079071,
+            0.5183136463165283,
+            0.4638574719429016
+          ]
+        },
+        "front": "+X",
+        "baseY": 0
+      }
+    }
+  ],
+  "decoders": [
+    {
+      "kind": "meshopt",
+      "url": "/assets/ui3d/u3d01/decoders/meshopt_decoder.module.js",
+      "sha256": "10b313edaa0e322b0c1b46443f6c8b186b42139fe1eca189d50c09511d0ebedc",
+      "bytes": 29019,
+      "version": "1.3.0"
+    },
+    {
+      "kind": "ktx2",
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "sha256": "8478b5b6d6b74e7d3082b89f6417321d8d1dc0307f2b30d4484bb11b441696a1",
+      "bytes": 57529,
+      "version": "three-0.186.1"
+    },
+    {
+      "kind": "ktx2",
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "sha256": "6cf17dc889352c42e9acf8897107978d127005fe3386c36a0e3845e27967630a",
+      "bytes": 527333,
+      "version": "three-0.186.1"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "capacitor",
+  "quality": "low",
+  "modelUrl": "/assets/ui3d/u3d01/modules/capacitor/low/model.glb",
+  "modelSha256": "3b7c06d1b37aedcc521a384c5e87c6978e2161f60158f20b042184899b54448c",
+  "bytes": 213440,
+  "triangles": 1880,
+  "textures": [
+    {
+      "url": "/assets/ui3d/u3d01/modules/capacitor/low/normal.ktx2",
+      "sha256": "f6d4c7a726cb24335c55af3f0c2e4c3653f8fca8c00bfcb7b722626a0cd6f3bb",
+      "bytes": 81325,
+      "width": 256,
+      "height": 256,
+      "format": "ktx2"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/capacitor/low/baseColor.ktx2",
+      "sha256": "3f6cd29d5e94a1ba0a07904a7c2df5b7d1a5870cf28f5c512f29427052665bd2",
+      "bytes": 65986,
+      "width": 512,
+      "height": 512,
+      "format": "ktx2"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/capacitor/low/metallicRoughness.ktx2",
+      "sha256": "8533cf86d9368ee68720cf54c579a3b88e370448f909d065b5ff173de0fa028b",
+      "bytes": 22615,
+      "width": 256,
+      "height": 256,
+      "format": "ktx2"
+    }
+  ],
+  "appearanceError": 0.052960775792598724,
+  "lodBaseCorrectionY": -0.00046616431791335344,
+  "elapsedMs": 5964.776499999993
+}

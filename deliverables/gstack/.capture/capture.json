@@ -1,0 +1,788 @@
+{
+  "url": "http://127.0.0.1:5188",
+  "startedAt": "2026-10-02T14:30:55.480Z",
+  "node": "v24.19.0",
+  "platform": "win32",
+  "playwright": "1.62.1",
+  "viewports": [],
+  "screens": {
+    "workshop": [
+      {
+        "w": 1440,
+        "h": 900,
+        "label": "1440x900",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/workshop-1440x900.png",
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "scrollHeight": 1555,
+        "innerHeight": 900,
+        "hOverflow": false,
+        "vScroll": true
+      },
+      {
+        "w": 1024,
+        "h": 768,
+        "label": "1024x768",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/workshop-1024x768.png",
+        "scrollWidth": 1024,
+        "innerWidth": 1024,
+        "scrollHeight": 2485,
+        "innerHeight": 768,
+        "hOverflow": false,
+        "vScroll": true
+      },
+      {
+        "w": 768,
+        "h": 1024,
+        "label": "768x1024",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/workshop-768x1024.png",
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "scrollHeight": 2553,
+        "innerHeight": 1024,
+        "hOverflow": false,
+        "vScroll": true
+      },
+      {
+        "w": 390,
+        "h": 844,
+        "label": "390x844",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/workshop-390x844.png",
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "scrollHeight": 1768,
+        "innerHeight": 844,
+        "hOverflow": false,
+        "vScroll": true
+      },
+      {
+        "w": 320,
+        "h": 844,
+        "label": "320x844",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/workshop-320x844.png",
+        "scrollWidth": 320,
+        "innerWidth": 320,
+        "scrollHeight": 1896,
+        "innerHeight": 844,
+        "hOverflow": false,
+        "vScroll": true
+      }
+    ],
+    "brain-lab": [
+      {
+        "w": 1440,
+        "h": 900,
+        "label": "1440x900",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/brain-lab-1440x900.png",
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "scrollHeight": 1547,
+        "innerHeight": 900,
+        "hOverflow": false,
+        "vScroll": true
+      },
+      {
+        "w": 1024,
+        "h": 768,
+        "label": "1024x768",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/brain-lab-1024x768.png",
+        "scrollWidth": 1024,
+        "innerWidth": 1024,
+        "scrollHeight": 2411,
+        "innerHeight": 768,
+        "hOverflow": false,
+        "vScroll": true
+      },
+      {
+        "w": 768,
+        "h": 1024,
+        "label": "768x1024",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/brain-lab-768x1024.png",
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "scrollHeight": 2479,
+        "innerHeight": 1024,
+        "hOverflow": false,
+        "vScroll": true
+      },
+      {
+        "w": 390,
+        "h": 844,
+        "label": "390x844",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/brain-lab-390x844.png",
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "scrollHeight": 3217,
+        "innerHeight": 844,
+        "hOverflow": false,
+        "vScroll": true
+      },
+      {
+        "w": 320,
+        "h": 844,
+        "label": "320x844",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/brain-lab-320x844.png",
+        "scrollWidth": 320,
+        "innerWidth": 320,
+        "scrollHeight": 3343,
+        "innerHeight": 844,
+        "hOverflow": false,
+        "vScroll": true
+      }
+    ],
+    "my-synths": [
+      {
+        "w": 1440,
+        "h": 900,
+        "label": "1440x900",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/my-synths-1440x900.png",
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "scrollHeight": 964,
+        "innerHeight": 900,
+        "hOverflow": false,
+        "vScroll": true
+      },
+      {
+        "w": 1024,
+        "h": 768,
+        "label": "1024x768",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/my-synths-1024x768.png",
+        "scrollWidth": 1024,
+        "innerWidth": 1024,
+        "scrollHeight": 1146,
+        "innerHeight": 768,
+        "hOverflow": false,
+        "vScroll": true
+      },
+      {
+        "w": 768,
+        "h": 1024,
+        "label": "768x1024",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/my-synths-768x1024.png",
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "scrollHeight": 1214,
+        "innerHeight": 1024,
+        "hOverflow": false,
+        "vScroll": true
+      },
+      {
+        "w": 390,
+        "h": 844,
+        "label": "390x844",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/my-synths-390x844.png",
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "scrollHeight": 1328,
+        "innerHeight": 844,
+        "hOverflow": false,
+        "vScroll": true
+      },
+      {
+        "w": 320,
+        "h": 844,
+        "label": "320x844",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/my-synths-320x844.png",
+        "scrollWidth": 320,
+        "innerWidth": 320,
+        "scrollHeight": 1462,
+        "innerHeight": 844,
+        "hOverflow": false,
+        "vScroll": true
+      }
+    ],
+    "arena": [
+      {
+        "w": 1440,
+        "h": 900,
+        "label": "1440x900",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/arena-1440x900.png",
+        "scrollWidth": 1440,
+        "innerWidth": 1440,
+        "scrollHeight": 1788,
+        "innerHeight": 900,
+        "hOverflow": false,
+        "vScroll": true
+      },
+      {
+        "w": 1024,
+        "h": 768,
+        "label": "1024x768",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/arena-1024x768.png",
+        "scrollWidth": 1024,
+        "innerWidth": 1024,
+        "scrollHeight": 2922,
+        "innerHeight": 768,
+        "hOverflow": false,
+        "vScroll": true
+      },
+      {
+        "w": 768,
+        "h": 1024,
+        "label": "768x1024",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/arena-768x1024.png",
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "scrollHeight": 2811,
+        "innerHeight": 1024,
+        "hOverflow": false,
+        "vScroll": true
+      },
+      {
+        "w": 390,
+        "h": 844,
+        "label": "390x844",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/arena-390x844.png",
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "scrollHeight": 2777,
+        "innerHeight": 844,
+        "hOverflow": false,
+        "vScroll": true
+      },
+      {
+        "w": 320,
+        "h": 844,
+        "label": "320x844",
+        "file": "D:\\AI\\nextgame\\deliverables\\gstack\\shots/arena-320x844.png",
+        "scrollWidth": 320,
+        "innerWidth": 320,
+        "scrollHeight": 2873,
+        "innerHeight": 844,
+        "hOverflow": false,
+        "vScroll": true
+      }
+    ]
+  },
+  "layout": {
+    "arenaArea": {
+      "host": {
+        "w": 824,
+        "h": 577,
+        "area": 475281
+      },
+      "viewportArea": 1296000,
+      "pctOfViewport": 36.7,
+      "layoutW": 1144
+    },
+    "at1440": {
+      "vw": 1440,
+      "scrollWidth": 1440,
+      "scrollHeight": 2399,
+      "innerHeight": 900,
+      "overflowCount": 0,
+      "overflow": [],
+      "clippedCount": 0,
+      "clipped": [],
+      "ctas": [
+        {
+          "label": "Lưu revision",
+          "present": true,
+          "visible": false,
+          "w": 116,
+          "h": 44,
+          "top": -1155
+        },
+        {
+          "label": "Kiểm tra bot",
+          "present": true,
+          "visible": false,
+          "w": 118,
+          "h": 44,
+          "top": -1155
+        },
+        {
+          "label": "Thử trận",
+          "present": true,
+          "visible": false,
+          "w": 90,
+          "h": 44,
+          "top": -1155
+        }
+      ]
+    },
+    "at390": {
+      "vw": 390,
+      "scrollWidth": 390,
+      "scrollHeight": 2712,
+      "innerHeight": 844,
+      "overflowCount": 0,
+      "overflow": [],
+      "clippedCount": 0,
+      "clipped": [],
+      "ctas": [
+        {
+          "label": "Lưu revision",
+          "present": true,
+          "visible": false,
+          "w": 114,
+          "h": 44,
+          "top": -1035
+        },
+        {
+          "label": "Kiểm tra bot",
+          "present": true,
+          "visible": false,
+          "w": 114,
+          "h": 44,
+          "top": -1035
+        },
+        {
+          "label": "Thử trận",
+          "present": true,
+          "visible": false,
+          "w": 114,
+          "h": 44,
+          "top": -1035
+        }
+      ]
+    },
+    "at320": {
+      "vw": 320,
+      "scrollWidth": 320,
+      "scrollHeight": 2912,
+      "innerHeight": 844,
+      "overflowCount": 0,
+      "overflow": [],
+      "clippedCount": 0,
+      "clipped": [],
+      "ctas": [
+        {
+          "label": "Lưu revision",
+          "present": true,
+          "visible": false,
+          "w": 91,
+          "h": 44,
+          "top": -1099
+        },
+        {
+          "label": "Kiểm tra bot",
+          "present": true,
+          "visible": false,
+          "w": 91,
+          "h": 44,
+          "top": -1099
+        },
+        {
+          "label": "Thử trận",
+          "present": true,
+          "visible": false,
+          "w": 91,
+          "h": 44,
+          "top": -1099
+        }
+      ]
+    }
+  },
+  "contrast": {
+    "live": [
+      {
+        "sel": "main h1",
+        "note": "page title 30px",
+        "missing": true
+      },
+      {
+        "sel": ".topbar .eyebrow",
+        "note": "eyebrow 11px on surface?",
+        "fg": "#b9c2c9",
+        "bg": "#000000",
+        "fontSize": "11px",
+        "fontWeight": "600",
+        "ratio": 11.62
+      },
+      {
+        "sel": ".status-strip span",
+        "note": "status text 13px",
+        "fg": "#b9c2c9",
+        "bg": "#000000",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 11.62
+      },
+      {
+        "sel": ".subtle",
+        "note": "subtle/secondary 13px",
+        "fg": "#b9c2c9",
+        "bg": "#000000",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 11.62
+      },
+      {
+        "sel": ".synth-header .subtle",
+        "note": "subtle in synth header",
+        "fg": "#b9c2c9",
+        "bg": "#000000",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 11.62
+      },
+      {
+        "sel": ".inspector .budget > span",
+        "note": "budget label 10px",
+        "fg": "#b9c2c9",
+        "bg": "#141c24",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "ratio": 9.52
+      },
+      {
+        "sel": ".axis",
+        "note": "axis tiny 9px",
+        "fg": "#94a1ab",
+        "bg": "#0e141a",
+        "fontSize": "9px",
+        "fontWeight": "400",
+        "ratio": 7.01
+      },
+      {
+        "sel": "footer",
+        "note": "footer 11px",
+        "fg": "#94a1ab",
+        "bg": "#000000",
+        "fontSize": "11px",
+        "fontWeight": "400",
+        "ratio": 7.95
+      },
+      {
+        "sel": ".nav-number",
+        "note": "nav number 12px",
+        "fg": "#94a1ab",
+        "bg": "#1b2630",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 5.81
+      },
+      {
+        "sel": ".brand-caption",
+        "note": "brand caption 12px",
+        "fg": "#b9c2c9",
+        "bg": "#0e141a",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 10.25
+      },
+      {
+        "sel": "button.primary",
+        "note": "primary CTA gold on void",
+        "fg": "#090d11",
+        "bg": "#e8c56c",
+        "fontSize": "15px",
+        "fontWeight": "600",
+        "ratio": 11.73
+      },
+      {
+        "sel": ".actions button:not(.primary)",
+        "note": "secondary button",
+        "fg": "#f4f1e8",
+        "bg": "#1b2630",
+        "fontSize": "15px",
+        "fontWeight": "400",
+        "ratio": 13.61
+      },
+      {
+        "sel": ".module-choice small",
+        "note": "module choice small 12px",
+        "fg": "#b9c2c9",
+        "bg": "#141c24",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "ratio": 9.52
+      },
+      {
+        "sel": ".stage-heading span",
+        "note": "stage heading 11px",
+        "fg": "#b9c2c9",
+        "bg": "#000000",
+        "fontSize": "11px",
+        "fontWeight": "600",
+        "ratio": 11.62
+      },
+      {
+        "sel": "dl dt",
+        "note": "definition term",
+        "fg": "#b9c2c9",
+        "bg": "#141c24",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 9.52
+      },
+      {
+        "sel": ".team-A strong",
+        "note": "team A label (arena)",
+        "missing": true
+      },
+      {
+        "sel": ".team-B strong",
+        "note": "team B label (arena)",
+        "missing": true
+      }
+    ],
+    "tokens": [
+      {
+        "label": "Text primary on Void",
+        "fg": "#F4F1E8",
+        "bg": "#090D11",
+        "required": 4.5,
+        "ratio": 17.26,
+        "pass": true
+      },
+      {
+        "label": "Text primary on Surface1",
+        "fg": "#F4F1E8",
+        "bg": "#141C24",
+        "required": 4.5,
+        "ratio": 15.22,
+        "pass": true
+      },
+      {
+        "label": "Text secondary on Surface1",
+        "fg": "#B9C2C9",
+        "bg": "#141C24",
+        "required": 4.5,
+        "ratio": 9.52,
+        "pass": true
+      },
+      {
+        "label": "Text muted on Void",
+        "fg": "#94A1AB",
+        "bg": "#090D11",
+        "required": 4.5,
+        "ratio": 7.38,
+        "pass": true
+      },
+      {
+        "label": "Text muted on Surface1",
+        "fg": "#94A1AB",
+        "bg": "#141C24",
+        "required": 4.5,
+        "ratio": 6.51,
+        "pass": true
+      },
+      {
+        "label": "Text muted on Arena",
+        "fg": "#94A1AB",
+        "bg": "#0E141A",
+        "required": 4.5,
+        "ratio": 7.01,
+        "pass": true
+      },
+      {
+        "label": "Secondary on Surface2",
+        "fg": "#B9C2C9",
+        "bg": "#1B2630",
+        "required": 4.5,
+        "ratio": 8.51,
+        "pass": true
+      },
+      {
+        "label": "Line on Surface1 (border, 3:1)",
+        "fg": "#8193A0",
+        "bg": "#141C24",
+        "required": 3,
+        "ratio": 5.42,
+        "pass": true
+      },
+      {
+        "label": "Line on Void (border, 3:1)",
+        "fg": "#8193A0",
+        "bg": "#090D11",
+        "required": 3,
+        "ratio": 6.14,
+        "pass": true
+      },
+      {
+        "label": "Quiet on Surface1 (divider, 3:1)",
+        "fg": "#293640",
+        "bg": "#141C24",
+        "required": 3,
+        "ratio": 1.39,
+        "pass": false
+      },
+      {
+        "label": "Quiet on Arena (grid, 3:1)",
+        "fg": "#293640",
+        "bg": "#0E141A",
+        "required": 3,
+        "ratio": 1.5,
+        "pass": false
+      },
+      {
+        "label": "Gold text on Void",
+        "fg": "#E8C56C",
+        "bg": "#090D11",
+        "required": 4.5,
+        "ratio": 11.73,
+        "pass": true
+      },
+      {
+        "label": "Void text on Gold button",
+        "fg": "#090D11",
+        "bg": "#E8C56C",
+        "required": 4.5,
+        "ratio": 11.73,
+        "pass": true
+      },
+      {
+        "label": "Core on Void (focus ring)",
+        "fg": "#F1C86B",
+        "bg": "#090D11",
+        "required": 3,
+        "ratio": 12.27,
+        "pass": true
+      },
+      {
+        "label": "Team A on Void",
+        "fg": "#F27B59",
+        "bg": "#090D11",
+        "required": 4.5,
+        "ratio": 7.2,
+        "pass": true
+      },
+      {
+        "label": "Team B on Void",
+        "fg": "#65C8D4",
+        "bg": "#090D11",
+        "required": 4.5,
+        "ratio": 9.99,
+        "pass": true
+      },
+      {
+        "label": "Success on Void",
+        "fg": "#55C58A",
+        "bg": "#090D11",
+        "required": 3,
+        "ratio": 9.04,
+        "pass": true
+      },
+      {
+        "label": "Danger on Void",
+        "fg": "#EC6A68",
+        "bg": "#090D11",
+        "required": 4.5,
+        "ratio": 6.34,
+        "pass": true
+      },
+      {
+        "label": "Team A vs Team B luminance (grayscale distinctness)",
+        "fg": "#F27B59",
+        "bg": "#65C8D4",
+        "required": 3,
+        "ratio": 1.39,
+        "pass": false
+      }
+    ]
+  },
+  "focus": {
+    "tabOrder": [
+      {
+        "tag": "A",
+        "name": "P\nPROMPT\nCHIẾN",
+        "cls": "brand",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "name": "01\nWorkshop",
+        "cls": "",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "name": "02\nBrain Lab",
+        "cls": "",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "name": "03\nArena",
+        "cls": "",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "name": "04\nMy Synths",
+        "cls": "",
+        "focusVisible": true
+      },
+      {
+        "tag": "INPUT",
+        "name": "synth-name",
+        "cls": "synth-name",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Lưu revision",
+        "cls": "",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Bỏ JSON đang sửa",
+        "cls": "",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Lõi\n20 điểm · 12 mass",
+        "cls": "module-choice",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Động cơ\n6 điểm · 3 mass",
+        "cls": "module-choice",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Giáp\n4 điểm · 4 mass",
+        "cls": "module-choice",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Blade\n14 điểm · 5 mass",
+        "cls": "module-choice",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Burst\n16 điểm · 5 mass",
+        "cls": "module-choice",
+        "focusVisible": true
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Khiên\n12 điểm · 4 mass",
+        "cls": "module-choice",
+        "focusVisible": true
+      }
+    ],
+    "focusRing": {
+      "outlineStyle": "none",
+      "outlineWidth": "3px",
+      "outlineColor": "rgb(9, 13, 17)",
+      "offset": "0px",
+      "focusVisible": false
+    },
+    "grid": {
+      "before": "7,5",
+      "after": "8,5",
+      "moved": true
+    }
+  },
+  "states": {
+    "staleNotice": "Replay thuộc bản trước; draft hiện tại đã đổi. Scenario 257 · chỉ trace A thuộc chủ bot.",
+    "errorBanner": "DUPLICATE_KEY /schemaVersion\n\nDUPLICATE_KEY at byte/char 38",
+    "loadingText": "PROMPT CHIẾN / LOCAL\n\nMở xưởng trí tuệ\n\nĐang mở Workshop…"
+  },
+  "consoleErrors": [],
+  "pageErrors": [],
+  "unrun": [],
+  "browserVersion": "151.0.7922.34",
+  "arenaReached": true,
+  "finishedAt": "2026-10-02T14:31:13.494Z"
+}

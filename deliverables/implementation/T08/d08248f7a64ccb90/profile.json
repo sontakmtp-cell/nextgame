@@ -1,0 +1,60 @@
+{
+  "status": "desktop-frame-target-failed",
+  "fixture": "Synthetic render-only stress on 21-module point-budget bodies (not ranked eligible); 128 projectiles + 256 events/tick",
+  "startedAt": "2026-10-02T12:32:25.964Z",
+  "cpu": "AMD Ryzen 5 7600 6-Core Processor              ",
+  "platform": "win32",
+  "runtime": "v24.18.0",
+  "unrun": [
+    "Actual integrated GPU reference host",
+    "Actual Android mobile hardware",
+    "GPU memory drift proof",
+    "Production replay network seek"
+  ],
+  "browser": "154.0.8037.93",
+  "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "desktop": {
+    "elapsedMs": 120004.79999999702,
+    "frames": 7143,
+    "drawP95Ms": 1.4000000059604645,
+    "drawP99Ms": 1.7999999970197678,
+    "frameP95Ms": 16.799999999995634,
+    "frameP99Ms": 16.80000000000291,
+    "viewport": {
+      "width": 1600,
+      "height": 1100
+    },
+    "dpr": 1,
+    "tier": "high",
+    "targetMet": false
+  },
+  "heap": {
+    "bytes": [
+      14053836,
+      13798740,
+      13922024,
+      13971404,
+      14048256,
+      14074872,
+      14093104,
+      14143432,
+      14338092,
+      14418948,
+      14458144
+    ],
+    "driftBytes": 404308,
+    "targetMet": true
+  },
+  "desktopMobileEmulation": {
+    "elapsedMs": 15014.89999999106,
+    "frameP95Ms": 16.70000000001164,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "tier": "low",
+    "actualMobile": false
+  },
+  "pageErrors": [],
+  "finishedAt": "2026-10-02T12:35:16.313Z"
+}

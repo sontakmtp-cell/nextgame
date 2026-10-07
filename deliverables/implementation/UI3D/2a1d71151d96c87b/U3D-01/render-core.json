@@ -1,0 +1,614 @@
+{
+  "command": "node scripts/u3d01-render.mjs core",
+  "status": "passed",
+  "errors": [],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:5194/",
+      "status": 200,
+      "bytes": 4550
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/environments/RoomEnvironment.js",
+      "status": 200,
+      "bytes": 4960
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/decoders/meshopt_decoder.module.js",
+      "status": 200,
+      "bytes": 29019
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/loaders/KTX2Loader.js",
+      "status": 200,
+      "bytes": 36567
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/loaders/GLTFLoader.js",
+      "status": 200,
+      "bytes": 117570
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/build/three.module.js",
+      "status": 200,
+      "bytes": 662772
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/utils/WorkerPool.js",
+      "status": 200,
+      "bytes": 3110
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/libs/ktx-parse.module.js",
+      "status": 200,
+      "bytes": 19932
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/libs/zstddec.module.js",
+      "status": 200,
+      "bytes": 39754
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/math/ColorSpaces.js",
+      "status": 200,
+      "bytes": 4290
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/utils/SkeletonUtils.js",
+      "status": 200,
+      "bytes": 11535
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/utils/BufferGeometryUtils.js",
+      "status": 200,
+      "bytes": 37712
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/build/three.core.js",
+      "status": 200,
+      "bytes": 1458113
+    },
+    {
+      "url": "http://127.0.0.1:5194/settings",
+      "status": 200,
+      "bytes": 1674
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/core.glb",
+      "status": 200,
+      "bytes": 35239180
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/d9993b65-6c81-4823-8bb1-86870e055fc1",
+      "status": 200,
+      "bytes": 3902422
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c828c6b3-3eef-4e32-899b-378e3d8f0209",
+      "status": 200,
+      "bytes": 4636023
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b5f41fbd-4415-4d41-ac1d-c39bd692b9c3",
+      "status": 200,
+      "bytes": 4788443
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "status": 200,
+      "bytes": 2376128
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/9005895c-eda5-4971-aa81-dcbfb48fe245",
+      "status": 200,
+      "bytes": 572980
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/da8ae6ef-44de-4774-8972-012b767af694",
+      "status": 200,
+      "bytes": 610972
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/26955082-bfe3-48db-bca0-65e957981147",
+      "status": 200,
+      "bytes": 700216
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "status": 200,
+      "bytes": 57529
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "status": 200,
+      "bytes": 527333
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c453434a-e5f0-4101-a35a-28f5fe7c6601",
+      "status": 200,
+      "bytes": 68718
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "status": 200,
+      "bytes": 690784
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/37345348-5453-44b3-8c7e-218c73fdee0a",
+      "status": 200,
+      "bytes": 72519
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/bcd24f6d-5437-4a7d-8c4d-9f22fd45ec82",
+      "status": 200,
+      "bytes": 212527
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/78a70b3a-de6a-48b7-b8be-c7e0fde95c35",
+      "status": 200,
+      "bytes": 267322
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "status": 200,
+      "bytes": 211004
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4523fe48-7ed9-4208-96ad-7be67d1a8f58",
+      "status": 200,
+      "bytes": 76846
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a9c04aa7-9d8a-40b1-a77d-972505b037d0",
+      "status": 200,
+      "bytes": 21306
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/04e2655f-f28c-4ab4-82ff-628964d408df",
+      "status": 200,
+      "bytes": 77271
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/core.glb",
+      "status": 200,
+      "bytes": 35239180
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f1608010-e2d6-4e32-ad01-0f241470156d",
+      "status": 200,
+      "bytes": 4636023
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4bb8996b-fd0b-4687-9663-37de60222dea",
+      "status": 200,
+      "bytes": 3902422
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/5ae7fa25-69de-408b-bf85-2ed3edf7ac4d",
+      "status": 200,
+      "bytes": 4788443
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "status": 200,
+      "bytes": 2376128
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ca12fbdf-2ae5-4451-b775-13eaed5f00ab",
+      "status": 200,
+      "bytes": 572980
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e0c53442-a481-40ae-9607-753fc65222bc",
+      "status": 200,
+      "bytes": 610972
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/9f12d75f-5138-43d4-a18c-b040df9f4181",
+      "status": 200,
+      "bytes": 700216
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "status": 200,
+      "bytes": 690784
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/1c87c5ca-2ca5-4279-a9a0-4c7cafecbdc6",
+      "status": 200,
+      "bytes": 72519
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/28dad60e-49b9-445e-a98b-0082a192e12f",
+      "status": 200,
+      "bytes": 212527
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ab03be86-1cd7-4936-a6a1-f2345cdcf1e1",
+      "status": 200,
+      "bytes": 267322
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "status": 200,
+      "bytes": 211004
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/10ee924a-eefb-4a97-83a5-5a2bc6270a7d",
+      "status": 200,
+      "bytes": 76846
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/cc22023e-50b6-4839-899b-236b0a61c2ba",
+      "status": 200,
+      "bytes": 21306
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e765f49c-dc4d-4a94-9c3d-1098ca29db8b",
+      "status": 200,
+      "bytes": 77271
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/core.glb",
+      "status": 200,
+      "bytes": 35239180
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ae9558e2-d91a-4352-919e-6e0b4f62aca3",
+      "status": 200,
+      "bytes": 3902422
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/af462cc2-d1e9-4ed2-b4dd-16e5851849f8",
+      "status": 200,
+      "bytes": 4636023
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/d5b7d487-6dcf-4826-9206-1e15397abc3e",
+      "status": 200,
+      "bytes": 4788443
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "status": 200,
+      "bytes": 2376128
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4acab2ca-f67b-4368-8557-8e88678986fa",
+      "status": 200,
+      "bytes": 572980
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/24974b37-f168-4084-a62f-eb1b392d456d",
+      "status": 200,
+      "bytes": 610972
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/eab82afa-1b3a-42f3-b2dd-86d41b0ff567",
+      "status": 200,
+      "bytes": 700216
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "status": 200,
+      "bytes": 690784
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e443193a-7045-4a8b-be20-17c79d72b0f9",
+      "status": 200,
+      "bytes": 212527
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/233f7656-58e3-46f5-832f-bc158736f738",
+      "status": 200,
+      "bytes": 72519
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/34d3d408-875c-4145-b6c9-9360e67d18da",
+      "status": 200,
+      "bytes": 267322
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "status": 200,
+      "bytes": 211004
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b70eecba-34cb-4e66-94cc-83d1bbb71edd",
+      "status": 200,
+      "bytes": 76846
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ea73e92a-daff-4d2b-bbf1-88fb6475700e",
+      "status": 200,
+      "bytes": 21306
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/debf8020-71f2-48c6-a846-866738eb073b",
+      "status": 200,
+      "bytes": 77271
+    }
+  ],
+  "rows": [
+    {
+      "id": "core",
+      "quality": "source",
+      "view": "hero",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.96,
+          0,
+          -0.9586449824212303
+        ],
+        "max": [
+          0.96,
+          0.9844959488540121,
+          0.9586449824212304
+        ]
+      },
+      "url": "/source/core.glb"
+    },
+    {
+      "id": "core",
+      "quality": "high",
+      "view": "hero",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9599193930625916,
+          0.0000043219834166552396,
+          -0.9582458987068526
+        ],
+        "max": [
+          0.9599120616912842,
+          0.9815692001074952,
+          0.9585388555359237
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "silhouetteIoU": 0.9989670983020104
+    },
+    {
+      "id": "core",
+      "quality": "medium",
+      "view": "hero",
+      "triangles": 7898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9596118330955505,
+          0.000003967577986041526,
+          -0.9582461273607985
+        ],
+        "max": [
+          0.9599047899246216,
+          0.9789474865846116,
+          0.9584586179194228
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "silhouetteIoU": 0.9968021352671602
+    },
+    {
+      "id": "core",
+      "quality": "low",
+      "view": "hero",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9591503143310547,
+          -0.0000028452118107646918,
+          -0.9577120323731523
+        ],
+        "max": [
+          0.9588061571121216,
+          0.9675505003174016,
+          0.9584299107148271
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "silhouetteIoU": 0.9869371523495507
+    },
+    {
+      "id": "core",
+      "quality": "source",
+      "view": "opposite",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.96,
+          0,
+          -0.9586449824212303
+        ],
+        "max": [
+          0.96,
+          0.9844959488540121,
+          0.9586449824212304
+        ]
+      },
+      "url": "/source/core.glb"
+    },
+    {
+      "id": "core",
+      "quality": "high",
+      "view": "opposite",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9599193930625916,
+          0.0000043219834166552396,
+          -0.9582458987068526
+        ],
+        "max": [
+          0.9599120616912842,
+          0.9815692001074952,
+          0.9585388555359237
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "silhouetteIoU": 0.9988658416714974
+    },
+    {
+      "id": "core",
+      "quality": "medium",
+      "view": "opposite",
+      "triangles": 7898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9596118330955505,
+          0.000003967577986041526,
+          -0.9582461273607985
+        ],
+        "max": [
+          0.9599047899246216,
+          0.9789474865846116,
+          0.9584586179194228
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "silhouetteIoU": 0.9969769492379393
+    },
+    {
+      "id": "core",
+      "quality": "low",
+      "view": "opposite",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9591503143310547,
+          -0.0000028452118107646918,
+          -0.9577120323731523
+        ],
+        "max": [
+          0.9588061571121216,
+          0.9675505003174016,
+          0.9584299107148271
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "silhouetteIoU": 0.986266159312552
+    },
+    {
+      "id": "core",
+      "quality": "source",
+      "view": "top",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.96,
+          0,
+          -0.9586449824212303
+        ],
+        "max": [
+          0.96,
+          0.9844959488540121,
+          0.9586449824212304
+        ]
+      },
+      "url": "/source/core.glb"
+    },
+    {
+      "id": "core",
+      "quality": "high",
+      "view": "top",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9599193930625916,
+          0.0000043219834166552396,
+          -0.9582458987068526
+        ],
+        "max": [
+          0.9599120616912842,
+          0.9815692001074952,
+          0.9585388555359237
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "silhouetteIoU": 0.9994560659973256
+    },
+    {
+      "id": "core",
+      "quality": "medium",
+      "view": "top",
+      "triangles": 7898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9596118330955505,
+          0.000003967577986041526,
+          -0.9582461273607985
+        ],
+        "max": [
+          0.9599047899246216,
+          0.9789474865846116,
+          0.9584586179194228
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "silhouetteIoU": 0.998685552407932
+    },
+    {
+      "id": "core",
+      "quality": "low",
+      "view": "top",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9591503143310547,
+          -0.0000028452118107646918,
+          -0.9577120323731523
+        ],
+        "max": [
+          0.9588061571121216,
+          0.9675505003174016,
+          0.9584299107148271
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "silhouetteIoU": 0.9902007270428324
+    }
+  ],
+  "browser": "154.0.8037.98",
+  "environment": {
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "dpr": 1,
+    "three": "186"
+  }
+}

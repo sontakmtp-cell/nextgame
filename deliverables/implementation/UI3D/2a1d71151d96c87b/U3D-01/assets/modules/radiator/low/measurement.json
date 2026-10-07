@@ -1,0 +1,37 @@
+{
+  "id": "radiator",
+  "quality": "low",
+  "modelUrl": "/assets/ui3d/u3d01/modules/radiator/low/model.glb",
+  "modelSha256": "8eef97808279156a1516f458c44f546f9005d1777f64ad3294c59c7558dbb04a",
+  "bytes": 210920,
+  "triangles": 1899,
+  "textures": [
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/low/normal.ktx2",
+      "sha256": "46902bd6cec9d1dce75d2290b10dd47b3917434dd34ffead1e96aaf0a14f0937",
+      "bytes": 78521,
+      "width": 256,
+      "height": 256,
+      "format": "ktx2"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/low/baseColor.ktx2",
+      "sha256": "b9d085fa143b54fa12c2f2fc0edcc545268a6adcf1d32e6294a2816c8e0f1651",
+      "bytes": 75222,
+      "width": 512,
+      "height": 512,
+      "format": "ktx2"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/low/metallicRoughness.ktx2",
+      "sha256": "dff56dce25156c3887db016bd348a454f07c53807bdb700f63582a7f989c5e09",
+      "bytes": 19874,
+      "width": 256,
+      "height": 256,
+      "format": "ktx2"
+    }
+  ],
+  "appearanceError": 0.044102780520915985,
+  "lodBaseCorrectionY": -0.00022949943377170712,
+  "elapsedMs": 5612.926999999996
+}

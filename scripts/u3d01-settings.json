@@ -1,0 +1,17 @@
+{
+  "schema": "u3d01-authoring-v1",
+  "algorithm": "meshoptimizer simplifyWithAttributes, weighted normals and UVs; original texture UV retained",
+  "attributeWeights": [0.3, 0.3, 0.3, 0.5, 0.5],
+  "modules": {
+    "core": { "yaw": -1.5707963267948966, "span": 1.92, "anchorX": 0, "anchorZ": 0, "note": "Symmetric hull; center of base, 2-cell visual envelope." },
+    "armor": { "yaw": -1.5707963267948966, "span": 0.94, "anchorX": 0, "anchorZ": 0, "note": "Symmetric plate; center of base." },
+    "thruster": { "yaw": -1.5707963267948966, "span": 0.94, "anchorX": 0, "anchorZ": 0, "note": "Nozzle must face -X for forward thrust. Verify source orientation in rendered turntable." },
+    "blade": { "yaw": 1.5707963267948966, "span": 0.94, "anchorX": 0, "anchorZ": 0, "note": "Source +Z tip maps to +X. Base envelope centered inside 1-cell footprint." },
+    "burst": { "yaw": 1.5707963267948966, "span": 0.94, "anchorX": 0, "anchorZ": 0, "note": "Source +Z barrels map to +X." },
+    "lance": { "yaw": 1.5707963267948966, "span": 0.94, "anchorX": 0, "anchorZ": 0, "note": "Source +Z tip maps to +X; art only, catalog remains authority." },
+    "shield": { "yaw": -1.5707963267948966, "span": 0.94, "anchorX": 0, "anchorZ": 0, "note": "Source -Z open crescent center and cyan front band map to +X." },
+    "breaker": { "yaw": 1.5707963267948966, "span": 0.94, "anchorX": 0, "anchorZ": 0, "note": "Source +Z weapon front maps to +X; art only." },
+    "capacitor": { "yaw": -1.5707963267948966, "span": 0.94, "anchorX": 0, "anchorZ": 0, "note": "Centered sealed housing." },
+    "radiator": { "yaw": -1.5707963267948966, "span": 0.94, "anchorX": 0, "anchorZ": 0, "note": "Centered fin housing." }
+  }
+}

@@ -1,0 +1,3 @@
+import { readFile } from 'node:fs/promises';
+import { resolve } from 'node:path';
+export default {root:'tests/g2-viewer',publicDir:'../../apps/web/public',server:{host:'127.0.0.1',port:5188,strictPort:true,fs:{allow:['.']}},plugins:[{name:'g2-fixture',configureServer(server:{middlewares:{use:(path:string,fn:(req:unknown,res:{setHeader:(key:string,value:string)=>void;end:(data:string)=>void})=>void)=>void}}){server.middlewares.use('/fixture.json',(_req,res)=>{void readFile(resolve('.local/g2/renderer-fixture.json'),'utf8').then(text=>{res.setHeader('Content-Type','application/json');res.end(text);});});}}]};

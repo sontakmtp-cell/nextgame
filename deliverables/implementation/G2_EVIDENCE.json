@@ -1,0 +1,25 @@
+{
+  "status": "G2 local implementation; acceptance incomplete",
+  "revision": "d08248f7a64ccb90",
+  "snapshotHash": "d08248f7a64ccb90a98245ddf1cb51033d8eea7bb220774e0632b4d678e95fc2",
+  "dirs": {
+    "T07": "deliverables/implementation/T07/d08248f7a64ccb90",
+    "T08": "deliverables/implementation/T08/d08248f7a64ccb90"
+  },
+  "unitTests": 161,
+  "browserChecks": 18,
+  "browser": "154.0.8037.93",
+  "engineDigest": "2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78",
+  "compilerDigest": "95b374ad1965a84ef51b11bb068bcc26b4feaf5b66fb6c1863308eee06fe9aea",
+  "catalogDigest": "d8fe55474692a49ed5daa6d7dac62f635630a9e447a85ba683c0765bf535885d",
+  "rulesetDigest": "19ef0b984d12a34796ea2058bb9971421674671fd4cc76b8cf694e80f03d2f14",
+  "desktopFrameGate": "failed strict p95 target on recorded host",
+  "unrun": [
+    "10 beginner usability sessions",
+    "12 readability/counterplay participants",
+    "Independent art QA",
+    "Actual reference integrated GPU/Android",
+    "Full assistive-tech/contrast and browser matrix",
+    "G1 fun/numeric signoff"
+  ]
+}

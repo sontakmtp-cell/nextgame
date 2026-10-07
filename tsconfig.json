@@ -23,7 +23,13 @@
       "path": "apps/cli"
     },
     {
+      "path": "packages/renderer"
+    },
+    {
       "path": "apps/web"
+    },
+    {
+      "path": "packages/renderer3d"
     }
   ]
 }

@@ -1,0 +1,606 @@
+{
+  "status": "passed",
+  "startedAt": "2026-10-02T12:29:23.420Z",
+  "runtime": "v24.18.0",
+  "platform": "win32",
+  "cpu": "AMD Ryzen 5 7600 6-Core Processor              ",
+  "logicalCpus": 12,
+  "ramBytes": 33410686976,
+  "browser": "154.0.8037.93",
+  "browserChannel": "chrome",
+  "checks": [
+    {
+      "name": "Boot / authored assets / initial draft",
+      "status": "passed",
+      "detail": "Mantis"
+    },
+    {
+      "name": "Independent gesture-gated UI audio and volume controls",
+      "status": "passed",
+      "detail": true
+    },
+    {
+      "name": "Body place / rotate / delete / undo / redo",
+      "status": "passed",
+      "detail": true
+    },
+    {
+      "name": "Keyboard grid / focus navigation",
+      "status": "passed",
+      "detail": true
+    },
+    {
+      "name": "Bounded import / duplicate key pointer / unapplied buffer retained",
+      "status": "passed",
+      "detail": true
+    },
+    {
+      "name": "IndexedDB revision reload",
+      "status": "passed",
+      "detail": true
+    },
+    {
+      "name": "Two-tab CAS rejects stale save without overwriting unsaved draft",
+      "status": "passed",
+      "detail": true
+    },
+    {
+      "name": "Structured Brain field + rule source compilation",
+      "status": "passed",
+      "detail": true
+    },
+    {
+      "name": "3 paired scenarios / 12 legs / exact bindings / public-private split",
+      "status": "passed",
+      "detail": true
+    },
+    {
+      "name": "Seek reconstructs identical visual state regardless of seek order",
+      "status": "passed",
+      "detail": true
+    },
+    {
+      "name": "100 random seeks including browser round-trip",
+      "status": "passed",
+      "detail": 49.290100000000166
+    },
+    {
+      "name": "Low/VFX-off/grayscale keeps authoritative hash",
+      "status": "passed",
+      "detail": true
+    },
+    {
+      "name": "Gesture audio / pause and seek stop transients",
+      "status": "passed",
+      "detail": true
+    },
+    {
+      "name": "Real WEBGL_lose_context recovery retains tick",
+      "status": "passed",
+      "detail": true
+    },
+    {
+      "name": "Owner source-map trace → debrief hypothesis → persisted revision",
+      "status": "passed",
+      "detail": true
+    },
+    {
+      "name": "Cancel / actual worker error / retry same snapshot",
+      "status": "passed",
+      "detail": true
+    },
+    {
+      "name": "390px / 320px mobile summary and replay with no horizontal overflow",
+      "status": "passed",
+      "detail": true
+    },
+    {
+      "name": "Reduced motion retains telegraph and accessible DOM",
+      "status": "passed",
+      "detail": true
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "metrics": {
+    "seekRoundTripP95Ms": 49.290100000000166,
+    "assetRequests": [
+      {
+        "url": "http://127.0.0.1:5187/assets/index-CrLfhliD.js",
+        "transferBytes": 300,
+        "decodedBytes": 0
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/index-BIGTzArn.css",
+        "transferBytes": 300,
+        "decodedBytes": 0
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/rolldown-runtime-hePW80VL.js",
+        "transferBytes": 300,
+        "decodedBytes": 0
+      },
+      {
+        "url": "http://127.0.0.1:5187/fonts/font-0.woff2",
+        "transferBytes": 0,
+        "decodedBytes": 37224
+      },
+      {
+        "url": "http://127.0.0.1:5187/fonts/font-1.woff2",
+        "transferBytes": 0,
+        "decodedBytes": 108256
+      },
+      {
+        "url": "http://127.0.0.1:5187/fonts/font-2.woff2",
+        "transferBytes": 0,
+        "decodedBytes": 112332
+      },
+      {
+        "url": "http://127.0.0.1:5187/fonts/font-3.woff2",
+        "transferBytes": 0,
+        "decodedBytes": 112144
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/local.worker-COAge1gk.js",
+        "transferBytes": 300,
+        "decodedBytes": 254624
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/core.svg",
+        "transferBytes": 300,
+        "decodedBytes": 0
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/thruster.svg",
+        "transferBytes": 300,
+        "decodedBytes": 0
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/armor.svg",
+        "transferBytes": 300,
+        "decodedBytes": 0
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/blade.svg",
+        "transferBytes": 300,
+        "decodedBytes": 0
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/burst.svg",
+        "transferBytes": 300,
+        "decodedBytes": 0
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/shield.svg",
+        "transferBytes": 300,
+        "decodedBytes": 0
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/capacitor.svg",
+        "transferBytes": 300,
+        "decodedBytes": 0
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/radiator.svg",
+        "transferBytes": 300,
+        "decodedBytes": 0
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/Arena-CpeFyqtz.js",
+        "transferBytes": 78259,
+        "decodedBytes": 264984
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/CanvasPool-lybbAKSH.js",
+        "transferBytes": 34245,
+        "decodedBytes": 112369
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/canvasUtils-DpS9y4Pr.js",
+        "transferBytes": 2346,
+        "decodedBytes": 6056
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/getTextureBatchBindGroup-4GDuH05j.js",
+        "transferBytes": 644,
+        "decodedBytes": 344
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/RenderTargetSystem-BgHM3BWQ.js",
+        "transferBytes": 22259,
+        "decodedBytes": 78131
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/getTexelRangeRects-Bi69DcTx.js",
+        "transferBytes": 3283,
+        "decodedBytes": 11313
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/WebGLRenderer-Bmb4zS4i.js",
+        "transferBytes": 367,
+        "decodedBytes": 67
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/browserAll-DdrHdzFs.js",
+        "transferBytes": 11528,
+        "decodedBytes": 43487
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/init-DyEZsQ4H.js",
+        "transferBytes": 5045,
+        "decodedBytes": 15226
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/modules.svg",
+        "transferBytes": 1009,
+        "decodedBytes": 6585
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/arena.svg",
+        "transferBytes": 628,
+        "decodedBytes": 1222
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/shot.wav",
+        "transferBytes": 3430,
+        "decodedBytes": 3130
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/activation.wav",
+        "transferBytes": 7400,
+        "decodedBytes": 7100
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/hit.wav",
+        "transferBytes": 4754,
+        "decodedBytes": 4454
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/blocked.wav",
+        "transferBytes": 5194,
+        "decodedBytes": 4894
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/destroyed.wav",
+        "transferBytes": 10486,
+        "decodedBytes": 10186
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/shieldOn.wav",
+        "transferBytes": 8282,
+        "decodedBytes": 7982
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/shieldOff.wav",
+        "transferBytes": 5636,
+        "decodedBytes": 5336
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/overheated.wav",
+        "transferBytes": 9164,
+        "decodedBytes": 8864
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/ringNotice.wav",
+        "transferBytes": 12692,
+        "decodedBytes": 12392
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/result.wav",
+        "transferBytes": 17102,
+        "decodedBytes": 16802
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/local.worker-COAge1gk.js",
+        "transferBytes": 300,
+        "decodedBytes": 254624
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/core.svg",
+        "transferBytes": 300,
+        "decodedBytes": 756
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/thruster.svg",
+        "transferBytes": 300,
+        "decodedBytes": 688
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/armor.svg",
+        "transferBytes": 300,
+        "decodedBytes": 717
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/blade.svg",
+        "transferBytes": 300,
+        "decodedBytes": 693
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/burst.svg",
+        "transferBytes": 300,
+        "decodedBytes": 689
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/shield.svg",
+        "transferBytes": 300,
+        "decodedBytes": 721
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/capacitor.svg",
+        "transferBytes": 300,
+        "decodedBytes": 708
+      },
+      {
+        "url": "http://127.0.0.1:5187/assets/radiator.svg",
+        "transferBytes": 300,
+        "decodedBytes": 719
+      }
+    ]
+  },
+  "unrun": [
+    "Actual human usability/readability/counterplay",
+    "Actual mobile hardware",
+    "Safari/Firefox",
+    "Independent art reviewer",
+    "Full WCAG/manual screenreader review"
+  ],
+  "localExperiment": {
+    "comparison": {
+      "rows": [
+        {
+          "scenarioId": 0,
+          "seed": "00000000000000000000000000000622",
+          "baseline": 500,
+          "candidate": 500,
+          "legs": [
+            {
+              "variant": "baseline",
+              "swap": false,
+              "result": {
+                "winner": "A",
+                "cause": "timeout",
+                "elapsedTicks": 5400,
+                "scores": {
+                  "A": 5260,
+                  "B": 1455
+                }
+              },
+              "simulationHash": "6922a4e1d408a1daeee76c2cd447faa9de014cf3a1bde61a8ed0898941325afe"
+            },
+            {
+              "variant": "baseline",
+              "swap": true,
+              "result": {
+                "winner": "B",
+                "cause": "core",
+                "elapsedTicks": 3144,
+                "scores": {
+                  "A": 885,
+                  "B": 5466
+                }
+              },
+              "simulationHash": "090bcd0aa5673d9106a5e78295a3262b9f101038742ff98ea42e621983efce63"
+            },
+            {
+              "variant": "candidate",
+              "swap": false,
+              "result": {
+                "winner": "A",
+                "cause": "timeout",
+                "elapsedTicks": 5400,
+                "scores": {
+                  "A": 5260,
+                  "B": 1455
+                }
+              },
+              "simulationHash": "7cc52dbf403301a7f896b0e9fd4557da170a140acd5017744820ceeb3c039faa"
+            },
+            {
+              "variant": "candidate",
+              "swap": true,
+              "result": {
+                "winner": "B",
+                "cause": "core",
+                "elapsedTicks": 3144,
+                "scores": {
+                  "A": 885,
+                  "B": 5466
+                }
+              },
+              "simulationHash": "c5658c9a534242ea6fcd7f3ad8b4c956cbf681c4058140fff9ecb7b1a8d925a9"
+            }
+          ]
+        },
+        {
+          "scenarioId": 1,
+          "seed": "00000000000000000000000000000edc",
+          "baseline": 500,
+          "candidate": 500,
+          "legs": [
+            {
+              "variant": "baseline",
+              "swap": false,
+              "result": {
+                "winner": "A",
+                "cause": "core",
+                "elapsedTicks": 2137,
+                "scores": {
+                  "A": 4490,
+                  "B": 1003
+                }
+              },
+              "simulationHash": "a60d1149424f2f87fe9e888082779323490d945262e133466d3ee4be89ae625b"
+            },
+            {
+              "variant": "baseline",
+              "swap": true,
+              "result": {
+                "winner": "B",
+                "cause": "core",
+                "elapsedTicks": 2676,
+                "scores": {
+                  "A": 535,
+                  "B": 4325
+                }
+              },
+              "simulationHash": "332e0b2d76c99fdf8abcd28eb5250d186934f20a453705113ff17fd33af4eb29"
+            },
+            {
+              "variant": "candidate",
+              "swap": false,
+              "result": {
+                "winner": "A",
+                "cause": "core",
+                "elapsedTicks": 2137,
+                "scores": {
+                  "A": 4490,
+                  "B": 1003
+                }
+              },
+              "simulationHash": "3317b5ac4dbad6f89c92a0419776f24dfd29e646b71e68d31d62bd7521862395"
+            },
+            {
+              "variant": "candidate",
+              "swap": true,
+              "result": {
+                "winner": "B",
+                "cause": "core",
+                "elapsedTicks": 2676,
+                "scores": {
+                  "A": 535,
+                  "B": 4325
+                }
+              },
+              "simulationHash": "dafbcc76fe883b7a1c4dde0a88c95d251cb40b650e6c2c39b078b958bf25695f"
+            }
+          ]
+        },
+        {
+          "scenarioId": 2,
+          "seed": "00000000000000000000000000000240",
+          "baseline": 500,
+          "candidate": 500,
+          "legs": [
+            {
+              "variant": "baseline",
+              "swap": false,
+              "result": {
+                "winner": "A",
+                "cause": "timeout",
+                "elapsedTicks": 5400,
+                "scores": {
+                  "A": 5255,
+                  "B": 1462
+                }
+              },
+              "simulationHash": "fd5e80b4d21f0ab5818f6c12765dabd88527c3eec71db979afb4fc1b1c0d2b1f"
+            },
+            {
+              "variant": "baseline",
+              "swap": true,
+              "result": {
+                "winner": "B",
+                "cause": "core",
+                "elapsedTicks": 2748,
+                "scores": {
+                  "A": 390,
+                  "B": 4465
+                }
+              },
+              "simulationHash": "8f2070095243b61de77aec22929aa8b934cf92b20359403d22758bb0219bca70"
+            },
+            {
+              "variant": "candidate",
+              "swap": false,
+              "result": {
+                "winner": "A",
+                "cause": "timeout",
+                "elapsedTicks": 5400,
+                "scores": {
+                  "A": 5255,
+                  "B": 1462
+                }
+              },
+              "simulationHash": "576a8ccdeb6f1da203595642aba53c6c6b4d6cda5620d55f5eddea5681cd70d4"
+            },
+            {
+              "variant": "candidate",
+              "swap": true,
+              "result": {
+                "winner": "B",
+                "cause": "core",
+                "elapsedTicks": 2748,
+                "scores": {
+                  "A": 390,
+                  "B": 4465
+                }
+              },
+              "simulationHash": "4e8807b42a6837d291af3e88b33f4e9e5233dcbc1b9eb25dea77beaa7ee7e740"
+            }
+          ]
+        }
+      ],
+      "baselineHash": "094cc7ba8882f796478b0e7afa5fdbad5867b211326542ab3fcce286859963fb",
+      "candidateHash": "fffc7702dd25f02d667cc6518c051a88561a97c97c2880a11291e8839b275dac",
+      "opponentHash": "117c29cc725d45388458a867f363723aec693728f8d6081d762785096592d681",
+      "seedSetDigest": "90586f21cc7bf80b79ad5f064f895f7a83adc8e1f8a86ecd96fcfc2824b8aef2",
+      "engineDigest": "2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78",
+      "rulesetDigest": "19ef0b984d12a34796ea2058bb9971421674671fd4cc76b8cf694e80f03d2f14",
+      "meanDelta": 0,
+      "confidence": null
+    },
+    "manifest": {
+      "engineDigest": "2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78",
+      "rulesetDigest": "19ef0b984d12a34796ea2058bb9971421674671fd4cc76b8cf694e80f03d2f14",
+      "catalogDigest": "d8fe55474692a49ed5daa6d7dac62f635630a9e447a85ba683c0765bf535885d",
+      "compilerDigest": "95b374ad1965a84ef51b11bb068bcc26b4feaf5b66fb6c1863308eee06fe9aea",
+      "brainAbiVersion": "2.0",
+      "packageHashes": {
+        "A": "fffc7702dd25f02d667cc6518c051a88561a97c97c2880a11291e8839b275dac",
+        "B": "117c29cc725d45388458a867f363723aec693728f8d6081d762785096592d681"
+      },
+      "seed": "00000000000000000000000000000622",
+      "arenaDigest": "9828f7049a82dd2e8d685623132eef684b6377a0c5f81a9d76923beb7fc8e84d",
+      "arenaInitDigest": "213af97e3969c88fce81f28e1055c18af8549bbf5bd37e72079f1d301d4ba510",
+      "scenarioId": 0,
+      "presetValues": {
+        "yLeft": -3000,
+        "yRight": -3000,
+        "jitterLeft": -128,
+        "jitterRight": -128
+      },
+      "spawnSlotAssignment": {
+        "A": "left",
+        "B": "right"
+      },
+      "maxTicks": 5400,
+      "numericalAbiVersion": "milli-v1"
+    },
+    "result": {
+      "winner": "A",
+      "cause": "timeout",
+      "elapsedTicks": 5400,
+      "scores": {
+        "A": 5260,
+        "B": 1455
+      }
+    },
+    "simulationHash": "7cc52dbf403301a7f896b0e9fd4557da170a140acd5017744820ceeb3c039faa",
+    "publicReplayHash": "8a3fef56d91bcfd05d6ba3b6dfda3191b15fbce86dd1815aa16a53c9eb829b41",
+    "frameCount": 5401,
+    "ownerCount": 900,
+    "publicKeys": [
+      "pose",
+      "overheated",
+      "controlTicks",
+      "modules"
+    ],
+    "traceContainsB": false
+  },
+  "gpu": {
+    "vendor": "Google Inc. (NVIDIA)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+  },
+  "finishedAt": "2026-10-02T12:29:40.568Z"
+}

@@ -1,0 +1,77 @@
+{
+  "phase": "final",
+  "command": "node scripts/u3d00-browser.mjs final",
+  "startedAt": "2026-10-07T14:19:45.530Z",
+  "status": "failed",
+  "checks": [
+    "Brain Lab 1600 and 1920 screenshot bytes equal to hash-verified original UI after settled capture",
+    "Workshop / Brain Lab / My Synths / Arena renders captured at two desktop resolutions",
+    "Same default practice input: exact simulation/replay/events/frames/result parity with baseline"
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "networkFailures": [],
+  "browser": "154.0.8037.98",
+  "browserChannel": "chrome",
+  "sampleInitHash": "7cfcc1b97461200e16f8970df971419bb4f8e05797fabd92f36f8834981d4748",
+  "match": {
+    "manifest": {
+      "engineDigest": "2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78",
+      "rulesetDigest": "19ef0b984d12a34796ea2058bb9971421674671fd4cc76b8cf694e80f03d2f14",
+      "catalogDigest": "d8fe55474692a49ed5daa6d7dac62f635630a9e447a85ba683c0765bf535885d",
+      "compilerDigest": "95b374ad1965a84ef51b11bb068bcc26b4feaf5b66fb6c1863308eee06fe9aea",
+      "brainAbiVersion": "2.0",
+      "packageHashes": {
+        "A": "094cc7ba8882f796478b0e7afa5fdbad5867b211326542ab3fcce286859963fb",
+        "B": "117c29cc725d45388458a867f363723aec693728f8d6081d762785096592d681"
+      },
+      "seed": "00000000000000000000000000000000",
+      "arenaDigest": "9828f7049a82dd2e8d685623132eef684b6377a0c5f81a9d76923beb7fc8e84d",
+      "arenaInitDigest": "213af97e3969c88fce81f28e1055c18af8549bbf5bd37e72079f1d301d4ba510",
+      "scenarioId": 257,
+      "presetValues": {
+        "yLeft": -2000,
+        "yRight": 0,
+        "jitterLeft": -64,
+        "jitterRight": 0
+      },
+      "spawnSlotAssignment": {
+        "A": "left",
+        "B": "right"
+      },
+      "maxTicks": 5400,
+      "numericalAbiVersion": "milli-v1"
+    },
+    "result": {
+      "winner": "B",
+      "cause": "core",
+      "elapsedTicks": 2602,
+      "scores": {
+        "A": 885,
+        "B": 5002
+      }
+    },
+    "simulationHash": "4ebd80218b53bf01271d8ac9d92eaf348301565123e6d0e8448436eb2c7376c2",
+    "publicReplayHash": "29bf01b2db3f4f1e2f685be1d1f1673b678a6d59927092947f8703767614c140",
+    "orderedEventsHash": "e6844b657976b2468ec0ff69f72b9ab3822c38b151f8fa56ecd56fb368515693",
+    "publicFramesHash": "c6de202faacb45ababdf04ac03f193238f1ce7d80d457c696ff55ef2def2fcec",
+    "frameCount": 2603
+  },
+  "gpu": {
+    "vendor": "Google Inc. (NVIDIA)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "dpr": 1,
+    "viewport": [
+      1600,
+      1100
+    ]
+  },
+  "seek": {
+    "samples": 100,
+    "roundTripP95Ms": 5.100100000000566,
+    "note": "DOM input + browser round trip on warm local frames; not network seek or GPU completion timing."
+  },
+  "error": "TimeoutError: locator.fill: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('Rule JSON · condition / intent / set / nextState')\u001b[22m\n\u001b[2m    - locator resolved to <textarea disabled spellcheck=\"false\">{↵  \"id\": \"returnToRing\",↵  \"when\": {↵    \"kind\":…</textarea>\u001b[22m\n\u001b[2m    - fill(\"{\u001b[22m\n\u001b[2m  \"id\": \"returnToRing\",\u001b[22m\n\u001b[2m  \"when\": {\u001b[22m\n\u001b[2m    \"kind\": \"compare\",\u001b[22m\n\u001b[2m    \"op\": \"eq\",\u001b[22m\n\u001b[2m    \"left\": {\u001b[22m\n\u001b[2m      \"kind\": \"sensor\",\u001b[22m\n\u001b[2m      \"name\": \"self.outsideRing\"\u001b[22m\n\u001b[2m    },\u001b[22m\n\u001b[2m    \"right\": {\u001b[22m\n\u001b[2m      \"kind\": \"const\",\u001b[22m\n\u001b[2m      \"value\": 1\u001b[22m\n\u001b[2m    }\u001b[22m\n\u001b[2m  },\u001b[22m\n\u001b[2m  \"intent\": {\u001b[22m\n\u001b[2m    \"thrust\": {\u001b[22m\n\u001b[2m      \"forward\": {\u001b[22m\n\u001b[2m        \"kind\": \"const\",\u001b[22m\n\u001b[2m        \"value\": 1000\u001b[22m\n\u001b[2m      },\u001b[22m\n\u001b[2m      \"strafe\": {\u001b[22m\n\u001b[2m        \"kind\": \"const\",\u001b[22m\n\u001b[2m        \"value\": 0\u001b[22m\n\u001b[2m      }\u001b[22m\n\u001b[2m    },\u001b[22m\n\u001b[2m    \"turn\": {\u001b[22m\n\u001b[2m      \"kind\": \"clamp\",\u001b[22m\n\u001b[2m      \"value\": {\u001b[22m\n\u001b[2m        \"kind\": \"op\",\u001b[22m\n\u001b[2m        \"op\": \"mul\",\u001b[22m\n\u001b[2m        \"left\": {\u001b[22m\n\u001b[2m          \"kind\": \"sensor\",\u001b[22m\n\u001b[2m          \"name\": \"arena.centerBearing\"\u001b[22m\n\u001b[2m        },\u001b[22m\n\u001b[2m        \"right\": {\u001b[22m\n\u001b[2m          \"kind\": \"const\",\u001b[22m\n\u001b[2m          \"value\": 4\u001b[22m\n\u001b[2m        }\u001b[22m\n\u001b[2m      },\u001b[22m\n\u001b[2m      \"min\": {\u001b[22m\n\u001b[2m        \"kind\": \"const\",\u001b[22m\n\u001b[2m        \"value\": -1000\u001b[22m\n\u001b[2m      },\u001b[22m\n\u001b[2m      \"max\": {\u001b[22m\n\u001b[2m        \"kind\": \"const\",\u001b[22m\n\u001b[2m        \"value\": 1000\u001b[22m\n\u001b[2m      }\u001b[22m\n\u001b[2m    },\u001b[22m\n\u001b[2m    \"modules\": []\u001b[22m\n\u001b[2m  }\u001b[22m\n\u001b[2m}\u001b[22m\n\u001b[2m \")\u001b[22m\n\u001b[2m  - attempting fill action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying fill action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying fill action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    59 × waiting for element to be visible, enabled and editable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying fill action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+  "finishedAt": "2026-10-07T14:20:22.079Z"
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-07",
+  "status": "passed",
+  "scope": "User acceptance update before refreshing archive seal",
+  "snapshotFiles": 3496,
+  "changed": [
+    "Docs/U3D-01_REPORT.md",
+    "apps/web/public/assets/ui3d/u3d01/acceptance.json",
+    "deliverables/implementation/UI3D/U3D-01/preservation.json",
+    "scripts/u3d01-review.json",
+    "scripts/u3d01-summary.mjs"
+  ],
+  "unchanged": 3491,
+  "modelTextureThumbnailDecoderBytesUnchanged": true,
+  "previousArchiveUnchanged": true,
+  "head": "dd115b4c4ab1cf8ad1ed827f2258daff72749bac",
+  "branch": "remake-ui3d"
+}

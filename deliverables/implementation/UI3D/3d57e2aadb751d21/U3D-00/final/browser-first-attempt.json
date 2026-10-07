@@ -1,0 +1,15 @@
+{
+  "phase": "final",
+  "command": "node scripts/u3d00-browser.mjs final",
+  "startedAt": "2026-10-07T14:16:14.975Z",
+  "status": "failed",
+  "checks": [],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "networkFailures": [],
+  "browser": "154.0.8037.98",
+  "browserChannel": "chrome",
+  "sampleInitHash": "7cfcc1b97461200e16f8970df971419bb4f8e05797fabd92f36f8834981d4748",
+  "error": "AssertionError [ERR_ASSERTION]: Brain Lab baseline pixels unchanged",
+  "finishedAt": "2026-10-07T14:16:17.141Z"
+}

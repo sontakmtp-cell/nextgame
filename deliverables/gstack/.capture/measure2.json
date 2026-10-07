@@ -1,0 +1,373 @@
+{
+  "startedAt": "2026-10-02T14:32:28.432Z",
+  "ctas": [
+    {
+      "vw": 1440,
+      "vh": 900,
+      "ctas": [
+        {
+          "t": "Lưu revision",
+          "present": true,
+          "inFirstViewport": true,
+          "w": 116,
+          "h": 44,
+          "top": 170
+        },
+        {
+          "t": "Kiểm tra bot",
+          "present": true,
+          "inFirstViewport": true,
+          "w": 118,
+          "h": 44,
+          "top": 170
+        },
+        {
+          "t": "Thử trận",
+          "present": true,
+          "inFirstViewport": true,
+          "w": 90,
+          "h": 44,
+          "top": 170
+        }
+      ],
+      "hOverflow": false
+    },
+    {
+      "vw": 1024,
+      "vh": 768,
+      "ctas": [
+        {
+          "t": "Lưu revision",
+          "present": true,
+          "inFirstViewport": true,
+          "w": 116,
+          "h": 44,
+          "top": 249
+        },
+        {
+          "t": "Kiểm tra bot",
+          "present": true,
+          "inFirstViewport": true,
+          "w": 118,
+          "h": 44,
+          "top": 249
+        },
+        {
+          "t": "Thử trận",
+          "present": true,
+          "inFirstViewport": true,
+          "w": 90,
+          "h": 44,
+          "top": 249
+        }
+      ],
+      "hOverflow": false
+    },
+    {
+      "vw": 768,
+      "vh": 1024,
+      "ctas": [
+        {
+          "t": "Lưu revision",
+          "present": true,
+          "inFirstViewport": true,
+          "w": 116,
+          "h": 44,
+          "top": 348
+        },
+        {
+          "t": "Kiểm tra bot",
+          "present": true,
+          "inFirstViewport": true,
+          "w": 118,
+          "h": 44,
+          "top": 348
+        },
+        {
+          "t": "Thử trận",
+          "present": true,
+          "inFirstViewport": true,
+          "w": 90,
+          "h": 44,
+          "top": 348
+        }
+      ],
+      "hOverflow": false
+    },
+    {
+      "vw": 390,
+      "vh": 844,
+      "ctas": [
+        {
+          "t": "Lưu revision",
+          "present": true,
+          "inFirstViewport": true,
+          "w": 114,
+          "h": 44,
+          "top": 290
+        },
+        {
+          "t": "Kiểm tra bot",
+          "present": true,
+          "inFirstViewport": true,
+          "w": 114,
+          "h": 44,
+          "top": 290
+        },
+        {
+          "t": "Thử trận",
+          "present": true,
+          "inFirstViewport": true,
+          "w": 114,
+          "h": 44,
+          "top": 290
+        }
+      ],
+      "hOverflow": false
+    },
+    {
+      "vw": 320,
+      "vh": 844,
+      "ctas": [
+        {
+          "t": "Lưu revision",
+          "present": true,
+          "inFirstViewport": true,
+          "w": 91,
+          "h": 44,
+          "top": 327
+        },
+        {
+          "t": "Kiểm tra bot",
+          "present": true,
+          "inFirstViewport": true,
+          "w": 91,
+          "h": 44,
+          "top": 327
+        },
+        {
+          "t": "Thử trận",
+          "present": true,
+          "inFirstViewport": true,
+          "w": 91,
+          "h": 44,
+          "top": 327
+        }
+      ],
+      "hOverflow": false
+    }
+  ],
+  "sectionTops": [
+    {
+      "vw": 1440,
+      "docHeight": 1555,
+      "viewport": 900,
+      "sections": {
+        ".workshop-grid": {
+          "top": 329,
+          "bottom": 1175,
+          "belowFold": false
+        },
+        ".experiment": {
+          "top": 1207,
+          "bottom": 1385,
+          "belowFold": true
+        },
+        "footer": {
+          "top": 1417,
+          "bottom": 1527,
+          "belowFold": true
+        },
+        ".topbar": {
+          "top": 0,
+          "bottom": 111,
+          "belowFold": false
+        },
+        ".synth-header": {
+          "top": 139,
+          "bottom": 245,
+          "belowFold": false
+        }
+      }
+    },
+    {
+      "vw": 390,
+      "docHeight": 1768,
+      "viewport": 844,
+      "sections": {
+        ".workshop-grid": {
+          "top": 418,
+          "bottom": 1148,
+          "belowFold": false
+        },
+        ".experiment": {
+          "top": 1180,
+          "bottom": 1606,
+          "belowFold": true
+        },
+        "footer": {
+          "top": 1638,
+          "bottom": 1748,
+          "belowFold": true
+        },
+        ".topbar": {
+          "top": 61,
+          "bottom": 155,
+          "belowFold": false
+        },
+        ".synth-header": {
+          "top": 175,
+          "bottom": 334,
+          "belowFold": false
+        }
+      }
+    }
+  ],
+  "focus": {
+    "ringOnButton": {
+      "tag": "BUTTON",
+      "name": "Lưu revision",
+      "focusVisible": true,
+      "outline": "solid 2px rgb(241, 200, 107)",
+      "offset": "3px"
+    },
+    "ringOnPanel": null,
+    "ringOnModuleChoice": {
+      "name": "Blade\n14 điểm · 5 ma",
+      "focusVisible": true,
+      "outline": "solid 2px rgb(241, 200, 107)"
+    },
+    "tabOrder": [
+      {
+        "tag": "A",
+        "name": "P\nPROMPT\nCHIẾN"
+      },
+      {
+        "tag": "BUTTON",
+        "name": "01\nWorkshop"
+      },
+      {
+        "tag": "BUTTON",
+        "name": "02\nBrain Lab"
+      },
+      {
+        "tag": "BUTTON",
+        "name": "03\nArena"
+      },
+      {
+        "tag": "BUTTON",
+        "name": "04\nMy Synths"
+      },
+      {
+        "tag": "INPUT",
+        "name": "synth-name"
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Lưu revision"
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Kiểm tra bot"
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Thử trận"
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Lõi\n20 điểm · 12 mass"
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Động cơ\n6 điểm · 3 mass"
+      },
+      {
+        "tag": "BUTTON",
+        "name": "Giáp\n4 điểm · 4 mass"
+      }
+    ],
+    "gridArrow": {
+      "before": "7,5",
+      "after": "7,6",
+      "moved": true
+    },
+    "escapeToBody": false
+  },
+  "zoom200": {
+    "scrollWidth": 320,
+    "innerWidth": 320,
+    "hOverflow": false
+  },
+  "arenaReached": true,
+  "arenaHosts": [
+    {
+      "vw": 1440,
+      "host": {
+        "w": 824,
+        "h": 577
+      },
+      "pctViewport": 36.7,
+      "primaryW": 824,
+      "canvas": {
+        "w": 822,
+        "h": 575
+      }
+    },
+    {
+      "vw": 1024,
+      "host": {
+        "w": 976,
+        "h": 683
+      },
+      "pctViewport": 84.8,
+      "primaryW": 976,
+      "canvas": {
+        "w": 974,
+        "h": 682
+      }
+    },
+    {
+      "vw": 768,
+      "host": {
+        "w": 720,
+        "h": 504
+      },
+      "pctViewport": 46.1,
+      "primaryW": 720,
+      "canvas": {
+        "w": 718,
+        "h": 503
+      }
+    },
+    {
+      "vw": 390,
+      "host": {
+        "w": 358,
+        "h": 251
+      },
+      "pctViewport": 27.3,
+      "primaryW": 358,
+      "canvas": {
+        "w": 356,
+        "h": 249
+      }
+    },
+    {
+      "vw": 320,
+      "host": {
+        "w": 288,
+        "h": 202
+      },
+      "pctViewport": 21.5,
+      "primaryW": 288,
+      "canvas": {
+        "w": 286,
+        "h": 200
+      }
+    }
+  ],
+  "teamDomCues": "● Đội A · Mantis\nCore 800 HP · vùng 0 ticks\n⬡ Đội B · Đối thủ\nCore 800 HP · vùng 0 ticks",
+  "hostFilter": "grayscale(1)",
+  "finishedAt": "2026-10-02T14:32:37.483Z"
+}

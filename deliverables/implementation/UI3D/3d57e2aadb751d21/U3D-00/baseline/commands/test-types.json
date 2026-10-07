@@ -1,0 +1,8 @@
+{
+  "command": "node node_modules/typescript/bin/tsc -p tests/tsconfig.json",
+  "startedAt": "2026-10-07T14:08:56.565Z",
+  "elapsedMs": 1837.5922,
+  "exitCode": 0,
+  "stdout": "",
+  "stderr": ""
+}

@@ -1,0 +1,11 @@
+{
+  "blender": "5.2.0 LTS",
+  "triangles": 7892,
+  "textureResolution": 1024,
+  "reference": "D:\\AI\\nextgame\\.local\\u3d01\\build\\thruster-reference.glb",
+  "geometry": "D:\\AI\\nextgame\\.local\\u3d01\\build\\thruster-medium-geometry.glb",
+  "cageExtrusion": 0.06,
+  "maxRayDistance": 0.16,
+  "margin": 4,
+  "newUV": "smart project 66 degrees, margin .0035"
+}

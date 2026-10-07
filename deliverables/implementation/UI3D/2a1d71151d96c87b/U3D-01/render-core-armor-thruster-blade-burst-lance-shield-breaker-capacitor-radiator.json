@@ -1,0 +1,7561 @@
+{
+  "command": "node scripts/u3d01-render.mjs ",
+  "status": "passed",
+  "errors": [],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:5194/",
+      "status": 200,
+      "bytes": 4478
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/environments/RoomEnvironment.js",
+      "status": 200,
+      "bytes": 4960
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/loaders/KTX2Loader.js",
+      "status": 200,
+      "bytes": 36567
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/decoders/meshopt_decoder.module.js",
+      "status": 200,
+      "bytes": 29019
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/loaders/GLTFLoader.js",
+      "status": 200,
+      "bytes": 117570
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/utils/WorkerPool.js",
+      "status": 200,
+      "bytes": 3110
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/build/three.module.js",
+      "status": 200,
+      "bytes": 662772
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/libs/zstddec.module.js",
+      "status": 200,
+      "bytes": 39754
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/math/ColorSpaces.js",
+      "status": 200,
+      "bytes": 4290
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/utils/SkeletonUtils.js",
+      "status": 200,
+      "bytes": 11535
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/libs/ktx-parse.module.js",
+      "status": 200,
+      "bytes": 19932
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/examples/jsm/utils/BufferGeometryUtils.js",
+      "status": 200,
+      "bytes": 37712
+    },
+    {
+      "url": "http://127.0.0.1:5194/three/build/three.core.js",
+      "status": 200,
+      "bytes": 1458113
+    },
+    {
+      "url": "http://127.0.0.1:5194/settings",
+      "status": 200,
+      "bytes": 1702
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/core.glb",
+      "status": 200,
+      "bytes": 35239180
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/23d872a5-0b3e-404b-8bda-e567d066ba0d",
+      "status": 200,
+      "bytes": 3902422
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/d692784f-b777-4d55-af89-9a376b2a3095",
+      "status": 200,
+      "bytes": 4636023
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/126eb283-a3fa-4684-b903-93016392b95e",
+      "status": 200,
+      "bytes": 4788443
+    },
+    {
+      "url": "http://127.0.0.1:5194/normalization/core.json",
+      "status": 200,
+      "bytes": 476
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "status": 200,
+      "bytes": 2376128
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/69791bc1-03e8-42f2-a99e-74c4d1a66eda",
+      "status": 200,
+      "bytes": 572980
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e9352d68-2b2d-423b-85b1-4dcaf60e7a75",
+      "status": 200,
+      "bytes": 610972
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/42cb1bab-04cf-416a-bb19-0e1173a8bfd8",
+      "status": 200,
+      "bytes": 700216
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "status": 200,
+      "bytes": 57529
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "status": 200,
+      "bytes": 527333
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b1de00f6-c8df-42be-9267-0080689223db",
+      "status": 200,
+      "bytes": 68718
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "status": 200,
+      "bytes": 690784
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/03388334-89b7-4c97-91b0-b88637bf2461",
+      "status": 200,
+      "bytes": 212527
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4896fbb1-30ea-4c96-8133-9cbc795825ad",
+      "status": 200,
+      "bytes": 72519
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/81211729-2db8-48e7-961d-7d131dcbe7bd",
+      "status": 200,
+      "bytes": 267322
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "status": 200,
+      "bytes": 211004
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/18e5a3b5-9588-494f-a4f8-41847ab9b166",
+      "status": 200,
+      "bytes": 76846
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/dc921440-ad6d-4ff6-a838-ef05d2bafd0b",
+      "status": 200,
+      "bytes": 21306
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3f64a2ba-09c5-4352-99d6-553145f43150",
+      "status": 200,
+      "bytes": 77271
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/core.glb",
+      "status": 200,
+      "bytes": 35239180
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b6e65d6b-30d2-4c3f-a170-2c802f0d6e42",
+      "status": 200,
+      "bytes": 4636023
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f243fe6d-a134-4d6b-960c-a026e576aa42",
+      "status": 200,
+      "bytes": 3902422
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/de1f67c8-410f-4421-8cd8-89a7fefa0857",
+      "status": 200,
+      "bytes": 4788443
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "status": 200,
+      "bytes": 2376128
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/01ebe873-91ef-4f2f-a0e2-90d41e04bffc",
+      "status": 200,
+      "bytes": 572980
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c76bebf0-df2c-4489-afa8-be022b88839d",
+      "status": 200,
+      "bytes": 610972
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/da731e1e-7e3d-49eb-87b6-01005a56ff70",
+      "status": 200,
+      "bytes": 700216
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "status": 200,
+      "bytes": 690784
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/9d0e2bf2-b5db-4f04-b753-44c838f77b58",
+      "status": 200,
+      "bytes": 212527
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/78bb7b66-59e1-4e2f-bac2-4781d85d61d3",
+      "status": 200,
+      "bytes": 72519
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/435f8b3b-f159-4ce0-9c57-ac3bb2475e7b",
+      "status": 200,
+      "bytes": 267322
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "status": 200,
+      "bytes": 211004
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/90d96d63-4256-4395-9391-918a8dd0e647",
+      "status": 200,
+      "bytes": 76846
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/177d2ccc-08fe-4b0b-88c2-016710c1c9f4",
+      "status": 200,
+      "bytes": 21306
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/261e2f34-72f3-4301-baf2-a4da87e0ea71",
+      "status": 200,
+      "bytes": 77271
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/core.glb",
+      "status": 200,
+      "bytes": 35239180
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e52e28f7-2d3d-4d41-9a7e-c6bc6922eb2e",
+      "status": 200,
+      "bytes": 3902422
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e43b7c10-ccc9-44c7-b5b1-971b41b4eccb",
+      "status": 200,
+      "bytes": 4636023
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/cb1348d3-aa7d-4021-aa74-0f42133f1938",
+      "status": 200,
+      "bytes": 4788443
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "status": 200,
+      "bytes": 2376128
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f201c2bc-775e-4e01-b401-c37ec76088b4",
+      "status": 200,
+      "bytes": 572980
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/60153e10-2861-4871-a9bb-484cd1c8d58a",
+      "status": 200,
+      "bytes": 610972
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f094c545-668a-457a-91e5-667e95fd1c37",
+      "status": 200,
+      "bytes": 700216
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "status": 200,
+      "bytes": 690784
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/bc613b59-97a1-4ad4-b5d9-32a937ae98af",
+      "status": 200,
+      "bytes": 212527
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4653aa0d-8473-4ace-9057-6223de4bea05",
+      "status": 200,
+      "bytes": 72519
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a728acb3-7e6d-4dce-9cfe-1b23824939a2",
+      "status": 200,
+      "bytes": 267322
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "status": 200,
+      "bytes": 211004
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/bb29342e-c58b-4df7-a4d2-c8ddeef01231",
+      "status": 200,
+      "bytes": 76846
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/639accbc-b4d4-480a-a795-16c571da64e9",
+      "status": 200,
+      "bytes": 21306
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/bbe4fd10-e154-4fa3-a4d5-b6cf9de2a2ed",
+      "status": 200,
+      "bytes": 77271
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/armor.glb",
+      "status": 200,
+      "bytes": 33333608
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a60313a8-67cc-4762-ba7f-90a90fa02472",
+      "status": 200,
+      "bytes": 3718879
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/dba93d89-cced-4a56-a819-676804729a33",
+      "status": 200,
+      "bytes": 4170180
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c7a98348-7257-4625-841c-aa4c646dbfb3",
+      "status": 200,
+      "bytes": 4637124
+    },
+    {
+      "url": "http://127.0.0.1:5194/normalization/armor.json",
+      "status": 200,
+      "bytes": 477
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "status": 200,
+      "bytes": 2203280
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/731960a1-2069-4e5f-8368-532afd7ec4bf",
+      "status": 200,
+      "bytes": 501856
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a2e41ec4-723d-455d-8afb-ccc879cee4d5",
+      "status": 200,
+      "bytes": 592808
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/403947c0-443d-4ca9-afa2-0d501ff9951b",
+      "status": 200,
+      "bytes": 640016
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "status": 200,
+      "bytes": 668156
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/0f19750a-73ec-4943-ac52-7fd9cec46a1e",
+      "status": 200,
+      "bytes": 208403
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3ad82238-ea3a-4510-b04e-59e2aa6e8fc3",
+      "status": 200,
+      "bytes": 66777
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/484dc7fc-7892-45cf-8233-920711f4f122",
+      "status": 200,
+      "bytes": 259677
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "status": 200,
+      "bytes": 204012
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3dc46541-9081-40ad-a0ff-13f71636764c",
+      "status": 200,
+      "bytes": 19465
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/0b446557-ceee-4765-96e6-4ab044c9c4ca",
+      "status": 200,
+      "bytes": 73576
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/09be1c7e-e966-47e7-a297-663b946fd806",
+      "status": 200,
+      "bytes": 76616
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/armor.glb",
+      "status": 200,
+      "bytes": 33333608
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/fb7425e1-24f5-401c-9131-396bce8a0bc6",
+      "status": 200,
+      "bytes": 4170180
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b915dd15-2b95-4e23-bed6-096466fa45cb",
+      "status": 200,
+      "bytes": 3718879
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/179b2b89-ece8-41e9-b861-48ac89b4384f",
+      "status": 200,
+      "bytes": 4637124
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "status": 200,
+      "bytes": 2203280
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/6ba67af7-eb22-409a-83fb-7a56eda97fbb",
+      "status": 200,
+      "bytes": 501856
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/314ab845-c5f1-47f7-8aa1-306acb71d8e9",
+      "status": 200,
+      "bytes": 592808
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4c62986e-e0ff-4d2d-ae9c-53423326c1ac",
+      "status": 200,
+      "bytes": 640016
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "status": 200,
+      "bytes": 668156
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ad86a15c-0f97-4532-9903-b12ba143a21c",
+      "status": 200,
+      "bytes": 208403
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a4707838-5369-4a9b-9713-5f7bf957f278",
+      "status": 200,
+      "bytes": 66777
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f7b17dc6-37db-4df8-b19a-475259d5a4e6",
+      "status": 200,
+      "bytes": 259677
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "status": 200,
+      "bytes": 204012
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/86cbe851-1019-4d5f-919a-891c4ba8a77d",
+      "status": 200,
+      "bytes": 73576
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/856b0116-93a9-4d28-8026-5472e26c4c05",
+      "status": 200,
+      "bytes": 19465
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a2a5a5ed-3ead-4129-978d-0db2721fc609",
+      "status": 200,
+      "bytes": 76616
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/armor.glb",
+      "status": 200,
+      "bytes": 33333608
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/8556ae88-8ba1-4f8c-9287-e71d18e74d94",
+      "status": 200,
+      "bytes": 3718879
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a5452481-296c-4b04-85c6-112d0280bc63",
+      "status": 200,
+      "bytes": 4170180
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/5373ffc5-1cc1-4c28-838f-e51b13312eae",
+      "status": 200,
+      "bytes": 4637124
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "status": 200,
+      "bytes": 2203280
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e5bbc36b-4796-4fce-badf-4211c8d61a81",
+      "status": 200,
+      "bytes": 501856
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/dd74b209-e348-4134-a0fd-bfcfc1af8faf",
+      "status": 200,
+      "bytes": 592808
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ceec7259-e3da-44e8-82ec-58848777dd64",
+      "status": 200,
+      "bytes": 640016
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "status": 200,
+      "bytes": 668156
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/0a399629-a705-45ac-a1dd-ee9093792463",
+      "status": 200,
+      "bytes": 208403
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/82e40791-050f-4d43-a531-dcbfe688f5c2",
+      "status": 200,
+      "bytes": 66777
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a990eb68-f460-49cd-9d68-a833f2a10e56",
+      "status": 200,
+      "bytes": 259677
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "status": 200,
+      "bytes": 204012
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/64edfae7-2e4b-43fe-9479-fec0cd442cae",
+      "status": 200,
+      "bytes": 73576
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/0fd564ff-19a2-48a0-977c-05242d84f90c",
+      "status": 200,
+      "bytes": 19465
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c5dbeb1b-73e5-411f-8784-49bff2cf10c9",
+      "status": 200,
+      "bytes": 76616
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/thruster.glb",
+      "status": 200,
+      "bytes": 33992516
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/31a89511-ff92-41fe-8fc2-bc0d0f27f34f",
+      "status": 200,
+      "bytes": 3383016
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3bae9b5c-d3eb-47d4-a9cf-68fd8a4f0c12",
+      "status": 200,
+      "bytes": 3665404
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/689f8b0c-552b-4ea3-84a8-6291be423a61",
+      "status": 200,
+      "bytes": 4345950
+    },
+    {
+      "url": "http://127.0.0.1:5194/normalization/thruster.json",
+      "status": 200,
+      "bytes": 480
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "status": 200,
+      "bytes": 2389420
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e068a66f-1006-4c72-8c65-7cf500019874",
+      "status": 200,
+      "bytes": 567490
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/18ff16c2-85d3-453a-ae80-34580b9e5c23",
+      "status": 200,
+      "bytes": 631129
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/529d240f-b7f9-4ded-85b8-545ac8453b5c",
+      "status": 200,
+      "bytes": 641514
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "status": 200,
+      "bytes": 703120
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/627017b8-34bb-4ab3-b8fd-38079cdcda87",
+      "status": 200,
+      "bytes": 204768
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/dc9f3dfc-2491-40f7-aee3-90634e0d75ec",
+      "status": 200,
+      "bytes": 73401
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e00ad5dc-d5cf-448d-8e2f-3fc299484bd0",
+      "status": 200,
+      "bytes": 278933
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "status": 200,
+      "bytes": 218888
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/244fc9f6-d2b7-4c94-b03a-8be09f1d084e",
+      "status": 200,
+      "bytes": 77090
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4f984a2f-4b51-4e9b-bd2a-adb030876a05",
+      "status": 200,
+      "bytes": 21861
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/194364f4-2f9b-45f7-83c4-8194bb0be662",
+      "status": 200,
+      "bytes": 80895
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/thruster.glb",
+      "status": 200,
+      "bytes": 33992516
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/6315abef-8f63-48f9-96f5-f6d26cef2aed",
+      "status": 200,
+      "bytes": 4345950
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b624c393-d819-44bc-b9b4-0509fc781abd",
+      "status": 200,
+      "bytes": 3383016
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f0e08fe9-b5c9-4008-b3b9-72c83fea0227",
+      "status": 200,
+      "bytes": 3665404
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "status": 200,
+      "bytes": 2389420
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ad9bb2f8-cac6-464b-9de0-a0ec86d5e494",
+      "status": 200,
+      "bytes": 567490
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f97e6f5f-7c37-496b-b2bd-27c35f14c60a",
+      "status": 200,
+      "bytes": 631129
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/1e384a22-00e7-4b1c-a31f-45ba9c2e9b92",
+      "status": 200,
+      "bytes": 641514
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "status": 200,
+      "bytes": 703120
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/57a19027-24dd-401e-92dd-f34daf57ff3a",
+      "status": 200,
+      "bytes": 204768
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ff8ffe70-eccf-413c-bcbc-95fc2fb1e46e",
+      "status": 200,
+      "bytes": 73401
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/7d1e1e97-b07b-448c-b4a4-77f6af0df74a",
+      "status": 200,
+      "bytes": 278933
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "status": 200,
+      "bytes": 218888
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ada9d56d-9abc-4251-a551-ed5c6ed83b2c",
+      "status": 200,
+      "bytes": 77090
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/6d62ef53-ae2c-47b9-a927-3485d170e622",
+      "status": 200,
+      "bytes": 21861
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/57b8b143-4356-4bb5-b4f5-93d7870bf7f5",
+      "status": 200,
+      "bytes": 80895
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/thruster.glb",
+      "status": 200,
+      "bytes": 33992516
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/db18940a-161c-4adf-a379-1a6fc17ff079",
+      "status": 200,
+      "bytes": 3383016
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a5c3bc8f-8a37-446b-88ee-57a8bd3c6b9f",
+      "status": 200,
+      "bytes": 3665404
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/5d49fb97-fc58-4ded-8a96-8a29201959b5",
+      "status": 200,
+      "bytes": 4345950
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "status": 200,
+      "bytes": 2389420
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/16cb8a84-6e70-4161-9d1d-701472763672",
+      "status": 200,
+      "bytes": 567490
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a0267cc3-e832-4491-a31b-294d69228874",
+      "status": 200,
+      "bytes": 631129
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/8d2a2cbd-dd1a-4550-833b-1886a5924888",
+      "status": 200,
+      "bytes": 641514
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "status": 200,
+      "bytes": 703120
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ad007827-96a6-44fa-949b-20dd227c695e",
+      "status": 200,
+      "bytes": 204768
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/cdd3e677-3b10-46db-9b74-9dc0008de02b",
+      "status": 200,
+      "bytes": 73401
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ae4d620f-538d-486c-9773-b83006d5a2c3",
+      "status": 200,
+      "bytes": 278933
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "status": 200,
+      "bytes": 218888
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/57d7b428-8a7b-417c-992a-7547f57bd82d",
+      "status": 200,
+      "bytes": 77090
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/8023fc82-bfd8-40b6-b5d6-d2f160eb6a46",
+      "status": 200,
+      "bytes": 21861
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/d1a006ce-f920-4329-a2c1-79afeeac83ae",
+      "status": 200,
+      "bytes": 80895
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/blade.glb",
+      "status": 200,
+      "bytes": 30877760
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/05864068-5c5f-4a76-bc76-81836418ddfb",
+      "status": 200,
+      "bytes": 3682043
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e57aa84c-2a14-40c4-aa16-fa30cb0e0b14",
+      "status": 200,
+      "bytes": 4196264
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/24ebff1e-d27a-4f24-8923-c3d99c63d530",
+      "status": 200,
+      "bytes": 4186329
+    },
+    {
+      "url": "http://127.0.0.1:5194/normalization/blade.json",
+      "status": 200,
+      "bytes": 478
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "status": 200,
+      "bytes": 2247156
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/1dd62969-e2cf-485d-93d2-b1c64f47bd8a",
+      "status": 200,
+      "bytes": 529466
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/2dd83681-782b-4eaf-a2da-438a8e26e6a8",
+      "status": 200,
+      "bytes": 563765
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/9c8650e8-0d45-4eb5-8326-74e091b50331",
+      "status": 200,
+      "bytes": 682040
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "status": 200,
+      "bytes": 678744
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3fc2ddea-b7b7-4121-bcb4-9c923a50eca5",
+      "status": 200,
+      "bytes": 217089
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/865a5663-326e-41c6-bee8-99bca891e694",
+      "status": 200,
+      "bytes": 68645
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/fd4ad9ab-0a66-4ef2-94c5-693a5a0b987c",
+      "status": 200,
+      "bytes": 268081
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "status": 200,
+      "bytes": 213588
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/2780f8a5-f8a1-4170-bbef-4299629eb53f",
+      "status": 200,
+      "bytes": 78006
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/346e2692-cd06-43db-99ee-ffc43d57c8e9",
+      "status": 200,
+      "bytes": 20097
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/17110b5b-0265-46ee-abd4-1ef5759d3021",
+      "status": 200,
+      "bytes": 78553
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/blade.glb",
+      "status": 200,
+      "bytes": 30877760
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/eb4aa03b-5ff7-4510-9b7c-c8b9bfe40917",
+      "status": 200,
+      "bytes": 3682043
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/af0d6e5f-6fba-4da1-9cbf-34dc6092c36c",
+      "status": 200,
+      "bytes": 4196264
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/927b1d25-deb9-482a-8c06-33cc6159e46a",
+      "status": 200,
+      "bytes": 4186329
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "status": 200,
+      "bytes": 2247156
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/430968c1-5e10-4029-bc34-1738e594d07d",
+      "status": 200,
+      "bytes": 529466
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/89a4a227-7738-4079-9af6-44b28cf3ca5f",
+      "status": 200,
+      "bytes": 563765
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e4c131ab-a78f-4abe-ad41-12098dbb3db0",
+      "status": 200,
+      "bytes": 682040
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "status": 200,
+      "bytes": 678744
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/12b1f756-49b7-40c0-86a8-0cfa4024c310",
+      "status": 200,
+      "bytes": 217089
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/d2411c87-da8e-4086-83ee-b203118cafb1",
+      "status": 200,
+      "bytes": 68645
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/48d5f6ca-7100-429f-9143-2164ef01fffe",
+      "status": 200,
+      "bytes": 268081
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "status": 200,
+      "bytes": 213588
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a9e17913-af2b-425d-ac2d-453e3238b99e",
+      "status": 200,
+      "bytes": 20097
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e1131235-bf1c-4501-b5be-392315295990",
+      "status": 200,
+      "bytes": 78006
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/dd06d81e-52ed-4f8e-b307-159af05804a4",
+      "status": 200,
+      "bytes": 78553
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/blade.glb",
+      "status": 200,
+      "bytes": 30877760
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/39c3ffad-20d5-41d9-b2d9-5c712f6fe0c3",
+      "status": 200,
+      "bytes": 3682043
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/82ef301f-405f-411d-a792-a988b33654d0",
+      "status": 200,
+      "bytes": 4196264
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/0114f4e1-c11b-4e2e-a896-3ed02eea3d6f",
+      "status": 200,
+      "bytes": 4186329
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "status": 200,
+      "bytes": 2247156
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/2bec5b66-a079-4d93-9ea2-2fb457d90ee7",
+      "status": 200,
+      "bytes": 529466
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c9fec83e-d112-42b9-aa14-a17dd0c5b5b0",
+      "status": 200,
+      "bytes": 563765
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/417ffb53-658c-4cad-85c0-e1b02b0e29d4",
+      "status": 200,
+      "bytes": 682040
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "status": 200,
+      "bytes": 678744
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e2f962be-95b0-4e4a-9781-ff37b8cb0322",
+      "status": 200,
+      "bytes": 217089
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/5b483fbc-66d8-4855-b584-51fbecdf8fb3",
+      "status": 200,
+      "bytes": 68645
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/650aa6cd-47dc-4f73-b53e-396eb840a7d4",
+      "status": 200,
+      "bytes": 268081
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "status": 200,
+      "bytes": 213588
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/66db8db2-8a68-474e-aab3-480dca53029e",
+      "status": 200,
+      "bytes": 78006
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/33f867dc-8069-4824-b1d4-56a21dc3bfc9",
+      "status": 200,
+      "bytes": 20097
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/efb3c682-dd3d-47a4-9275-84bae56b4de8",
+      "status": 200,
+      "bytes": 78553
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/burst.glb",
+      "status": 200,
+      "bytes": 31886868
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4312677a-6d1f-4b7f-971b-54a65b1b4d2b",
+      "status": 200,
+      "bytes": 3397433
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/8ac926c7-b266-4069-b3ac-6c9c9a503063",
+      "status": 200,
+      "bytes": 3257683
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/8326cc16-df5a-4424-8406-f733de8cee23",
+      "status": 200,
+      "bytes": 3320292
+    },
+    {
+      "url": "http://127.0.0.1:5194/normalization/burst.json",
+      "status": 200,
+      "bytes": 476
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/burst/high/model.glb",
+      "status": 200,
+      "bytes": 2237632
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/09e647ab-aad5-4b6b-8119-19492646cb2e",
+      "status": 200,
+      "bytes": 478806
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3efd6330-41a7-4024-a495-8238df50e92c",
+      "status": 200,
+      "bytes": 588651
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ce661f4f-2cfe-4a62-a38b-f88149c8a0b6",
+      "status": 200,
+      "bytes": 644983
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+      "status": 200,
+      "bytes": 681620
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/6ffafb69-690d-4408-86bb-04d7cb4411c5",
+      "status": 200,
+      "bytes": 189608
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/2255217c-63d4-43e0-9e5d-44c20f659c8b",
+      "status": 200,
+      "bytes": 73017
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a591ab2b-5186-4b1b-afe3-4a5c2abc153b",
+      "status": 200,
+      "bytes": 277497
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/burst/low/model.glb",
+      "status": 200,
+      "bytes": 208304
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3a584efa-7c05-4215-b660-ac8e63f94ee2",
+      "status": 200,
+      "bytes": 70941
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4b1d4be6-3db0-42c3-a398-4e041150839f",
+      "status": 200,
+      "bytes": 21519
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ffb5def1-1611-4fe5-9897-927a879367d5",
+      "status": 200,
+      "bytes": 77895
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/burst.glb",
+      "status": 200,
+      "bytes": 31886868
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/9aa466e5-3ccb-49e2-b542-7317d4af4ee9",
+      "status": 200,
+      "bytes": 3397433
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/cd0b5ebb-dc35-4b3a-aee8-a2e26108ac10",
+      "status": 200,
+      "bytes": 3257683
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/61ecf859-3a85-4089-8094-879c3798244e",
+      "status": 200,
+      "bytes": 3320292
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/burst/high/model.glb",
+      "status": 200,
+      "bytes": 2237632
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/79be7875-978b-42b7-b198-cacf3e5817d3",
+      "status": 200,
+      "bytes": 478806
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f6fffe79-4e50-4f2d-b2ef-398ff960d52b",
+      "status": 200,
+      "bytes": 588651
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3e21e2f0-449e-46a0-ab27-a7eb16e26b96",
+      "status": 200,
+      "bytes": 644983
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+      "status": 200,
+      "bytes": 681620
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/d502c574-161b-498b-9bf1-08fa3dd58b40",
+      "status": 200,
+      "bytes": 189608
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/7372d053-b6fa-417a-8ade-0b95348ed0f2",
+      "status": 200,
+      "bytes": 73017
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3f1a2acd-2804-4dcf-88cc-358d84cb91ec",
+      "status": 200,
+      "bytes": 277497
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/burst/low/model.glb",
+      "status": 200,
+      "bytes": 208304
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c2624ef6-c4c2-4fe1-9f4a-a4570e65e064",
+      "status": 200,
+      "bytes": 70941
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f16af6f7-0b98-4992-b456-fe8c18bdf895",
+      "status": 200,
+      "bytes": 21519
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/0c4a869c-f122-4380-9579-df1454b68177",
+      "status": 200,
+      "bytes": 77895
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/burst.glb",
+      "status": 200,
+      "bytes": 31886868
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/65bca681-bad9-42bc-9987-9746bf4128bf",
+      "status": 200,
+      "bytes": 3257683
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/bd757400-1f47-4bad-8624-e08e521aedf8",
+      "status": 200,
+      "bytes": 3397433
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/afcab4bc-fb13-403c-83c1-7becd4956750",
+      "status": 200,
+      "bytes": 3320292
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/burst/high/model.glb",
+      "status": 200,
+      "bytes": 2237632
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b5e14606-5e9d-413a-a912-09dd75afe08f",
+      "status": 200,
+      "bytes": 478806
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/21ca45c8-4e7e-46cb-860f-e1198366fc3d",
+      "status": 200,
+      "bytes": 588651
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/491b3347-f935-4f72-9674-09c94af91c57",
+      "status": 200,
+      "bytes": 644983
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+      "status": 200,
+      "bytes": 681620
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/fe4a78be-46a0-4a30-8c8e-2847b5bddfea",
+      "status": 200,
+      "bytes": 189608
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/52130e2c-951b-41f3-a588-cd8eeb22ac2a",
+      "status": 200,
+      "bytes": 73017
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/dd528eb9-a851-4a67-aa01-364cdbc2c9e3",
+      "status": 200,
+      "bytes": 277497
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/burst/low/model.glb",
+      "status": 200,
+      "bytes": 208304
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/cba45009-f004-4dce-94de-f8fc722b8f56",
+      "status": 200,
+      "bytes": 70941
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ce3916cc-4111-48ab-a67e-b3cd93fceeb8",
+      "status": 200,
+      "bytes": 21519
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/41a44dec-d5c5-4952-95c9-a1dfcf2543d8",
+      "status": 200,
+      "bytes": 77895
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/lance.glb",
+      "status": 200,
+      "bytes": 31255424
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c0753d9c-e5d6-4f92-ae0c-f4c70143f387",
+      "status": 200,
+      "bytes": 4177512
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b6540608-b49d-4693-bca9-e351be4c48a1",
+      "status": 200,
+      "bytes": 4003423
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3dc55969-0c90-4dd5-ac01-dc46ad276249",
+      "status": 200,
+      "bytes": 4099160
+    },
+    {
+      "url": "http://127.0.0.1:5194/normalization/lance.json",
+      "status": 200,
+      "bytes": 477
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/lance/high/model.glb",
+      "status": 200,
+      "bytes": 2356020
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/57785d1c-56d0-4c74-8b36-ab2514f58ece",
+      "status": 200,
+      "bytes": 547821
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/7c8ee330-4e6a-4821-958c-07c64cd342c2",
+      "status": 200,
+      "bytes": 584277
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/06a732f9-a3c6-44e4-acee-72b84999ac28",
+      "status": 200,
+      "bytes": 744851
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/lance/medium/model.glb",
+      "status": 200,
+      "bytes": 686116
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/d09b71f4-7fe9-44e8-8ad1-c14488808d63",
+      "status": 200,
+      "bytes": 217276
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/59cd5dfe-7295-4307-93f2-b32c58cadeff",
+      "status": 200,
+      "bytes": 68486
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/d5d2fb6d-183f-446e-b1c9-94b28b60a201",
+      "status": 200,
+      "bytes": 272320
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/lance/low/model.glb",
+      "status": 200,
+      "bytes": 217392
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4feb5d3d-3a84-489d-afec-84df90400f57",
+      "status": 200,
+      "bytes": 78198
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/aba5f17a-067e-4469-a305-5e809152de6d",
+      "status": 200,
+      "bytes": 19921
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f12f07eb-6abb-432c-8654-0ee88836d788",
+      "status": 200,
+      "bytes": 79746
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/lance.glb",
+      "status": 200,
+      "bytes": 31255424
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/9b1b714d-5a9e-409a-9b09-341a00126abc",
+      "status": 200,
+      "bytes": 4177512
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/bbf1d465-ed7f-4c09-bc64-4b1dc32c6a33",
+      "status": 200,
+      "bytes": 4003423
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c5edd0d0-1a3e-40d1-b968-c8aec4ceb7ae",
+      "status": 200,
+      "bytes": 4099160
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/lance/high/model.glb",
+      "status": 200,
+      "bytes": 2356020
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/6a9ac3eb-8f47-47a9-a45d-b73ab2fa68db",
+      "status": 200,
+      "bytes": 547821
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4fbadab1-7a85-4b6a-901a-28fd6fd1561f",
+      "status": 200,
+      "bytes": 584277
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ecfdaf0d-f98a-4e37-882d-a2bf62f97eec",
+      "status": 200,
+      "bytes": 744851
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/lance/medium/model.glb",
+      "status": 200,
+      "bytes": 686116
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/2a4ea8f6-7094-4b80-b7ad-6b15978b6c75",
+      "status": 200,
+      "bytes": 217276
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f01b6242-657e-4636-8e55-407535a495b4",
+      "status": 200,
+      "bytes": 68486
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f2b883fc-7276-4a1b-a9b6-a26442c8407e",
+      "status": 200,
+      "bytes": 272320
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/lance/low/model.glb",
+      "status": 200,
+      "bytes": 217392
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4e86f37b-bbe6-4262-8aca-37f496436b71",
+      "status": 200,
+      "bytes": 78198
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ba79c79e-3139-4639-a0a3-bd1de4fac11e",
+      "status": 200,
+      "bytes": 19921
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/da8a319d-e4b2-452d-a342-f76f5254bf5c",
+      "status": 200,
+      "bytes": 79746
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/lance.glb",
+      "status": 200,
+      "bytes": 31255424
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/65ebcc79-28cc-477f-aadd-090fcbba4509",
+      "status": 200,
+      "bytes": 4177512
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/58996ebb-552e-48c8-aea4-73c40643a26b",
+      "status": 200,
+      "bytes": 4003423
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/5921c14a-e9ac-431e-98f4-50ef2c556962",
+      "status": 200,
+      "bytes": 4099160
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/lance/high/model.glb",
+      "status": 200,
+      "bytes": 2356020
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/9500a1a8-8ec6-49a7-a492-79f7ec6a256f",
+      "status": 200,
+      "bytes": 547821
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/84edd40c-1a39-4588-a20d-1431ec4804c0",
+      "status": 200,
+      "bytes": 584277
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c4424e5a-e3f9-4dbf-b9b6-052d9e03ba51",
+      "status": 200,
+      "bytes": 744851
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/lance/medium/model.glb",
+      "status": 200,
+      "bytes": 686116
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c9951a2b-7678-45fb-83f1-992947afb4f4",
+      "status": 200,
+      "bytes": 217276
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b1ded38c-0fd8-4973-8491-8e24382a0bf4",
+      "status": 200,
+      "bytes": 68486
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/0a3a34ba-d0af-420c-a2f2-59bf42a12146",
+      "status": 200,
+      "bytes": 272320
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/lance/low/model.glb",
+      "status": 200,
+      "bytes": 217392
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3edd65ec-174c-477d-a460-f6e2cb9a5711",
+      "status": 200,
+      "bytes": 78198
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e2465e4a-0ee2-47cf-b745-e05e6bec8ef8",
+      "status": 200,
+      "bytes": 19921
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/7fe675fc-3554-4eb5-bbc3-9770b631144f",
+      "status": 200,
+      "bytes": 79746
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/shield.glb",
+      "status": 200,
+      "bytes": 32233300
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/9dd24bb7-136c-401d-a6b9-bb7a82820e70",
+      "status": 200,
+      "bytes": 3674790
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/6a4b0409-820e-42a7-bef9-3633bd2c12fc",
+      "status": 200,
+      "bytes": 3225463
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/6d8c3a22-390c-45e1-b787-d0edfb50eca9",
+      "status": 200,
+      "bytes": 4074734
+    },
+    {
+      "url": "http://127.0.0.1:5194/normalization/shield.json",
+      "status": 200,
+      "bytes": 476
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "status": 200,
+      "bytes": 2080168
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/5ed19e57-69b8-4103-b9ff-7654a39fda2c",
+      "status": 200,
+      "bytes": 461134
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/1085f683-c67e-4fc4-b291-4434f2561528",
+      "status": 200,
+      "bytes": 545719
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/99f3d57f-4a77-431f-8610-1a3ab1dcbda1",
+      "status": 200,
+      "bytes": 602787
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "status": 200,
+      "bytes": 672004
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e075a9ca-098b-4849-93c0-18e165fccdd7",
+      "status": 200,
+      "bytes": 203147
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/9ea7da7d-4343-46a7-a938-0abc7fea4907",
+      "status": 200,
+      "bytes": 69407
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/cc6ef45d-8c53-4f4f-9629-bd8faf645ca1",
+      "status": 200,
+      "bytes": 265817
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/shield/low/model.glb",
+      "status": 200,
+      "bytes": 210440
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/549c40c2-7938-4e3f-be79-3863ce902375",
+      "status": 200,
+      "bytes": 74662
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/0650b0fa-b80b-4bee-9703-e7de2e5cf8c5",
+      "status": 200,
+      "bytes": 20744
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/6f3c4d43-d1f2-4189-8ca2-9dfb4cdb4299",
+      "status": 200,
+      "bytes": 78157
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/shield.glb",
+      "status": 200,
+      "bytes": 32233300
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3c7703c6-3438-4e32-b916-e1e5b075ed75",
+      "status": 200,
+      "bytes": 3225463
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3cebea75-1964-4677-a4c9-a99c46139b8a",
+      "status": 200,
+      "bytes": 3674790
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c02cb5a9-d217-4123-8d24-5dcdd01ca240",
+      "status": 200,
+      "bytes": 4074734
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "status": 200,
+      "bytes": 2080168
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/d583000c-e2fc-428d-87db-a5d98c7457df",
+      "status": 200,
+      "bytes": 461134
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/d2352777-3313-4980-94fd-3137bc8f9646",
+      "status": 200,
+      "bytes": 545719
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/15126540-9c99-4ef5-84d6-6993aaca4e1a",
+      "status": 200,
+      "bytes": 602787
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "status": 200,
+      "bytes": 672004
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/91948012-b4c4-4d7c-bd5a-4b566b15a62e",
+      "status": 200,
+      "bytes": 203147
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c5b646dc-bee5-4183-9ba9-f1ef27e393fc",
+      "status": 200,
+      "bytes": 69407
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/0286d118-68c5-41b5-b0e3-30ee85e4982e",
+      "status": 200,
+      "bytes": 265817
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/shield/low/model.glb",
+      "status": 200,
+      "bytes": 210440
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/5c3a3ed2-ea58-4e97-b852-f2b0a69b3c5d",
+      "status": 200,
+      "bytes": 74662
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/aff92d5e-fef4-4fee-9b6a-ee2215aff152",
+      "status": 200,
+      "bytes": 20744
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f5345ade-c481-43dd-9a8f-e0743b2adb02",
+      "status": 200,
+      "bytes": 78157
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/shield.glb",
+      "status": 200,
+      "bytes": 32233300
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/857728d0-3fdc-4a02-82fe-bdc3ddaf9ea3",
+      "status": 200,
+      "bytes": 3674790
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4dc4d72b-3f23-4e60-bf86-b6ae1f755d77",
+      "status": 200,
+      "bytes": 3225463
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/2a470bcc-dde5-4284-84c1-a32efdb48963",
+      "status": 200,
+      "bytes": 4074734
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "status": 200,
+      "bytes": 2080168
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c7692cbb-c02d-41b2-94f4-2202fe4def3d",
+      "status": 200,
+      "bytes": 461134
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/920da74d-7ace-45da-9c91-de2a80c5b775",
+      "status": 200,
+      "bytes": 545719
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/7200b638-2d08-437d-8901-7b9d01e350f3",
+      "status": 200,
+      "bytes": 602787
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "status": 200,
+      "bytes": 672004
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/877148d9-59d0-4d82-a8a0-b1bf85e0e891",
+      "status": 200,
+      "bytes": 203147
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/6e2a875c-8ef5-471c-a2ff-4456acc140d4",
+      "status": 200,
+      "bytes": 69407
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3eeb4c5e-acd5-4303-9800-648985d99e70",
+      "status": 200,
+      "bytes": 265817
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/shield/low/model.glb",
+      "status": 200,
+      "bytes": 210440
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/56876293-9174-4a10-b567-711a6d0f3964",
+      "status": 200,
+      "bytes": 74662
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e6ddfcec-e3f6-4794-91f6-18a735a71616",
+      "status": 200,
+      "bytes": 20744
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/6c67c338-55bb-489b-ae66-5542d1d93854",
+      "status": 200,
+      "bytes": 78157
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/breaker.glb",
+      "status": 200,
+      "bytes": 35341728
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/1453cf02-4a79-4a57-8174-41dc92ed27b4",
+      "status": 200,
+      "bytes": 4486155
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/dfd66d14-7cd8-40fb-a2ed-31746ecab1a0",
+      "status": 200,
+      "bytes": 4065857
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/58b38e53-41af-4c1a-b5f3-12e4e665acb3",
+      "status": 200,
+      "bytes": 4965038
+    },
+    {
+      "url": "http://127.0.0.1:5194/normalization/breaker.json",
+      "status": 200,
+      "bytes": 474
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/breaker/high/model.glb",
+      "status": 200,
+      "bytes": 2472712
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f39db01d-ae8b-400b-ad1f-65e4e79c0abd",
+      "status": 200,
+      "bytes": 548953
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/eb743c83-d897-44c7-a4af-ca1d11141c10",
+      "status": 200,
+      "bytes": 677689
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/59398d09-4250-48f9-bf3c-ef5473654883",
+      "status": 200,
+      "bytes": 717692
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/breaker/medium/model.glb",
+      "status": 200,
+      "bytes": 692612
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/dca2ef6b-1352-45ff-bc1a-6994aa7d8774",
+      "status": 200,
+      "bytes": 208738
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/409d780f-4fbf-4158-8c45-78dd79fb2b18",
+      "status": 200,
+      "bytes": 71076
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/cf33c529-3b72-48c8-9b7f-0830285b525b",
+      "status": 200,
+      "bytes": 274057
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/breaker/low/model.glb",
+      "status": 200,
+      "bytes": 207956
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/2358d6ac-2408-4fdd-8ae2-50692c47904d",
+      "status": 200,
+      "bytes": 74429
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/5047d1ad-6eba-43ef-bbb4-29f10452077c",
+      "status": 200,
+      "bytes": 20919
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/96cecb32-3978-4d9c-8448-943ea711e03d",
+      "status": 200,
+      "bytes": 77317
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/breaker.glb",
+      "status": 200,
+      "bytes": 35341728
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/26250f6c-14fa-4801-90d5-321931445941",
+      "status": 200,
+      "bytes": 4065857
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/43f39e53-8924-4777-8910-da8e5ac19cc6",
+      "status": 200,
+      "bytes": 4486155
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/99d4ae7f-c2e1-4421-90ec-e773bab85783",
+      "status": 200,
+      "bytes": 4965038
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/breaker/high/model.glb",
+      "status": 200,
+      "bytes": 2472712
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4fa4bc8a-53d9-460b-abd1-791c0695b0bc",
+      "status": 200,
+      "bytes": 548953
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4fe48362-8bd5-4eeb-a55b-f6f453a16ecf",
+      "status": 200,
+      "bytes": 677689
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/6546d49f-2abd-4e6e-89a9-48ace655eec1",
+      "status": 200,
+      "bytes": 717692
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/breaker/medium/model.glb",
+      "status": 200,
+      "bytes": 692612
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/075346f5-9f36-4e45-8bb5-3e8ff2060b2c",
+      "status": 200,
+      "bytes": 208738
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4e315e5b-a5d5-4985-ac61-4bd3eb725d90",
+      "status": 200,
+      "bytes": 71076
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/8d062075-7687-4028-ad53-fda537285444",
+      "status": 200,
+      "bytes": 274057
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/breaker/low/model.glb",
+      "status": 200,
+      "bytes": 207956
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/9c8a1d5a-617f-422c-b358-18fcb2f604ad",
+      "status": 200,
+      "bytes": 74429
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/8b21d35e-da5a-4d9e-b54b-319c4361b447",
+      "status": 200,
+      "bytes": 20919
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b9fb1ce0-0550-49e9-90cf-c295f75219bc",
+      "status": 200,
+      "bytes": 77317
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/breaker.glb",
+      "status": 200,
+      "bytes": 35341728
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b058555c-4f50-4bf8-8b12-bde2eb30b2aa",
+      "status": 200,
+      "bytes": 4065857
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/88dd07bb-af12-4dd9-bbb7-ad22c2f3888e",
+      "status": 200,
+      "bytes": 4486155
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/5f729e27-8e6a-4787-ad11-0a8c42eb2bf9",
+      "status": 200,
+      "bytes": 4965038
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/breaker/high/model.glb",
+      "status": 200,
+      "bytes": 2472712
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/179c8471-6940-4935-94ed-bef362af67d4",
+      "status": 200,
+      "bytes": 548953
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/1de9c257-3b51-4c45-a8ca-c267be3c434f",
+      "status": 200,
+      "bytes": 677689
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/42968fa0-99c5-4d99-8015-9029b3226590",
+      "status": 200,
+      "bytes": 717692
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/breaker/medium/model.glb",
+      "status": 200,
+      "bytes": 692612
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/6b87d166-4246-4700-97c6-11d57c2e372d",
+      "status": 200,
+      "bytes": 208738
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/50ea9045-106a-4ef3-b06d-c798bbdff56b",
+      "status": 200,
+      "bytes": 71076
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/175d6f8b-14c3-410b-81bb-70b21d99303d",
+      "status": 200,
+      "bytes": 274057
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/breaker/low/model.glb",
+      "status": 200,
+      "bytes": 207956
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/4be97eb0-ba71-42be-a8b7-aeb246ba2333",
+      "status": 200,
+      "bytes": 74429
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/53859cdb-b787-42b5-9bcf-69f6b07a0890",
+      "status": 200,
+      "bytes": 20919
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c04bee94-1910-4b3f-bde9-b2cec3cf250f",
+      "status": 200,
+      "bytes": 77317
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/capacitor.glb",
+      "status": 200,
+      "bytes": 29521984
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/070922f0-cf36-4563-950c-a0a56ff03851",
+      "status": 200,
+      "bytes": 2582218
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/fdc93787-a17d-4d1a-8363-86c85073154e",
+      "status": 200,
+      "bytes": 2473426
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/2c3233f0-a047-4d29-9366-9fdc913244be",
+      "status": 200,
+      "bytes": 2779422
+    },
+    {
+      "url": "http://127.0.0.1:5194/normalization/capacitor.json",
+      "status": 200,
+      "bytes": 477
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+      "status": 200,
+      "bytes": 1930248
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/d3c12d90-eb8c-4e70-9cfa-5fda41b74411",
+      "status": 200,
+      "bytes": 374782
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e5ebf5c7-4d68-44b7-8bfc-425198bb99cd",
+      "status": 200,
+      "bytes": 539547
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/d97f62d2-3cc2-443f-b0e2-987a96fc9438",
+      "status": 200,
+      "bytes": 474807
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+      "status": 200,
+      "bytes": 646068
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/1ef1a912-3e68-4f2f-918e-dd81c3c0ac6c",
+      "status": 200,
+      "bytes": 72868
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/bf9f2eae-176b-4e50-a6fb-27cf4a902d88",
+      "status": 200,
+      "bytes": 155905
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/01c23754-6d53-42bc-b907-fede04e25d05",
+      "status": 200,
+      "bytes": 275461
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/capacitor/low/model.glb",
+      "status": 200,
+      "bytes": 213440
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f31845ed-a7cd-4ea9-a244-ac4d7eebe5c6",
+      "status": 200,
+      "bytes": 65986
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/6e73d050-14f8-49c6-bfd4-af3dba2366fb",
+      "status": 200,
+      "bytes": 22615
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/d9f15529-58d7-4cbe-ad99-98203aaf4397",
+      "status": 200,
+      "bytes": 81325
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/capacitor.glb",
+      "status": 200,
+      "bytes": 29521984
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/910f270c-e766-4692-a878-859a669fa458",
+      "status": 200,
+      "bytes": 2582218
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3435bb0c-c8de-4254-bc10-bd61b45133d4",
+      "status": 200,
+      "bytes": 2473426
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/aaca562e-7f98-484e-a6f2-cecbef128fd9",
+      "status": 200,
+      "bytes": 2779422
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+      "status": 200,
+      "bytes": 1930248
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/9245a281-c62d-4000-bf16-f09b3efbe491",
+      "status": 200,
+      "bytes": 374782
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/025dd4e2-81e0-4c8a-8c8e-c690f73bd2c0",
+      "status": 200,
+      "bytes": 539547
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/034e045e-cd8a-4052-bf04-785c41c71c7e",
+      "status": 200,
+      "bytes": 474807
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+      "status": 200,
+      "bytes": 646068
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/5408023b-a780-4f10-aa93-a82951be7225",
+      "status": 200,
+      "bytes": 155905
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/09f350d8-b0d4-4a0f-81ea-2f3b66fcb565",
+      "status": 200,
+      "bytes": 72868
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/195b9c4d-05f8-4049-bae8-77cd1b06ed73",
+      "status": 200,
+      "bytes": 275461
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/capacitor/low/model.glb",
+      "status": 200,
+      "bytes": 213440
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c14d56ee-4184-4c08-944e-967982c085cc",
+      "status": 200,
+      "bytes": 65986
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/9f3fcfc7-3add-4a1f-80f8-8b26260540db",
+      "status": 200,
+      "bytes": 22615
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/818059ae-5e70-4703-8716-4a4ba778e627",
+      "status": 200,
+      "bytes": 81325
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/capacitor.glb",
+      "status": 200,
+      "bytes": 29521984
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/72a68c05-198b-4913-9181-a54f5465187e",
+      "status": 200,
+      "bytes": 2582218
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/04e19075-c45c-492b-8416-9db60141beaa",
+      "status": 200,
+      "bytes": 2473426
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f54ebe35-dea3-46f9-94fe-c2a84452b5b0",
+      "status": 200,
+      "bytes": 2779422
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+      "status": 200,
+      "bytes": 1930248
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/038d300a-7779-4d4a-892e-e38360af69c8",
+      "status": 200,
+      "bytes": 374782
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ce72ca68-d95e-4460-9e41-745239fec18f",
+      "status": 200,
+      "bytes": 539547
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/20128265-8d7b-44c2-91b1-753893571e0a",
+      "status": 200,
+      "bytes": 474807
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+      "status": 200,
+      "bytes": 646068
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/744963ad-ee8a-4f1b-8ad5-111dafa457b4",
+      "status": 200,
+      "bytes": 155905
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/345f6a9b-d15e-4c7d-9b63-7d6385eec1cd",
+      "status": 200,
+      "bytes": 72868
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/83246e8e-8e42-4b2c-987d-0f6f3b6b9396",
+      "status": 200,
+      "bytes": 275461
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/capacitor/low/model.glb",
+      "status": 200,
+      "bytes": 213440
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/991552cf-c951-4beb-925f-90a6db71f0ef",
+      "status": 200,
+      "bytes": 65986
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/041ac70f-6db8-4cff-ab6e-7bea5eafecc6",
+      "status": 200,
+      "bytes": 22615
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/864ee27a-8017-481e-9770-c2e08ced2565",
+      "status": 200,
+      "bytes": 81325
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/radiator.glb",
+      "status": 200,
+      "bytes": 33772720
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/b2d6719f-5b01-4798-947b-8b53d7131fee",
+      "status": 200,
+      "bytes": 4439418
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f736b9a3-c4c8-4d90-a36b-d849216fd061",
+      "status": 200,
+      "bytes": 4484427
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a0706775-1e50-4f12-b664-5252ce4ed17d",
+      "status": 200,
+      "bytes": 3249480
+    },
+    {
+      "url": "http://127.0.0.1:5194/normalization/radiator.json",
+      "status": 200,
+      "bytes": 475
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "status": 200,
+      "bytes": 2374680
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/cd3b7b51-e98e-4b78-9095-10a9f1fbfea3",
+      "status": 200,
+      "bytes": 582369
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/fedac0bf-8595-4433-9082-4a0138fc5ecd",
+      "status": 200,
+      "bytes": 632325
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/cb062ea5-ed6a-4587-bc41-d3eb0a64cf9e",
+      "status": 200,
+      "bytes": 629415
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "status": 200,
+      "bytes": 699136
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/10a4a1a9-30e6-4197-86d2-991ca09e8cfc",
+      "status": 200,
+      "bytes": 213017
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/5605b44a-6a1c-4201-8177-11a454991784",
+      "status": 200,
+      "bytes": 67690
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/edaac29e-4f38-4419-af1c-fba217f36f9e",
+      "status": 200,
+      "bytes": 271727
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/radiator/low/model.glb",
+      "status": 200,
+      "bytes": 210920
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/49565862-6d8d-4e1b-b420-e50361a7143b",
+      "status": 200,
+      "bytes": 75222
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/131b3c9e-7867-46ec-a1c8-c50221799988",
+      "status": 200,
+      "bytes": 19874
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/64dbb0f7-cb90-4255-83c5-cfd53ec78965",
+      "status": 200,
+      "bytes": 78521
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/radiator.glb",
+      "status": 200,
+      "bytes": 33772720
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/c2527af8-5832-4aef-bb70-0caf21776115",
+      "status": 200,
+      "bytes": 3249480
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/eef6e984-63ed-46da-afea-79be3bf2f821",
+      "status": 200,
+      "bytes": 4439418
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/0acfa345-8725-4476-ac71-d8dd4cfe10c9",
+      "status": 200,
+      "bytes": 4484427
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "status": 200,
+      "bytes": 2374680
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/6732122e-8b83-492d-acd6-a6cf3319caaf",
+      "status": 200,
+      "bytes": 582369
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ab8cdc4f-3c34-49f5-8c3c-ec4076e99ec0",
+      "status": 200,
+      "bytes": 632325
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f6dae1f8-b84c-4131-a04d-66d572ffd140",
+      "status": 200,
+      "bytes": 629415
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "status": 200,
+      "bytes": 699136
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/2a3f0dc5-d6c9-4042-beb3-4ad06ab4e91d",
+      "status": 200,
+      "bytes": 213017
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/daa1f21a-d26b-4cc8-ba8e-91c267f22931",
+      "status": 200,
+      "bytes": 67690
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/a73f200f-a0d6-4dc7-aa9b-82283fb835bc",
+      "status": 200,
+      "bytes": 271727
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/radiator/low/model.glb",
+      "status": 200,
+      "bytes": 210920
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/1ad96c45-ee09-418b-b8a6-da9f4b310fe1",
+      "status": 200,
+      "bytes": 75222
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3b5170dd-9cfb-4013-9802-2bf7a7b46a11",
+      "status": 200,
+      "bytes": 19874
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/7c219f68-2719-4b6c-aa15-2493cc3ccd40",
+      "status": 200,
+      "bytes": 78521
+    },
+    {
+      "url": "http://127.0.0.1:5194/source/radiator.glb",
+      "status": 200,
+      "bytes": 33772720
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/05216501-26d5-4f80-a515-f7fcd0a203b7",
+      "status": 200,
+      "bytes": 3249480
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/adbe54e4-fbd9-4377-bafb-87e4778f571c",
+      "status": 200,
+      "bytes": 4439418
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/3bc7b1d9-56b8-42f4-87bb-d7592c6cd7ba",
+      "status": 200,
+      "bytes": 4484427
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "status": 200,
+      "bytes": 2374680
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/e197315d-a9ce-4b90-b732-04ca0cdc1799",
+      "status": 200,
+      "bytes": 582369
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f4bd3c14-bc4e-4a80-ad12-6572434cb0d7",
+      "status": 200,
+      "bytes": 632325
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/cc69556f-49ba-42e7-b4af-43cfba047661",
+      "status": 200,
+      "bytes": 629415
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "status": 200,
+      "bytes": 699136
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/f827a804-b986-4754-9162-02333b4b98a5",
+      "status": 200,
+      "bytes": 213017
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/09f2d5bd-83f9-40e1-bd2a-3403d6c5f830",
+      "status": 200,
+      "bytes": 67690
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/6e93cc45-b13d-44ec-ba6c-00326a3f2e06",
+      "status": 200,
+      "bytes": 271727
+    },
+    {
+      "url": "http://127.0.0.1:5194/assets/ui3d/u3d01/modules/radiator/low/model.glb",
+      "status": 200,
+      "bytes": 210920
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/10477662-0b8e-4374-91c2-060f6c839921",
+      "status": 200,
+      "bytes": 75222
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/10443bb0-d0c9-4aac-9d72-b6783fea32c3",
+      "status": 200,
+      "bytes": 19874
+    },
+    {
+      "url": "blob:http://127.0.0.1:5194/ead5602a-90f8-4eb3-9f2f-93aa4e727517",
+      "status": 200,
+      "bytes": 78521
+    }
+  ],
+  "rows": [
+    {
+      "id": "core",
+      "quality": "source",
+      "view": "hero",
+      "modelSha256": "6ba5500707307ea32af5071800de7043bc7c2c56a0e9b786c59ddfad5f4dec77",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.96,
+          0,
+          -0.9586449824212303
+        ],
+        "max": [
+          0.96,
+          0.9844959488540121,
+          0.9586449824212304
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.2922479689121245,
+          3
+        ],
+        "target": [
+          0,
+          0.49224796891212463,
+          0
+        ],
+        "framing": 1.632,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/core.glb"
+    },
+    {
+      "id": "core",
+      "quality": "high",
+      "view": "hero",
+      "modelSha256": "bd5438bc215d1fa2a470682abaff6a48377444a24736a2ad415996c60a80ce02",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9599193930625916,
+          0.0000043219834166552396,
+          -0.9582458987068526
+        ],
+        "max": [
+          0.9599120616912842,
+          0.9815692001074952,
+          0.9585388555359237
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.2922479689121245,
+          3
+        ],
+        "target": [
+          0,
+          0.49224796891212463,
+          0
+        ],
+        "framing": 1.632,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "silhouetteIoU": 0.9974825667749163
+    },
+    {
+      "id": "core",
+      "quality": "medium",
+      "view": "hero",
+      "modelSha256": "03ec8baf69da0bb7ae3da168885b5ee8d98823716b6a0e3642e4db2aea8381a3",
+      "triangles": 7898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9596118330955505,
+          0.000003967577986041526,
+          -0.9582461273607985
+        ],
+        "max": [
+          0.9599047899246216,
+          0.9789474865846116,
+          0.9584586179194228
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.2922479689121245,
+          3
+        ],
+        "target": [
+          0,
+          0.49224796891212463,
+          0
+        ],
+        "framing": 1.632,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "silhouetteIoU": 0.9943156094370944
+    },
+    {
+      "id": "core",
+      "quality": "low",
+      "view": "hero",
+      "modelSha256": "3a119ef10326342887209e3f1f8e9561506c6f3e25d83ff4c7c06be74dbbd5ae",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9591503143310547,
+          -0.0000028452118107646918,
+          -0.9577120323731523
+        ],
+        "max": [
+          0.9588061571121216,
+          0.9675505003174016,
+          0.9584299107148271
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.2922479689121245,
+          3
+        ],
+        "target": [
+          0,
+          0.49224796891212463,
+          0
+        ],
+        "framing": 1.632,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "silhouetteIoU": 0.985937106918239
+    },
+    {
+      "id": "core",
+      "quality": "source",
+      "view": "opposite",
+      "modelSha256": "6ba5500707307ea32af5071800de7043bc7c2c56a0e9b786c59ddfad5f4dec77",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.96,
+          0,
+          -0.9586449824212303
+        ],
+        "max": [
+          0.96,
+          0.9844959488540121,
+          0.9586449824212304
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.2922479689121245,
+          -3
+        ],
+        "target": [
+          0,
+          0.49224796891212463,
+          0
+        ],
+        "framing": 1.632,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/core.glb"
+    },
+    {
+      "id": "core",
+      "quality": "high",
+      "view": "opposite",
+      "modelSha256": "bd5438bc215d1fa2a470682abaff6a48377444a24736a2ad415996c60a80ce02",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9599193930625916,
+          0.0000043219834166552396,
+          -0.9582458987068526
+        ],
+        "max": [
+          0.9599120616912842,
+          0.9815692001074952,
+          0.9585388555359237
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.2922479689121245,
+          -3
+        ],
+        "target": [
+          0,
+          0.49224796891212463,
+          0
+        ],
+        "framing": 1.632,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "silhouetteIoU": 0.9979093725598851
+    },
+    {
+      "id": "core",
+      "quality": "medium",
+      "view": "opposite",
+      "modelSha256": "03ec8baf69da0bb7ae3da168885b5ee8d98823716b6a0e3642e4db2aea8381a3",
+      "triangles": 7898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9596118330955505,
+          0.000003967577986041526,
+          -0.9582461273607985
+        ],
+        "max": [
+          0.9599047899246216,
+          0.9789474865846116,
+          0.9584586179194228
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.2922479689121245,
+          -3
+        ],
+        "target": [
+          0,
+          0.49224796891212463,
+          0
+        ],
+        "framing": 1.632,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "silhouetteIoU": 0.9941127632274134
+    },
+    {
+      "id": "core",
+      "quality": "low",
+      "view": "opposite",
+      "modelSha256": "3a119ef10326342887209e3f1f8e9561506c6f3e25d83ff4c7c06be74dbbd5ae",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9591503143310547,
+          -0.0000028452118107646918,
+          -0.9577120323731523
+        ],
+        "max": [
+          0.9588061571121216,
+          0.9675505003174016,
+          0.9584299107148271
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.2922479689121245,
+          -3
+        ],
+        "target": [
+          0,
+          0.49224796891212463,
+          0
+        ],
+        "framing": 1.632,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "silhouetteIoU": 0.9849675177519263
+    },
+    {
+      "id": "core",
+      "quality": "source",
+      "view": "top",
+      "modelSha256": "6ba5500707307ea32af5071800de7043bc7c2c56a0e9b786c59ddfad5f4dec77",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.96,
+          0,
+          -0.9586449824212303
+        ],
+        "max": [
+          0.96,
+          0.9844959488540121,
+          0.9586449824212304
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.492247968912125,
+          0
+        ],
+        "target": [
+          0,
+          0.49224796891212463,
+          0
+        ],
+        "framing": 1.632,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/source/core.glb"
+    },
+    {
+      "id": "core",
+      "quality": "high",
+      "view": "top",
+      "modelSha256": "bd5438bc215d1fa2a470682abaff6a48377444a24736a2ad415996c60a80ce02",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9599193930625916,
+          0.0000043219834166552396,
+          -0.9582458987068526
+        ],
+        "max": [
+          0.9599120616912842,
+          0.9815692001074952,
+          0.9585388555359237
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.492247968912125,
+          0
+        ],
+        "target": [
+          0,
+          0.49224796891212463,
+          0
+        ],
+        "framing": 1.632,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "silhouetteIoU": 0.9994560659973256
+    },
+    {
+      "id": "core",
+      "quality": "medium",
+      "view": "top",
+      "modelSha256": "03ec8baf69da0bb7ae3da168885b5ee8d98823716b6a0e3642e4db2aea8381a3",
+      "triangles": 7898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9596118330955505,
+          0.000003967577986041526,
+          -0.9582461273607985
+        ],
+        "max": [
+          0.9599047899246216,
+          0.9789474865846116,
+          0.9584586179194228
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.492247968912125,
+          0
+        ],
+        "target": [
+          0,
+          0.49224796891212463,
+          0
+        ],
+        "framing": 1.632,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "silhouetteIoU": 0.998685552407932
+    },
+    {
+      "id": "core",
+      "quality": "low",
+      "view": "top",
+      "modelSha256": "3a119ef10326342887209e3f1f8e9561506c6f3e25d83ff4c7c06be74dbbd5ae",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.9591503143310547,
+          -0.0000028452118107646918,
+          -0.9577120323731523
+        ],
+        "max": [
+          0.9588061571121216,
+          0.9675505003174016,
+          0.9584299107148271
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.492247968912125,
+          0
+        ],
+        "target": [
+          0,
+          0.49224796891212463,
+          0
+        ],
+        "framing": 1.632,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "silhouetteIoU": 0.9902007270428324
+    },
+    {
+      "id": "armor",
+      "quality": "source",
+      "view": "hero",
+      "modelSha256": "68c6065c10b90f4b441dbf9806bb6af13676563e1d56fab3f0b31dd21a07ed1d",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47000000000000003,
+          0,
+          -0.4687575242549309
+        ],
+        "max": [
+          0.47000000000000003,
+          0.3959508457793258,
+          0.46875752425493084
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          2.9979754269123076,
+          3
+        ],
+        "target": [
+          0,
+          0.19797542691230774,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/armor.glb"
+    },
+    {
+      "id": "armor",
+      "quality": "high",
+      "view": "hero",
+      "modelSha256": "ae83beb84c4c99010b1dc47cb5c9f60e0b8b0f61467c58d30ef93360adfed6bf",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46993547677993774,
+          0.000004995611220581786,
+          -0.46871107554890123
+        ],
+        "max": [
+          0.46993905305862427,
+          0.3958669416637123,
+          0.46872535086132494
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          2.9979754269123076,
+          3
+        ],
+        "target": [
+          0,
+          0.19797542691230774,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "silhouetteIoU": 0.9994818652849741
+    },
+    {
+      "id": "armor",
+      "quality": "medium",
+      "view": "hero",
+      "modelSha256": "8ceea9ecbfd1372f596152de157e71b2bf8030ecc29d4acaf03d57ae2c584461",
+      "triangles": 7899,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46993547677993774,
+          -0.00000520286319360963,
+          -0.46870388241090993
+        ],
+        "max": [
+          0.46995338797569275,
+          0.39548988876102076,
+          0.46871815772333364
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          2.9979754269123076,
+          3
+        ],
+        "target": [
+          0,
+          0.19797542691230774,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "silhouetteIoU": 0.9985399053293456
+    },
+    {
+      "id": "armor",
+      "quality": "low",
+      "view": "hero",
+      "modelSha256": "bf51c1c6a54f1fdbd9eb5ba74e1da48ba5dd159f760e9f1ea6b1c60009944238",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46964141726493835,
+          4.810709852420825e-7,
+          -0.4683302708783483
+        ],
+        "max": [
+          0.4695051610469818,
+          0.395469840107451,
+          0.4679501720586156
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          2.9979754269123076,
+          3
+        ],
+        "target": [
+          0,
+          0.19797542691230774,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "silhouetteIoU": 0.9915970342473814
+    },
+    {
+      "id": "armor",
+      "quality": "source",
+      "view": "opposite",
+      "modelSha256": "68c6065c10b90f4b441dbf9806bb6af13676563e1d56fab3f0b31dd21a07ed1d",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47000000000000003,
+          0,
+          -0.4687575242549309
+        ],
+        "max": [
+          0.47000000000000003,
+          0.3959508457793258,
+          0.46875752425493084
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          2.9979754269123076,
+          -3
+        ],
+        "target": [
+          0,
+          0.19797542691230774,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/armor.glb"
+    },
+    {
+      "id": "armor",
+      "quality": "high",
+      "view": "opposite",
+      "modelSha256": "ae83beb84c4c99010b1dc47cb5c9f60e0b8b0f61467c58d30ef93360adfed6bf",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46993547677993774,
+          0.000004995611220581786,
+          -0.46871107554890123
+        ],
+        "max": [
+          0.46993905305862427,
+          0.3958669416637123,
+          0.46872535086132494
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          2.9979754269123076,
+          -3
+        ],
+        "target": [
+          0,
+          0.19797542691230774,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "silhouetteIoU": 0.9996231392500471
+    },
+    {
+      "id": "armor",
+      "quality": "medium",
+      "view": "opposite",
+      "modelSha256": "8ceea9ecbfd1372f596152de157e71b2bf8030ecc29d4acaf03d57ae2c584461",
+      "triangles": 7899,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46993547677993774,
+          -0.00000520286319360963,
+          -0.46870388241090993
+        ],
+        "max": [
+          0.46995338797569275,
+          0.39548988876102076,
+          0.46871815772333364
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          2.9979754269123076,
+          -3
+        ],
+        "target": [
+          0,
+          0.19797542691230774,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "silhouetteIoU": 0.9984222300718238
+    },
+    {
+      "id": "armor",
+      "quality": "low",
+      "view": "opposite",
+      "modelSha256": "bf51c1c6a54f1fdbd9eb5ba74e1da48ba5dd159f760e9f1ea6b1c60009944238",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46964141726493835,
+          4.810709852420825e-7,
+          -0.4683302708783483
+        ],
+        "max": [
+          0.4695051610469818,
+          0.395469840107451,
+          0.4679501720586156
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          2.9979754269123076,
+          -3
+        ],
+        "target": [
+          0,
+          0.19797542691230774,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "silhouetteIoU": 0.9933589242399266
+    },
+    {
+      "id": "armor",
+      "quality": "source",
+      "view": "top",
+      "modelSha256": "68c6065c10b90f4b441dbf9806bb6af13676563e1d56fab3f0b31dd21a07ed1d",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47000000000000003,
+          0,
+          -0.4687575242549309
+        ],
+        "max": [
+          0.47000000000000003,
+          0.3959508457793258,
+          0.46875752425493084
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.197975426912308,
+          0
+        ],
+        "target": [
+          0,
+          0.19797542691230774,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/source/armor.glb"
+    },
+    {
+      "id": "armor",
+      "quality": "high",
+      "view": "top",
+      "modelSha256": "ae83beb84c4c99010b1dc47cb5c9f60e0b8b0f61467c58d30ef93360adfed6bf",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46993547677993774,
+          0.000004995611220581786,
+          -0.46871107554890123
+        ],
+        "max": [
+          0.46993905305862427,
+          0.3958669416637123,
+          0.46872535086132494
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.197975426912308,
+          0
+        ],
+        "target": [
+          0,
+          0.19797542691230774,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "silhouetteIoU": 0.999512917825178
+    },
+    {
+      "id": "armor",
+      "quality": "medium",
+      "view": "top",
+      "modelSha256": "8ceea9ecbfd1372f596152de157e71b2bf8030ecc29d4acaf03d57ae2c584461",
+      "triangles": 7899,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46993547677993774,
+          -0.00000520286319360963,
+          -0.46870388241090993
+        ],
+        "max": [
+          0.46995338797569275,
+          0.39548988876102076,
+          0.46871815772333364
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.197975426912308,
+          0
+        ],
+        "target": [
+          0,
+          0.19797542691230774,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "silhouetteIoU": 0.9992694953430328
+    },
+    {
+      "id": "armor",
+      "quality": "low",
+      "view": "top",
+      "modelSha256": "bf51c1c6a54f1fdbd9eb5ba74e1da48ba5dd159f760e9f1ea6b1c60009944238",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46964141726493835,
+          4.810709852420825e-7,
+          -0.4683302708783483
+        ],
+        "max": [
+          0.4695051610469818,
+          0.395469840107451,
+          0.4679501720586156
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.197975426912308,
+          0
+        ],
+        "target": [
+          0,
+          0.19797542691230774,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "silhouetteIoU": 0.9936787081872885
+    },
+    {
+      "id": "thruster",
+      "quality": "source",
+      "view": "hero",
+      "modelSha256": "00b1379dddcef14782b2322ca90ba7e5f06de1d9d7292e7dca11c6f38eeca197",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47,
+          0,
+          -0.2935467324872495
+        ],
+        "max": [
+          0.47000000000000003,
+          0.6248486238694175,
+          0.29354673248724944
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.112424302101135,
+          3
+        ],
+        "target": [
+          0,
+          0.31242430210113525,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/thruster.glb"
+    },
+    {
+      "id": "thruster",
+      "quality": "high",
+      "view": "hero",
+      "modelSha256": "c3c753f37ed6038aedf44c4a634b15dc3c37d130ead28b1630d2b7858c043d09",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696879982948303,
+          -0.000006024526691850163,
+          -0.29334588207116435
+        ],
+        "max": [
+          0.4693509638309479,
+          0.6247398897877697,
+          0.2931701675783665
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.112424302101135,
+          3
+        ],
+        "target": [
+          0,
+          0.31242430210113525,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "silhouetteIoU": 0.9983765771410669
+    },
+    {
+      "id": "thruster",
+      "quality": "medium",
+      "view": "hero",
+      "modelSha256": "53f9b0cf84a80419359477353aaa6d42da29ea52706e5cd9d871c9d99e1a67b4",
+      "triangles": 7892,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696091115474701,
+          0.000004775688235481024,
+          -0.2928296527290241
+        ],
+        "max": [
+          0.4688417911529541,
+          0.6241589711455657,
+          0.2922021350288288
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.112424302101135,
+          3
+        ],
+        "target": [
+          0,
+          0.31242430210113525,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "silhouetteIoU": 0.9919685577580314
+    },
+    {
+      "id": "thruster",
+      "quality": "low",
+      "view": "hero",
+      "modelSha256": "32c26f80e96ae0300831aa6d23341458cffb1a56de1155216207b01808083f00",
+      "triangles": 1898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696091115474701,
+          0.000002928035199689649,
+          -0.2914384765909244
+        ],
+        "max": [
+          0.4688417911529541,
+          0.6240998432469964,
+          0.2912448211000492
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.112424302101135,
+          3
+        ],
+        "target": [
+          0,
+          0.31242430210113525,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "silhouetteIoU": 0.9721779245927782
+    },
+    {
+      "id": "thruster",
+      "quality": "source",
+      "view": "opposite",
+      "modelSha256": "00b1379dddcef14782b2322ca90ba7e5f06de1d9d7292e7dca11c6f38eeca197",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47,
+          0,
+          -0.2935467324872495
+        ],
+        "max": [
+          0.47000000000000003,
+          0.6248486238694175,
+          0.29354673248724944
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.112424302101135,
+          -3
+        ],
+        "target": [
+          0,
+          0.31242430210113525,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/thruster.glb"
+    },
+    {
+      "id": "thruster",
+      "quality": "high",
+      "view": "opposite",
+      "modelSha256": "c3c753f37ed6038aedf44c4a634b15dc3c37d130ead28b1630d2b7858c043d09",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696879982948303,
+          -0.000006024526691850163,
+          -0.29334588207116435
+        ],
+        "max": [
+          0.4693509638309479,
+          0.6247398897877697,
+          0.2931701675783665
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.112424302101135,
+          -3
+        ],
+        "target": [
+          0,
+          0.31242430210113525,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "silhouetteIoU": 0.9978431149960267
+    },
+    {
+      "id": "thruster",
+      "quality": "medium",
+      "view": "opposite",
+      "modelSha256": "53f9b0cf84a80419359477353aaa6d42da29ea52706e5cd9d871c9d99e1a67b4",
+      "triangles": 7892,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696091115474701,
+          0.000004775688235481024,
+          -0.2928296527290241
+        ],
+        "max": [
+          0.4688417911529541,
+          0.6241589711455657,
+          0.2922021350288288
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.112424302101135,
+          -3
+        ],
+        "target": [
+          0,
+          0.31242430210113525,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "silhouetteIoU": 0.993415264098998
+    },
+    {
+      "id": "thruster",
+      "quality": "low",
+      "view": "opposite",
+      "modelSha256": "32c26f80e96ae0300831aa6d23341458cffb1a56de1155216207b01808083f00",
+      "triangles": 1898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696091115474701,
+          0.000002928035199689649,
+          -0.2914384765909244
+        ],
+        "max": [
+          0.4688417911529541,
+          0.6240998432469964,
+          0.2912448211000492
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.112424302101135,
+          -3
+        ],
+        "target": [
+          0,
+          0.31242430210113525,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "silhouetteIoU": 0.9764809350885156
+    },
+    {
+      "id": "thruster",
+      "quality": "source",
+      "view": "top",
+      "modelSha256": "00b1379dddcef14782b2322ca90ba7e5f06de1d9d7292e7dca11c6f38eeca197",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47,
+          0,
+          -0.2935467324872495
+        ],
+        "max": [
+          0.47000000000000003,
+          0.6248486238694175,
+          0.29354673248724944
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.312424302101135,
+          0
+        ],
+        "target": [
+          0,
+          0.31242430210113525,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/source/thruster.glb"
+    },
+    {
+      "id": "thruster",
+      "quality": "high",
+      "view": "top",
+      "modelSha256": "c3c753f37ed6038aedf44c4a634b15dc3c37d130ead28b1630d2b7858c043d09",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696879982948303,
+          -0.000006024526691850163,
+          -0.29334588207116435
+        ],
+        "max": [
+          0.4693509638309479,
+          0.6247398897877697,
+          0.2931701675783665
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.312424302101135,
+          0
+        ],
+        "target": [
+          0,
+          0.31242430210113525,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "silhouetteIoU": 0.9984599417456226
+    },
+    {
+      "id": "thruster",
+      "quality": "medium",
+      "view": "top",
+      "modelSha256": "53f9b0cf84a80419359477353aaa6d42da29ea52706e5cd9d871c9d99e1a67b4",
+      "triangles": 7892,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696091115474701,
+          0.000004775688235481024,
+          -0.2928296527290241
+        ],
+        "max": [
+          0.4688417911529541,
+          0.6241589711455657,
+          0.2922021350288288
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.312424302101135,
+          0
+        ],
+        "target": [
+          0,
+          0.31242430210113525,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "silhouetteIoU": 0.9932066126765277
+    },
+    {
+      "id": "thruster",
+      "quality": "low",
+      "view": "top",
+      "modelSha256": "32c26f80e96ae0300831aa6d23341458cffb1a56de1155216207b01808083f00",
+      "triangles": 1898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4696091115474701,
+          0.000002928035199689649,
+          -0.2914384765909244
+        ],
+        "max": [
+          0.4688417911529541,
+          0.6240998432469964,
+          0.2912448211000492
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.312424302101135,
+          0
+        ],
+        "target": [
+          0,
+          0.31242430210113525,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "silhouetteIoU": 0.9812270756918973
+    },
+    {
+      "id": "blade",
+      "quality": "source",
+      "view": "hero",
+      "modelSha256": "3c33c365f5938a18ce97dd6e369d8f00a5f756305ab7d94261f758bc4de43c93",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699999999999999,
+          0,
+          -0.29577531479129726
+        ],
+        "max": [
+          0.47,
+          0.331936610241372,
+          0.29577531479129726
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          2.965968298912048,
+          3
+        ],
+        "target": [
+          0,
+          0.16596829891204834,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/blade.glb"
+    },
+    {
+      "id": "blade",
+      "quality": "high",
+      "view": "hero",
+      "modelSha256": "3d1f6de7ce5aa96afd65f9656f2e7865b9b0f831d170197c5aad0fa2e381df0a",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699462056159973,
+          0.000004425778574373984,
+          -0.29578051826073254
+        ],
+        "max": [
+          0.4699426293373108,
+          0.3318783788536125,
+          0.29574105998589123
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          2.965968298912048,
+          3
+        ],
+        "target": [
+          0,
+          0.16596829891204834,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "silhouetteIoU": 0.9994534623162267
+    },
+    {
+      "id": "blade",
+      "quality": "medium",
+      "view": "hero",
+      "modelSha256": "8ce1c731abc3e61c0a14389dbdd3236e9b52098142b3d13e8da524db38daf48d",
+      "triangles": 7899,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4698529541492462,
+          -0.0000026539355997556857,
+          -0.295606201444739
+        ],
+        "max": [
+          0.46967005729675293,
+          0.33185681853597204,
+          0.29571381763088095
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          2.965968298912048,
+          3
+        ],
+        "target": [
+          0,
+          0.16596829891204834,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "silhouetteIoU": 0.9983059183561943
+    },
+    {
+      "id": "blade",
+      "quality": "low",
+      "view": "hero",
+      "modelSha256": "5982fe1208cf5fde057cfb59eed2c5c32d96d25554f089918ff1122be724bfba",
+      "triangles": 1898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46980994939804077,
+          -0.000005953782216044923,
+          -0.2954122500675629
+        ],
+        "max": [
+          0.46892067790031433,
+          0.33186011838258833,
+          0.2957241909759949
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          2.965968298912048,
+          3
+        ],
+        "target": [
+          0,
+          0.16596829891204834,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "silhouetteIoU": 0.9902196481258879
+    },
+    {
+      "id": "blade",
+      "quality": "source",
+      "view": "opposite",
+      "modelSha256": "3c33c365f5938a18ce97dd6e369d8f00a5f756305ab7d94261f758bc4de43c93",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699999999999999,
+          0,
+          -0.29577531479129726
+        ],
+        "max": [
+          0.47,
+          0.331936610241372,
+          0.29577531479129726
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          2.965968298912048,
+          -3
+        ],
+        "target": [
+          0,
+          0.16596829891204834,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/blade.glb"
+    },
+    {
+      "id": "blade",
+      "quality": "high",
+      "view": "opposite",
+      "modelSha256": "3d1f6de7ce5aa96afd65f9656f2e7865b9b0f831d170197c5aad0fa2e381df0a",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699462056159973,
+          0.000004425778574373984,
+          -0.29578051826073254
+        ],
+        "max": [
+          0.4699426293373108,
+          0.3318783788536125,
+          0.29574105998589123
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          2.965968298912048,
+          -3
+        ],
+        "target": [
+          0,
+          0.16596829891204834,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "silhouetteIoU": 0.9995175038867743
+    },
+    {
+      "id": "blade",
+      "quality": "medium",
+      "view": "opposite",
+      "modelSha256": "8ce1c731abc3e61c0a14389dbdd3236e9b52098142b3d13e8da524db38daf48d",
+      "triangles": 7899,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4698529541492462,
+          -0.0000026539355997556857,
+          -0.295606201444739
+        ],
+        "max": [
+          0.46967005729675293,
+          0.33185681853597204,
+          0.29571381763088095
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          2.965968298912048,
+          -3
+        ],
+        "target": [
+          0,
+          0.16596829891204834,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "silhouetteIoU": 0.9984454569820423
+    },
+    {
+      "id": "blade",
+      "quality": "low",
+      "view": "opposite",
+      "modelSha256": "5982fe1208cf5fde057cfb59eed2c5c32d96d25554f089918ff1122be724bfba",
+      "triangles": 1898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46980994939804077,
+          -0.000005953782216044923,
+          -0.2954122500675629
+        ],
+        "max": [
+          0.46892067790031433,
+          0.33186011838258833,
+          0.2957241909759949
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          2.965968298912048,
+          -3
+        ],
+        "target": [
+          0,
+          0.16596829891204834,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "silhouetteIoU": 0.9899271324474925
+    },
+    {
+      "id": "blade",
+      "quality": "source",
+      "view": "top",
+      "modelSha256": "3c33c365f5938a18ce97dd6e369d8f00a5f756305ab7d94261f758bc4de43c93",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699999999999999,
+          0,
+          -0.29577531479129726
+        ],
+        "max": [
+          0.47,
+          0.331936610241372,
+          0.29577531479129726
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.165968298912048,
+          0
+        ],
+        "target": [
+          0,
+          0.16596829891204834,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/source/blade.glb"
+    },
+    {
+      "id": "blade",
+      "quality": "high",
+      "view": "top",
+      "modelSha256": "3d1f6de7ce5aa96afd65f9656f2e7865b9b0f831d170197c5aad0fa2e381df0a",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699462056159973,
+          0.000004425778574373984,
+          -0.29578051826073254
+        ],
+        "max": [
+          0.4699426293373108,
+          0.3318783788536125,
+          0.29574105998589123
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.165968298912048,
+          0
+        ],
+        "target": [
+          0,
+          0.16596829891204834,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "silhouetteIoU": 0.9991456642460487
+    },
+    {
+      "id": "blade",
+      "quality": "medium",
+      "view": "top",
+      "modelSha256": "8ce1c731abc3e61c0a14389dbdd3236e9b52098142b3d13e8da524db38daf48d",
+      "triangles": 7899,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4698529541492462,
+          -0.0000026539355997556857,
+          -0.295606201444739
+        ],
+        "max": [
+          0.46967005729675293,
+          0.33185681853597204,
+          0.29571381763088095
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.165968298912048,
+          0
+        ],
+        "target": [
+          0,
+          0.16596829891204834,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "silhouetteIoU": 0.9982383087764254
+    },
+    {
+      "id": "blade",
+      "quality": "low",
+      "view": "top",
+      "modelSha256": "5982fe1208cf5fde057cfb59eed2c5c32d96d25554f089918ff1122be724bfba",
+      "triangles": 1898,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46980994939804077,
+          -0.000005953782216044923,
+          -0.2954122500675629
+        ],
+        "max": [
+          0.46892067790031433,
+          0.33186011838258833,
+          0.2957241909759949
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.165968298912048,
+          0
+        ],
+        "target": [
+          0,
+          0.16596829891204834,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "silhouetteIoU": 0.991149026926153
+    },
+    {
+      "id": "burst",
+      "quality": "source",
+      "view": "hero",
+      "modelSha256": "582df9f76f9d4473d449f0c2c70a7fe13039bd8ca6ec5c9ba0a2d86de25b3207",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699999999999999,
+          0,
+          -0.341177287196521
+        ],
+        "max": [
+          0.47,
+          0.500481333037423,
+          0.341177287196521
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.0502406537532805,
+          3
+        ],
+        "target": [
+          0,
+          0.25024065375328064,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/burst.glb"
+    },
+    {
+      "id": "burst",
+      "quality": "high",
+      "view": "hero",
+      "modelSha256": "df9bc3c6fb1bb3cf9a4a6cbea48da0ae389ad499a72db7f2beee0418095e9396",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699785113334656,
+          -0.000004845187575042154,
+          -0.34112705288453016
+        ],
+        "max": [
+          0.469853013753891,
+          0.5002997689699237,
+          0.3410230725817195
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.0502406537532805,
+          3
+        ],
+        "target": [
+          0,
+          0.25024065375328064,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+      "silhouetteIoU": 0.9984634099494206
+    },
+    {
+      "id": "burst",
+      "quality": "medium",
+      "view": "hero",
+      "modelSha256": "d288b8a5e13d892581bdf7d72e565fa0ae3fd4880020e2a52bccc1b21bb4d868",
+      "triangles": 7891,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46989959478378296,
+          -0.0000018009777075223,
+          -0.34112890098777954
+        ],
+        "max": [
+          0.469853013753891,
+          0.5002034434909827,
+          0.34096394513336364
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.0502406537532805,
+          3
+        ],
+        "target": [
+          0,
+          0.25024065375328064,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+      "silhouetteIoU": 0.9938534430323014
+    },
+    {
+      "id": "burst",
+      "quality": "low",
+      "view": "hero",
+      "modelSha256": "c38e875fbec541cd0444519dd2ad55c48dbe45ecb7749b6918bec6cbffd2f6b9",
+      "triangles": 1896,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46989598870277405,
+          0.000005604998543795592,
+          -0.34086771481912176
+        ],
+        "max": [
+          0.46973466873168945,
+          0.5002893187838049,
+          0.3410219120351557
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.0502406537532805,
+          3
+        ],
+        "target": [
+          0,
+          0.25024065375328064,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/burst/low/model.glb",
+      "silhouetteIoU": 0.9739503328213006
+    },
+    {
+      "id": "burst",
+      "quality": "source",
+      "view": "opposite",
+      "modelSha256": "582df9f76f9d4473d449f0c2c70a7fe13039bd8ca6ec5c9ba0a2d86de25b3207",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699999999999999,
+          0,
+          -0.341177287196521
+        ],
+        "max": [
+          0.47,
+          0.500481333037423,
+          0.341177287196521
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.0502406537532805,
+          -3
+        ],
+        "target": [
+          0,
+          0.25024065375328064,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/burst.glb"
+    },
+    {
+      "id": "burst",
+      "quality": "high",
+      "view": "opposite",
+      "modelSha256": "df9bc3c6fb1bb3cf9a4a6cbea48da0ae389ad499a72db7f2beee0418095e9396",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699785113334656,
+          -0.000004845187575042154,
+          -0.34112705288453016
+        ],
+        "max": [
+          0.469853013753891,
+          0.5002997689699237,
+          0.3410230725817195
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.0502406537532805,
+          -3
+        ],
+        "target": [
+          0,
+          0.25024065375328064,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+      "silhouetteIoU": 0.9980362489134984
+    },
+    {
+      "id": "burst",
+      "quality": "medium",
+      "view": "opposite",
+      "modelSha256": "d288b8a5e13d892581bdf7d72e565fa0ae3fd4880020e2a52bccc1b21bb4d868",
+      "triangles": 7891,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46989959478378296,
+          -0.0000018009777075223,
+          -0.34112890098777954
+        ],
+        "max": [
+          0.469853013753891,
+          0.5002034434909827,
+          0.34096394513336364
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.0502406537532805,
+          -3
+        ],
+        "target": [
+          0,
+          0.25024065375328064,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+      "silhouetteIoU": 0.9933687429583132
+    },
+    {
+      "id": "burst",
+      "quality": "low",
+      "view": "opposite",
+      "modelSha256": "c38e875fbec541cd0444519dd2ad55c48dbe45ecb7749b6918bec6cbffd2f6b9",
+      "triangles": 1896,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46989598870277405,
+          0.000005604998543795592,
+          -0.34086771481912176
+        ],
+        "max": [
+          0.46973466873168945,
+          0.5002893187838049,
+          0.3410219120351557
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.0502406537532805,
+          -3
+        ],
+        "target": [
+          0,
+          0.25024065375328064,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/burst/low/model.glb",
+      "silhouetteIoU": 0.972906879464573
+    },
+    {
+      "id": "burst",
+      "quality": "source",
+      "view": "top",
+      "modelSha256": "582df9f76f9d4473d449f0c2c70a7fe13039bd8ca6ec5c9ba0a2d86de25b3207",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699999999999999,
+          0,
+          -0.341177287196521
+        ],
+        "max": [
+          0.47,
+          0.500481333037423,
+          0.341177287196521
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.250240653753281,
+          0
+        ],
+        "target": [
+          0,
+          0.25024065375328064,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/source/burst.glb"
+    },
+    {
+      "id": "burst",
+      "quality": "high",
+      "view": "top",
+      "modelSha256": "df9bc3c6fb1bb3cf9a4a6cbea48da0ae389ad499a72db7f2beee0418095e9396",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699785113334656,
+          -0.000004845187575042154,
+          -0.34112705288453016
+        ],
+        "max": [
+          0.469853013753891,
+          0.5002997689699237,
+          0.3410230725817195
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.250240653753281,
+          0
+        ],
+        "target": [
+          0,
+          0.25024065375328064,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+      "silhouetteIoU": 0.9976672384219554
+    },
+    {
+      "id": "burst",
+      "quality": "medium",
+      "view": "top",
+      "modelSha256": "d288b8a5e13d892581bdf7d72e565fa0ae3fd4880020e2a52bccc1b21bb4d868",
+      "triangles": 7891,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46989959478378296,
+          -0.0000018009777075223,
+          -0.34112890098777954
+        ],
+        "max": [
+          0.469853013753891,
+          0.5002034434909827,
+          0.34096394513336364
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.250240653753281,
+          0
+        ],
+        "target": [
+          0,
+          0.25024065375328064,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+      "silhouetteIoU": 0.9954041911033371
+    },
+    {
+      "id": "burst",
+      "quality": "low",
+      "view": "top",
+      "modelSha256": "c38e875fbec541cd0444519dd2ad55c48dbe45ecb7749b6918bec6cbffd2f6b9",
+      "triangles": 1896,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46989598870277405,
+          0.000005604998543795592,
+          -0.34086771481912176
+        ],
+        "max": [
+          0.46973466873168945,
+          0.5002893187838049,
+          0.3410219120351557
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.250240653753281,
+          0
+        ],
+        "target": [
+          0,
+          0.25024065375328064,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/burst/low/model.glb",
+      "silhouetteIoU": 0.9779293876854852
+    },
+    {
+      "id": "lance",
+      "quality": "source",
+      "view": "hero",
+      "modelSha256": "93396891006ab27964c6ffb72c33058cb453e290dc866034a0e187dedd749e92",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699999999999999,
+          0,
+          -0.2732581153754155
+        ],
+        "max": [
+          0.47,
+          0.27590802769427264,
+          0.27325811537541544
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          2.937954011559486,
+          3
+        ],
+        "target": [
+          0,
+          0.1379540115594864,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/lance.glb"
+    },
+    {
+      "id": "lance",
+      "quality": "high",
+      "view": "hero",
+      "modelSha256": "336fb9a8f51e1ab35fc049b923e3ffb0d660b8b4d2e43d5af7826789fe0ff255",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699426293373108,
+          0.0000010024351796700248,
+          -0.2732528504658965
+        ],
+        "max": [
+          0.4699031710624695,
+          0.27572772991230876,
+          0.27320981591236865
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          2.937954011559486,
+          3
+        ],
+        "target": [
+          0,
+          0.1379540115594864,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/lance/high/model.glb",
+      "silhouetteIoU": 0.999097786105906
+    },
+    {
+      "id": "lance",
+      "quality": "medium",
+      "view": "hero",
+      "modelSha256": "ae21670d9b3e52f2eedb2e28fb62549381684f5105359f294499b924c204642f",
+      "triangles": 7900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699964225292206,
+          0.0000020821606683263383,
+          -0.2732541470188106
+        ],
+        "max": [
+          0.4699031710624695,
+          0.27574459118489747,
+          0.2732111124652828
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          2.937954011559486,
+          3
+        ],
+        "target": [
+          0,
+          0.1379540115594864,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/lance/medium/model.glb",
+      "silhouetteIoU": 0.9981956974323386
+    },
+    {
+      "id": "lance",
+      "quality": "low",
+      "view": "hero",
+      "modelSha256": "004274513e93b23de22f6cb8ce67575da9ec04588e847582ba7195518a3cccc7",
+      "triangles": 1899,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699964225292206,
+          -0.000005506334911781208,
+          -0.2732450152568925
+        ],
+        "max": [
+          0.4696127474308014,
+          0.2756804752928128,
+          0.27305138956833963
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          2.937954011559486,
+          3
+        ],
+        "target": [
+          0,
+          0.1379540115594864,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/lance/low/model.glb",
+      "silhouetteIoU": 0.9861351819757366
+    },
+    {
+      "id": "lance",
+      "quality": "source",
+      "view": "opposite",
+      "modelSha256": "93396891006ab27964c6ffb72c33058cb453e290dc866034a0e187dedd749e92",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699999999999999,
+          0,
+          -0.2732581153754155
+        ],
+        "max": [
+          0.47,
+          0.27590802769427264,
+          0.27325811537541544
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          2.937954011559486,
+          -3
+        ],
+        "target": [
+          0,
+          0.1379540115594864,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/lance.glb"
+    },
+    {
+      "id": "lance",
+      "quality": "high",
+      "view": "opposite",
+      "modelSha256": "336fb9a8f51e1ab35fc049b923e3ffb0d660b8b4d2e43d5af7826789fe0ff255",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699426293373108,
+          0.0000010024351796700248,
+          -0.2732528504658965
+        ],
+        "max": [
+          0.4699031710624695,
+          0.27572772991230876,
+          0.27320981591236865
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          2.937954011559486,
+          -3
+        ],
+        "target": [
+          0,
+          0.1379540115594864,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/lance/high/model.glb",
+      "silhouetteIoU": 0.9990492359932088
+    },
+    {
+      "id": "lance",
+      "quality": "medium",
+      "view": "opposite",
+      "modelSha256": "ae21670d9b3e52f2eedb2e28fb62549381684f5105359f294499b924c204642f",
+      "triangles": 7900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699964225292206,
+          0.0000020821606683263383,
+          -0.2732541470188106
+        ],
+        "max": [
+          0.4699031710624695,
+          0.27574459118489747,
+          0.2732111124652828
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          2.937954011559486,
+          -3
+        ],
+        "target": [
+          0,
+          0.1379540115594864,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/lance/medium/model.glb",
+      "silhouetteIoU": 0.9975553442890126
+    },
+    {
+      "id": "lance",
+      "quality": "low",
+      "view": "opposite",
+      "modelSha256": "004274513e93b23de22f6cb8ce67575da9ec04588e847582ba7195518a3cccc7",
+      "triangles": 1899,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699964225292206,
+          -0.000005506334911781208,
+          -0.2732450152568925
+        ],
+        "max": [
+          0.4696127474308014,
+          0.2756804752928128,
+          0.27305138956833963
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          2.937954011559486,
+          -3
+        ],
+        "target": [
+          0,
+          0.1379540115594864,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/lance/low/model.glb",
+      "silhouetteIoU": 0.9875059414680519
+    },
+    {
+      "id": "lance",
+      "quality": "source",
+      "view": "top",
+      "modelSha256": "93396891006ab27964c6ffb72c33058cb453e290dc866034a0e187dedd749e92",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699999999999999,
+          0,
+          -0.2732581153754155
+        ],
+        "max": [
+          0.47,
+          0.27590802769427264,
+          0.27325811537541544
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.137954011559486,
+          0
+        ],
+        "target": [
+          0,
+          0.1379540115594864,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/source/lance.glb"
+    },
+    {
+      "id": "lance",
+      "quality": "high",
+      "view": "top",
+      "modelSha256": "336fb9a8f51e1ab35fc049b923e3ffb0d660b8b4d2e43d5af7826789fe0ff255",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699426293373108,
+          0.0000010024351796700248,
+          -0.2732528504658965
+        ],
+        "max": [
+          0.4699031710624695,
+          0.27572772991230876,
+          0.27320981591236865
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.137954011559486,
+          0
+        ],
+        "target": [
+          0,
+          0.1379540115594864,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/lance/high/model.glb",
+      "silhouetteIoU": 0.9991387876780391
+    },
+    {
+      "id": "lance",
+      "quality": "medium",
+      "view": "top",
+      "modelSha256": "ae21670d9b3e52f2eedb2e28fb62549381684f5105359f294499b924c204642f",
+      "triangles": 7900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699964225292206,
+          0.0000020821606683263383,
+          -0.2732541470188106
+        ],
+        "max": [
+          0.4699031710624695,
+          0.27574459118489747,
+          0.2732111124652828
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.137954011559486,
+          0
+        ],
+        "target": [
+          0,
+          0.1379540115594864,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/lance/medium/model.glb",
+      "silhouetteIoU": 0.9983438224577674
+    },
+    {
+      "id": "lance",
+      "quality": "low",
+      "view": "top",
+      "modelSha256": "004274513e93b23de22f6cb8ce67575da9ec04588e847582ba7195518a3cccc7",
+      "triangles": 1899,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699964225292206,
+          -0.000005506334911781208,
+          -0.2732450152568925
+        ],
+        "max": [
+          0.4696127474308014,
+          0.2756804752928128,
+          0.27305138956833963
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.137954011559486,
+          0
+        ],
+        "target": [
+          0,
+          0.1379540115594864,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/lance/low/model.glb",
+      "silhouetteIoU": 0.9883021611261649
+    },
+    {
+      "id": "shield",
+      "quality": "source",
+      "view": "hero",
+      "modelSha256": "b6e79f8316af42e256c7aa4364e86e18bcd9ebad6e8d3a4b054626c13157d118",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699999999999999,
+          0,
+          -0.44447425312916333
+        ],
+        "max": [
+          0.47,
+          0.3589378869291402,
+          0.4444742531291634
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          2.9794689446687697,
+          3
+        ],
+        "target": [
+          0,
+          0.17946894466876984,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/shield.glb"
+    },
+    {
+      "id": "shield",
+      "quality": "high",
+      "view": "hero",
+      "modelSha256": "50ae1e70d2326882b934ec065d1fb47b5a18a89ec0fc62927204e38ef8d82509",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699605703353882,
+          -4.553978948385051e-7,
+          -0.4443576309803688
+        ],
+        "max": [
+          0.4698852300643921,
+          0.3588773989861517,
+          0.4442895624760353
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          2.9794689446687697,
+          3
+        ],
+        "target": [
+          0,
+          0.17946894466876984,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "silhouetteIoU": 0.9992305102678786
+    },
+    {
+      "id": "shield",
+      "quality": "medium",
+      "view": "hero",
+      "modelSha256": "b9022cbf81442fe73b433243c2c85230371d35db10cba19d1f5e8323c22384f6",
+      "triangles": 7900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4697955846786499,
+          -0.000001245780187147938,
+          -0.44435495270503855
+        ],
+        "max": [
+          0.4698852300643921,
+          0.3586988985969596,
+          0.44399285448802805
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          2.9794689446687697,
+          3
+        ],
+        "target": [
+          0,
+          0.17946894466876984,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "silhouetteIoU": 0.9981484598552433
+    },
+    {
+      "id": "shield",
+      "quality": "low",
+      "view": "hero",
+      "modelSha256": "e61ff2ec7f0d9ba3206bd1b712cbcfaf61be6ee6ee31981713454a3e13ed4b40",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46960198879241943,
+          0.000006217488702803253,
+          -0.44436488345696956
+        ],
+        "max": [
+          0.46964502334594727,
+          0.358454775085989,
+          0.44400278523995906
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          2.9794689446687697,
+          3
+        ],
+        "target": [
+          0,
+          0.17946894466876984,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/shield/low/model.glb",
+      "silhouetteIoU": 0.9850007211191769
+    },
+    {
+      "id": "shield",
+      "quality": "source",
+      "view": "opposite",
+      "modelSha256": "b6e79f8316af42e256c7aa4364e86e18bcd9ebad6e8d3a4b054626c13157d118",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699999999999999,
+          0,
+          -0.44447425312916333
+        ],
+        "max": [
+          0.47,
+          0.3589378869291402,
+          0.4444742531291634
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          2.9794689446687697,
+          -3
+        ],
+        "target": [
+          0,
+          0.17946894466876984,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/shield.glb"
+    },
+    {
+      "id": "shield",
+      "quality": "high",
+      "view": "opposite",
+      "modelSha256": "50ae1e70d2326882b934ec065d1fb47b5a18a89ec0fc62927204e38ef8d82509",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699605703353882,
+          -4.553978948385051e-7,
+          -0.4443576309803688
+        ],
+        "max": [
+          0.4698852300643921,
+          0.3588773989861517,
+          0.4442895624760353
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          2.9794689446687697,
+          -3
+        ],
+        "target": [
+          0,
+          0.17946894466876984,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "silhouetteIoU": 0.9992180672462169
+    },
+    {
+      "id": "shield",
+      "quality": "medium",
+      "view": "opposite",
+      "modelSha256": "b9022cbf81442fe73b433243c2c85230371d35db10cba19d1f5e8323c22384f6",
+      "triangles": 7900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4697955846786499,
+          -0.000001245780187147938,
+          -0.44435495270503855
+        ],
+        "max": [
+          0.4698852300643921,
+          0.3586988985969596,
+          0.44399285448802805
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          2.9794689446687697,
+          -3
+        ],
+        "target": [
+          0,
+          0.17946894466876984,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "silhouetteIoU": 0.998321182991054
+    },
+    {
+      "id": "shield",
+      "quality": "low",
+      "view": "opposite",
+      "modelSha256": "e61ff2ec7f0d9ba3206bd1b712cbcfaf61be6ee6ee31981713454a3e13ed4b40",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46960198879241943,
+          0.000006217488702803253,
+          -0.44436488345696956
+        ],
+        "max": [
+          0.46964502334594727,
+          0.358454775085989,
+          0.44400278523995906
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          2.9794689446687697,
+          -3
+        ],
+        "target": [
+          0,
+          0.17946894466876984,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/shield/low/model.glb",
+      "silhouetteIoU": 0.9881335663692392
+    },
+    {
+      "id": "shield",
+      "quality": "source",
+      "view": "top",
+      "modelSha256": "b6e79f8316af42e256c7aa4364e86e18bcd9ebad6e8d3a4b054626c13157d118",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699999999999999,
+          0,
+          -0.44447425312916333
+        ],
+        "max": [
+          0.47,
+          0.3589378869291402,
+          0.4444742531291634
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.17946894466877,
+          0
+        ],
+        "target": [
+          0,
+          0.17946894466876984,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/source/shield.glb"
+    },
+    {
+      "id": "shield",
+      "quality": "high",
+      "view": "top",
+      "modelSha256": "50ae1e70d2326882b934ec065d1fb47b5a18a89ec0fc62927204e38ef8d82509",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699605703353882,
+          -4.553978948385051e-7,
+          -0.4443576309803688
+        ],
+        "max": [
+          0.4698852300643921,
+          0.3588773989861517,
+          0.4442895624760353
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.17946894466877,
+          0
+        ],
+        "target": [
+          0,
+          0.17946894466876984,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "silhouetteIoU": 0.9992163639286289
+    },
+    {
+      "id": "shield",
+      "quality": "medium",
+      "view": "top",
+      "modelSha256": "b9022cbf81442fe73b433243c2c85230371d35db10cba19d1f5e8323c22384f6",
+      "triangles": 7900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4697955846786499,
+          -0.000001245780187147938,
+          -0.44435495270503855
+        ],
+        "max": [
+          0.4698852300643921,
+          0.3586988985969596,
+          0.44399285448802805
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.17946894466877,
+          0
+        ],
+        "target": [
+          0,
+          0.17946894466876984,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "silhouetteIoU": 0.9989350372736954
+    },
+    {
+      "id": "shield",
+      "quality": "low",
+      "view": "top",
+      "modelSha256": "e61ff2ec7f0d9ba3206bd1b712cbcfaf61be6ee6ee31981713454a3e13ed4b40",
+      "triangles": 1900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46960198879241943,
+          0.000006217488702803253,
+          -0.44436488345696956
+        ],
+        "max": [
+          0.46964502334594727,
+          0.358454775085989,
+          0.44400278523995906
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.17946894466877,
+          0
+        ],
+        "target": [
+          0,
+          0.17946894466876984,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/shield/low/model.glb",
+      "silhouetteIoU": 0.9936452569962313
+    },
+    {
+      "id": "breaker",
+      "quality": "source",
+      "view": "hero",
+      "modelSha256": "6b15e0ce10dbd689d3dfe230f09154f8a518d2d237c8bf2a514050ed56728f16",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47,
+          0,
+          -0.40379841506926917
+        ],
+        "max": [
+          0.47,
+          0.6001458948450363,
+          0.4037984150692692
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.1000729382038115,
+          3
+        ],
+        "target": [
+          0,
+          0.30007293820381165,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/breaker.glb"
+    },
+    {
+      "id": "breaker",
+      "quality": "high",
+      "view": "hero",
+      "modelSha256": "127f6a92aa746638a55b0d7d9238768cd68d78e03c9cb00e1abd6026c1ed0823",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4695983827114105,
+          -0.0000032190360005901475,
+          -0.40371951494308744
+        ],
+        "max": [
+          0.4698924422264099,
+          0.5998981002844748,
+          0.40373739633652006
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.1000729382038115,
+          3
+        ],
+        "target": [
+          0,
+          0.30007293820381165,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/breaker/high/model.glb",
+      "silhouetteIoU": 0.9988644595414766
+    },
+    {
+      "id": "breaker",
+      "quality": "medium",
+      "view": "hero",
+      "modelSha256": "4d6e0daf32a03e195183a11f98aea340ed91704f65637b04b31cd47957d05758",
+      "triangles": 7881,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4692254662513733,
+          -0.000005542175099015889,
+          -0.40372106337869634
+        ],
+        "max": [
+          0.46993547677993774,
+          0.5994845022123305,
+          0.40373894477212896
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.1000729382038115,
+          3
+        ],
+        "target": [
+          0,
+          0.30007293820381165,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/breaker/medium/model.glb",
+      "silhouetteIoU": 0.9974350941770764
+    },
+    {
+      "id": "breaker",
+      "quality": "low",
+      "view": "hero",
+      "modelSha256": "535451ae3f2789dc79e2d32ad051b192bd820d0f14754b1178659962d2318540",
+      "triangles": 1881,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46847599744796753,
+          -0.000004857048202688841,
+          -0.4036041910015973
+        ],
+        "max": [
+          0.4695266783237457,
+          0.5990893535463107,
+          0.40363289063805663
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.1000729382038115,
+          3
+        ],
+        "target": [
+          0,
+          0.30007293820381165,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/breaker/low/model.glb",
+      "silhouetteIoU": 0.9900951336961202
+    },
+    {
+      "id": "breaker",
+      "quality": "source",
+      "view": "opposite",
+      "modelSha256": "6b15e0ce10dbd689d3dfe230f09154f8a518d2d237c8bf2a514050ed56728f16",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47,
+          0,
+          -0.40379841506926917
+        ],
+        "max": [
+          0.47,
+          0.6001458948450363,
+          0.4037984150692692
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.1000729382038115,
+          -3
+        ],
+        "target": [
+          0,
+          0.30007293820381165,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/breaker.glb"
+    },
+    {
+      "id": "breaker",
+      "quality": "high",
+      "view": "opposite",
+      "modelSha256": "127f6a92aa746638a55b0d7d9238768cd68d78e03c9cb00e1abd6026c1ed0823",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4695983827114105,
+          -0.0000032190360005901475,
+          -0.40371951494308744
+        ],
+        "max": [
+          0.4698924422264099,
+          0.5998981002844748,
+          0.40373739633652006
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.1000729382038115,
+          -3
+        ],
+        "target": [
+          0,
+          0.30007293820381165,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/breaker/high/model.glb",
+      "silhouetteIoU": 0.998802771290063
+    },
+    {
+      "id": "breaker",
+      "quality": "medium",
+      "view": "opposite",
+      "modelSha256": "4d6e0daf32a03e195183a11f98aea340ed91704f65637b04b31cd47957d05758",
+      "triangles": 7881,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4692254662513733,
+          -0.000005542175099015889,
+          -0.40372106337869634
+        ],
+        "max": [
+          0.46993547677993774,
+          0.5994845022123305,
+          0.40373894477212896
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.1000729382038115,
+          -3
+        ],
+        "target": [
+          0,
+          0.30007293820381165,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/breaker/medium/model.glb",
+      "silhouetteIoU": 0.997252208047105
+    },
+    {
+      "id": "breaker",
+      "quality": "low",
+      "view": "opposite",
+      "modelSha256": "535451ae3f2789dc79e2d32ad051b192bd820d0f14754b1178659962d2318540",
+      "triangles": 1881,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46847599744796753,
+          -0.000004857048202688841,
+          -0.4036041910015973
+        ],
+        "max": [
+          0.4695266783237457,
+          0.5990893535463107,
+          0.40363289063805663
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.1000729382038115,
+          -3
+        ],
+        "target": [
+          0,
+          0.30007293820381165,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/breaker/low/model.glb",
+      "silhouetteIoU": 0.9891609008408632
+    },
+    {
+      "id": "breaker",
+      "quality": "source",
+      "view": "top",
+      "modelSha256": "6b15e0ce10dbd689d3dfe230f09154f8a518d2d237c8bf2a514050ed56728f16",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47,
+          0,
+          -0.40379841506926917
+        ],
+        "max": [
+          0.47,
+          0.6001458948450363,
+          0.4037984150692692
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.300072938203812,
+          0
+        ],
+        "target": [
+          0,
+          0.30007293820381165,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/source/breaker.glb"
+    },
+    {
+      "id": "breaker",
+      "quality": "high",
+      "view": "top",
+      "modelSha256": "127f6a92aa746638a55b0d7d9238768cd68d78e03c9cb00e1abd6026c1ed0823",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4695983827114105,
+          -0.0000032190360005901475,
+          -0.40371951494308744
+        ],
+        "max": [
+          0.4698924422264099,
+          0.5998981002844748,
+          0.40373739633652006
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.300072938203812,
+          0
+        ],
+        "target": [
+          0,
+          0.30007293820381165,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/breaker/high/model.glb",
+      "silhouetteIoU": 0.9996573543184777
+    },
+    {
+      "id": "breaker",
+      "quality": "medium",
+      "view": "top",
+      "modelSha256": "4d6e0daf32a03e195183a11f98aea340ed91704f65637b04b31cd47957d05758",
+      "triangles": 7881,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4692254662513733,
+          -0.000005542175099015889,
+          -0.40372106337869634
+        ],
+        "max": [
+          0.46993547677993774,
+          0.5994845022123305,
+          0.40373894477212896
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.300072938203812,
+          0
+        ],
+        "target": [
+          0,
+          0.30007293820381165,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/breaker/medium/model.glb",
+      "silhouetteIoU": 0.9993376122062082
+    },
+    {
+      "id": "breaker",
+      "quality": "low",
+      "view": "top",
+      "modelSha256": "535451ae3f2789dc79e2d32ad051b192bd820d0f14754b1178659962d2318540",
+      "triangles": 1881,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46847599744796753,
+          -0.000004857048202688841,
+          -0.4036041910015973
+        ],
+        "max": [
+          0.4695266783237457,
+          0.5990893535463107,
+          0.40363289063805663
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.300072938203812,
+          0
+        ],
+        "target": [
+          0,
+          0.30007293820381165,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/breaker/low/model.glb",
+      "silhouetteIoU": 0.9954325385950489
+    },
+    {
+      "id": "capacitor",
+      "quality": "source",
+      "view": "hero",
+      "modelSha256": "08052e4368f2658b4b0d60b456c84cc8eb0770b75b6f3834efe544a59c293610",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699999999999999,
+          0,
+          -0.37028526597178857
+        ],
+        "max": [
+          0.4699999999999999,
+          0.6503403350942609,
+          0.3702852659717885
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.1251701593399046,
+          3
+        ],
+        "target": [
+          0,
+          0.3251701593399048,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/capacitor.glb"
+    },
+    {
+      "id": "capacitor",
+      "quality": "high",
+      "view": "hero",
+      "modelSha256": "dab2b62742c764a29ffff445154b436e99550281bf421db7b586f592dadbc9f0",
+      "triangles": 29896,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46991389989852905,
+          0.0000034869690382355323,
+          -0.3701898484747269
+        ],
+        "max": [
+          0.46982789039611816,
+          0.649737983844713,
+          0.37020060711310887
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.1251701593399046,
+          3
+        ],
+        "target": [
+          0,
+          0.3251701593399048,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+      "silhouetteIoU": 0.9989795721904542
+    },
+    {
+      "id": "capacitor",
+      "quality": "medium",
+      "view": "hero",
+      "modelSha256": "c31d4428bdefcf7517707dfd7a5360cf7d5c4e6f4372bdf95664a70c38fff0f1",
+      "triangles": 7880,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699031710624695,
+          0.0000018716162240028922,
+          -0.36942459789502136
+        ],
+        "max": [
+          0.46977049112319946,
+          0.6493451356584037,
+          0.3693349227069568
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.1251701593399046,
+          3
+        ],
+        "target": [
+          0,
+          0.3251701593399048,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+      "silhouetteIoU": 0.996400038502262
+    },
+    {
+      "id": "capacitor",
+      "quality": "low",
+      "view": "hero",
+      "modelSha256": "3b7c06d1b37aedcc521a384c5e87c6978e2161f60158f20b042184899b54448c",
+      "triangles": 1880,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699031710624695,
+          0.000004423744882131597,
+          -0.3682836864726728
+        ],
+        "max": [
+          0.46950873732566833,
+          0.649052130095755,
+          0.36399143679310736
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.1251701593399046,
+          3
+        ],
+        "target": [
+          0,
+          0.3251701593399048,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/capacitor/low/model.glb",
+      "silhouetteIoU": 0.9777841948214457
+    },
+    {
+      "id": "capacitor",
+      "quality": "source",
+      "view": "opposite",
+      "modelSha256": "08052e4368f2658b4b0d60b456c84cc8eb0770b75b6f3834efe544a59c293610",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699999999999999,
+          0,
+          -0.37028526597178857
+        ],
+        "max": [
+          0.4699999999999999,
+          0.6503403350942609,
+          0.3702852659717885
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.1251701593399046,
+          -3
+        ],
+        "target": [
+          0,
+          0.3251701593399048,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/capacitor.glb"
+    },
+    {
+      "id": "capacitor",
+      "quality": "high",
+      "view": "opposite",
+      "modelSha256": "dab2b62742c764a29ffff445154b436e99550281bf421db7b586f592dadbc9f0",
+      "triangles": 29896,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46991389989852905,
+          0.0000034869690382355323,
+          -0.3701898484747269
+        ],
+        "max": [
+          0.46982789039611816,
+          0.649737983844713,
+          0.37020060711310887
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.1251701593399046,
+          -3
+        ],
+        "target": [
+          0,
+          0.3251701593399048,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+      "silhouetteIoU": 0.9988355495454887
+    },
+    {
+      "id": "capacitor",
+      "quality": "medium",
+      "view": "opposite",
+      "modelSha256": "c31d4428bdefcf7517707dfd7a5360cf7d5c4e6f4372bdf95664a70c38fff0f1",
+      "triangles": 7880,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699031710624695,
+          0.0000018716162240028922,
+          -0.36942459789502136
+        ],
+        "max": [
+          0.46977049112319946,
+          0.6493451356584037,
+          0.3693349227069568
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.1251701593399046,
+          -3
+        ],
+        "target": [
+          0,
+          0.3251701593399048,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+      "silhouetteIoU": 0.9958305161144918
+    },
+    {
+      "id": "capacitor",
+      "quality": "low",
+      "view": "opposite",
+      "modelSha256": "3b7c06d1b37aedcc521a384c5e87c6978e2161f60158f20b042184899b54448c",
+      "triangles": 1880,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699031710624695,
+          0.000004423744882131597,
+          -0.3682836864726728
+        ],
+        "max": [
+          0.46950873732566833,
+          0.649052130095755,
+          0.36399143679310736
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.1251701593399046,
+          -3
+        ],
+        "target": [
+          0,
+          0.3251701593399048,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/capacitor/low/model.glb",
+      "silhouetteIoU": 0.9813827790706403
+    },
+    {
+      "id": "capacitor",
+      "quality": "source",
+      "view": "top",
+      "modelSha256": "08052e4368f2658b4b0d60b456c84cc8eb0770b75b6f3834efe544a59c293610",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699999999999999,
+          0,
+          -0.37028526597178857
+        ],
+        "max": [
+          0.4699999999999999,
+          0.6503403350942609,
+          0.3702852659717885
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.325170159339905,
+          0
+        ],
+        "target": [
+          0,
+          0.3251701593399048,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/source/capacitor.glb"
+    },
+    {
+      "id": "capacitor",
+      "quality": "high",
+      "view": "top",
+      "modelSha256": "dab2b62742c764a29ffff445154b436e99550281bf421db7b586f592dadbc9f0",
+      "triangles": 29896,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46991389989852905,
+          0.0000034869690382355323,
+          -0.3701898484747269
+        ],
+        "max": [
+          0.46982789039611816,
+          0.649737983844713,
+          0.37020060711310887
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.325170159339905,
+          0
+        ],
+        "target": [
+          0,
+          0.3251701593399048,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+      "silhouetteIoU": 0.9970501474926253
+    },
+    {
+      "id": "capacitor",
+      "quality": "medium",
+      "view": "top",
+      "modelSha256": "c31d4428bdefcf7517707dfd7a5360cf7d5c4e6f4372bdf95664a70c38fff0f1",
+      "triangles": 7880,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699031710624695,
+          0.0000018716162240028922,
+          -0.36942459789502136
+        ],
+        "max": [
+          0.46977049112319946,
+          0.6493451356584037,
+          0.3693349227069568
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.325170159339905,
+          0
+        ],
+        "target": [
+          0,
+          0.3251701593399048,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+      "silhouetteIoU": 0.9884003168195407
+    },
+    {
+      "id": "capacitor",
+      "quality": "low",
+      "view": "top",
+      "modelSha256": "3b7c06d1b37aedcc521a384c5e87c6978e2161f60158f20b042184899b54448c",
+      "triangles": 1880,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699031710624695,
+          0.000004423744882131597,
+          -0.3682836864726728
+        ],
+        "max": [
+          0.46950873732566833,
+          0.649052130095755,
+          0.36399143679310736
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.325170159339905,
+          0
+        ],
+        "target": [
+          0,
+          0.3251701593399048,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/capacitor/low/model.glb",
+      "silhouetteIoU": 0.9678620863218824
+    },
+    {
+      "id": "radiator",
+      "quality": "source",
+      "view": "hero",
+      "modelSha256": "abe747ca42f85956acfd8821e3b5f14c395f2405463d9af23320869131483af2",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47,
+          0,
+          -0.46385747692705853
+        ],
+        "max": [
+          0.47,
+          0.5183136639217034,
+          0.4638574769270585
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.059156823158264,
+          3
+        ],
+        "target": [
+          0,
+          0.25915682315826416,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/radiator.glb"
+    },
+    {
+      "id": "radiator",
+      "quality": "high",
+      "view": "hero",
+      "modelSha256": "206baaa7750e7d695aae9f42ed4d2f93bfb2942a951688e0697b2dfd88656481",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699856638908386,
+          -0.000003470169248953603,
+          -0.4635923781115044
+        ],
+        "max": [
+          0.46994978189468384,
+          0.5181988012658981,
+          0.4638362207132805
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.059156823158264,
+          3
+        ],
+        "target": [
+          0,
+          0.25915682315826416,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "silhouetteIoU": 0.9994773291519665
+    },
+    {
+      "id": "radiator",
+      "quality": "medium",
+      "view": "hero",
+      "modelSha256": "7452ac1caf0f6d8acd85df7aac00e250afa0ba9d8864f05d2d0e0d1b38695c1d",
+      "triangles": 7894,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699856638908386,
+          0.0000017503664208051717,
+          -0.463592814191597
+        ],
+        "max": [
+          0.4698852598667145,
+          0.5179963489606666,
+          0.4638008045995407
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.059156823158264,
+          3
+        ],
+        "target": [
+          0,
+          0.25915682315826416,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "silhouetteIoU": 0.9974520351052941
+    },
+    {
+      "id": "radiator",
+      "quality": "low",
+      "view": "hero",
+      "modelSha256": "8eef97808279156a1516f458c44f546f9005d1777f64ad3294c59c7558dbb04a",
+      "triangles": 1899,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46987810730934143,
+          0.000003877794476636609,
+          -0.4630368230760663
+        ],
+        "max": [
+          0.46977049112319946,
+          0.5179619754197873,
+          0.46339182834034853
+        ]
+      },
+      "camera": {
+        "position": [
+          3,
+          3.059156823158264,
+          3
+        ],
+        "target": [
+          0,
+          0.25915682315826416,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/radiator/low/model.glb",
+      "silhouetteIoU": 0.9843477882270986
+    },
+    {
+      "id": "radiator",
+      "quality": "source",
+      "view": "opposite",
+      "modelSha256": "abe747ca42f85956acfd8821e3b5f14c395f2405463d9af23320869131483af2",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47,
+          0,
+          -0.46385747692705853
+        ],
+        "max": [
+          0.47,
+          0.5183136639217034,
+          0.4638574769270585
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.059156823158264,
+          -3
+        ],
+        "target": [
+          0,
+          0.25915682315826416,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/source/radiator.glb"
+    },
+    {
+      "id": "radiator",
+      "quality": "high",
+      "view": "opposite",
+      "modelSha256": "206baaa7750e7d695aae9f42ed4d2f93bfb2942a951688e0697b2dfd88656481",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699856638908386,
+          -0.000003470169248953603,
+          -0.4635923781115044
+        ],
+        "max": [
+          0.46994978189468384,
+          0.5181988012658981,
+          0.4638362207132805
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.059156823158264,
+          -3
+        ],
+        "target": [
+          0,
+          0.25915682315826416,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "silhouetteIoU": 0.9995959424111605
+    },
+    {
+      "id": "radiator",
+      "quality": "medium",
+      "view": "opposite",
+      "modelSha256": "7452ac1caf0f6d8acd85df7aac00e250afa0ba9d8864f05d2d0e0d1b38695c1d",
+      "triangles": 7894,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699856638908386,
+          0.0000017503664208051717,
+          -0.463592814191597
+        ],
+        "max": [
+          0.4698852598667145,
+          0.5179963489606666,
+          0.4638008045995407
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.059156823158264,
+          -3
+        ],
+        "target": [
+          0,
+          0.25915682315826416,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "silhouetteIoU": 0.9975116971501489
+    },
+    {
+      "id": "radiator",
+      "quality": "low",
+      "view": "opposite",
+      "modelSha256": "8eef97808279156a1516f458c44f546f9005d1777f64ad3294c59c7558dbb04a",
+      "triangles": 1899,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46987810730934143,
+          0.000003877794476636609,
+          -0.4630368230760663
+        ],
+        "max": [
+          0.46977049112319946,
+          0.5179619754197873,
+          0.46339182834034853
+        ]
+      },
+      "camera": {
+        "position": [
+          -3,
+          3.059156823158264,
+          -3
+        ],
+        "target": [
+          0,
+          0.25915682315826416,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/radiator/low/model.glb",
+      "silhouetteIoU": 0.985188490798589
+    },
+    {
+      "id": "radiator",
+      "quality": "source",
+      "view": "top",
+      "modelSha256": "abe747ca42f85956acfd8821e3b5f14c395f2405463d9af23320869131483af2",
+      "triangles": 500000,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.47,
+          0,
+          -0.46385747692705853
+        ],
+        "max": [
+          0.47,
+          0.5183136639217034,
+          0.4638574769270585
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.259156823158264,
+          0
+        ],
+        "target": [
+          0,
+          0.25915682315826416,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/source/radiator.glb"
+    },
+    {
+      "id": "radiator",
+      "quality": "high",
+      "view": "top",
+      "modelSha256": "206baaa7750e7d695aae9f42ed4d2f93bfb2942a951688e0697b2dfd88656481",
+      "triangles": 29900,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699856638908386,
+          -0.000003470169248953603,
+          -0.4635923781115044
+        ],
+        "max": [
+          0.46994978189468384,
+          0.5181988012658981,
+          0.4638362207132805
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.259156823158264,
+          0
+        ],
+        "target": [
+          0,
+          0.25915682315826416,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "silhouetteIoU": 0.9997809986461734
+    },
+    {
+      "id": "radiator",
+      "quality": "medium",
+      "view": "top",
+      "modelSha256": "7452ac1caf0f6d8acd85df7aac00e250afa0ba9d8864f05d2d0e0d1b38695c1d",
+      "triangles": 7894,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.4699856638908386,
+          0.0000017503664208051717,
+          -0.463592814191597
+        ],
+        "max": [
+          0.4698852598667145,
+          0.5179963489606666,
+          0.4638008045995407
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.259156823158264,
+          0
+        ],
+        "target": [
+          0,
+          0.25915682315826416,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "silhouetteIoU": 0.9992039167296899
+    },
+    {
+      "id": "radiator",
+      "quality": "low",
+      "view": "top",
+      "modelSha256": "8eef97808279156a1516f458c44f546f9005d1777f64ad3294c59c7558dbb04a",
+      "triangles": 1899,
+      "drawCalls": 1,
+      "geometries": 1,
+      "textures": 5,
+      "bounds": {
+        "min": [
+          -0.46987810730934143,
+          0.000003877794476636609,
+          -0.4630368230760663
+        ],
+        "max": [
+          0.46977049112319946,
+          0.5179619754197873,
+          0.46339182834034853
+        ]
+      },
+      "camera": {
+        "position": [
+          0,
+          5.259156823158264,
+          0
+        ],
+        "target": [
+          0,
+          0.25915682315826416,
+          0
+        ],
+        "framing": 0.7989999999999999,
+        "up": [
+          1,
+          0,
+          0
+        ]
+      },
+      "url": "/assets/ui3d/u3d01/modules/radiator/low/model.glb",
+      "silhouetteIoU": 0.9918348696757787
+    }
+  ],
+  "browser": "154.0.8037.98",
+  "environment": {
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "dpr": 1,
+    "three": "186"
+  }
+}

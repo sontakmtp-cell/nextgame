@@ -1,0 +1,82 @@
+{
+  "cells": [
+    {
+      "vw": 1440,
+      "cell": {
+        "w": 43.2,
+        "h": 43.2
+      },
+      "gridW": 520,
+      "gridH": 520
+    },
+    {
+      "vw": 1024,
+      "cell": {
+        "w": 43.2,
+        "h": 43.2
+      },
+      "gridW": 520,
+      "gridH": 520
+    },
+    {
+      "vw": 768,
+      "cell": {
+        "w": 41.2,
+        "h": 41.2
+      },
+      "gridW": 496,
+      "gridH": 496
+    }
+  ],
+  "fonts": {
+    "eyebrow": {
+      "size": "11px",
+      "lh": "17.6px",
+      "weight": "600",
+      "ls": "1.32px"
+    },
+    "axis": {
+      "size": "9px",
+      "lh": "14.4px",
+      "weight": "400",
+      "ls": "0.9px"
+    },
+    "body": {
+      "size": "13px",
+      "lh": "20.8px",
+      "weight": "400",
+      "ls": "normal"
+    },
+    "h1": {
+      "size": "30px",
+      "lh": "38.1px",
+      "weight": "700",
+      "ls": "normal"
+    },
+    "h2": {
+      "size": "22px",
+      "lh": "29.7px",
+      "weight": "700",
+      "ls": "normal"
+    },
+    "caption": {
+      "size": "12px",
+      "lh": "19.2px",
+      "weight": "400",
+      "ls": "normal"
+    },
+    "navNumber": {
+      "size": "12px",
+      "lh": "19.2px",
+      "weight": "400",
+      "ls": "normal"
+    },
+    "budgetLabel": {
+      "size": "10px",
+      "lh": "16px",
+      "weight": "400",
+      "ls": "1px"
+    }
+  },
+  "overlaps": []
+}

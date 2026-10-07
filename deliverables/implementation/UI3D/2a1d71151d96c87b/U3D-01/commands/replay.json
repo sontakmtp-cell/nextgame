@@ -1,0 +1,7 @@
+{
+  "command": "node node_modules/vitest/vitest.mjs run tests/replay.test.ts",
+  "exitCode": 0,
+  "elapsedMs": 13429.891899999999,
+  "stdout": "\n RUN  v5.0.3 D:/AI/nextgame\n\n\n Test Files  1 passed (1)\n      Tests  6 passed (6)\n   Start at  21:39:23\n   Duration  13.16s (tests 98%, import 1%, transform 1%)\n\n",
+  "stderr": ""
+}

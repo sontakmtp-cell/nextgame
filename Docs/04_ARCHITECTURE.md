@@ -2,6 +2,8 @@
 
 **Mục tiêu:** một engine dùng offline/browser-worker/server; một application layer cho REST và MCP; renderer chất lượng cao không quyết định gameplay. Kiến trúc mô-đun để tăng công suất bằng worker trước khi tách nhiều service. Không thừa kế deployment claims v1. Sổ chọn stack ở [DECISIONS](DECISIONS.md).
 
+**Cập nhật U3D-00 (07/10/2026):** D21 và [UI3D_IMPLEMENTATION](UI3D_IMPLEMENTATION.md) chuyển Workshop/Arena/My Synths sang lớp trình bày Three/R3F riêng; mô phỏng vẫn 2D, toàn bộ Brain Lab giữ pixel art. Bảng Pixi dưới đây ghi nền G0/G2 và đường phục hồi 2D. Quy tắc mới `web → renderer3d → contracts` (DTO readonly); package mới không import engine/Brain/content/worker/Pixi. U3D-00 chỉ có type và lựa chọn chế độ, chưa runtime 3D; mặc định 2D đến khi các gate U3D-07 đạt. Không đổi replay, worker hay database ABI.
+
 ## 1. Stack được chọn
 
 | Tầng | Chọn | Lý do và rủi ro |

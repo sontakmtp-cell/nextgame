@@ -1,0 +1,22 @@
+{
+  "font-0.woff2": {
+    "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n5ig.ttf",
+    "bytes": 37224,
+    "sha256": "655b6ac20475e070c50319708281dc4e9fb5f64d91732ab272bf065ba009e103"
+  },
+  "font-1.woff2": {
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf",
+    "bytes": 108256,
+    "sha256": "7c09d2a7fb85962fc72fabf375337d38cdf99e08b443fe35d30f7c4f7bf97e2a"
+  },
+  "font-2.woff2": {
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf",
+    "bytes": 112332,
+    "sha256": "429ae5266dcbe06740fad592f90d8dbc1d7b5f360b205286b66fe598317f1d2d"
+  },
+  "font-3.woff2": {
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf",
+    "bytes": 112144,
+    "sha256": "7806fa67e05391318a104a7546bc2dd02917f5897f1caf80e26402c5f15d9daa"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "command": "node scripts/boundaries.mjs",
+  "startedAt": "2026-10-07T14:09:00.633Z",
+  "elapsedMs": 518.8887999999997,
+  "exitCode": 0,
+  "stdout": "Strict types + package boundaries: passed\n",
+  "stderr": ""
+}

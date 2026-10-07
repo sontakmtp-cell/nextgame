@@ -2,7 +2,7 @@
 
 **Đầu vào ban đầu:** repository chỉ tài liệu; không có engine/app/schema/test hay deployment v2. Kế hoạch không dùng các trạng thái M1/M2/M3 lịch sử làm dependency đã đạt. Chỉ triển khai theo nguồn chính thức [README](../README.md).
 
-**Trạng thái triển khai:** G0 (T01–T03) được bàn giao cùng [báo cáo evidence](../deliverables/implementation/G0_REPORT.md). G1 (T04–T06) có implementation prototype, CLI/debug viewer và [báo cáo G1](../deliverables/implementation/G1_REPORT.md); trạng thái gate/fun và các giới hạn numeric phải đọc báo cáo, không gọi G1 complete khi acceptance còn thiếu. T07–T16 chưa triển khai. Không suy game hoàn chỉnh từ build hoặc deterministic hashes.
+**Trạng thái triển khai:** G0 (T01–T03) được bàn giao cùng [báo cáo evidence](../deliverables/implementation/G0_REPORT.md). G1 (T04–T06) có implementation prototype, CLI/debug viewer và [báo cáo G1](../deliverables/implementation/G1_REPORT.md); trạng thái gate/fun và các giới hạn numeric phải đọc báo cáo, không gọi G1 complete khi acceptance còn thiếu. T07/T08 đã có implementation G2 local và [báo cáo G2](../deliverables/implementation/G2_REPORT.md), chưa complete acceptance: human/independent/device gates chưa chạy và frame target strict còn fail trên host đã đo. T09–T16 chưa triển khai. Không suy game hoàn chỉnh từ build hoặc deterministic hashes.
 
 ## 1. Nguyên tắc giao việc
 

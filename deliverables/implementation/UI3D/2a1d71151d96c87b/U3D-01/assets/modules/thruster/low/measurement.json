@@ -1,0 +1,37 @@
+{
+  "id": "thruster",
+  "quality": "low",
+  "modelUrl": "/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+  "modelSha256": "32c26f80e96ae0300831aa6d23341458cffb1a56de1155216207b01808083f00",
+  "bytes": 218888,
+  "triangles": 1898,
+  "textures": [
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/low/normal.ktx2",
+      "sha256": "2fed6e8c3c930dfcbc25ed8fd5c833b55bb826173523cea71087104fb0f4796f",
+      "bytes": 80895,
+      "width": 256,
+      "height": 256,
+      "format": "ktx2"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/low/baseColor.ktx2",
+      "sha256": "dd4807e8b4af8e9a268785d37698c105df8b86a78bd1244ce9c18f70c59af586",
+      "bytes": 77090,
+      "width": 512,
+      "height": 512,
+      "format": "ktx2"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/low/metallicRoughness.ktx2",
+      "sha256": "e134c0794f0ba4a727380b7dd842b1bfed56ccb16bc87876c7c08e2389288726",
+      "bytes": 21861,
+      "width": 256,
+      "height": 256,
+      "format": "ktx2"
+    }
+  ],
+  "appearanceError": 0.043527305126190186,
+  "lodBaseCorrectionY": -0.00017570750787854195,
+  "elapsedMs": 5772.073700000001
+}

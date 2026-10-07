@@ -1,0 +1,696 @@
+{
+  "command": "node scripts/u3d01-inventory.mjs",
+  "rows": [
+    {
+      "catalogId": "core",
+      "path": "assets/concepts/modules/core-image-to-3d-v1.glb",
+      "bytes": 35239180,
+      "sha256": "6ba5500707307ea32af5071800de7043bc7c2c56a0e9b786c59ddfad5f4dec77",
+      "triangles": 500000,
+      "textures": [
+        {
+          "name": "texture_normal",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 3902422,
+          "sha256": "9d6759a6341544706bab37d3c60ce33361ac907f2c536ab298c88dce2264c488"
+        },
+        {
+          "name": "texture_diffuse",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 4636023,
+          "sha256": "aa33a6ddc0aebd2884882112c0ed423db7f5eaac9b5c0256bfdd895c1c17f52b"
+        },
+        {
+          "name": "texture_metallic-texture_roughness",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 4788443,
+          "sha256": "9fb6a64a749ef6eea74f4da3a742e1ba5b4a84f3f29a2d7ed1bad9ab1116c4f6"
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.9385327696800232,
+          -0.4800216555595398,
+          -0.939628005027771
+        ],
+        "max": [
+          0.9384923577308655,
+          0.4837989807128906,
+          0.9400502443313599
+        ]
+      },
+      "nodes": [
+        {
+          "name": "model",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "meshes": 1,
+      "materials": 1,
+      "animations": 0
+    },
+    {
+      "catalogId": "armor",
+      "path": "assets/concepts/modules/armor-image-to-3d-v1.glb",
+      "bytes": 33333608,
+      "sha256": "68c6065c10b90f4b441dbf9806bb6af13676563e1d56fab3f0b31dd21a07ed1d",
+      "triangles": 500000,
+      "textures": [
+        {
+          "name": "texture_normal",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 3718879,
+          "sha256": "9ff9c5aa75a8ce2ce455c70d13b4248d3a426e56b7d56795bbe4c1e586c15369"
+        },
+        {
+          "name": "texture_diffuse",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 4170180,
+          "sha256": "6f7bc100241b576decbefc922892f01bf8b466213999f08a569639bd55136b61"
+        },
+        {
+          "name": "texture_metallic-texture_roughness",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 4637124,
+          "sha256": "27eebacdc3f936eb5c0f244303795845df71085d9b4237d937987e30821b3423"
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.9189863801002502,
+          -0.3549945652484894,
+          -0.9219002723693848
+        ],
+        "max": [
+          0.9202631115913391,
+          0.421795517206192,
+          0.9222242832183838
+        ]
+      },
+      "nodes": [
+        {
+          "name": "model",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "meshes": 1,
+      "materials": 1,
+      "animations": 0
+    },
+    {
+      "catalogId": "thruster",
+      "path": "assets/concepts/modules/thruster-image-to-3d-v1.glb",
+      "bytes": 33992516,
+      "sha256": "00b1379dddcef14782b2322ca90ba7e5f06de1d9d7292e7dca11c6f38eeca197",
+      "triangles": 500000,
+      "textures": [
+        {
+          "name": "texture_normal",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 3383016,
+          "sha256": "fc46b4e4a2b2f8113e068716fc7e4eb824af79a3aa9762c3ad5d21adacb7e7f4"
+        },
+        {
+          "name": "texture_diffuse",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 4345950,
+          "sha256": "765c56c19075afe849ba98c830c90ec986a23b9fdcfd81ef59a88b522d4cd784"
+        },
+        {
+          "name": "texture_metallic-texture_roughness",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 3665404,
+          "sha256": "6fb09cf2bda8c604e58e049d277a79950e0d0858a7455e94ee6a28f0dd313c74"
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.5688579678535461,
+          -0.6056458950042725,
+          -0.9122669696807861
+        ],
+        "max": [
+          0.5691289305686951,
+          0.6055233478546143,
+          0.9097728729248047
+        ]
+      },
+      "nodes": [
+        {
+          "name": "model",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "meshes": 1,
+      "materials": 1,
+      "animations": 0
+    },
+    {
+      "catalogId": "blade",
+      "path": "assets/concepts/modules/blade-image-to-3d-v1.glb",
+      "bytes": 30877760,
+      "sha256": "3c33c365f5938a18ce97dd6e369d8f00a5f756305ab7d94261f758bc4de43c93",
+      "triangles": 500000,
+      "textures": [
+        {
+          "name": "texture_normal",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 3682043,
+          "sha256": "cf5dbee56e71736e27ccb3d204c36aee6cb8697b6b053556c3bf73721a792d87"
+        },
+        {
+          "name": "texture_diffuse",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 4196264,
+          "sha256": "b4e98e8358d468fd3930567763392634b2c6a8124bc681aea6383bf53c8afa32"
+        },
+        {
+          "name": "texture_metallic-texture_roughness",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 4186329,
+          "sha256": "66418cb0070213a6efeaf68ec62aacde393c95a335ac235be9329dca58684400"
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.5625950694084167,
+          -0.2926409840583801,
+          -0.895376443862915
+        ],
+        "max": [
+          0.562091052532196,
+          0.3384537696838379,
+          0.8917993307113647
+        ]
+      },
+      "nodes": [
+        {
+          "name": "model",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "meshes": 1,
+      "materials": 1,
+      "animations": 0
+    },
+    {
+      "catalogId": "burst",
+      "path": "assets/concepts/modules/burst-image-to-3d-v1.glb",
+      "bytes": 31886868,
+      "sha256": "582df9f76f9d4473d449f0c2c70a7fe13039bd8ca6ec5c9ba0a2d86de25b3207",
+      "triangles": 500000,
+      "textures": [
+        {
+          "name": "texture_normal",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 3320292,
+          "sha256": "7e4b6961901c10fedf087b932023655056c5cc4723ca74b98fb2fc3b00b809f1"
+        },
+        {
+          "name": "texture_diffuse",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 3397433,
+          "sha256": "1bad8385bf452fa34e8b40c5fc853866e45aa34b2e6599c3639b5366f594d88a"
+        },
+        {
+          "name": "texture_metallic-texture_roughness",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 3257683,
+          "sha256": "7a3314937c5265fc59a9d1097ab14f8941b8b5aab317122eea1e441830b33e7c"
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.6559528708457947,
+          -0.4804370105266571,
+          -0.9024989008903503
+        ],
+        "max": [
+          0.6549451947212219,
+          0.4810572564601898,
+          0.9033718705177307
+        ]
+      },
+      "nodes": [
+        {
+          "name": "model",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "meshes": 1,
+      "materials": 1,
+      "animations": 0
+    },
+    {
+      "catalogId": "lance",
+      "path": "assets/concepts/modules/lance-image-to-3d-v1.glb",
+      "bytes": 31255424,
+      "sha256": "93396891006ab27964c6ffb72c33058cb453e290dc866034a0e187dedd749e92",
+      "triangles": 500000,
+      "textures": [
+        {
+          "name": "texture_normal",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 4003423,
+          "sha256": "b93dfd67a071ec36f496da5e80792f23d096a7c89c127326b827142f43da698d"
+        },
+        {
+          "name": "texture_diffuse",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 4177512,
+          "sha256": "a52d3e46ed360ace5343fab1ca1987b8a0b643f75f9046e953ea926a1dc8e649"
+        },
+        {
+          "name": "texture_metallic-texture_roughness",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 4099160,
+          "sha256": "62a9f12919f2c78862afee9c2d6cfca5f4bfd041651aa3758e2954b471d6a7a6"
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.5277882814407349,
+          -0.24703623354434967,
+          -0.9073845148086548
+        ],
+        "max": [
+          0.5271972417831421,
+          0.2855718731880188,
+          0.9071753025054932
+        ]
+      },
+      "nodes": [
+        {
+          "name": "model",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "meshes": 1,
+      "materials": 1,
+      "animations": 0
+    },
+    {
+      "catalogId": "shield",
+      "path": "assets/concepts/modules/shield-image-to-3d-v1.glb",
+      "bytes": 32233300,
+      "sha256": "b6e79f8316af42e256c7aa4364e86e18bcd9ebad6e8d3a4b054626c13157d118",
+      "triangles": 500000,
+      "textures": [
+        {
+          "name": "texture_normal",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 3225463,
+          "sha256": "842944267da14f94f066ac8651c2cf5a04b99718aa31290f88e9271bde90aebd"
+        },
+        {
+          "name": "texture_diffuse",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 3674790,
+          "sha256": "a1d66d4664f26d9c82504c0144a3b7db5f2ccc0e68b08a055c35750eb7f84c78"
+        },
+        {
+          "name": "texture_metallic-texture_roughness",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 4074734,
+          "sha256": "af77fee2d09b3c9106dea1fd0f5839729226ab082a3edc75f61189efb6c91cdf"
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.8777449131011963,
+          -0.35326868295669556,
+          -0.9264888763427734
+        ],
+        "max": [
+          0.8744293451309204,
+          0.35422080755233765,
+          0.9263111352920532
+        ]
+      },
+      "nodes": [
+        {
+          "name": "model",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "meshes": 1,
+      "materials": 1,
+      "animations": 0
+    },
+    {
+      "catalogId": "breaker",
+      "path": "assets/concepts/modules/breaker-image-to-3d-v1.glb",
+      "bytes": 35341728,
+      "sha256": "6b15e0ce10dbd689d3dfe230f09154f8a518d2d237c8bf2a514050ed56728f16",
+      "triangles": 500000,
+      "textures": [
+        {
+          "name": "texture_normal",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 4065857,
+          "sha256": "958ef4a43b724079048c7b962f9011100c6dfe82f349296fba9250633e921bb2"
+        },
+        {
+          "name": "texture_diffuse",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 4486155,
+          "sha256": "81a4f99c5171d3cb664e2f24399a63515b917c38345dc35858d7e44587eddf1e"
+        },
+        {
+          "name": "texture_metallic-texture_roughness",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 4965038,
+          "sha256": "d6ccc33bbe60f69d8c809ce6499a847ce4a81c06d9e9c6233a6c864af2d7afa8"
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.7789093255996704,
+          -0.5777444243431091,
+          -0.9078658819198608
+        ],
+        "max": [
+          0.7787156105041504,
+          0.579766571521759,
+          0.9051271677017212
+        ]
+      },
+      "nodes": [
+        {
+          "name": "model",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "meshes": 1,
+      "materials": 1,
+      "animations": 0
+    },
+    {
+      "catalogId": "capacitor",
+      "path": "assets/concepts/modules/capacitor-image-to-3d-v1.glb",
+      "bytes": 29521984,
+      "sha256": "08052e4368f2658b4b0d60b456c84cc8eb0770b75b6f3834efe544a59c293610",
+      "triangles": 500000,
+      "textures": [
+        {
+          "name": "texture_normal",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 2473426,
+          "sha256": "d3db54e9131f938fad7287435ccf8005f5d2e839979c686c3950cf65973f6904"
+        },
+        {
+          "name": "texture_diffuse",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 2582218,
+          "sha256": "f0e4c05583df37d1dd85b78d1d77648e8c825dc91c36c303088134180b024e14"
+        },
+        {
+          "name": "texture_metallic-texture_roughness",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 2779422,
+          "sha256": "740a2a4cd822d00eeb45ffeb230d301c8ba27aceb75240ad41cd73b567af0102"
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.7150838375091553,
+          -0.6277806162834167,
+          -0.9076433181762695
+        ],
+        "max": [
+          0.7155038118362427,
+          0.6285060048103333,
+          0.9081896543502808
+        ]
+      },
+      "nodes": [
+        {
+          "name": "model",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "meshes": 1,
+      "materials": 1,
+      "animations": 0
+    },
+    {
+      "catalogId": "radiator",
+      "path": "assets/concepts/modules/radiator-image-to-3d-v1.glb",
+      "bytes": 33772720,
+      "sha256": "abe747ca42f85956acfd8821e3b5f14c395f2405463d9af23320869131483af2",
+      "triangles": 500000,
+      "textures": [
+        {
+          "name": "texture_normal",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 3249480,
+          "sha256": "aac4ad08ed2ca3d3964502175b631ede64d6f24849f68bdfb32ea2bf7bd3a892"
+        },
+        {
+          "name": "texture_diffuse",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 4439418,
+          "sha256": "2d68f34a999afbf02b1496567f689713f325b16d82cca22c967cb66121c8fcb6"
+        },
+        {
+          "name": "texture_metallic-texture_roughness",
+          "mime": "image/png",
+          "width": 2048,
+          "height": 2048,
+          "bytes": 4484427,
+          "sha256": "8bc0e5bea5a88b8f03c7d7a04d52867973e456372cb2c89b5368ff67fb5dbd92"
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.8911634683609009,
+          -0.4734131693840027,
+          -0.8974819183349609
+        ],
+        "max": [
+          0.890845775604248,
+          0.5221940875053406,
+          0.9081251621246338
+        ]
+      },
+      "nodes": [
+        {
+          "name": "model",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "meshes": 1,
+      "materials": 1,
+      "animations": 0
+    }
+  ],
+  "note": "Bounds/transforms measured. Source front and mounting anchor are authored in u3d01-settings.json after visual review, not inferred from triangle count."
+}

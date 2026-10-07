@@ -1,0 +1,231 @@
+{
+  "version": "cyber-mecha-pixel-g2-2",
+  "license": "CC0-1.0",
+  "source": "scripts/g2-assets.mjs",
+  "atlas": {
+    "file": "modules.svg",
+    "width": 640,
+    "height": 256,
+    "frames": {
+      "core": {
+        "x": 0,
+        "y": 0,
+        "width": 128,
+        "height": 128,
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "license": "CC0-1.0"
+      },
+      "thruster": {
+        "x": 128,
+        "y": 0,
+        "width": 128,
+        "height": 128,
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "license": "CC0-1.0"
+      },
+      "armor": {
+        "x": 256,
+        "y": 0,
+        "width": 128,
+        "height": 128,
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "license": "CC0-1.0"
+      },
+      "blade": {
+        "x": 384,
+        "y": 0,
+        "width": 128,
+        "height": 128,
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "license": "CC0-1.0"
+      },
+      "burst": {
+        "x": 512,
+        "y": 0,
+        "width": 128,
+        "height": 128,
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "license": "CC0-1.0"
+      },
+      "shield": {
+        "x": 0,
+        "y": 128,
+        "width": 128,
+        "height": 128,
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "license": "CC0-1.0"
+      },
+      "radiator": {
+        "x": 128,
+        "y": 128,
+        "width": 128,
+        "height": 128,
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "license": "CC0-1.0"
+      },
+      "capacitor": {
+        "x": 256,
+        "y": 128,
+        "width": 128,
+        "height": 128,
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "license": "CC0-1.0"
+      },
+      "lance": {
+        "x": 384,
+        "y": 128,
+        "width": 128,
+        "height": 128,
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "license": "CC0-1.0"
+      },
+      "breaker": {
+        "x": 512,
+        "y": 128,
+        "width": 128,
+        "height": 128,
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "license": "CC0-1.0"
+      }
+    }
+  },
+  "arena": "arena.svg",
+  "audio": {
+    "activation": "activation.wav",
+    "shot": "shot.wav",
+    "hit": "hit.wav",
+    "blocked": "blocked.wav",
+    "destroyed": "destroyed.wav",
+    "shieldOn": "shieldOn.wav",
+    "shieldOff": "shieldOff.wav",
+    "overheated": "overheated.wav",
+    "ringNotice": "ringNotice.wav",
+    "result": "result.wav",
+    "ui": "ui.wav"
+  },
+  "audioPeakDbfs": -6.8,
+  "files": {
+    "modules.svg": {
+      "sha256": "c9f89afda7c0977d3741e4c1277e994b8a0df48e25614b8a98efdc5aa35a4d74",
+      "bytes": 22993
+    },
+    "arena.svg": {
+      "sha256": "c4189b5bfcdcea9fa822352f4758a08454bee86e4214fafc429d78062509b174",
+      "bytes": 1222
+    },
+    "core.svg": {
+      "sha256": "633d55c6f3c7461f0d93a1386b247ecd99ea87cff04ea843169f2c59dd5023c5",
+      "bytes": 3148
+    },
+    "thruster.svg": {
+      "sha256": "1bdf566c3a7449f3bdcf41befb46a0b076e7517ed56f70df754761a4a89bf537",
+      "bytes": 2324
+    },
+    "armor.svg": {
+      "sha256": "a60fa7d870314fa55315c69b22714412939a7f007aa792625042aaa416899b6a",
+      "bytes": 2134
+    },
+    "blade.svg": {
+      "sha256": "56b950e73f45d6f94ba62e74b8f719446a0461363204d7767438fbcd24ff18ad",
+      "bytes": 2031
+    },
+    "burst.svg": {
+      "sha256": "2d0a0ad00e8f456238907a252e6d3943b684699a0481e2fd5796c93fb592ec11",
+      "bytes": 2593
+    },
+    "shield.svg": {
+      "sha256": "fa685c1fa3b2378d65f9f6726b3c4e35fd7920a174a955207e1ef2e61f87e551",
+      "bytes": 2322
+    },
+    "radiator.svg": {
+      "sha256": "5d7fe71aab78238ae433cc05db25fb5673ba7d07c04fe3a594996850e2466a46",
+      "bytes": 2599
+    },
+    "capacitor.svg": {
+      "sha256": "68d42e4465fcc664ae6a59f3cdf2a53d6a209da90b9979efe8667520f7840429",
+      "bytes": 2377
+    },
+    "lance.svg": {
+      "sha256": "69b3a05653d731d6573707f16ab650e20b0630ceb9a27ec54b91ef0fe49f007d",
+      "bytes": 2189
+    },
+    "breaker.svg": {
+      "sha256": "a60d9f07281c09713ee2f803c881dc015a5cd36e1c34e11d918b65c068b45afe",
+      "bytes": 2059
+    },
+    "activation.wav": {
+      "sha256": "e5627727df2a5786b063f6fe817f826f745188f3dd685ff1b7d2e150bd2d6972",
+      "bytes": 7100
+    },
+    "shot.wav": {
+      "sha256": "e27ad25572de81b3527cc6700796873bf4406be616959ebdbdf7c7fa1aaf9b26",
+      "bytes": 3130
+    },
+    "hit.wav": {
+      "sha256": "f608a7ce41b49bbb3d542ad9421e59727738421d0fdadc8882f76613d65c64df",
+      "bytes": 4454
+    },
+    "blocked.wav": {
+      "sha256": "308a1f5a14f238716a55f2212cc2d2e10d8469f9c835ac3b0947db5385c039ed",
+      "bytes": 4894
+    },
+    "destroyed.wav": {
+      "sha256": "39a0accb90e02dffc4688d9eba33133b086e62bc7812c227044ce0a79b8c9748",
+      "bytes": 10186
+    },
+    "shieldOn.wav": {
+      "sha256": "ba6da01c0088631e7b86eb4f43c925a253bbeedbe7e9465f0160be3fff1b5df4",
+      "bytes": 7982
+    },
+    "shieldOff.wav": {
+      "sha256": "337c400574b2d62e81983ab340517c0f9d47bbe6e13e63dac1fa4193c3445f88",
+      "bytes": 5336
+    },
+    "overheated.wav": {
+      "sha256": "a09cca079ac6dff056e0f21c3efbc08136123110e5289659c2da79ba060209a2",
+      "bytes": 8864
+    },
+    "ringNotice.wav": {
+      "sha256": "b04c2079159b0a70262a060ad6943f0459ee6821299e10167d397a6fcd0f8136",
+      "bytes": 12392
+    },
+    "result.wav": {
+      "sha256": "79f831940c7fca943f6646946d8662544251cc196786a985d6e2eed09817cdbe",
+      "bytes": 16802
+    },
+    "ui.wav": {
+      "sha256": "d242539591f9ed2148bfc9f694cafff45b019d7349b0eb2507000fd79774dbcc",
+      "bytes": 1808
+    }
+  }
+}
