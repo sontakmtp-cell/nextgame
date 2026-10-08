@@ -1,0 +1,42 @@
+[
+  {
+    "name": "typing",
+    "exit": 0,
+    "ms": 1559.0659
+  },
+  {
+    "name": "test-typing",
+    "exit": 0,
+    "ms": 1764.0957
+  },
+  {
+    "name": "g1-browser-typing",
+    "exit": 0,
+    "ms": 867.7977000000005
+  },
+  {
+    "name": "g2-viewer-typing",
+    "exit": 0,
+    "ms": 1133.1832999999997
+  },
+  {
+    "name": "boundaries",
+    "exit": 0,
+    "ms": 309.1327000000001
+  },
+  {
+    "name": "negative-boundaries",
+    "exit": 0,
+    "ms": 948.2878000000001
+  },
+  {
+    "name": "unit",
+    "exit": 0,
+    "ms": 14228.661499999998
+  },
+  {
+    "name": "build",
+    "exit": 0,
+    "ms": 711.7786000000015
+  }
+]

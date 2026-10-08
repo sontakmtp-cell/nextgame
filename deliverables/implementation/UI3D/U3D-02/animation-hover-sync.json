@@ -1,0 +1,3027 @@
+{
+  "command": "node scripts/u3d02-animation.mjs",
+  "status": "passed",
+  "kind": "Live production browser capture; not a concept render",
+  "hoverSamples": [
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.091294816899945
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.493244997521189
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.493244997521189
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.493244997521189
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.493244997521189
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.493244997521189
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.082290835508811
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.497668164701404
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.497668164701404
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.497668164701404
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.497668164701404
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.497668164701404
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0724220004224987
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4996315419357096
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4996315419357096
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4996315419357096
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4996315419357096
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4996315419357096
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0607556070958348
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4998992227392078
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4998992227392078
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4998992227392078
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4998992227392078
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4998992227392078
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0452590350451545
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.498052906756739
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.498052906756739
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.498052906756739
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.498052906756739
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.498052906756739
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0282458656975497
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4939229134506224
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4939229134506224
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4939229134506224
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4939229134506224
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4939229134506224
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0128916751029933
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4886385446793324
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4886385446793324
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4886385446793324
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4886385446793324
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4886385446793324
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9945990898194748
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4805618194430705
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4805618194430705
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4805618194430705
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4805618194430705
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4805618194430705
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9790449699790978
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4721397723880827
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4721397723880827
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4721397723880827
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4721397723880827
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4721397723880827
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9615720790422129
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.460761845150216
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.460761845150216
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.460761845150216
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.460761845150216
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.460761845150216
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9476162756403215
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4498865947352906
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4498865947352906
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4498865947352906
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4498865947352906
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4498865947352906
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9329664035438641
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4361177045087186
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4361177045087186
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4361177045087186
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4361177045087186
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4361177045087186
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9221833577395432
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4236371808640844
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4236371808640844
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4236371808640844
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4236371808640844
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4236371808640844
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9120384634128624
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4085764708075608
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4085764708075608
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4085764708075608
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4085764708075608
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4085764708075608
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9056800533584993
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3954985721169981
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3954985721169981
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3954985721169981
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3954985721169981
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3954985721169981
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9012042834580919
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3803497651258996
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3803497651258996
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3803497651258996
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3803497651258996
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3803497651258996
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9000386481150255
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3656709113295031
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3656709113295031
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3656709113295031
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3656709113295031
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3656709113295031
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9022235059634972
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.351767288774232
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.351767288774232
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.351767288774232
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.351767288774232
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.351767288774232
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9067021334916208
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3407564919335286
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3407564919335286
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3407564919335286
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3407564919335286
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3407564919335286
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9134813569465473
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3307479008275156
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3307479008275156
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3307479008275156
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3307479008275156
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3307479008275156
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9240615122702273
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3205850472783844
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3205850472783844
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3205850472783844
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3205850472783844
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3205850472783844
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9351986436118055
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.313319026675982
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.313319026675982
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.313319026675982
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.313319026675982
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.313319026675982
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9501406352613826
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3067502738823278
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3067502738823278
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3067502738823278
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3067502738823278
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3067502738823278
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9643294610890588
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3028306385068573
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3028306385068573
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3028306385068573
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3028306385068573
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3028306385068573
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9819566688239664
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3003673362602026
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3003673362602026
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3003673362602026
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3003673362602026
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3003673362602026
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9975340997517554
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.300100777260792
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.300100777260792
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.300100777260792
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.300100777260792
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.300100777260792
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0158140833645362
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3019496646135633
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3019496646135633
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3019496646135633
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3019496646135633
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3019496646135633
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0310659839989897
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3053533691594845
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3053533691594845
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3053533691594845
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3053533691594845
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3053533691594845
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0478722505134996
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3113675160564877
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3113675160564877
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3113675160564877
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3113675160564877
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3113675160564877
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0630499711941923
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3194304262974765
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3194304262974765
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3194304262974765
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3194304262974765
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3194304262974765
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0744264920884552
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3278602276119167
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3278602276119167
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3278602276119167
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3278602276119167
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3278602276119167
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0853541703831322
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3392381548497834
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3392381548497834
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3392381548497834
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3392381548497834
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3392381548497834
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0924479510203515
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3501134052647086
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3501134052647086
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3501134052647086
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3501134052647086
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3501134052647086
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.097277183330596
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3618647254941287
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3618647254941287
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3618647254941287
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3618647254941287
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3618647254941287
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0998713168640752
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3763628191359147
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3763628191359147
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3763628191359147
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3763628191359147
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3763628191359147
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0994367579885334
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.389234767504931
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.389234767504931
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.389234767504931
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.389234767504931
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.389234767504931
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0958342516951025
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.404501427883001
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.404501427883001
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.404501427883001
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.404501427883001
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.404501427883001
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0901794816376404
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4175151936645427
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4175151936645427
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4175151936645427
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4175151936645427
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4175151936645427
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0808000167169285
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.432280261314605
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.432280261314605
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.432280261314605
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.432280261314605
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.432280261314605
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0687062148063664
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4463064011774074
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4463064011774074
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4463064011774074
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4463064011774074
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4463064011774074
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0565067805777213
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4574683921123366
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4574683921123366
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4574683921123366
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4574683921123366
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4574683921123366
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.040520541279363
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4692520991724836
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4692520991724836
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4692520991724836
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4692520991724836
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4692520991724836
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0257200258341814
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.478075767661346
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.478075767661346
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.478075767661346
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.478075767661346
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.478075767661346
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.007673642993115
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4866744454101586
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4866744454101586
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4866744454101586
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4866744454101586
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4866744454101586
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9919975047625207
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.49243796722886
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.49243796722886
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.49243796722886
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.49243796722886
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.49243796722886
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.97648748508165
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.496629749751194
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.496629749751194
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.496629749751194
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.496629749751194
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.496629749751194
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9615865813772313
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4991614870304217
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4991614870304217
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4991614870304217
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4991614870304217
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4991614870304217
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9453868797324556
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.499972856388781
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.499972856388781
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.499972856388781
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.499972856388781
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.499972856388781
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9310317262973637
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4984541415629304
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4984541415629304
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4984541415629304
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4984541415629304
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4984541415629304
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9205532378948564
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4953256611985077
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4953256611985077
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4953256611985077
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4953256611985077
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4953256611985077
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9120459365431167
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4905772295763933
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4905772295763933
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4905772295763933
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4905772295763933
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4905772295763933
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9048410960638951
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4830668786909955
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4830668786909955
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4830668786909955
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4830668786909955
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4830668786909955
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.900834458035874
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.473636283888469
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.473636283888469
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.473636283888469
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.473636283888469
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.473636283888469
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9000386481150255
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.464175084710439
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.464175084710439
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.464175084710439
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.464175084710439
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.464175084710439
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9022202131479968
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4517579070730977
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4517579070730977
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4517579070730977
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4517579070730977
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4517579070730977
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9066964808545233
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4401588165727222
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4401588165727222
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4401588165727222
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4401588165727222
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4401588165727222
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9148263920726997
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4257427943903067
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4257427943903067
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4257427943903067
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4257427943903067
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4257427943903067
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9257942256548984
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4107522185014028
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4107522185014028
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4107522185014028
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4107522185014028
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4107522185014028
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9371819640382368
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.397696369178121
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.397696369178121
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.397696369178121
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.397696369178121
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.397696369178121
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.952431438100045
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.382497694105547
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.382497694105547
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.382497694105547
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.382497694105547
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.382497694105547
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9692626773827131
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3677197386853956
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3677197386853956
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3677197386853956
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3677197386853956
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3677197386853956
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 0.9845427560502422
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3556303051548113
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3556303051548113
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3556303051548113
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3556303051548113
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3556303051548113
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0027799513176132
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3425316078876641
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3425316078876641
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3425316078876641
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3425316078876641
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3425316078876641
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0183831261106528
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3323413147105505
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3323413147105505
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3323413147105505
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3323413147105505
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3323413147105505
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.035993167476405
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3219242323386542
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3219242323386542
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3219242323386542
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3219242323386542
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3219242323386542
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0501450336941667
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3144364618811695
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3144364618811695
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3144364618811695
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3144364618811695
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3144364618811695
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0650641689512361
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3075620327711401
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3075620327711401
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3075620327711401
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3075620327711401
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3075620327711401
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0778166422604556
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.302833731774867
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.302833731774867
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.302833731774867
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.302833731774867
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.302833731774867
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0866914148968128
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3005783248456446
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3005783248456446
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3005783248456446
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3005783248456446
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3005783248456446
+      }
+    ],
+    [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.094314726873669
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.300100777260792
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.300100777260792
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.300100777260792
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.300100777260792
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.300100777260792
+      }
+    ]
+  ],
+  "raw": "D:\\AI\\nextgame\\deliverables\\implementation\\UI3D\\U3D-02\\renders\\animation-hover-sync\\raw\\page@c92ae2ec7e38a07a6b5e989fe0dde20b.webm",
+  "readyMs": 1998.4765000000002,
+  "before": {
+    "render": {
+      "renders": 47,
+      "connected": true,
+      "qualities": [
+        "high"
+      ],
+      "drawCalls": 43,
+      "triangles": 372422,
+      "geometries": 37,
+      "textures": 35,
+      "modules": 6,
+      "energyLinks": 15,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        16.33374952734355,
+        27.35723848201138,
+        16.83374952734355
+      ],
+      "zoom": 130.0376868517098
+    },
+    "energy": [
+      {
+        "links": 15,
+        "modules": 5,
+        "moving": true,
+        "contacts": [
+          {
+            "moduleId": "driveTop",
+            "bolt": 0,
+            "start": [
+              -0.967589444926732,
+              1.6406362815239925,
+              0.32252981497557737
+            ],
+            "end": [
+              -1.0224105348076888,
+              1.7175884874214107,
+              0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "driveTop",
+            "bolt": 1,
+            "start": [
+              -0.967589444926732,
+              1.8178455503323574,
+              0.32252981497557737
+            ],
+            "end": [
+              -1.0224105348076888,
+              1.8550551803459103,
+              0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "driveTop",
+            "bolt": 2,
+            "start": [
+              -0.967589444926732,
+              1.9950548191407222,
+              0.32252981497557737
+            ],
+            "end": [
+              -1.0224105348076888,
+              1.9925218732704097,
+              0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "driveBottom",
+            "bolt": 0,
+            "start": [
+              -0.967589444926732,
+              1.6406362815239925,
+              -0.32252981497557737
+            ],
+            "end": [
+              -1.0224105348076888,
+              1.7175884874214107,
+              -0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "driveBottom",
+            "bolt": 1,
+            "start": [
+              -0.967589444926732,
+              1.8178455503323574,
+              -0.32252981497557737
+            ],
+            "end": [
+              -1.0224105348076888,
+              1.8550551803459103,
+              -0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "driveBottom",
+            "bolt": 2,
+            "start": [
+              -0.967589444926732,
+              1.9950548191407222,
+              -0.32252981497557737
+            ],
+            "end": [
+              -1.0224105348076888,
+              1.9925218732704097,
+              -0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "part0",
+            "bolt": 0,
+            "start": [
+              0.967589444926732,
+              1.6406362815239925,
+              0.32252981497557737
+            ],
+            "end": [
+              1.0224105348076888,
+              1.6004236848701412,
+              0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "part0",
+            "bolt": 1,
+            "start": [
+              0.967589444926732,
+              1.8178455503323574,
+              0.32252981497557737
+            ],
+            "end": [
+              1.0224105348076888,
+              1.6734497363914425,
+              0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "part0",
+            "bolt": 2,
+            "start": [
+              0.967589444926732,
+              1.9950548191407222,
+              0.32252981497557737
+            ],
+            "end": [
+              1.0224105348076888,
+              1.7464757879127437,
+              0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "part1",
+            "bolt": 0,
+            "start": [
+              -0.32207815084568436,
+              1.6406362815239925,
+              0.9662344525370531
+            ],
+            "end": [
+              -0.3428510205575647,
+              1.6749745042671138,
+              1.0285530616726941
+            ]
+          },
+          {
+            "moduleId": "part1",
+            "bolt": 1,
+            "start": [
+              -0.32207815084568436,
+              1.8178455503323574,
+              0.9662344525370531
+            ],
+            "end": [
+              -0.3428510205575647,
+              1.78900350645675,
+              1.0285530616726941
+            ]
+          },
+          {
+            "moduleId": "part1",
+            "bolt": 2,
+            "start": [
+              -0.32207815084568436,
+              1.9950548191407222,
+              0.9662344525370531
+            ],
+            "end": [
+              -0.3428510205575647,
+              1.9030325086463864,
+              1.0285530616726941
+            ]
+          },
+          {
+            "moduleId": "part2",
+            "bolt": 0,
+            "start": [
+              0.32207815084568436,
+              1.6406362815239925,
+              0.9662344525370531
+            ],
+            "end": [
+              0.3412176744767848,
+              1.6260293872703486,
+              1.0236530234303542
+            ]
+          },
+          {
+            "moduleId": "part2",
+            "bolt": 1,
+            "start": [
+              0.32207815084568436,
+              1.8178455503323574,
+              0.9662344525370531
+            ],
+            "end": [
+              0.3412176744767848,
+              1.713138575111764,
+              1.0236530234303542
+            ]
+          },
+          {
+            "moduleId": "part2",
+            "bolt": 2,
+            "start": [
+              0.32207815084568436,
+              1.9950548191407222,
+              0.9662344525370531
+            ],
+            "end": [
+              0.3412176744767848,
+              1.8002477629531795,
+              1.0236530234303542
+            ]
+          }
+        ],
+        "sample": [
+          -0.9728630781173706,
+          1.6406363248825073,
+          0.3196682035923004,
+          -0.9711999297142029,
+          1.6367231607437134,
+          0.325296014547348,
+          -0.9645472168922424,
+          1.638217806816101,
+          0.3271010220050812,
+          -0.9620987772941589,
+          1.643054723739624,
+          0.32258880138397217,
+          -0.9672382473945618,
+          1.6445493698120117,
+          0.3179950714111328,
+          -0.9801768064498901,
+          1.6558860540390015,
+          0.33339419960975647,
+          -0.9767549633979797,
+          1.6504842042922974,
+          0.33637088537216187,
+          -0.9701367616653442,
+          1.6525474786758423,
+          0.33767208456993103,
+          -0.9694684147834778,
+          1.6592246294021606,
+          0.3354995846748352,
+          -0.975673496723175,
+          1.6612880229949951,
+          0.3328557014465332,
+          -0.987032413482666,
+          1.6565024852752686,
+          0.36532336473464966,
+          -0.9839392304420471,
+          1.651636004447937,
+          0.3693854808807373,
+          -0.9771913886070251,
+          1.6534948348999023,
+          0.370258629322052,
+          -0.9761142134666443,
+          1.6595100164413452,
+          0.36673617362976074,
+          -0.9821963310241699,
+          1.6613688468933105,
+          0.3636859953403473,
+          -0.9840645790100098,
+          1.6845859289169312,
+          0.3755803406238556,
+          -0.9909600019454956,
+          1.6833021640777588,
+          0.37483495473861694,
+          -0.9939684271812439,
+          1.6837924718856812,
+          0.3811957538127899,
+          -0.9889323115348816,
+          1.6853792667388916,
+          0.3858723044395447,
+          -0.9828113913536072,
+          1.6858696937561035,
+          0.38240179419517517,
+          -0.9891242384910583,
+          1.7375075817108154,
+          0.3531365990638733,
+          -0.9939430952072144,
+          1.7332051992416382,
+          0.3503049314022064,
+          -1.0002225637435913,
+          1.7348486185073853,
+          0.35306504368782043,
+          -0.9992846250534058,
+          1.7401666641235352,
+          0.357602596282959,
+          -0.9924254417419434,
+          1.7418100833892822,
+          0.3576468229293823,
+          -0.9960210919380188,
+          1.7435740232467651,
+          0.3122634291648865,
+          -0.9995600581169128,
+          1.7382620573043823,
+          0.31526505947113037,
+          -1.0062673091888428,
+          1.7402909994125366,
+          0.31606972217559814,
+          -1.006873607635498,
+          1.746856927871704,
+          0.3135654032230377,
+          -1.000541090965271,
+          1.748885989189148,
+          0.3112129867076874
+        ]
+      }
+    ],
+    "hover": [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0991635157206554
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.4676490457405025
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.4676490457405025
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.4676490457405025
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.4676490457405025
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.4676490457405025
+      }
+    ]
+  },
+  "after": {
+    "render": {
+      "renders": 532,
+      "connected": true,
+      "qualities": [
+        "high"
+      ],
+      "drawCalls": 43,
+      "triangles": 372422,
+      "geometries": 37,
+      "textures": 35,
+      "modules": 6,
+      "energyLinks": 15,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "dpr": 1,
+      "camera": [
+        16.33374952734355,
+        27.35723848201138,
+        16.83374952734355
+      ],
+      "zoom": 130.0376868517098
+    },
+    "energy": [
+      {
+        "links": 15,
+        "modules": 5,
+        "moving": true,
+        "contacts": [
+          {
+            "moduleId": "driveTop",
+            "bolt": 0,
+            "start": [
+              -0.967589444926732,
+              1.6414726424333075,
+              0.32252981497557737
+            ],
+            "end": [
+              -1.0224105348076888,
+              1.5552885861739447,
+              0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "driveTop",
+            "bolt": 1,
+            "start": [
+              -0.967589444926732,
+              1.8186819112416723,
+              0.32252981497557737
+            ],
+            "end": [
+              -1.0224105348076888,
+              1.6927552790984444,
+              0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "driveTop",
+            "bolt": 2,
+            "start": [
+              -0.967589444926732,
+              1.9958911800500372,
+              0.32252981497557737
+            ],
+            "end": [
+              -1.0224105348076888,
+              1.8302219720229438,
+              0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "driveBottom",
+            "bolt": 0,
+            "start": [
+              -0.967589444926732,
+              1.6414726424333075,
+              -0.32252981497557737
+            ],
+            "end": [
+              -1.0224105348076888,
+              1.5552885861739447,
+              -0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "driveBottom",
+            "bolt": 1,
+            "start": [
+              -0.967589444926732,
+              1.8186819112416723,
+              -0.32252981497557737
+            ],
+            "end": [
+              -1.0224105348076888,
+              1.6927552790984444,
+              -0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "driveBottom",
+            "bolt": 2,
+            "start": [
+              -0.967589444926732,
+              1.9958911800500372,
+              -0.32252981497557737
+            ],
+            "end": [
+              -1.0224105348076888,
+              1.8302219720229438,
+              -0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "part0",
+            "bolt": 0,
+            "start": [
+              0.967589444926732,
+              1.6414726424333075,
+              0.32252981497557737
+            ],
+            "end": [
+              1.0224105348076888,
+              1.4381237836226752,
+              0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "part0",
+            "bolt": 1,
+            "start": [
+              0.967589444926732,
+              1.8186819112416723,
+              0.32252981497557737
+            ],
+            "end": [
+              1.0224105348076888,
+              1.5111498351439765,
+              0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "part0",
+            "bolt": 2,
+            "start": [
+              0.967589444926732,
+              1.9958911800500372,
+              0.32252981497557737
+            ],
+            "end": [
+              1.0224105348076888,
+              1.5841758866652778,
+              0.34080351160256295
+            ]
+          },
+          {
+            "moduleId": "part1",
+            "bolt": 0,
+            "start": [
+              -0.32207815084568436,
+              1.6414726424333075,
+              0.9662344525370531
+            ],
+            "end": [
+              -0.3428510205575647,
+              1.5126746030196478,
+              1.0285530616726941
+            ]
+          },
+          {
+            "moduleId": "part1",
+            "bolt": 1,
+            "start": [
+              -0.32207815084568436,
+              1.8186819112416723,
+              0.9662344525370531
+            ],
+            "end": [
+              -0.3428510205575647,
+              1.626703605209284,
+              1.0285530616726941
+            ]
+          },
+          {
+            "moduleId": "part1",
+            "bolt": 2,
+            "start": [
+              -0.32207815084568436,
+              1.9958911800500372,
+              0.9662344525370531
+            ],
+            "end": [
+              -0.3428510205575647,
+              1.7407326073989204,
+              1.0285530616726941
+            ]
+          },
+          {
+            "moduleId": "part2",
+            "bolt": 0,
+            "start": [
+              0.32207815084568436,
+              1.6414726424333075,
+              0.9662344525370531
+            ],
+            "end": [
+              0.3412176744767848,
+              1.4637294860228827,
+              1.0236530234303542
+            ]
+          },
+          {
+            "moduleId": "part2",
+            "bolt": 1,
+            "start": [
+              0.32207815084568436,
+              1.8186819112416723,
+              0.9662344525370531
+            ],
+            "end": [
+              0.3412176744767848,
+              1.550838673864298,
+              1.0236530234303542
+            ]
+          },
+          {
+            "moduleId": "part2",
+            "bolt": 2,
+            "start": [
+              0.32207815084568436,
+              1.9958911800500372,
+              0.9662344525370531
+            ],
+            "end": [
+              0.3412176744767848,
+              1.6379478617057135,
+              1.0236530234303542
+            ]
+          }
+        ],
+        "sample": [
+          -0.9619258046150208,
+          1.6414726972579956,
+          0.3205491602420807,
+          -0.9657242298126221,
+          1.6357769966125488,
+          0.3222467601299286,
+          -0.9721003174781799,
+          1.6379525661468506,
+          0.3243355453014374,
+          -0.972242534160614,
+          1.6449928283691406,
+          0.3239288628101349,
+          -0.9659543633460999,
+          1.6471682786941528,
+          0.32158875465393066,
+          -0.9699111580848694,
+          1.6402024030685425,
+          0.2990016043186188,
+          -0.9711600542068481,
+          1.6352707147598267,
+          0.303887277841568,
+          -0.976944625377655,
+          1.637154459953308,
+          0.3074567914009094,
+          -0.9792707562446594,
+          1.6432503461837769,
+          0.30477720499038696,
+          -0.974923849105835,
+          1.6451339721679688,
+          0.2995516061782837,
+          -0.9869822859764099,
+          1.629302978515625,
+          0.30483123660087585,
+          -0.9830578565597534,
+          1.6235966682434082,
+          0.30616825819015503,
+          -0.9766968488693237,
+          1.6257762908935547,
+          0.30829837918281555,
+          -0.9766899347305298,
+          1.6328296661376953,
+          0.30827784538269043,
+          -0.9830467104911804,
+          1.6350092887878418,
+          0.30613502860069275,
+          -0.994052529335022,
+          1.6403344869613647,
+          0.3426644504070282,
+          -0.9903591275215149,
+          1.6350631713867188,
+          0.3455493450164795,
+          -0.983609139919281,
+          1.637076735496521,
+          0.34591570496559143,
+          -0.9831308126449585,
+          1.643592357635498,
+          0.34325721859931946,
+          -0.9895851612091064,
+          1.6456058025360107,
+          0.3412478268146515,
+          -1.0007327795028687,
+          1.6613889932632446,
+          0.38114550709724426,
+          -0.9964386820793152,
+          1.6557953357696533,
+          0.38129115104675293,
+          -0.990156352519989,
+          1.657931923866272,
+          0.3836823105812073,
+          -0.9905677437782288,
+          1.6648461818695068,
+          0.38501447439193726,
+          -0.9971044063568115,
+          1.6669827699661255,
+          0.38344666361808777,
+          -0.9967007040977478,
+          1.6309689283370972,
+          0.3850284516811371,
+          -0.997478187084198,
+          1.6292102336883545,
+          0.3918147087097168,
+          -1.0043009519577026,
+          1.6298819780349731,
+          0.3934725821018219,
+          -1.0077402591705322,
+          1.6320558786392212,
+          0.38771095871925354,
+          -1.0030430555343628,
+          1.6327276229858398,
+          0.38249218463897705
+        ]
+      }
+    ],
+    "hover": [
+      {
+        "id": "coreMain",
+        "catalogId": "core",
+        "y": 1.0999998766299703
+      },
+      {
+        "id": "driveTop",
+        "catalogId": "thruster",
+        "y": 1.3053491444930365
+      },
+      {
+        "id": "driveBottom",
+        "catalogId": "thruster",
+        "y": 1.3053491444930365
+      },
+      {
+        "id": "part0",
+        "catalogId": "blade",
+        "y": 1.3053491444930365
+      },
+      {
+        "id": "part1",
+        "catalogId": "radiator",
+        "y": 1.3053491444930365
+      },
+      {
+        "id": "part2",
+        "catalogId": "armor",
+        "y": 1.3053491444930365
+      }
+    ]
+  },
+  "browser": "154.0.8037.98",
+  "ffmpeg": {
+    "command": [
+      "ffmpeg",
+      "-y",
+      "-ss",
+      "2.2484765",
+      "-i",
+      "D:\\AI\\nextgame\\deliverables\\implementation\\UI3D\\U3D-02\\renders\\animation-hover-sync\\raw\\page@c92ae2ec7e38a07a6b5e989fe0dde20b.webm",
+      "-t",
+      "6",
+      "-an",
+      "-c:v",
+      "libx264",
+      "-crf",
+      "20",
+      "-pix_fmt",
+      "yuv420p",
+      "-movflags",
+      "+faststart",
+      "deliverables/implementation/UI3D/U3D-02/renders/animation-hover-sync/core-three-live.mp4"
+    ],
+    "exit": 0,
+    "stderr": "ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers\r\n  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)\r\n  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper\r\n  libavutil      60. 26.100 / 60. 26.100\r\n  libavcodec     62. 28.100 / 62. 28.100\r\n  libavformat    62. 12.100 / 62. 12.100\r\n  libavdevice    62.  3.100 / 62.  3.100\r\n  libavfilter    11. 14.100 / 11. 14.100\r\n  libswscale      9.  5.100 /  9.  5.100\r\n  libswresample   6.  3.100 /  6.  3.100\r\nInput #0, matroska,webm, from 'D:\\AI\\nextgame\\deliverables\\implementation\\UI3D\\U3D-02\\renders\\animation-hover-sync\\raw\\page@c92ae2ec7e38a07a6b5e989fe0dde20b.webm':\r\n  Metadata:\r\n    ENCODER         : Lavf61.1.100\r\n  Duration: 00:00:10.96, start: 0.000000, bitrate: 972 kb/s\r\n  Stream #0:0(eng): Video: vp8, yuv420p(progressive), 1600x1100, SAR 1:1 DAR 16:11, 25 fps, 25 tbr, 1k tbn (default)\r\n    Metadata:\r\n      ENCODER         : Lavc61.3.100 libvpx\r\n      DURATION        : 00:00:10.960000000\r\nStream mapping:\r\n  Stream #0:0 -> #0:0 (vp8 (native) -> h264 (libx264))\r\nPress [q] to stop, [?] for help\r\n[libx264 @ 0000023a7d751840] using SAR=1/1\r\n[libx264 @ 0000023a7d751840] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512\r\n[libx264 @ 0000023a7d751840] profile High, level 4.0, 4:2:0, 8-bit\r\n[libx264 @ 0000023a7d751840] 264 - core 165 r3223 0480cb0 - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00\r\nOutput #0, mp4, to 'deliverables/implementation/UI3D/U3D-02/renders/animation-hover-sync/core-three-live.mp4':\r\n  Metadata:\r\n    encoder         : Lavf62.12.100\r\n  Stream #0:0(eng): Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1600x1100 [SAR 1:1 DAR 16:11], q=2-31, 25 fps, 12800 tbn (default)\r\n    Metadata:\r\n      encoder         : Lavc62.28.100 libx264\r\n      DURATION        : 00:00:10.960000000\r\n    Side data:\r\n      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A\r\nframe=   87 fps=0.0 q=25.0 size=     768KiB time=00:00:03.44 bitrate=1829.0kbits/s speed= 6.6x elapsed=0:00:00.52    \r[mp4 @ 0000023a7d750480] Starting second pass: moving the moov atom to the beginning of the file\r\n[out#0/mp4 @ 0000023a7d750340] video:1502KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.175448%\r\nframe=  149 fps=0.0 q=-1.0 Lsize=    1504KiB time=00:00:05.92 bitrate=2081.7kbits/s speed=9.15x elapsed=0:00:00.64    \r\n[libx264 @ 0000023a7d751840] frame I:1     Avg QP:12.32  size:202775\r\n[libx264 @ 0000023a7d751840] frame P:38    Avg QP:15.81  size: 23359\r\n[libx264 @ 0000023a7d751840] frame B:110   Avg QP:22.87  size:  4060\r\n[libx264 @ 0000023a7d751840] consecutive B-frames:  0.7%  2.7%  0.0% 96.6%\r\n[libx264 @ 0000023a7d751840] mb I  I16..4: 30.5% 30.7% 38.8%\r\n[libx264 @ 0000023a7d751840] mb P  I16..4:  1.4%  1.2%  0.7%  P16..4:  9.2%  2.8%  2.2%  0.0%  0.0%    skip:82.4%\r\n[libx264 @ 0000023a7d751840] mb B  I16..4:  0.1%  0.1%  0.0%  B16..8:  7.6%  0.6%  0.2%  direct: 0.5%  skip:90.8%  L0:48.4% L1:42.5% BI: 9.1%\r\n[libx264 @ 0000023a7d751840] 8x8 transform intra:35.3% inter:16.0%\r\n[libx264 @ 0000023a7d751840] coded y,uvDC,uvAC intra: 49.4% 22.3% 18.2% inter: 3.9% 1.4% 0.7%\r\n[libx264 @ 0000023a7d751840] i16 v,h,dc,p: 33% 40% 26%  2%\r\n[libx264 @ 0000023a7d751840] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 20% 31%  7%  5%  2%  4%  2%  6%\r\n[libx264 @ 0000023a7d751840] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 29% 25% 18%  8%  5%  3%  4%  3%  6%\r\n[libx264 @ 0000023a7d751840] i8c dc,h,v,p: 68% 25%  7%  1%\r\n[libx264 @ 0000023a7d751840] Weighted P-Frames: Y:0.0% UV:0.0%\r\n[libx264 @ 0000023a7d751840] ref P L0: 64.8%  9.5% 15.3% 10.4%\r\n[libx264 @ 0000023a7d751840] ref B L0: 79.4% 14.7%  6.0%\r\n[libx264 @ 0000023a7d751840] ref B L1: 92.8%  7.2%\r\n[libx264 @ 0000023a7d751840] kb/s:2063.20\r\n"
+  },
+  "video": {
+    "path": "deliverables/implementation/UI3D/U3D-02/renders/animation-hover-sync/core-three-live.mp4",
+    "bytes": 1540475,
+    "sha256": "2cf3ae9d49c5c576c7b28e3789e445e459ac45f4fb134a3d94e2e203c3bcf1e4",
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1600,
+          "height": 1100,
+          "avg_frame_rate": "25/1"
+        }
+      ],
+      "format": {
+        "duration": "5.960000"
+      }
+    }
+  }
+}

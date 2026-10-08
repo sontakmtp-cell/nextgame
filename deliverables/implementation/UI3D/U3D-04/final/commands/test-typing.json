@@ -1,0 +1,7 @@
+{
+  "command": "node node_modules/typescript/bin/tsc -p tests/tsconfig.json",
+  "exit": 0,
+  "ms": 1794.1979000000001,
+  "stdout": "",
+  "stderr": ""
+}

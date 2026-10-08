@@ -71,14 +71,27 @@ it('keeps cosmetic Core links deterministic and removes links to non-alive publi
 });
 it('bobs around the specified shell-bottom heights without changing simulation data', () => {
   for(const id of ['core','armor']){
-    const base=id==='core'?2:2.4,amplitude=hoverAmplitude(id);
+    const base=id==='core'?1:1.4,amplitude=hoverAmplitude(id);
+    expect(amplitude).toBe(.1);
     expect(hoverHeight(id,'test',0)).toBe(base);
     const samples=Array.from({length:801},(_,i)=>hoverHeight(id,'test',i/100));
     expect(Math.min(...samples)).toBeGreaterThanOrEqual(base-amplitude);
     expect(Math.max(...samples)).toBeLessThanOrEqual(base+amplitude);
     expect(Math.max(...samples)-Math.min(...samples)).toBeGreaterThan(amplitude*1.95);
   }
-  expect(hoverHeight('armor','a',1)).not.toBe(hoverHeight('armor','b',1));
+  for(const time of [0,.2,.5,1,2,4,8]) expect(hoverHeight('armor','a',time)).toBe(hoverHeight('blade','b',time));
+});
+it('keeps satellite modules synchronized exactly half a second behind the Core on every cycle', () => {
+  expect(hoverHeight('armor','a',.5)).toBe(1.4);
+  expect(hoverHeight('core','c',.2)).toBeGreaterThan(1);
+  expect(hoverHeight('core','c',1)).toBeCloseTo(1.1);
+  expect(hoverHeight('armor','a',1.5)).toBeCloseTo(1.5);
+  expect(hoverHeight('core','c',5)).toBeCloseTo(1.1);
+  expect(hoverHeight('thruster','another',5.5)).toBeCloseTo(1.5);
+  for(const time of [.5,.65,1,2,4,8,12,24]) {
+    expect(hoverHeight('armor','a',time)-1.4).toBeCloseTo(hoverHeight('core','c',time-.5)-1,12);
+    if(time>=1) expect(hoverHeight('blade','b',time+4)).toBeCloseTo(hoverHeight('armor','a',time),12);
+  }
 });
 it('keeps legacy audio/event exports identical after separation from Pixi', () => {
   expect(ArenaAudio).toBe(LegacyAudio); expect(eventLocation).toBe(legacyLocation);

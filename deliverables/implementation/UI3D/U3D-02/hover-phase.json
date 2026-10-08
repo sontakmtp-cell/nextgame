@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "corePeriodSeconds": 4,
+  "modulePeriodSeconds": 4,
+  "moduleLagSeconds": 0.5,
+  "samples": 70,
+  "maxModuleAltitudeSpread": 0.0,
+  "ranges": [
+    {
+      "id": "coreMain",
+      "min": 0.9000728399397344,
+      "max": 1.099926559394438
+    },
+    {
+      "id": "driveTop",
+      "min": 1.3000808409042164,
+      "max": 1.4997926866085527
+    },
+    {
+      "id": "driveBottom",
+      "min": 1.3000808409042164,
+      "max": 1.4997926866085527
+    },
+    {
+      "id": "part0",
+      "min": 1.3000808409042164,
+      "max": 1.4997926866085527
+    },
+    {
+      "id": "part1",
+      "min": 1.3000808409042164,
+      "max": 1.4997926866085527
+    },
+    {
+      "id": "part2",
+      "min": 1.3000808409042164,
+      "max": 1.4997926866085527
+    }
+  ],
+  "sourceHashes": {
+    "Docs/U3D-02_REPORT.md": "1d4f3ca2ca0d5f5896fe3c232bce22bacb6a2038d86e6948489e947a5a8ceadd",
+    "Docs/UI3D_IMPLEMENTATION.md": "bc6db701dfb836080665340c3ffdd346f7fc0537787e5f7826054d1386873149",
+    "packages/renderer3d/src/hover.ts": "d7e0f68ecf48dc4afd25a8d8733952a49384e1fd2fd802bac13ba0656d0a9ca4",
+    "scripts/u3d02-animation.mjs": "0a03378769319266e251e353eba2476eee62d5a980a88c861ea84d25fb3c5743",
+    "scripts/u3d02-browser.mjs": "2ca73f600d2c2b00756ecc3c11e60bb1a39cf76939792177f97f8f2a58561aa8",
+    "tests/renderer3d.test.ts": "f63754f1716d5a1fe2f2e6f4691a03adc2a79ae01932afe9837b82549de03cac"
+  },
+  "checks": "checks-hover-phase.json",
+  "animation": "animation-hover-phase.json",
+  "ticketAcceptance": "incomplete; prior open gates remain"
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "working tree SHA256 inventory, no commit",
+  "sha256": "0f1a637bef20d9b204c286ae424857ac8829a8037ae0ea4a4b8a0bd188383b8b",
+  "files": {
+    "Docs/U3D-06_REPORT.md": {
+      "bytes": 12489,
+      "sha256": "d29b6d4daf70c2c5e85a7348e0e31412a5104651d2ab0b48f5a18c60dd4d3cfd"
+    },
+    "apps/web/src/brain-lab.css": {
+      "bytes": 9472,
+      "sha256": "92899b1124f919cf58da9a5159e9cd27c636b28d8d339c5e7348799ea52e344d"
+    },
+    "scripts/u3d06-browser.mjs": {
+      "bytes": 22783,
+      "sha256": "62e6d01a1fd227f45f68cebef9a71b722372c3f9dc9471560f2f0b11c128d4de"
+    },
+    "scripts/u3d06-evidence.mjs": {
+      "bytes": 5514,
+      "sha256": "d364943c5372ef54a6e58f1ac0b0ad3808b72c7fd3e1a6a204e3054c34e3ccef"
+    },
+    "scripts/u3d06-renders.mjs": {
+      "bytes": 2543,
+      "sha256": "f960673a96c6878dd33719ec708e7b85290a7d44696731b25c794664dd079680"
+    },
+    "apps/web/src/App.tsx": {
+      "bytes": 60058,
+      "sha256": "77fe91fb49da50b1472a7caf555c6154e081738670fb6f92a341118072798f15"
+    },
+    "apps/web/src/main.tsx": {
+      "bytes": 209,
+      "sha256": "9b57d47dfe4c2307e2d3645be27fcea1b3d9aea5f1087286d0d30e3364346be9"
+    },
+    "apps/web/src/style.css": {
+      "bytes": 26830,
+      "sha256": "8a97f9be2b774a4735837f44bcdd071544d40dce4e6b2798117e6e31707c5582"
+    }
+  }
+}

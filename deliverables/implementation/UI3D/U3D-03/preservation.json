@@ -1,0 +1,47 @@
+{
+  "unchanged": 4777,
+  "changed": [
+    "scripts/u3d03-evidence.mjs",
+    "Docs/U3D-02_REPORT.md",
+    "apps/web/src/App.tsx",
+    "apps/web/src/presentation.css"
+  ],
+  "added": [
+    "Docs/U3D-03_REPORT.md",
+    "apps/web/src/Workshop3D.tsx",
+    "apps/web/src/useSynthSession.ts",
+    "apps/web/src/workshop-intent.ts",
+    "deliverables/implementation/UI3D/U3D-02/hover-phase.json",
+    "scripts/u3d03-assets.mjs",
+    "scripts/u3d03-browser.mjs",
+    "scripts/u3d03-profile.mjs",
+    "tests/workshop3d.test.ts"
+  ],
+  "missing": [],
+  "violations": [],
+  "outsideScopeObserved": [
+    {
+      "path": "Docs/U3D-02_REPORT.md",
+      "before": {
+        "bytes": 21972,
+        "sha256": "d2b9b0fb67d8b252ff852a0db178727530079cee1b1819e1f59621392f0d758a"
+      },
+      "after": {
+        "bytes": 24544,
+        "sha256": "1d4f3ca2ca0d5f5896fe3c232bce22bacb6a2038d86e6948489e947a5a8ceadd"
+      },
+      "note": "Outside the files written by U3D-03; observed during execution and retained without writing. Not claimed unchanged."
+    },
+    {
+      "path": "deliverables/implementation/UI3D/U3D-02/hover-phase.json",
+      "before": null,
+      "after": {
+        "bytes": 1612,
+        "sha256": "cf8e393778723ff934079b1c2e10680cd78215bbaa1881491e9d67ec0637cdc7"
+      },
+      "note": "Outside the files written by U3D-03; observed during execution and retained without writing. Not claimed unchanged."
+    }
+  ],
+  "head": "5ba0a7cddbc6e9fba7d002c856019736828a7dd1",
+  "branch": "remake-ui3d"
+}

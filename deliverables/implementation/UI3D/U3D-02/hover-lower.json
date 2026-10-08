@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "date": "2026-10-08",
+  "baseCommit": "5ba0a7cddbc6e9fba7d002c856019736828a7dd1",
+  "heights": [
+    {
+      "id": "coreMain",
+      "catalogId": "core",
+      "base": 1,
+      "amplitude": 0.1,
+      "samples": 50,
+      "min": 0.9001066171898151,
+      "max": 1.0999801023035762
+    },
+    {
+      "id": "driveTop",
+      "catalogId": "thruster",
+      "base": 1.4,
+      "amplitude": 0.1,
+      "samples": 50,
+      "min": 1.3000296921852934,
+      "max": 1.4999887729264498
+    },
+    {
+      "id": "driveBottom",
+      "catalogId": "thruster",
+      "base": 1.4,
+      "amplitude": 0.1,
+      "samples": 50,
+      "min": 1.3000246198112908,
+      "max": 1.4999977425599471
+    },
+    {
+      "id": "part0",
+      "catalogId": "blade",
+      "base": 1.4,
+      "amplitude": 0.1,
+      "samples": 50,
+      "min": 1.3001005101408656,
+      "max": 1.4999863276769343
+    },
+    {
+      "id": "part1",
+      "catalogId": "radiator",
+      "base": 1.4,
+      "amplitude": 0.1,
+      "samples": 50,
+      "min": 1.300241556416148,
+      "max": 1.4996793906747221
+    },
+    {
+      "id": "part2",
+      "catalogId": "armor",
+      "base": 1.4,
+      "amplitude": 0.1,
+      "samples": 50,
+      "min": 1.3000641583459795,
+      "max": 1.49997038493372
+    }
+  ],
+  "checks": "checks-hover-lower.json",
+  "browserReports": [
+    "browser-chrome-hover-lower.json",
+    "browser-edge-hover-lower.json"
+  ],
+  "animation": "animation-hover-lower.json",
+  "sourceHashes": {
+    "Docs/U3D-02_REPORT.md": "0a8bae98b2dbc07d393241780cd5bc34001089dc5abb30fbadc34ae2681e2c5e",
+    "Docs/UI3D_IMPLEMENTATION.md": "4ed27667457a45b719f155e63a3a4e5834c772e223d1208f5c96a4c52c3b9a7f",
+    "packages/renderer3d/src/hover.ts": "d27cc80ff0be1a86798d28deb565ae75a46902567c04f02e7e6e0a1ef8e6700d",
+    "scripts/u3d02-browser.mjs": "0704e99983e0660d48a99cb1c84df2ecd8f7c4f026b9a85b09cbbf074b43b08b",
+    "tests/renderer3d.test.ts": "cdb6750f7c9899e0dc42282c810ad92ac690fb80b755842f00c6e41fd1789784"
+  },
+  "ticketAcceptance": "incomplete; prior open gates remain"
+}

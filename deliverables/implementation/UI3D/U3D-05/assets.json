@@ -1,0 +1,249 @@
+{
+  "command": "node scripts/u3d05-assets.mjs",
+  "status": "passed",
+  "manifestSha256": "540b342da146b7dc1214c986f411447d3dd474789cb6fe61445b824f7e891827",
+  "assetRevision": "2a1d71151d96c87b",
+  "rows": [
+    {
+      "catalogId": "core",
+      "quality": "high",
+      "bytes": 2376128,
+      "triangles": 29900,
+      "maxTextureDimension": 2048,
+      "modelSha256": "bd5438bc215d1fa2a470682abaff6a48377444a24736a2ad415996c60a80ce02"
+    },
+    {
+      "catalogId": "core",
+      "quality": "medium",
+      "bytes": 690784,
+      "triangles": 7898,
+      "maxTextureDimension": 1024,
+      "modelSha256": "03ec8baf69da0bb7ae3da168885b5ee8d98823716b6a0e3642e4db2aea8381a3"
+    },
+    {
+      "catalogId": "core",
+      "quality": "low",
+      "bytes": 211004,
+      "triangles": 1900,
+      "maxTextureDimension": 512,
+      "modelSha256": "3a119ef10326342887209e3f1f8e9561506c6f3e25d83ff4c7c06be74dbbd5ae"
+    },
+    {
+      "catalogId": "armor",
+      "quality": "high",
+      "bytes": 2203280,
+      "triangles": 29900,
+      "maxTextureDimension": 2048,
+      "modelSha256": "ae83beb84c4c99010b1dc47cb5c9f60e0b8b0f61467c58d30ef93360adfed6bf"
+    },
+    {
+      "catalogId": "armor",
+      "quality": "medium",
+      "bytes": 668156,
+      "triangles": 7899,
+      "maxTextureDimension": 1024,
+      "modelSha256": "8ceea9ecbfd1372f596152de157e71b2bf8030ecc29d4acaf03d57ae2c584461"
+    },
+    {
+      "catalogId": "armor",
+      "quality": "low",
+      "bytes": 204012,
+      "triangles": 1900,
+      "maxTextureDimension": 512,
+      "modelSha256": "bf51c1c6a54f1fdbd9eb5ba74e1da48ba5dd159f760e9f1ea6b1c60009944238"
+    },
+    {
+      "catalogId": "thruster",
+      "quality": "high",
+      "bytes": 2389420,
+      "triangles": 29900,
+      "maxTextureDimension": 2048,
+      "modelSha256": "c3c753f37ed6038aedf44c4a634b15dc3c37d130ead28b1630d2b7858c043d09"
+    },
+    {
+      "catalogId": "thruster",
+      "quality": "medium",
+      "bytes": 703120,
+      "triangles": 7892,
+      "maxTextureDimension": 1024,
+      "modelSha256": "53f9b0cf84a80419359477353aaa6d42da29ea52706e5cd9d871c9d99e1a67b4"
+    },
+    {
+      "catalogId": "thruster",
+      "quality": "low",
+      "bytes": 218888,
+      "triangles": 1898,
+      "maxTextureDimension": 512,
+      "modelSha256": "32c26f80e96ae0300831aa6d23341458cffb1a56de1155216207b01808083f00"
+    },
+    {
+      "catalogId": "blade",
+      "quality": "high",
+      "bytes": 2247156,
+      "triangles": 29900,
+      "maxTextureDimension": 2048,
+      "modelSha256": "3d1f6de7ce5aa96afd65f9656f2e7865b9b0f831d170197c5aad0fa2e381df0a"
+    },
+    {
+      "catalogId": "blade",
+      "quality": "medium",
+      "bytes": 678744,
+      "triangles": 7899,
+      "maxTextureDimension": 1024,
+      "modelSha256": "8ce1c731abc3e61c0a14389dbdd3236e9b52098142b3d13e8da524db38daf48d"
+    },
+    {
+      "catalogId": "blade",
+      "quality": "low",
+      "bytes": 213588,
+      "triangles": 1898,
+      "maxTextureDimension": 512,
+      "modelSha256": "5982fe1208cf5fde057cfb59eed2c5c32d96d25554f089918ff1122be724bfba"
+    },
+    {
+      "catalogId": "burst",
+      "quality": "high",
+      "bytes": 2237632,
+      "triangles": 29900,
+      "maxTextureDimension": 2048,
+      "modelSha256": "df9bc3c6fb1bb3cf9a4a6cbea48da0ae389ad499a72db7f2beee0418095e9396"
+    },
+    {
+      "catalogId": "burst",
+      "quality": "medium",
+      "bytes": 681620,
+      "triangles": 7891,
+      "maxTextureDimension": 1024,
+      "modelSha256": "d288b8a5e13d892581bdf7d72e565fa0ae3fd4880020e2a52bccc1b21bb4d868"
+    },
+    {
+      "catalogId": "burst",
+      "quality": "low",
+      "bytes": 208304,
+      "triangles": 1896,
+      "maxTextureDimension": 512,
+      "modelSha256": "c38e875fbec541cd0444519dd2ad55c48dbe45ecb7749b6918bec6cbffd2f6b9"
+    },
+    {
+      "catalogId": "lance",
+      "quality": "high",
+      "bytes": 2356020,
+      "triangles": 29900,
+      "maxTextureDimension": 2048,
+      "modelSha256": "336fb9a8f51e1ab35fc049b923e3ffb0d660b8b4d2e43d5af7826789fe0ff255"
+    },
+    {
+      "catalogId": "lance",
+      "quality": "medium",
+      "bytes": 686116,
+      "triangles": 7900,
+      "maxTextureDimension": 1024,
+      "modelSha256": "ae21670d9b3e52f2eedb2e28fb62549381684f5105359f294499b924c204642f"
+    },
+    {
+      "catalogId": "lance",
+      "quality": "low",
+      "bytes": 217392,
+      "triangles": 1899,
+      "maxTextureDimension": 512,
+      "modelSha256": "004274513e93b23de22f6cb8ce67575da9ec04588e847582ba7195518a3cccc7"
+    },
+    {
+      "catalogId": "shield",
+      "quality": "high",
+      "bytes": 2080168,
+      "triangles": 29900,
+      "maxTextureDimension": 2048,
+      "modelSha256": "50ae1e70d2326882b934ec065d1fb47b5a18a89ec0fc62927204e38ef8d82509"
+    },
+    {
+      "catalogId": "shield",
+      "quality": "medium",
+      "bytes": 672004,
+      "triangles": 7900,
+      "maxTextureDimension": 1024,
+      "modelSha256": "b9022cbf81442fe73b433243c2c85230371d35db10cba19d1f5e8323c22384f6"
+    },
+    {
+      "catalogId": "shield",
+      "quality": "low",
+      "bytes": 210440,
+      "triangles": 1900,
+      "maxTextureDimension": 512,
+      "modelSha256": "e61ff2ec7f0d9ba3206bd1b712cbcfaf61be6ee6ee31981713454a3e13ed4b40"
+    },
+    {
+      "catalogId": "breaker",
+      "quality": "high",
+      "bytes": 2472712,
+      "triangles": 29900,
+      "maxTextureDimension": 2048,
+      "modelSha256": "127f6a92aa746638a55b0d7d9238768cd68d78e03c9cb00e1abd6026c1ed0823"
+    },
+    {
+      "catalogId": "breaker",
+      "quality": "medium",
+      "bytes": 692612,
+      "triangles": 7881,
+      "maxTextureDimension": 1024,
+      "modelSha256": "4d6e0daf32a03e195183a11f98aea340ed91704f65637b04b31cd47957d05758"
+    },
+    {
+      "catalogId": "breaker",
+      "quality": "low",
+      "bytes": 207956,
+      "triangles": 1881,
+      "maxTextureDimension": 512,
+      "modelSha256": "535451ae3f2789dc79e2d32ad051b192bd820d0f14754b1178659962d2318540"
+    },
+    {
+      "catalogId": "capacitor",
+      "quality": "high",
+      "bytes": 1930248,
+      "triangles": 29896,
+      "maxTextureDimension": 2048,
+      "modelSha256": "dab2b62742c764a29ffff445154b436e99550281bf421db7b586f592dadbc9f0"
+    },
+    {
+      "catalogId": "capacitor",
+      "quality": "medium",
+      "bytes": 646068,
+      "triangles": 7880,
+      "maxTextureDimension": 1024,
+      "modelSha256": "c31d4428bdefcf7517707dfd7a5360cf7d5c4e6f4372bdf95664a70c38fff0f1"
+    },
+    {
+      "catalogId": "capacitor",
+      "quality": "low",
+      "bytes": 213440,
+      "triangles": 1880,
+      "maxTextureDimension": 512,
+      "modelSha256": "3b7c06d1b37aedcc521a384c5e87c6978e2161f60158f20b042184899b54448c"
+    },
+    {
+      "catalogId": "radiator",
+      "quality": "high",
+      "bytes": 2374680,
+      "triangles": 29900,
+      "maxTextureDimension": 2048,
+      "modelSha256": "206baaa7750e7d695aae9f42ed4d2f93bfb2942a951688e0697b2dfd88656481"
+    },
+    {
+      "catalogId": "radiator",
+      "quality": "medium",
+      "bytes": 699136,
+      "triangles": 7894,
+      "maxTextureDimension": 1024,
+      "modelSha256": "7452ac1caf0f6d8acd85df7aac00e250afa0ba9d8864f05d2d0e0d1b38695c1d"
+    },
+    {
+      "catalogId": "radiator",
+      "quality": "low",
+      "bytes": 210920,
+      "triangles": 1899,
+      "maxTextureDimension": 512,
+      "modelSha256": "8eef97808279156a1516f458c44f546f9005d1777f64ad3294c59c7558dbb04a"
+    }
+  ],
+  "note": "Read-only remeasurement of all 30 optimized U3D-01 models and source/texture/thumbnail/decoder hashes. Rebuild recipe remains scripts/u3d01-build.mjs and scripts/u3d02-assets.mjs; U3D-05 creates no new runtime asset."
+}

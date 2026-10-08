@@ -1,0 +1,7 @@
+{
+  "command": "node scripts/g1-corpus.mjs --compare tests/g1/corpus.json --count 10",
+  "exit": 0,
+  "ms": 9427.752699999997,
+  "stdout": "{\"engineDigest\":\"2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78\",\"records\":10,\"corpusDigest\":\"8af6f738395fc4d90451d7d2c2ddd511d877592c10a6162ba24f3ec62788f98f\",\"status\":\"passed\",\"baselineGameplayParity\":null,\"runtime\":\"v24.18.0\",\"platform\":\"win32\",\"arch\":\"x64\",\"cpu\":\"AMD Ryzen 5 7600 6-Core Processor              \",\"logicalCpus\":12,\"concurrency\":4,\"wallMs\":9202.349100000001,\"profile\":{\"p50Ms\":758.8326,\"p95Ms\":2092.4984000000004,\"maxMs\":2227.5049,\"sampledProcessPeakRss\":372764672,\"sampledWorkerPeakHeap\":59797944,\"vmSerializedBytes\":137},\"checkpointIntervals\":755}\n",
+  "stderr": ""
+}

@@ -1,0 +1,293 @@
+{
+  "status": "passed",
+  "scenarios": [
+    {
+      "scenario": "cold",
+      "status": "passed",
+      "errors": [],
+      "note": "Graphics/cache failure does not remove archive/history/save; fallback changes only presentation mode. Fault errors are expected and recorded."
+    },
+    {
+      "scenario": "cache-denied",
+      "status": "passed",
+      "errors": [],
+      "note": "Graphics/cache failure does not remove archive/history/save; fallback changes only presentation mode. Fault errors are expected and recorded."
+    },
+    {
+      "scenario": "missing-manifest",
+      "status": "passed",
+      "errors": [],
+      "note": "Graphics/cache failure does not remove archive/history/save; fallback changes only presentation mode. Fault errors are expected and recorded."
+    },
+    {
+      "scenario": "missing-model",
+      "status": "passed",
+      "errors": [],
+      "note": "Graphics/cache failure does not remove archive/history/save; fallback changes only presentation mode. Fault errors are expected and recorded."
+    },
+    {
+      "scenario": "missing-decoder",
+      "status": "passed",
+      "errors": [],
+      "note": "Graphics/cache failure does not remove archive/history/save; fallback changes only presentation mode. Fault errors are expected and recorded."
+    },
+    {
+      "scenario": "no-webgl",
+      "status": "passed",
+      "errors": [],
+      "note": "Graphics/cache failure does not remove archive/history/save; fallback changes only presentation mode. Fault errors are expected and recorded."
+    }
+  ],
+  "cold": {
+    "assets": [
+      {
+        "url": "/fonts/font-3.woff2",
+        "bytes": 112144,
+        "status": 200
+      },
+      {
+        "url": "/fonts/font-1.woff2",
+        "bytes": 108256,
+        "status": 200
+      },
+      {
+        "url": "/fonts/font-0.woff2",
+        "bytes": 37224,
+        "status": 200
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw4BXoKZA.woff2",
+        "bytes": 11532,
+        "status": 200
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw5BXoKZA.woff2",
+        "bytes": 13056,
+        "status": 200
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91R5_F.woff2",
+        "bytes": 9900,
+        "status": 200
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/pressstart2p/v16/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2",
+        "bytes": 12512,
+        "status": 200
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWn6pg.woff2",
+        "bytes": 9756,
+        "status": 200
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG86Rb0bcw.woff2",
+        "bytes": 12468,
+        "status": 200
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SZ_F7AY.woff2",
+        "bytes": 9056,
+        "status": 200
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SZ_F7AY.woff2",
+        "bytes": 9068,
+        "status": 200
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG81Rb0.woff2",
+        "bytes": 22152,
+        "status": 200
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkKpgeL4.woff2",
+        "bytes": 3640,
+        "status": 200
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SJ_F7AY.woff2",
+        "bytes": 3696,
+        "status": 200
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw3BXo.woff2",
+        "bytes": 21168,
+        "status": 200
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG87Rb0bcw.woff2",
+        "bytes": 13852,
+        "status": 200
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/sharetechmono/v16/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2",
+        "bytes": 13500,
+        "status": 200
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SJ_F7AY.woff2",
+        "bytes": 3688,
+        "status": 200
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkapgeL4.woff2",
+        "bytes": 8860,
+        "status": 200
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51R5_F.woff2",
+        "bytes": 9968,
+        "status": 200
+      },
+      {
+        "url": "/fonts/font-2.woff2",
+        "bytes": 112332,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d02/floor.webp",
+        "bytes": 41310,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+        "bytes": 57529,
+        "status": 200,
+        "note": "HTTP Content-Length fallback"
+      },
+      {
+        "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+        "bytes": 527333,
+        "status": 200,
+        "note": "HTTP Content-Length fallback"
+      },
+      {
+        "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+        "bytes": 57529,
+        "status": 200,
+        "note": "HTTP Content-Length fallback"
+      },
+      {
+        "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+        "bytes": 527333,
+        "status": 200,
+        "note": "HTTP Content-Length fallback"
+      },
+      {
+        "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+        "bytes": 668156,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+        "bytes": 678744,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+        "bytes": 690784,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+        "bytes": 699136,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+        "bytes": 703120,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+        "bytes": 668156,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+        "bytes": 678744,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+        "bytes": 690784,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+        "bytes": 699136,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+        "bytes": 703120,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+        "bytes": 57529,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+        "bytes": 527333,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+        "bytes": 2247156,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+        "bytes": 2203280,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+        "bytes": 2376128,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+        "bytes": 2374680,
+        "status": 200
+      },
+      {
+        "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+        "bytes": 2389420,
+        "status": 200
+      }
+    ],
+    "chunks": [
+      {
+        "url": "/assets/rolldown-runtime-hePW80VL.js",
+        "pixi": false
+      },
+      {
+        "url": "/assets/index-CivaZcS_.js",
+        "pixi": false
+      },
+      {
+        "url": "/assets/local.worker-BQhOk49w.js",
+        "pixi": false
+      },
+      {
+        "url": "/assets/MySynths3D-Fvy24gnC.js",
+        "pixi": false
+      },
+      {
+        "url": "/assets/dist-BWppq10v.js",
+        "pixi": false
+      },
+      {
+        "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+        "pixi": false
+      }
+    ],
+    "uniqueBytes": 16214604,
+    "excludingHighBytes": 4623940,
+    "note": "Unique decoded response bodies for fonts, Medium, High, floor and decoders through scene+thumbnail readiness; excludingHigh is a URL-filtered size budget, not exact first-frame timing."
+  }
+}

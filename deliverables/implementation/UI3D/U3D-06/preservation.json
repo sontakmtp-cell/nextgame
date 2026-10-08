@@ -1,0 +1,20 @@
+{
+  "unchanged": 5134,
+  "changed": [
+    "scripts/u3d06-evidence.mjs",
+    "apps/web/src/App.tsx",
+    "apps/web/src/main.tsx",
+    "apps/web/src/style.css"
+  ],
+  "added": [
+    "Docs/U3D-06_REPORT.md",
+    "apps/web/src/brain-lab.css",
+    "scripts/u3d06-browser.mjs",
+    "scripts/u3d06-renders.mjs"
+  ],
+  "missing": [],
+  "violations": [],
+  "head": "5ba0a7cddbc6e9fba7d002c856019736828a7dd1",
+  "branch": "remake-ui3d",
+  "note": "All Git-visible files except this ticket evidence hashed, including existing dirty/untracked files and other ticket evidence. Ignored/private local tools, dependencies and build outputs excluded."
+}

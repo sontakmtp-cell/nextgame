@@ -1,0 +1,29 @@
+{
+  "baselineAt": "2026-10-08T14:57:20.075Z",
+  "checkedAt": "2026-10-08T15:07:00.151Z",
+  "baselineFiles": 5294,
+  "unchanged": 5290,
+  "changed": [
+    "apps/web/src/Workshop3D.tsx",
+    "apps/web/src/workshop-intent.ts",
+    "tests/workshop3d.test.ts",
+    "apps/web/src/App.tsx"
+  ],
+  "missing": [],
+  "added": [
+    "Docs/WORKSHOP-CLICK_REPORT.md",
+    "deliverables/implementation/WORKSHOP-CLICK/chrome/brain-1600.png",
+    "deliverables/implementation/WORKSHOP-CLICK/chrome/browser.json",
+    "deliverables/implementation/WORKSHOP-CLICK/chrome/overlap-blocked.png",
+    "deliverables/implementation/WORKSHOP-CLICK/chrome/single-click-installed.png",
+    "deliverables/implementation/WORKSHOP-CLICK/chrome/workshop-2d.png",
+    "deliverables/implementation/WORKSHOP-CLICK/msedge/brain-1600.png",
+    "deliverables/implementation/WORKSHOP-CLICK/msedge/browser.json",
+    "deliverables/implementation/WORKSHOP-CLICK/msedge/overlap-blocked.png",
+    "deliverables/implementation/WORKSHOP-CLICK/msedge/single-click-installed.png",
+    "deliverables/implementation/WORKSHOP-CLICK/msedge/workshop-2d.png",
+    "scripts/workshop-click-browser.mjs"
+  ],
+  "violations": [],
+  "status": "passed"
+}

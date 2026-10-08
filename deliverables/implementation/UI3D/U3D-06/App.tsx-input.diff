@@ -1,0 +1,13 @@
+diff --git a/deliverables/implementation/UI3D/U3D-06/baseline/source/apps/web/src/App.tsx b/apps/web/src/App.tsx
+index 7b3106a..7e94187 100644
+--- a/deliverables/implementation/UI3D/U3D-06/baseline/source/apps/web/src/App.tsx
++++ b/apps/web/src/App.tsx
+@@ -437,7 +437,7 @@ export default function App() {
+ 
+ 
+   return (
+-    <div className={synths3d ? 'app-shell ui3d-shell ui3d-synth-shell' : arena3d ? 'app-shell ui3d-shell ui3d-arena-shell' : workshop3d ? 'app-shell ui3d-shell' : 'app-shell'}
++    <div className={synths3d ? 'app-shell ui3d-shell ui3d-synth-shell' : arena3d ? 'app-shell ui3d-shell ui3d-arena-shell' : workshop3d ? 'app-shell ui3d-shell' : view === 'Brain Lab' ? 'app-shell brain-lab-shell' : 'app-shell'}
+       onFocusCapture={e => setCameraInputLocked(e.target.matches('input:not([type="checkbox"]):not([type="range"]),textarea,select'))}
+       onBlurCapture={e => setCameraInputLocked(e.relatedTarget instanceof HTMLElement && e.relatedTarget.matches('input:not([type="checkbox"]):not([type="range"]),textarea,select'))}
+       onPointerDownCapture={e => { if (e.target instanceof HTMLCanvasElement && document.activeElement instanceof HTMLElement) document.activeElement.blur(); }}>

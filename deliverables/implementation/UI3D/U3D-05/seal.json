@@ -1,0 +1,66 @@
+{
+  "kind": "working tree SHA256 inventory, no commit",
+  "sha256": "ce528ad908b55f6ee11ffcfa7562885bba53af86db98174694a1e3dfa616c68c",
+  "files": {
+    "Docs/U3D-05_REPORT.md": {
+      "bytes": 14198,
+      "sha256": "71f684fc31dab202ce2978393b30e1f47e6534a5c0ee177685585e716597e327"
+    },
+    "apps/web/src/MySynths3D.tsx": {
+      "bytes": 12840,
+      "sha256": "d0bfa2cb830129bab02748fa2e882844383429383b28b741d430fd4c79c224ce"
+    },
+    "apps/web/src/mysynths3d.css": {
+      "bytes": 4823,
+      "sha256": "eeb5dd40485f336acf4a96c8426dbf296872ab10b91a10bc0b77cdff997d800c"
+    },
+    "apps/web/src/synth-thumbnail.ts": {
+      "bytes": 4302,
+      "sha256": "2fd726c9809136485eb65ea41816d629f20083cfe534320b4c0528bdfac75e13"
+    },
+    "packages/renderer3d/src/SynthThumbnail.tsx": {
+      "bytes": 3202,
+      "sha256": "810dbe1046da37d9347254c8cff57ba2a59374d6cf9a6b5fe53d5bd120ea3114"
+    },
+    "scripts/u3d05-assets.mjs": {
+      "bytes": 2293,
+      "sha256": "a3c252616aec882912ea2675d522f79ccaa02a2e26040152563bae8fd68980e2"
+    },
+    "scripts/u3d05-baseline-browser.mjs": {
+      "bytes": 5439,
+      "sha256": "3a8b341d86adc61586b29ebff71c9b7a09986ae306c11fa8d3f6d6d26ee34d6a"
+    },
+    "scripts/u3d05-browser.mjs": {
+      "bytes": 20091,
+      "sha256": "15733d79fe247ba5b1d7b4e3339d601b91006360be4797cb16c098b015b25b0a"
+    },
+    "scripts/u3d05-budget.mjs": {
+      "bytes": 1719,
+      "sha256": "c7ef3247f279db48986ea453a4ec12e6a8fa263b4c7655c1cb808ee741c4a80b"
+    },
+    "scripts/u3d05-evidence.mjs": {
+      "bytes": 5613,
+      "sha256": "0b0179ca8ec572c10a5959b259cfbd216cec1f5e950f6459b6e17cb935b69093"
+    },
+    "scripts/u3d05-faults.mjs": {
+      "bytes": 5898,
+      "sha256": "80ec44cbe32880191eec77e82d7f1fbd49cf4272b4f3b33b66ee54284ef00abb"
+    },
+    "scripts/u3d05-profile.mjs": {
+      "bytes": 7191,
+      "sha256": "4e9647e2415c0076a38f490a44fe1a5c7e56b0179fb5f8dda0306bfcf5c8716f"
+    },
+    "tests/synth-thumbnail.test.ts": {
+      "bytes": 4461,
+      "sha256": "77c4f7564e1891d26dfea88401e69154a36ffc4043d76e4d88873365f0b12fd8"
+    },
+    "apps/web/src/App.tsx": {
+      "bytes": 60005,
+      "sha256": "b79d1ddb10dfd3e76bf98b00673d672e90fbeaaf1d44e065d906cc982dfed9b1"
+    },
+    "packages/renderer3d/src/index.ts": {
+      "bytes": 769,
+      "sha256": "24282203e2fee0d1cee2e79ae1fe9a2d69667913c93346683a1ae4309cf1ffa6"
+    }
+  }
+}

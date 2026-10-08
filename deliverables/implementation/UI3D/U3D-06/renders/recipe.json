@@ -1,0 +1,36 @@
+{
+  "command": "node scripts/u3d06-renders.mjs",
+  "at": "2026-10-08T14:39:00.485Z",
+  "records": [
+    {
+      "output": "deliverables/implementation/UI3D/U3D-06/renders/brain-comparison-1600.png",
+      "sha256": "27f645c054dcd4459630e0e8b6a5aa3bad8cb286f8e8b67aab0f0b21edcfaa66",
+      "inputs": [
+        {
+          "path": "deliverables/implementation/UI3D/U3D-00/baseline-stable/screenshots/brain-lab-1600.png",
+          "sha256": "ca35456904273b6846362402365ebef64027d124144ccbbabbb8b895d53f3179"
+        },
+        {
+          "path": "deliverables/implementation/UI3D/U3D-06/final/chrome/brain-1600.png",
+          "sha256": "ca35456904273b6846362402365ebef64027d124144ccbbabbb8b895d53f3179"
+        }
+      ],
+      "note": "Comparison sheet only: screenshots resized identically to 800 px wide, labeled; original full-resolution screenshots retained for exact pixel comparison."
+    },
+    {
+      "output": "deliverables/implementation/UI3D/U3D-06/renders/brain-comparison-1920.png",
+      "sha256": "b5ea99d80479af65e8e110bb42778faea3c7edb8647d0eac355a5d97c7d858bf",
+      "inputs": [
+        {
+          "path": "deliverables/implementation/UI3D/U3D-00/baseline-stable/screenshots/brain-lab-1920.png",
+          "sha256": "4ed533805265470e53cca1fce6e6d1159ef32f61b3eeb456501de268e8218c44"
+        },
+        {
+          "path": "deliverables/implementation/UI3D/U3D-06/final/chrome/brain-1920.png",
+          "sha256": "4ed533805265470e53cca1fce6e6d1159ef32f61b3eeb456501de268e8218c44"
+        }
+      ],
+      "note": "Comparison sheet only: screenshots resized identically to 800 px wide, labeled; original full-resolution screenshots retained for exact pixel comparison."
+    }
+  ]
+}

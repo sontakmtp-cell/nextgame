@@ -1,0 +1,126 @@
+{
+  "kind": "working tree SHA256 inventory, no commit",
+  "sha256": "3c199c68c3e47089bf625cd014d155d8c82188891d0f00b5eac2286b4d085f86",
+  "files": {
+    "Docs/U3D-04_REPORT.md": {
+      "bytes": 13040,
+      "sha256": "c07919e01b6039215f7b0bc101d013c0420169d217561a6cfe6fcd3dab45215d"
+    },
+    "apps/web/src/Arena3D.tsx": {
+      "bytes": 3564,
+      "sha256": "30d765a0711f151d4a697ea1c4df28ad32fefcd6c36c67b60e1459318040b887"
+    },
+    "apps/web/src/arena-layout.ts": {
+      "bytes": 462,
+      "sha256": "685d456fe92afda213e218c8d50dbf439a1db70f81a47c9765fdcc419861c80d"
+    },
+    "apps/web/src/arena3d.css": {
+      "bytes": 3262,
+      "sha256": "0d99b270c4fc639fcd94d951970fc5a3b6648012a54cfc01db956c34200bf2ff"
+    },
+    "packages/renderer3d/src/ArenaCombat.tsx": {
+      "bytes": 8487,
+      "sha256": "0dc86c9c6b217064bb5e9a91298aaf310767b44cb0c99894ab782edd7bcac936"
+    },
+    "packages/renderer3d/src/ArenaScene.tsx": {
+      "bytes": 3063,
+      "sha256": "5aefb73ef07345c0cdb4ee047c5d78f69b5fdcbff1ff03fcd6835d19505ec6d2"
+    },
+    "packages/renderer3d/src/arena-sample.ts": {
+      "bytes": 4895,
+      "sha256": "8883a1ae9cb1c206b93be5033a1ec90283fc8bdaa0d732d00dd1d9a0b3c4df84"
+    },
+    "scripts/u3d04-assets.mjs": {
+      "bytes": 2589,
+      "sha256": "93ca5cb00a5c113e200ba98051ec786070d958683d99d08f3189df1d22280537"
+    },
+    "scripts/u3d04-baseline-browser.mjs": {
+      "bytes": 5437,
+      "sha256": "dd17eaf69dd22b71c4e3fc00fa769b3a9717ad055fd4baf12a076cd8a56f2082"
+    },
+    "scripts/u3d04-browser.mjs": {
+      "bytes": 11032,
+      "sha256": "b37b69e9a2495727f18736ffd66980a9c58577221c2852cefbdd2b536f8d0780"
+    },
+    "scripts/u3d04-evidence.mjs": {
+      "bytes": 5095,
+      "sha256": "0a5d88ae7bca079ec072730cf2ccb2cbe1cfd749e9bf7791e2a2919e76dce2f9"
+    },
+    "scripts/u3d04-faults.mjs": {
+      "bytes": 6233,
+      "sha256": "ab6df5fa34ddba122056897bd939b9f123109bf549e6faf8595d79553bc9cd7b"
+    },
+    "scripts/u3d04-fixture.mjs": {
+      "bytes": 3223,
+      "sha256": "744cf3eb3df53e36615f57b899129d0a78439f881a32542c5d91f6d31b712a6a"
+    },
+    "scripts/u3d04-memory.mjs": {
+      "bytes": 7859,
+      "sha256": "396e7571ab44bbd2fe8ca07cbf89c07dc677d461de6af9ca9ec95754e542536e"
+    },
+    "scripts/u3d04-render.mjs": {
+      "bytes": 5359,
+      "sha256": "e05f678e7ffc079291e77a2253cfbbd045b2c2ca1154bf85a0a6d1a153c6fd7c"
+    },
+    "tests/arena3d.test.ts": {
+      "bytes": 6487,
+      "sha256": "d23cf3ab68e8486d4300c0758bb3695e49b2555f297c49d493422c53464f6220"
+    },
+    "tests/u3d04/Probe.tsx": {
+      "bytes": 1552,
+      "sha256": "ddaeade4593c84ccc4954004fdd5d56f79be9b0f2a23b3af63d1a29b3b5658ad"
+    },
+    "tests/u3d04/index.html": {
+      "bytes": 300,
+      "sha256": "f0bff74c961c06edf6047fd8244ef1d5f1698bb031a2d134399c9fec2f5253fa"
+    },
+    "tests/u3d04/main.tsx": {
+      "bytes": 2778,
+      "sha256": "c0336fb21c2d89a8120390c83d4dc615eb850038e23fd6286b1c3c88e8fc4f9c"
+    },
+    "tests/u3d04/tsconfig.json": {
+      "bytes": 559,
+      "sha256": "59416a58ec182dc78f7ab7d882d1c56b1b896d3714106b0400ecdcba6b7a3f68"
+    },
+    "tests/u3d04/vite.config.mjs": {
+      "bytes": 1514,
+      "sha256": "e98ea755f20f63f0cca6deb902505cb9dc346af3ecf17d58abbe463566fc2311"
+    },
+    "apps/web/package.json": {
+      "bytes": 543,
+      "sha256": "60d5f704b7592e8f192cab91f7bc5cbf44213f71d45b65f8e3d80c6351c582cf"
+    },
+    "apps/web/src/App.tsx": {
+      "bytes": 58420,
+      "sha256": "253841b5f51c857502285ef6f5695c1d4303e4b7a9f0ba631813d06e0f6252fe"
+    },
+    "apps/web/src/Arena.tsx": {
+      "bytes": 22581,
+      "sha256": "fb0379e913b0e4adcac52edb184622d7cd8ebf821bbe7f7a325f9540a69b2150"
+    },
+    "packages/renderer3d/src/CoreLinks.tsx": {
+      "bytes": 4404,
+      "sha256": "da03a1f4d658aa4a3aa2ef9e6d71adb2824ae7c55203ae539e7903c86bdce3e2"
+    },
+    "packages/renderer3d/src/SceneViewport.tsx": {
+      "bytes": 7989,
+      "sha256": "9722c5c98621b169cc5f98dab35e6865ceacddf7f1c48ec68c0d4ac01a5c9146"
+    },
+    "packages/renderer3d/src/Scenes.tsx": {
+      "bytes": 2865,
+      "sha256": "cb6274b300e3961847481afa07f366c896b2eb206bf48c52833520a3c3b7f187"
+    },
+    "packages/renderer3d/src/SynthVisual.tsx": {
+      "bytes": 8102,
+      "sha256": "d7a4905837b5eaaa18052c0233053f75960090191f42b9730b69a2322e1d5196"
+    },
+    "packages/renderer3d/src/interfaces.ts": {
+      "bytes": 5142,
+      "sha256": "0b11c21e29e5889f2098097d00ae939f8f457becfa745d3fed33bb2fee1303d5"
+    },
+    "pnpm-lock.yaml": {
+      "bytes": 61652,
+      "sha256": "f26781fe0151c90119998ee019f6d16764084f87ca5448d0a460ae4311697bb5"
+    }
+  }
+}

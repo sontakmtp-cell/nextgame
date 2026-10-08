@@ -1,0 +1,825 @@
+{
+  "command": "node scripts/u3d06-browser.mjs baseline",
+  "phase": "baseline",
+  "channel": "chrome",
+  "startedAt": "2026-10-08T14:31:42.574Z",
+  "status": "failed",
+  "checks": [
+    "Brain Lab desktop render + computed pixel styles unchanged; no canvas/presentation selector/theme",
+    "Default match manifest/result/simulation/replay/public frames/ordered events exact input parity",
+    "Workshop/Arena/My Synths keep actual 3D; Brain resumes same pixel screen after lazy CSS loads",
+    "Workshop → Brain Lab → Arena → Brain Lab keeps invalid unapplied Brain/Body buffers separately in 2d and 3d; no worker request or bot mutation",
+    "Graph pan, wheel/button zoom, 1:1, auto-layout, node drag + SVG wire endpoints",
+    "Library search/filter/empty/memory/transition; state/initialState/rule add/delete/select/priority; inspector fields; invalid rule rejection + valid worker apply; saved rule order and reload in DB v1"
+  ],
+  "errors": [
+    "Unable to preventDefault inside passive event listener invocation."
+  ],
+  "networkFailures": [
+    {
+      "url": "http://127.0.0.1:5206/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "failure": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:5206/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "failure": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:5206/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "failure": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:5206/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "failure": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:5206/assets/ui3d/u3d01/manifest.json",
+      "failure": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "url": "/fonts/font-3.woff2",
+      "bytes": 112144,
+      "status": 200
+    },
+    {
+      "url": "/fonts/font-1.woff2",
+      "bytes": 108256,
+      "status": 200
+    },
+    {
+      "url": "/fonts/font-0.woff2",
+      "bytes": 37224,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw5BXoKZA.woff2",
+      "bytes": 13056,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/pressstart2p/v16/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2",
+      "bytes": 12512,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWn6pg.woff2",
+      "bytes": 9756,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SZ_F7AY.woff2",
+      "bytes": 9068,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw4BXoKZA.woff2",
+      "bytes": 11532,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SZ_F7AY.woff2",
+      "bytes": 9056,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91R5_F.woff2",
+      "bytes": 9900,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51R5_F.woff2",
+      "bytes": 9968,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkKpgeL4.woff2",
+      "bytes": 3640,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG87Rb0bcw.woff2",
+      "bytes": 13852,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SJ_F7AY.woff2",
+      "bytes": 3688,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw3BXo.woff2",
+      "bytes": 21168,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG86Rb0bcw.woff2",
+      "bytes": 12468,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG81Rb0.woff2",
+      "bytes": 22152,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SJ_F7AY.woff2",
+      "bytes": 3696,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/sharetechmono/v16/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2",
+      "bytes": 13500,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkapgeL4.woff2",
+      "bytes": 8860,
+      "status": 200
+    },
+    {
+      "url": "/fonts/font-2.woff2",
+      "bytes": 112332,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXgSYA.woff2",
+      "bytes": 21432,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXYSYIAi.woff2",
+      "bytes": 13120,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXcSYIAi.woff2",
+      "bytes": 11840,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "bytes": 699136,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "bytes": 2374680,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "bytes": 699136,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+      "bytes": 681620,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+      "bytes": 646068,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "bytes": 2374680,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+      "bytes": 1930248,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+      "bytes": 2237632,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXcSYIAi.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXYSYIAi.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXgSYA.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw4BXoKZA.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw5BXoKZA.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw3BXo.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG86Rb0bcw.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG87Rb0bcw.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG81Rb0.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkKpgeL4.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkapgeL4.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWn6pg.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SJ_F7AY.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SZ_F7AY.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51R5_F.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SJ_F7AY.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SZ_F7AY.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91R5_F.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/pressstart2p/v16/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/sharetechmono/v16/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXcSYIAi.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXYSYIAi.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXgSYA.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw4BXoKZA.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw5BXoKZA.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw3BXo.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG86Rb0bcw.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG87Rb0bcw.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG81Rb0.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkKpgeL4.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkapgeL4.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWn6pg.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SJ_F7AY.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SZ_F7AY.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51R5_F.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SJ_F7AY.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SZ_F7AY.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91R5_F.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/pressstart2p/v16/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "/fonts/font-3.woff2",
+      "bytes": 0,
+      "status": 304
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/sharetechmono/v16/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "/fonts/font-1.woff2",
+      "bytes": 0,
+      "status": 304
+    },
+    {
+      "url": "/fonts/font-0.woff2",
+      "bytes": 0,
+      "status": 304
+    },
+    {
+      "url": "/fonts/font-2.woff2",
+      "bytes": 0,
+      "status": 304
+    }
+  ],
+  "comparisons": [
+    {
+      "label": "U3D-00 pixel baseline 1600",
+      "path": "deliverables/implementation/UI3D/U3D-06/baseline/chrome/brain-1600.png",
+      "reference": "deliverables/implementation/UI3D/U3D-00/baseline-stable/screenshots/brain-lab-1600.png",
+      "actualSize": [
+        1600,
+        1582
+      ],
+      "referenceSize": [
+        1600,
+        1582
+      ],
+      "differentPixels": 0,
+      "byteIdentical": true,
+      "actualHash": "ca35456904273b6846362402365ebef64027d124144ccbbabbb8b895d53f3179",
+      "referenceHash": "ca35456904273b6846362402365ebef64027d124144ccbbabbb8b895d53f3179"
+    },
+    {
+      "label": "U3D-00 pixel baseline 1920",
+      "path": "deliverables/implementation/UI3D/U3D-06/baseline/chrome/brain-1920.png",
+      "reference": "deliverables/implementation/UI3D/U3D-00/baseline-stable/screenshots/brain-lab-1920.png",
+      "actualSize": [
+        1920,
+        1582
+      ],
+      "referenceSize": [
+        1920,
+        1582
+      ],
+      "differentPixels": 0,
+      "byteIdentical": true,
+      "actualHash": "4ed533805265470e53cca1fce6e6d1159ef32f61b3eeb456501de268e8218c44",
+      "referenceHash": "4ed533805265470e53cca1fce6e6d1159ef32f61b3eeb456501de268e8218c44"
+    },
+    {
+      "label": "Brain after loaded Workshop 3D",
+      "path": "deliverables/implementation/UI3D/U3D-06/baseline/chrome/brain-after-workshop.png",
+      "reference": "deliverables/implementation/UI3D/U3D-06/baseline/chrome/brain-before-3d.png",
+      "actualSize": [
+        1600,
+        1582
+      ],
+      "referenceSize": [
+        1600,
+        1582
+      ],
+      "differentPixels": 0,
+      "byteIdentical": true,
+      "actualHash": "706dbcb15ab4ba7c34eab26b63b5bb0d6a0ad297db715aefebcfd8aebc01f979",
+      "referenceHash": "706dbcb15ab4ba7c34eab26b63b5bb0d6a0ad297db715aefebcfd8aebc01f979"
+    },
+    {
+      "label": "Brain after all three 3D CSS chunks loaded",
+      "path": "deliverables/implementation/UI3D/U3D-06/baseline/chrome/brain-after-all-3d.png",
+      "reference": "deliverables/implementation/UI3D/U3D-06/baseline/chrome/brain-before-3d.png",
+      "actualSize": [
+        1600,
+        1582
+      ],
+      "referenceSize": [
+        1600,
+        1582
+      ],
+      "differentPixels": 0,
+      "byteIdentical": true,
+      "actualHash": "706dbcb15ab4ba7c34eab26b63b5bb0d6a0ad297db715aefebcfd8aebc01f979",
+      "referenceHash": "706dbcb15ab4ba7c34eab26b63b5bb0d6a0ad297db715aefebcfd8aebc01f979"
+    }
+  ],
+  "measurements": {
+    "transitions": [
+      {
+        "mode": "3d",
+        "kind": "Brain invalid unapplied buffer",
+        "roundTripMs": 143.78660000000127
+      },
+      {
+        "mode": "2d",
+        "kind": "Brain invalid unapplied buffer",
+        "roundTripMs": 170.08970000000045
+      }
+    ],
+    "graph": {
+      "nodes": 11,
+      "wires": 10
+    }
+  },
+  "browser": "154.0.8037.98",
+  "sampleInitHash": "7cfcc1b97461200e16f8970df971419bb4f8e05797fabd92f36f8834981d4748",
+  "pixelStyles": {
+    ".app-shell": {
+      "fontFamily": "\"Be Vietnam Pro\", Inter, sans-serif",
+      "fontSize": "14.5px",
+      "color": "rgb(230, 243, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "borderColor": "rgb(230, 243, 255)",
+      "boxShadow": "none",
+      "imageRendering": "pixelated",
+      "display": "grid",
+      "height": "1582px",
+      "width": "1600px"
+    },
+    ".topbar": {
+      "fontFamily": "\"Be Vietnam Pro\", Inter, sans-serif",
+      "fontSize": "14.5px",
+      "color": "rgb(230, 243, 255)",
+      "backgroundColor": "rgba(8, 17, 31, 0.95)",
+      "borderRadius": "0px",
+      "borderColor": "rgb(230, 243, 255) rgb(230, 243, 255) rgb(41, 76, 122)",
+      "boxShadow": "rgb(2, 6, 12) 0px 4px 0px 0px",
+      "imageRendering": "pixelated",
+      "display": "flex",
+      "height": "101px",
+      "width": "1370px"
+    },
+    ".n8n-container": {
+      "fontFamily": "\"Be Vietnam Pro\", Inter, sans-serif",
+      "fontSize": "14.5px",
+      "color": "rgb(230, 243, 255)",
+      "backgroundColor": "rgb(2, 6, 12)",
+      "borderRadius": "0px",
+      "borderColor": "rgb(0, 240, 255)",
+      "boxShadow": "rgb(0, 0, 0) 4px 4px 0px 0px, rgba(0, 240, 255, 0.35) 0px 0px 16px 0px",
+      "imageRendering": "pixelated",
+      "display": "flex",
+      "height": "720px",
+      "width": "926px"
+    },
+    ".n8n-node-state": {
+      "fontFamily": "\"Be Vietnam Pro\", Inter, sans-serif",
+      "fontSize": "14.5px",
+      "color": "rgb(230, 243, 255)",
+      "backgroundColor": "rgb(19, 36, 66)",
+      "borderRadius": "0px",
+      "borderColor": "rgb(41, 121, 255)",
+      "boxShadow": "rgb(0, 0, 0) 3px 3px 0px 0px",
+      "imageRendering": "pixelated",
+      "display": "block",
+      "height": "97px",
+      "width": "230px"
+    },
+    ".n8n-node-condition": {
+      "fontFamily": "\"Be Vietnam Pro\", Inter, sans-serif",
+      "fontSize": "14.5px",
+      "color": "rgb(230, 243, 255)",
+      "backgroundColor": "rgb(19, 36, 66)",
+      "borderRadius": "0px",
+      "borderColor": "rgb(128, 248, 255)",
+      "boxShadow": "rgb(0, 0, 0) 3px 3px 0px 0px, rgba(0, 240, 255, 0.35) 0px 0px 14px 0px, rgba(0, 240, 255, 0.2) 0px 0px 10px 0px inset",
+      "imageRendering": "pixelated",
+      "display": "block",
+      "height": "97px",
+      "width": "230px"
+    },
+    ".n8n-node-action": {
+      "fontFamily": "\"Be Vietnam Pro\", Inter, sans-serif",
+      "fontSize": "14.5px",
+      "color": "rgb(230, 243, 255)",
+      "backgroundColor": "rgb(19, 36, 66)",
+      "borderRadius": "0px",
+      "borderColor": "rgb(255, 230, 0)",
+      "boxShadow": "rgb(0, 0, 0) 3px 3px 0px 0px",
+      "imageRendering": "pixelated",
+      "display": "block",
+      "height": "97px",
+      "width": "230px"
+    },
+    ".n8n-node-header": {
+      "fontFamily": "\"Chakra Petch\", Inter, sans-serif",
+      "fontSize": "11px",
+      "color": "rgb(130, 177, 255)",
+      "backgroundColor": "rgb(21, 62, 126)",
+      "borderRadius": "0px",
+      "borderColor": "rgb(130, 177, 255) rgb(130, 177, 255) rgba(0, 0, 0, 0.4)",
+      "boxShadow": "none",
+      "imageRendering": "pixelated",
+      "display": "flex",
+      "height": "35.25px",
+      "width": "226px"
+    },
+    ".n8n-wire-core": {
+      "fontFamily": "\"Be Vietnam Pro\", Inter, sans-serif",
+      "fontSize": "14.5px",
+      "color": "rgb(230, 243, 255)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "borderColor": "rgb(230, 243, 255)",
+      "boxShadow": "none",
+      "imageRendering": "pixelated",
+      "display": "inline",
+      "height": "auto",
+      "width": "auto"
+    },
+    ".n8n-inspector": {
+      "fontFamily": "\"Be Vietnam Pro\", Inter, sans-serif",
+      "fontSize": "14.5px",
+      "color": "rgb(230, 243, 255)",
+      "backgroundColor": "rgb(14, 27, 51)",
+      "borderRadius": "0px",
+      "borderColor": "rgb(41, 76, 122)",
+      "boxShadow": "rgb(2, 6, 12) 3px 3px 0px 0px, rgb(41, 76, 122) 3px 3px 0px 1px",
+      "imageRendering": "pixelated",
+      "display": "block",
+      "height": "720px",
+      "width": "360px"
+    },
+    ".n8n-inspector textarea": {
+      "fontFamily": "\"Share Tech Mono\", \"IBM Plex Mono\", monospace",
+      "fontSize": "12.5px",
+      "color": "rgb(230, 243, 255)",
+      "backgroundColor": "rgb(3, 7, 14)",
+      "borderRadius": "0px",
+      "borderColor": "rgb(41, 76, 122)",
+      "boxShadow": "rgba(0, 0, 0, 0.7) 2px 2px 0px 0px inset",
+      "imageRendering": "pixelated",
+      "display": "inline-block",
+      "height": "280px",
+      "width": "316px"
+    },
+    ".n8n-toolbar button": {
+      "fontFamily": "\"Chakra Petch\", Inter, sans-serif",
+      "fontSize": "13px",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgb(0, 240, 255)",
+      "borderRadius": "0px",
+      "borderColor": "rgb(255, 255, 255)",
+      "boxShadow": "rgb(0, 0, 0) 2px 2px 0px 0px, rgba(0, 240, 255, 0.35) 0px 0px 8px 0px",
+      "imageRendering": "pixelated",
+      "display": "flex",
+      "height": "40px",
+      "width": "143.469px"
+    }
+  },
+  "match": {
+    "manifest": {
+      "engineDigest": "2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78",
+      "rulesetDigest": "19ef0b984d12a34796ea2058bb9971421674671fd4cc76b8cf694e80f03d2f14",
+      "catalogDigest": "d8fe55474692a49ed5daa6d7dac62f635630a9e447a85ba683c0765bf535885d",
+      "compilerDigest": "95b374ad1965a84ef51b11bb068bcc26b4feaf5b66fb6c1863308eee06fe9aea",
+      "brainAbiVersion": "2.0",
+      "packageHashes": {
+        "A": "094cc7ba8882f796478b0e7afa5fdbad5867b211326542ab3fcce286859963fb",
+        "B": "117c29cc725d45388458a867f363723aec693728f8d6081d762785096592d681"
+      },
+      "seed": "00000000000000000000000000000000",
+      "arenaDigest": "9828f7049a82dd2e8d685623132eef684b6377a0c5f81a9d76923beb7fc8e84d",
+      "arenaInitDigest": "213af97e3969c88fce81f28e1055c18af8549bbf5bd37e72079f1d301d4ba510",
+      "scenarioId": 257,
+      "presetValues": {
+        "yLeft": -2000,
+        "yRight": 0,
+        "jitterLeft": -64,
+        "jitterRight": 0
+      },
+      "spawnSlotAssignment": {
+        "A": "left",
+        "B": "right"
+      },
+      "maxTicks": 5400,
+      "numericalAbiVersion": "milli-v1"
+    },
+    "result": {
+      "winner": "B",
+      "cause": "core",
+      "elapsedTicks": 2602,
+      "scores": {
+        "A": 885,
+        "B": 5002
+      }
+    },
+    "simulationHash": "4ebd80218b53bf01271d8ac9d92eaf348301565123e6d0e8448436eb2c7376c2",
+    "publicReplayHash": "29bf01b2db3f4f1e2f685be1d1f1673b678a6d59927092947f8703767614c140",
+    "orderedEventsHash": "e6844b657976b2468ec0ff69f72b9ab3822c38b151f8fa56ecd56fb368515693",
+    "publicFramesHash": "c6de202faacb45ababdf04ac03f193238f1ce7d80d457c696ff55ef2def2fcec",
+    "frameCount": 2603
+  },
+  "gpu": {
+    "vendor": "Google Inc. (NVIDIA)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "dpr": 1
+  },
+  "database": {
+    "version": 1,
+    "stores": [
+      "heads",
+      "revisions"
+    ]
+  },
+  "failure": "AssertionError [ERR_ASSERTION]: Unable to preventDefault inside passive event listener invocation.\n\n1 !== 0\n",
+  "finishedAt": "2026-10-08T14:31:58.769Z"
+}

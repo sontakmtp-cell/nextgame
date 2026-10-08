@@ -1,0 +1,524 @@
+{
+  "id": "u3d05-stress24",
+  "revision": 1,
+  "definition": {
+    "schemaVersion": "2.0",
+    "name": "Render stress 24 · không hợp lệ gameplay",
+    "body": {
+      "grid": "square-12-v1",
+      "modules": [
+        {
+          "id": "core",
+          "catalogId": "core",
+          "cell": {
+            "x": 5,
+            "y": 5
+          },
+          "orientation": 0
+        },
+        {
+          "id": "stress1",
+          "catalogId": "armor",
+          "cell": {
+            "x": 3,
+            "y": 3
+          },
+          "orientation": 1
+        },
+        {
+          "id": "stress2",
+          "catalogId": "thruster",
+          "cell": {
+            "x": 4,
+            "y": 3
+          },
+          "orientation": 2
+        },
+        {
+          "id": "stress3",
+          "catalogId": "blade",
+          "cell": {
+            "x": 5,
+            "y": 3
+          },
+          "orientation": 3
+        },
+        {
+          "id": "stress4",
+          "catalogId": "burst",
+          "cell": {
+            "x": 6,
+            "y": 3
+          },
+          "orientation": 0
+        },
+        {
+          "id": "stress5",
+          "catalogId": "shield",
+          "cell": {
+            "x": 7,
+            "y": 3
+          },
+          "orientation": 1
+        },
+        {
+          "id": "stress6",
+          "catalogId": "radiator",
+          "cell": {
+            "x": 8,
+            "y": 3
+          },
+          "orientation": 2
+        },
+        {
+          "id": "stress7",
+          "catalogId": "capacitor",
+          "cell": {
+            "x": 3,
+            "y": 4
+          },
+          "orientation": 3
+        },
+        {
+          "id": "stress8",
+          "catalogId": "armor",
+          "cell": {
+            "x": 4,
+            "y": 4
+          },
+          "orientation": 0
+        },
+        {
+          "id": "stress9",
+          "catalogId": "thruster",
+          "cell": {
+            "x": 5,
+            "y": 4
+          },
+          "orientation": 1
+        },
+        {
+          "id": "stress10",
+          "catalogId": "blade",
+          "cell": {
+            "x": 6,
+            "y": 4
+          },
+          "orientation": 2
+        },
+        {
+          "id": "stress11",
+          "catalogId": "burst",
+          "cell": {
+            "x": 7,
+            "y": 4
+          },
+          "orientation": 3
+        },
+        {
+          "id": "stress12",
+          "catalogId": "shield",
+          "cell": {
+            "x": 8,
+            "y": 4
+          },
+          "orientation": 0
+        },
+        {
+          "id": "stress13",
+          "catalogId": "radiator",
+          "cell": {
+            "x": 3,
+            "y": 5
+          },
+          "orientation": 1
+        },
+        {
+          "id": "stress14",
+          "catalogId": "capacitor",
+          "cell": {
+            "x": 4,
+            "y": 5
+          },
+          "orientation": 2
+        },
+        {
+          "id": "stress15",
+          "catalogId": "armor",
+          "cell": {
+            "x": 7,
+            "y": 5
+          },
+          "orientation": 3
+        },
+        {
+          "id": "stress16",
+          "catalogId": "thruster",
+          "cell": {
+            "x": 8,
+            "y": 5
+          },
+          "orientation": 0
+        },
+        {
+          "id": "stress17",
+          "catalogId": "blade",
+          "cell": {
+            "x": 3,
+            "y": 6
+          },
+          "orientation": 1
+        },
+        {
+          "id": "stress18",
+          "catalogId": "burst",
+          "cell": {
+            "x": 4,
+            "y": 6
+          },
+          "orientation": 2
+        },
+        {
+          "id": "stress19",
+          "catalogId": "shield",
+          "cell": {
+            "x": 7,
+            "y": 6
+          },
+          "orientation": 3
+        },
+        {
+          "id": "stress20",
+          "catalogId": "radiator",
+          "cell": {
+            "x": 8,
+            "y": 6
+          },
+          "orientation": 0
+        },
+        {
+          "id": "stress21",
+          "catalogId": "capacitor",
+          "cell": {
+            "x": 3,
+            "y": 7
+          },
+          "orientation": 1
+        },
+        {
+          "id": "stress22",
+          "catalogId": "armor",
+          "cell": {
+            "x": 4,
+            "y": 7
+          },
+          "orientation": 2
+        },
+        {
+          "id": "stress23",
+          "catalogId": "thruster",
+          "cell": {
+            "x": 5,
+            "y": 7
+          },
+          "orientation": 3
+        }
+      ]
+    },
+    "brain": {
+      "abiVersion": "2.0",
+      "initialState": "hunt",
+      "variables": [],
+      "skills": [],
+      "states": [
+        {
+          "id": "hunt",
+          "rules": [
+            {
+              "id": "returnToRing",
+              "when": {
+                "kind": "compare",
+                "op": "eq",
+                "left": {
+                  "kind": "sensor",
+                  "name": "self.outsideRing"
+                },
+                "right": {
+                  "kind": "const",
+                  "value": 1
+                }
+              },
+              "intent": {
+                "thrust": {
+                  "forward": {
+                    "kind": "const",
+                    "value": 1000
+                  },
+                  "strafe": {
+                    "kind": "const",
+                    "value": 0
+                  }
+                },
+                "turn": {
+                  "kind": "clamp",
+                  "value": {
+                    "kind": "op",
+                    "op": "mul",
+                    "left": {
+                      "kind": "sensor",
+                      "name": "arena.centerBearing"
+                    },
+                    "right": {
+                      "kind": "const",
+                      "value": 4
+                    }
+                  },
+                  "min": {
+                    "kind": "const",
+                    "value": -1000
+                  },
+                  "max": {
+                    "kind": "const",
+                    "value": 1000
+                  }
+                },
+                "modules": []
+              }
+            },
+            {
+              "id": "coolAndControl",
+              "when": {
+                "kind": "compare",
+                "op": "eq",
+                "left": {
+                  "kind": "sensor",
+                  "name": "self.overheated"
+                },
+                "right": {
+                  "kind": "const",
+                  "value": 1
+                }
+              },
+              "intent": {
+                "thrust": {
+                  "forward": {
+                    "kind": "const",
+                    "value": 700
+                  },
+                  "strafe": {
+                    "kind": "const",
+                    "value": 0
+                  }
+                },
+                "turn": {
+                  "kind": "clamp",
+                  "value": {
+                    "kind": "op",
+                    "op": "mul",
+                    "left": {
+                      "kind": "sensor",
+                      "name": "arena.centerBearing"
+                    },
+                    "right": {
+                      "kind": "const",
+                      "value": 4
+                    }
+                  },
+                  "min": {
+                    "kind": "const",
+                    "value": -1000
+                  },
+                  "max": {
+                    "kind": "const",
+                    "value": 1000
+                  }
+                },
+                "modules": []
+              }
+            },
+            {
+              "id": "evadeWindup",
+              "when": {
+                "kind": "all",
+                "args": [
+                  {
+                    "kind": "compare",
+                    "op": "eq",
+                    "left": {
+                      "kind": "sensor",
+                      "name": "enemy.telegraph"
+                    },
+                    "right": {
+                      "kind": "const",
+                      "value": 1
+                    }
+                  },
+                  {
+                    "kind": "compare",
+                    "op": "lt",
+                    "left": {
+                      "kind": "sensor",
+                      "name": "enemy.distance"
+                    },
+                    "right": {
+                      "kind": "const",
+                      "value": 6500
+                    }
+                  }
+                ]
+              },
+              "intent": {
+                "thrust": {
+                  "forward": {
+                    "kind": "const",
+                    "value": 0
+                  },
+                  "strafe": {
+                    "kind": "const",
+                    "value": 1000
+                  }
+                },
+                "turn": {
+                  "kind": "clamp",
+                  "value": {
+                    "kind": "op",
+                    "op": "mul",
+                    "left": {
+                      "kind": "sensor",
+                      "name": "enemy.bearing"
+                    },
+                    "right": {
+                      "kind": "const",
+                      "value": 4
+                    }
+                  },
+                  "min": {
+                    "kind": "const",
+                    "value": -1000
+                  },
+                  "max": {
+                    "kind": "const",
+                    "value": 1000
+                  }
+                },
+                "modules": []
+              }
+            },
+            {
+              "id": "engage",
+              "when": {
+                "kind": "compare",
+                "op": "lt",
+                "left": {
+                  "kind": "sensor",
+                  "name": "enemy.distance"
+                },
+                "right": {
+                  "kind": "const",
+                  "value": 5000
+                }
+              },
+              "intent": {
+                "thrust": {
+                  "forward": {
+                    "kind": "const",
+                    "value": 800
+                  },
+                  "strafe": {
+                    "kind": "const",
+                    "value": 300
+                  }
+                },
+                "turn": {
+                  "kind": "clamp",
+                  "value": {
+                    "kind": "op",
+                    "op": "mul",
+                    "left": {
+                      "kind": "sensor",
+                      "name": "enemy.bearing"
+                    },
+                    "right": {
+                      "kind": "const",
+                      "value": 4
+                    }
+                  },
+                  "min": {
+                    "kind": "const",
+                    "value": -1000
+                  },
+                  "max": {
+                    "kind": "const",
+                    "value": 1000
+                  }
+                },
+                "modules": [
+                  {
+                    "moduleId": "part0",
+                    "action": "activate",
+                    "aimOffset": {
+                      "kind": "const",
+                      "value": 0
+                    },
+                    "priority": 1
+                  }
+                ]
+              }
+            },
+            {
+              "id": "takeCenter",
+              "when": {
+                "kind": "bool",
+                "value": true
+              },
+              "intent": {
+                "thrust": {
+                  "forward": {
+                    "kind": "const",
+                    "value": 1000
+                  },
+                  "strafe": {
+                    "kind": "const",
+                    "value": 0
+                  }
+                },
+                "turn": {
+                  "kind": "clamp",
+                  "value": {
+                    "kind": "op",
+                    "op": "mul",
+                    "left": {
+                      "kind": "sensor",
+                      "name": "arena.centerBearing"
+                    },
+                    "right": {
+                      "kind": "const",
+                      "value": 4
+                    }
+                  },
+                  "min": {
+                    "kind": "const",
+                    "value": -1000
+                  },
+                  "max": {
+                    "kind": "const",
+                    "value": 1000
+                  }
+                },
+                "modules": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "cosmetic": {
+      "skinId": "ceramic-default",
+      "paletteId": "team-auto"
+    }
+  },
+  "hypothesis": "Render-only; no validation or simulation claim",
+  "weakness": "",
+  "parentHash": null,
+  "savedAt": "2026-10-08T00:00:00.000Z"
+}

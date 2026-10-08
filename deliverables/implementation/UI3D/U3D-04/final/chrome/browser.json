@@ -1,0 +1,572 @@
+{
+  "command": "node scripts/u3d04-browser.mjs final",
+  "phase": "final",
+  "channel": "chrome",
+  "startedAt": "2026-10-08T13:19:47.808Z",
+  "status": "passed",
+  "checks": [
+    "Brain Lab 2D pixel render at 1600/1920 byte-identical to checkout baseline",
+    "Default practice simulation/replay/events/results exact baseline parity",
+    "100 random seek orders: same tick/camera/options produced byte-identical real canvas PNG",
+    "2D/3D switch retains playhead, result and traces",
+    "Real WEBGL_lose_context pauses at retained tick, reloads viewport/cache after restore",
+    "Brain Lab returns to 2D with no canvas; responsive 1024/768/390/320 no horizontal overflow"
+  ],
+  "errors": [],
+  "assets": [
+    {
+      "url": "/fonts/font-3.woff2",
+      "bytes": 112144,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw4BXoKZA.woff2",
+      "bytes": 11532,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw5BXoKZA.woff2",
+      "bytes": 13056,
+      "status": 200
+    },
+    {
+      "url": "/fonts/font-1.woff2",
+      "bytes": 108256,
+      "status": 200
+    },
+    {
+      "url": "/fonts/font-0.woff2",
+      "bytes": 37224,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91R5_F.woff2",
+      "bytes": 9900,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw3BXo.woff2",
+      "bytes": 21168,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/pressstart2p/v16/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2",
+      "bytes": 12512,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWn6pg.woff2",
+      "bytes": 9756,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SZ_F7AY.woff2",
+      "bytes": 9056,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG86Rb0bcw.woff2",
+      "bytes": 12468,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkKpgeL4.woff2",
+      "bytes": 3640,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG81Rb0.woff2",
+      "bytes": 22152,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SZ_F7AY.woff2",
+      "bytes": 9068,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SJ_F7AY.woff2",
+      "bytes": 3696,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/sharetechmono/v16/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2",
+      "bytes": 13500,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51R5_F.woff2",
+      "bytes": 9968,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SJ_F7AY.woff2",
+      "bytes": 3688,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG87Rb0bcw.woff2",
+      "bytes": 13852,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkapgeL4.woff2",
+      "bytes": 8860,
+      "status": 200
+    },
+    {
+      "url": "/fonts/font-2.woff2",
+      "bytes": 112332,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXgSYA.woff2",
+      "bytes": 21432,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXYSYIAi.woff2",
+      "bytes": 13120,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXcSYIAi.woff2",
+      "bytes": 11840,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d02/floor.webp",
+      "bytes": 41310,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "bytes": 699136,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+      "bytes": 681620,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+      "bytes": 646068,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "bytes": 2374680,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+      "bytes": 1930248,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+      "bytes": 2237632,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "bytes": 204012,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "bytes": 213588,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "bytes": 211004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/low/model.glb",
+      "bytes": 210920,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "bytes": 218888,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/burst/low/model.glb",
+      "bytes": 208304,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/capacitor/low/model.glb",
+      "bytes": 213440,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "bytes": 699136,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+      "bytes": 681620,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+      "bytes": 646068,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "bytes": 2374680,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+      "bytes": 1930248,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+      "bytes": 2237632,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "bytes": 699136,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+      "bytes": 681620,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+      "bytes": 646068,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "bytes": 2374680,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+      "bytes": 1930248,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+      "bytes": 2237632,
+      "status": 200
+    }
+  ],
+  "measurements": {
+    "randomSeek100": {
+      "samples": [
+        91.4387999999999,
+        93.06580000000031,
+        104.51380000000063,
+        103.86919999999918,
+        106.80649999999878,
+        106.19570000000022,
+        98.8773999999994,
+        96.29199999999946,
+        98.98679999999877,
+        98.6867999999995,
+        98.31780000000072,
+        97.19959999999992,
+        95.35599999999977,
+        95.73130000000128,
+        100.37910000000011,
+        97.81210000000101,
+        99.27269999999953,
+        99.38910000000033,
+        99.20479999999952,
+        98.68399999999929,
+        99.16610000000037,
+        98.46939999999995,
+        97.3060000000005,
+        105.84430000000066,
+        104.03690000000097,
+        105.3214999999982,
+        97.57140000000072,
+        101.65539999999964,
+        98.10889999999927,
+        99.0518000000011,
+        99.65989999999874,
+        98.87560000000303,
+        97.61349999999948,
+        99.96310000000085,
+        98.41259999999966,
+        99.1124000000018,
+        99.08840000000055,
+        99.1304999999993,
+        99.23760000000038,
+        98.71540000000095,
+        98.27549999999974,
+        98.73509999999806,
+        98.96190000000206,
+        98.5724999999984,
+        98.59270000000106,
+        98.45580000000336,
+        98.50929999999789,
+        98.66790000000037,
+        98.63899999999921,
+        97.40710000000036,
+        102.00250000000233,
+        97.77130000000034,
+        99.04880000000048,
+        98.97509999999966,
+        98.48440000000119,
+        98.76959999999963,
+        99.69410000000062,
+        98.98349999999846,
+        98.75950000000012,
+        98.32630000000063,
+        98.76920000000246,
+        99.15599999999904,
+        98.80400000000009,
+        99.31910000000062,
+        99.4423999999999,
+        99.40049999999974,
+        98.74169999999867,
+        98.36480000000302,
+        97.91430000000037,
+        98.53759999999966,
+        98.64230000000316,
+        98.58849999999802,
+        98.7013999999981,
+        98.87829999999667,
+        96.99529999999868,
+        98.69499999999971,
+        98.9377999999997,
+        98.72399999999834,
+        97.0805999999975,
+        98.9385000000002,
+        97.47140000000218,
+        99.8054000000011,
+        98.51190000000133,
+        98.13409999999567,
+        98.62120000000141,
+        99.01690000000235,
+        99.11789999999746,
+        99.35129999999481,
+        99.19610000000102,
+        99.21590000000288,
+        101.33350000000064,
+        99.06749999999738,
+        98.78160000000207,
+        98.3292999999976,
+        98.98739999999816,
+        99.08920000000217,
+        98.8402999999962,
+        98.87969999999768,
+        99.28260000000591,
+        98.79550000000017
+      ],
+      "p95Ms": 104.03690000000097,
+      "unit": "host round trip including HUD wait + six rAF settles, not decode timing",
+      "target": 142,
+      "canvasSha256": "941f171114524f90de1734a3e9439e496936446ddbac640ad320ff480da2bb97"
+    }
+  },
+  "browser": "154.0.8037.98",
+  "match": {
+    "manifest": {
+      "engineDigest": "2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78",
+      "rulesetDigest": "19ef0b984d12a34796ea2058bb9971421674671fd4cc76b8cf694e80f03d2f14",
+      "catalogDigest": "d8fe55474692a49ed5daa6d7dac62f635630a9e447a85ba683c0765bf535885d",
+      "compilerDigest": "95b374ad1965a84ef51b11bb068bcc26b4feaf5b66fb6c1863308eee06fe9aea",
+      "brainAbiVersion": "2.0",
+      "packageHashes": {
+        "A": "094cc7ba8882f796478b0e7afa5fdbad5867b211326542ab3fcce286859963fb",
+        "B": "117c29cc725d45388458a867f363723aec693728f8d6081d762785096592d681"
+      },
+      "seed": "00000000000000000000000000000000",
+      "arenaDigest": "9828f7049a82dd2e8d685623132eef684b6377a0c5f81a9d76923beb7fc8e84d",
+      "arenaInitDigest": "213af97e3969c88fce81f28e1055c18af8549bbf5bd37e72079f1d301d4ba510",
+      "scenarioId": 257,
+      "presetValues": {
+        "yLeft": -2000,
+        "yRight": 0,
+        "jitterLeft": -64,
+        "jitterRight": 0
+      },
+      "spawnSlotAssignment": {
+        "A": "left",
+        "B": "right"
+      },
+      "maxTicks": 5400,
+      "numericalAbiVersion": "milli-v1"
+    },
+    "result": {
+      "winner": "B",
+      "cause": "core",
+      "elapsedTicks": 2602,
+      "scores": {
+        "A": 885,
+        "B": 5002
+      }
+    },
+    "simulationHash": "4ebd80218b53bf01271d8ac9d92eaf348301565123e6d0e8448436eb2c7376c2",
+    "publicReplayHash": "29bf01b2db3f4f1e2f685be1d1f1673b678a6d59927092947f8703767614c140",
+    "orderedEventsHash": "e6844b657976b2468ec0ff69f72b9ab3822c38b151f8fa56ecd56fb368515693",
+    "publicFramesHash": "c6de202faacb45ababdf04ac03f193238f1ce7d80d457c696ff55ef2def2fcec",
+    "frameCount": 2603
+  }
+}

@@ -1,16 +1,18 @@
 import { lazy, Suspense, useEffect, useRef, useState } from 'react';
-import type { BotDefinition, CatalogEntry, CombatEvent, Diagnostic, InlineRule } from '@prompt-chien/contracts';
-import type { Comparison, LocalReplay, Request, Response, Validation } from './protocol.js';
-import { clone, diffSummary, editModule, newModule, occlusions } from './model.js';
-import { listDrafts, revisions, saveDraft } from './drafts.js';
+import type { BotDefinition, CombatEvent, InlineRule } from '@prompt-chien/contracts';
+import { clone, diffSummary, editModule, occlusions } from './model.js';
+import { bodyEditOverlap, placementCandidate } from './workshop-intent.js';
+import { useSynthSession } from './useSynthSession.js';
 import type { Draft } from './drafts.js';
 import N8nCanvas from './N8nCanvas.js';
 import NodeLibrary from './NodeLibrary.js';
 import { conditionSummary, insertLibraryNode, nodeLibrary } from './brain-library.js';
 import type { LibraryNode } from './brain-library.js';
-import { presentationUrl, readPresentationMode } from './presentation.js';
+import { presentationUrl } from './presentation.js';
 import './presentation.css';
 
+const Workshop3D = lazy(() => import('./Workshop3D.js'));
+const MySynths3D = lazy(() => import('./MySynths3D.js'));
 const Arena = lazy(() => import('./Arena.js'));
 
 const labels: Record<string, string> = {
@@ -36,340 +38,39 @@ function download(name: string, data: unknown): void {
 }
 
 export default function App() {
-  const [view, setView] = useState('Workshop');
-  const [presentation, setPresentation] = useState(() => readPresentationMode(window.location.href));
-  const [bot, setBot] = useState<BotDefinition | null>(null);
-  const [templates, setTemplates] = useState<BotDefinition[]>([]);
-  const [catalog, setCatalog] = useState<CatalogEntry[]>([]);
-  const [cards, setCards] = useState<{ name: string; goal: string; weakness: string }[]>([]);
-
-  const [past, setPast] = useState<BotDefinition[]>([]);
-  const [future, setFuture] = useState<BotDefinition[]>([]);
-  const [selected, setSelected] = useState('');
-  const [cell, setCell] = useState({ x: 7, y: 5 });
-  const [palette, setPalette] = useState('armor');
-
-  const [diagnostic, setDiagnostic] = useState<Diagnostic | null>(null);
-  const [validation, setValidation] = useState<Validation | null>(null);
-  const [busy, setBusy] = useState(false);
-  const [status, setStatus] = useState('Đang mở Workshop…');
-
-  const [replay, setReplay] = useState<LocalReplay | null>(null);
-  const [comparison, setComparison] = useState<Comparison | null>(null);
-  const [opponent, setOpponent] = useState(2);
-  const [count, setCount] = useState<1 | 3 | 10>(3);
-  const [baseline, setBaseline] = useState<BotDefinition | null>(null);
-
-  const [draftId, setDraftId] = useState<string>(crypto.randomUUID());
-  const [revision, setRevision] = useState(0);
-  const [drafts, setDrafts] = useState<Draft[]>([]);
-  const [history, setHistory] = useState<Draft[]>([]);
-  const [stored, setStored] = useState('');
-  const [saving, setSaving] = useState(false);
-
-  const [hypothesis, setHypothesis] = useState('Né telegraph rồi áp sát sẽ giảm số đòn phải nhận.');
-  const [weakness, setWeakness] = useState('Nhánh ngoài dễ bị phá; kiểm tra đường bắn và vùng trung tâm.');
-  const [parentHash, setParentHash] = useState<string | null>(null);
-
-  const [uiSound, setUiSound] = useState(false);
-  const [uiVolume, setUiVolume] = useState(() => {
-    try {
-      const value = Number(localStorage.getItem('prompt-chien-ui-volume') ?? '.4');
-      return Number.isFinite(value) ? Math.max(0, Math.min(1, value)) : 0.4;
-    } catch {
-      return 0.4;
-    }
-  });
-  const uiAudio = useRef<HTMLAudioElement | null>(null);
-
-  const cue = (kind: string) => {
-    if (!uiSound) return;
-    uiAudio.current ??= new Audio();
-    uiAudio.current.src = `/assets/${kind}.wav`;
-    uiAudio.current.volume = uiVolume * 0.3;
-    void uiAudio.current.play().catch(() => {});
-  };
-
+  const {
+    view, setView, presentation, setPresentation, bot, templates, catalog,
+    cards, past, future, selected, setSelected, cell, setCell,
+    palette, setPalette, diagnostic, setDiagnostic, validation, busy, setBusy,
+    status, setStatus, replay, setReplay, comparison, setComparison, opponent,
+    setOpponent, count, setCount, baseline, setBaseline, setDraftId, revision,
+    setRevision, drafts, history, setStored, saving, hypothesis, setHypothesis,
+    weakness, setWeakness, parentHash, setParentHash, uiSound, setUiSound, uiVolume,
+    setUiVolume, importText, setImportText, importDirty, setImportDirty, staged, setStaged,
+    showImport, setShowImport, stateIndex, setStateIndex, ruleIndex, setRuleIndex, ruleText,
+    setRuleText, ruleDirty, setRuleDirty, showNodeLibrary, setShowNodeLibrary, seq, active,
+    rootCell, change, undo, redo, loadDraft, createWorker, rule,
+    dirty, pending, send, save
+  } = useSynthSession();
+  const [drawer, setDrawer] = useState(false);
+  const [cameraInputLocked, setCameraInputLocked] = useState(false);
+  const drawerRoot = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    const click = (event: MouseEvent) => {
-      if (event.target instanceof HTMLElement && event.target.closest('button')) cue('ui');
+    if (!drawer || view !== 'Workshop' || presentation !== '3d') return;
+    const previous = document.activeElement as HTMLElement | null;
+    const root = drawerRoot.current;
+    root?.querySelector<HTMLButtonElement>('button')?.focus();
+    const key = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') { event.preventDefault(); setDrawer(false); }
+      if (event.key !== 'Tab' || !root) return;
+      const elements = Array.from(root.querySelectorAll<HTMLElement>('button:not(:disabled),input:not(:disabled),textarea:not(:disabled),select:not(:disabled),a[href]')).filter(e => e.getClientRects().length);
+      const first = elements[0], last = elements.at(-1);
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
     };
-    document.addEventListener('click', click);
-    try {
-      localStorage.setItem('prompt-chien-ui-volume', String(uiVolume));
-    } catch {}
-    return () => {
-      document.removeEventListener('click', click);
-      uiAudio.current?.pause();
-    };
-  }, [uiSound, uiVolume]);
-
-  useEffect(() => {
-    if (diagnostic) cue('overheated');
-    else if (status.startsWith('Đã lưu') || status.includes('hợp lệ')) cue('result');
-  }, [diagnostic, status]);
-
-  const [importText, setImportText] = useState('');
-  const [importDirty, setImportDirty] = useState(false);
-  const [staged, setStaged] = useState<BotDefinition | null>(null);
-  const [showImport, setShowImport] = useState(false);
-  const [stateIndex, setStateIndex] = useState(0);
-  const [ruleIndex, setRuleIndex] = useState(0);
-  const [ruleText, setRuleText] = useState('');
-  const [ruleDirty, setRuleDirty] = useState(false);
-  const [showNodeLibrary, setShowNodeLibrary] = useState(false);
-
-  const worker = useRef<Worker | null>(null);
-  const seq = useRef(0);
-  const active = useRef<Request | null>(null);
-  const applyId = useRef(0);
-  const applyBase = useRef('');
-  const current = useRef(bot);
-  const loaded = useRef(false);
-  const rootCell = useRef<HTMLDivElement>(null);
-  current.current = bot;
-
-  const change = (next: BotDefinition) => {
-    if (current.current) {
-      setPast((p) => [...p.slice(-49), clone(current.current!)]);
-      setFuture([]);
-    }
-    setBot(clone(next));
-    setValidation(null);
-    setDiagnostic(null);
-  };
-
-  const undo = () => {
-    if (!bot || !past.length) return;
-    setFuture((f) => [clone(bot), ...f]);
-    setBot(clone(past.at(-1)!));
-    setPast((p) => p.slice(0, -1));
-    setValidation(null);
-  };
-
-  const redo = () => {
-    if (!bot || !future.length) return;
-    setPast((p) => [...p, clone(bot)]);
-    setBot(clone(future[0]!));
-    setFuture((f) => f.slice(1));
-    setValidation(null);
-  };
-
-  const loadDraft = (draft: Draft) => {
-    setBot(clone(draft.definition));
-    setBaseline(clone(draft.definition));
-    setDraftId(draft.id);
-    setRevision(draft.revision);
-    setHypothesis(draft.hypothesis);
-    setWeakness(draft.weakness);
-    setParentHash(draft.parentHash);
-    setStored(
-      json({
-        bot: draft.definition,
-        hypothesis: draft.hypothesis,
-        weakness: draft.weakness,
-        parentHash: draft.parentHash,
-      })
-    );
-    setPast([]);
-    setFuture([]);
-    setImportDirty(false);
-    setRuleDirty(false);
-    setValidation(null);
-  };
-
-  const createWorker = () => {
-    worker.current?.terminate();
-    const next = new Worker(new URL('./local.worker.ts', import.meta.url), { type: 'module' });
-    worker.current = next;
-
-    next.onerror = (event) => {
-      setBusy(false);
-      setStatus('Worker bị dừng. Bản nháp vẫn giữ; thử lại cùng đầu vào hoặc hủy job.');
-      setDiagnostic({ code: 'WORKER_CRASH', pointer: '', message: event.message || 'Không có kết quả trận.' });
-    };
-
-    next.onmessage = ({ data }: MessageEvent<Response>) => {
-      if (data.kind === 'init') {
-        setTemplates(data.templates);
-        setCatalog(data.catalog);
-        setCards(data.cards);
-        if (!loaded.current) {
-          loaded.current = true;
-          void listDrafts()
-            .then((rows) => {
-              setDrafts(rows);
-              if (rows[0]) loadDraft(rows[0]);
-              else {
-                setBot(clone(data.templates[0]!));
-                setBaseline(clone(data.templates[0]!));
-              }
-              setStatus('Chọn module, chỉnh Brain qua n8n Graph, rồi kiểm tra và thử trận.');
-            })
-            .catch((error) => {
-              setBot(clone(data.templates[0]!));
-              setBaseline(clone(data.templates[0]!));
-              setStatus(`IndexedDB chưa mở được: ${String(error)}. Sửa và export JSON để giữ bản nháp.`);
-            });
-        }
-        return;
-      }
-
-      if (data.id !== active.current?.id) return;
-
-      if (data.kind === 'progress') {
-        setStatus(`Thử A/B · ${data.done}/${data.total} legs · cùng scenario, cả hai slot`);
-        return;
-      }
-
-      setBusy(false);
-
-      if (data.kind === 'error') {
-        setDiagnostic(data.diagnostic);
-        setStatus(`Kiểm tra/job thất bại: ${data.diagnostic.code}. Sửa theo pointer hoặc thử lại.`);
-        return;
-      }
-
-      if (data.kind === 'validate') {
-        if (data.id === applyId.current && applyBase.current !== json(current.current)) {
-          setDiagnostic({
-            code: 'STALE_DRAFT',
-            pointer: '/',
-            message: 'Bot đã đổi trong lúc kiểm tra. JSON và bản đang sửa đều được giữ; áp dụng lại trên bản mới.',
-          });
-          return;
-        }
-        if (data.id === applyId.current) {
-          change(data.bot);
-          setImportDirty(false);
-          setRuleDirty(false);
-          setShowImport(false);
-          setStaged(null);
-        }
-        if (data.id === applyId.current || (active.current?.kind === 'validate' && active.current.text === json(current.current))) {
-          setValidation(data.validation);
-          setDiagnostic(null);
-          setStatus('Body và Brain hợp lệ cho local. Hash khóa đúng dữ liệu đã kiểm tra.');
-        } else {
-          setStatus('Kiểm tra thuộc bản cũ. Kiểm tra lại sau khi sửa.');
-        }
-        return;
-      }
-
-      setReplay(data.replay);
-      setComparison(data.comparison);
-      setDiagnostic(null);
-      setStatus(
-        data.comparison
-          ? 'A/B đã tính. Đọc chênh lệch và trace; chưa có kết luận thống kê.'
-          : 'Trận local đã tính — phát lại.'
-      );
-      setView('Arena');
-    };
-
-    next.postMessage({ id: 0, kind: 'init' } satisfies Request);
-  };
-
-  useEffect(() => {
-    createWorker();
-    return () => worker.current?.terminate();
-  }, []);
-
-  useEffect(() => {
-    if (bot && !importDirty) setImportText(json(bot));
-  }, [bot, importDirty]);
-
-  const rule = bot?.brain.states[stateIndex]?.rules[ruleIndex];
-
-  useEffect(() => {
-    if (bot && !bot.brain.states[stateIndex]) setStateIndex(0);
-    if (bot && !bot.brain.states[stateIndex]?.rules[ruleIndex]) setRuleIndex(0);
-  }, [bot, stateIndex, ruleIndex]);
-
-  useEffect(() => {
-    if (!ruleDirty) setRuleText(json(rule ?? {}));
-  }, [rule, ruleDirty]);
-
-  useEffect(() => {
-    void revisions(draftId).then(setHistory).catch(() => setHistory([]));
-  }, [draftId, revision]);
-
-  const dirty =
-    !!bot &&
-    (json({ bot, hypothesis, weakness, parentHash }) !== stored || importDirty || ruleDirty);
-  const pending = importDirty || ruleDirty;
-
-  useEffect(() => {
-    const warn = (e: BeforeUnloadEvent) => {
-      if (dirty) {
-        e.preventDefault();
-        e.returnValue = '';
-      }
-    };
-    window.addEventListener('beforeunload', warn);
-    return () => window.removeEventListener('beforeunload', warn);
-  }, [dirty]);
-
-  useEffect(() => {
-    const key = (e: KeyboardEvent) => {
-      if (e.target instanceof HTMLElement && e.target.matches('input,textarea,select')) return;
-      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'z') {
-        e.preventDefault();
-        if (e.shiftKey) redo();
-        else undo();
-      }
-    };
-    window.addEventListener('keydown', key);
-    return () => window.removeEventListener('keydown', key);
-  }, [past, future, bot]);
-
-  const send = (request: Request, apply = false) => {
-    if (busy) return;
-    active.current = request;
-    applyId.current = apply ? request.id : 0;
-    applyBase.current = json(current.current);
-    setBusy(true);
-    setDiagnostic(null);
-    setStatus(
-      request.kind === 'validate' || request.kind === 'rule'
-        ? 'Đang kiểm tra Body và biên dịch Brain…'
-        : 'Đang tính trong worker. Có thể hủy; draft vẫn giữ.'
-    );
-    worker.current?.postMessage(request);
-  };
-
-  const save = async (fork = false) => {
-    if (!bot || saving) return;
-    if (pending) {
-      setStatus('Còn JSON chưa áp dụng. Áp dụng hoặc bỏ JSON trước khi lưu revision.');
-      return;
-    }
-    setSaving(true);
-    try {
-      const saved = await saveDraft(
-        {
-          id: fork ? crypto.randomUUID() : draftId,
-          definition: clone(bot),
-          hypothesis,
-          weakness,
-          parentHash,
-        },
-        fork ? 0 : revision
-      );
-      setDraftId(saved.id);
-      setRevision(saved.revision);
-      setStored(json({ bot, hypothesis, weakness, parentHash }));
-      setDrafts(await listDrafts());
-      setStatus(`Đã lưu revision ${saved.revision} trên máy này · local/unofficial.`);
-      setDiagnostic(null);
-    } catch (error) {
-      setStatus(String(error));
-      setDiagnostic({ code: 'DRAFT_SAVE_FAILED', pointer: '', message: String(error) });
-    } finally {
-      setSaving(false);
-    }
-  };
-
+    document.addEventListener('keydown', key);
+    return () => { document.removeEventListener('keydown', key); previous?.focus({ preventScroll: true }); };
+  }, [drawer, view, presentation]);
   if (!bot) {
     return (
       <main className="loading">
@@ -381,6 +82,19 @@ export default function App() {
     );
   }
 
+  const workshop3d = view === 'Workshop' && presentation === '3d';
+  const footprints = Object.fromEntries(catalog.map(c => [c.id, c.footprint]));
+  const arena3d = view === 'Arena' && presentation === '3d';
+  const synths3d = view === 'My Synths' && presentation === '3d';
+  const openArchived = (entry: Draft, head: Draft, restore: boolean) => {
+    if (dirty || pending || busy || saving) return;
+    // Load with the current CAS head, then put historical contents into the draft.
+    // The immutable revision records are never updated by preview/open/restore.
+    loadDraft({ ...head, definition: entry.definition, hypothesis: entry.hypothesis, weakness: entry.weakness, parentHash: entry.parentHash });
+    setStored(json({ bot: head.definition, hypothesis: head.hypothesis, weakness: head.weakness, parentHash: head.parentHash }));
+    setStatus(restore || entry.revision !== head.revision ? `Khôi phục nội dung r${entry.revision}; lưu sẽ tạo revision mới sau r${head.revision}.` : `Đã mở ${entry.definition.name} · r${head.revision}.`);
+    setView('Workshop');
+  };
   const selectedModule =
     bot.body.modules.find((m) => m.id === selected) ??
     bot.body.modules.find(
@@ -441,6 +155,32 @@ export default function App() {
         y < m.cell.y + (m.catalogId === 'core' ? 2 : 1)
     );
     setSelected(m?.id ?? '');
+  };
+
+  const editBody = (next: BotDefinition) => {
+    if (busy || pending) return false;
+    const blocker = bodyEditOverlap(bot, next, footprints);
+    if (blocker) {
+      setDiagnostic({ code: 'OVERLAP', pointer: '/body/modules', message: `Ô đã có ${labels[blocker.catalogId]} (${blocker.id}). Không thể lắp chồng module.` });
+      return false;
+    }
+    const added = next.body.modules.find(m => !bot.body.modules.some(previous => previous.id === m.id));
+    if (added) setSelected(added.id);
+    else if (!next.body.modules.some(m => m.id === selected)) setSelected('');
+    change(next);
+    send({ id: ++seq.current, kind: 'validate', text: json(next) });
+    return true;
+  };
+
+  const placeAt = (x: number, y: number) => {
+    if (!catalog.some(c => c.id === palette && c.enabled)) return;
+    editBody(placementCandidate(bot, palette, { x, y }, 0, null));
+  };
+
+  const activateCell = (x: number, y: number) => {
+    pickCell(x, y);
+    const occupied = bot.body.modules.some(m => x >= m.cell.x && x < m.cell.x + (footprints[m.catalogId] ?? 1) && y >= m.cell.y && y < m.cell.y + (footprints[m.catalogId] ?? 1));
+    if (!occupied) placeAt(x, y);
   };
 
   const moveCell = (dx: number, dy: number) => {
@@ -524,8 +264,211 @@ export default function App() {
     setView('Brain Lab');
   };
 
+  const importPanel = <>{showImport && (
+            <section className="panel import-panel">
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
+                <h2>Import / export</h2>
+                <button
+                  style={{ minHeight: '32px', padding: '4px 10px', fontSize: '12px' }}
+                  onClick={() => setShowImport(false)}
+                >
+                  ✕ Đóng
+                </button>
+              </div>
+              <p>JSON đang gõ giữ riêng khỏi bot đã áp dụng. Áp dụng có thể hoàn tác.</p>
+              {staged && <p className="notice">{diffSummary(bot, staged)}</p>}
+
+              <label>
+                File BotDefinition
+                <input
+                  type="file"
+                  disabled={pending || busy}
+                  accept=".json,application/json"
+                  onChange={(e) => {
+                    const file = e.target.files?.[0];
+                    if (!file) return;
+                    if (file.size > 262144) {
+                      setDiagnostic({ code: 'BYTE_CAP', pointer: '/', message: 'File vượt 256 KiB.' });
+                      return;
+                    }
+                    void file.text().then((text) => {
+                      setImportText(text);
+                      setImportDirty(true);
+                    });
+                  }}
+                />
+              </label>
+
+              <label>
+                Bot JSON
+                <textarea
+                  disabled={ruleDirty || busy}
+                  value={importText}
+                  spellCheck={false}
+                  onChange={(e) => {
+                    setImportText(e.target.value);
+                    setImportDirty(true);
+                  }}
+                />
+              </label>
+
+              <div className="controls" style={{ marginTop: '14px' }}>
+                <button
+                  className="primary"
+                  disabled={busy}
+                  onClick={() => send({ id: ++seq.current, kind: 'validate', text: importText }, true)}
+                >
+                  Kiểm tra và áp dụng JSON
+                </button>
+                <button onClick={() => download(`${bot.name}.bot.json`, bot)}>Export bot đã áp dụng</button>
+                <button
+                  onClick={() => {
+                    setImportDirty(false);
+                    setStaged(null);
+                    setShowImport(false);
+                  }}
+                >
+                  Giữ bot hiện tại
+                </button>
+              </div>
+            </section>
+          )}</>;
+  const experimentPanel = (<section className="experiment panel">
+            <div>
+              <p className="eyebrow">LOCAL EXPERIMENT / PAIRED A → B</p>
+              <h2>Đổi một điều. Đo một khác biệt.</h2>
+              <p>Cùng đối thủ, scenario, cả hai slot. Khám phá · chưa tính confidence.</p>
+            </div>
+
+            <div className="experiment-controls">
+              <label>
+                Đối thủ
+                <select value={opponent} disabled={busy} onChange={(e) => setOpponent(Number(e.target.value))}>
+                  {templates.map((t, i) => (
+                    <option key={t.name} value={i}>
+                      {t.name}
+                    </option>
+                  ))}
+                </select>
+              </label>
+
+              <label>
+                Scenario
+                <select
+                  value={count}
+                  disabled={busy}
+                  onChange={(e) => setCount(Number(e.target.value) as 1 | 3 | 10)}
+                >
+                  <option value="1">1 · 4 legs</option>
+                  <option value="3">3 · 12 legs</option>
+                  <option value="10">10 · 40 legs</option>
+                </select>
+              </label>
+
+              <button
+                disabled={pending}
+                onClick={() => {
+                  setBaseline(clone(bot));
+                  setStatus('Đã khóa baseline trong bộ nhớ. Sửa candidate rồi chạy A/B.');
+                }}
+              >
+                Khóa baseline hiện tại
+              </button>
+
+              <button
+                className="primary"
+                disabled={busy || pending || !baseline}
+                onClick={() =>
+                  send({
+                    id: ++seq.current,
+                    kind: 'experiment',
+                    text: json(bot),
+                    baseline: json(baseline),
+                    opponent,
+                    count,
+                  })
+                }
+              >
+                Chạy A/B ({count * 4} legs)
+              </button>
+            </div>
+
+            {comparison && (
+              <div className="comparison">
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <h3>Chênh lệch mean leg score: {(comparison.meanDelta * 100).toFixed(1)} điểm %</h3>
+                  <div
+                    style={{
+                      padding: '4px 10px',
+                      fontWeight: 700,
+                      background: comparison.meanDelta > 0 ? 'rgba(0,255,136,0.15)' : comparison.meanDelta < 0 ? 'rgba(255,51,102,0.15)' : 'rgba(255,255,255,0.06)',
+                      color: comparison.meanDelta > 0 ? 'var(--neon-green)' : comparison.meanDelta < 0 ? 'var(--neon-red)' : 'var(--text-muted)',
+                      border: '2px solid var(--line)',
+                    }}
+                  >
+                    Δ {(comparison.meanDelta * 100).toFixed(1)}%
+                  </div>
+                </div>
+
+                <p>
+                  Win=1 / hòa=0.5 / thua=0; trung bình hai slot. {comparison.rows.length} scenario · chưa đủ kết luận cải tiến.
+                </p>
+
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Scenario</th>
+                      <th>Baseline</th>
+                      <th>Candidate</th>
+                      <th>Δ</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {comparison.rows.map((r) => (
+                      <tr key={r.scenarioId}>
+                        <td className="mono">{r.scenarioId}</td>
+                        <td className="mono">{r.baseline / 1000}</td>
+                        <td className="mono">{r.candidate / 1000}</td>
+                        <td
+                          className="mono"
+                          style={{
+                            color:
+                              r.candidate > r.baseline
+                                ? 'var(--neon-green)'
+                                : r.candidate < r.baseline
+                                ? 'var(--neon-red)'
+                                : 'var(--text-muted)',
+                            fontWeight: 700,
+                          }}
+                        >
+                          {(r.candidate - r.baseline) / 1000}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+
+                <p className="mono wrap" style={{ fontSize: '11px', color: 'var(--text-muted)' }}>
+                  Baseline {comparison.baselineHash}
+                  <br />
+                  Candidate {comparison.candidateHash}
+                  <br />
+                  Seeds {comparison.seedSetDigest}
+                </p>
+
+                <button onClick={() => download('local-comparison.json', comparison)}>
+                  Export kết quả A/B
+                </button>
+              </div>
+            )}
+          </section>);
+
+
   return (
-    <div className="app-shell">
+    <div className={synths3d ? 'app-shell ui3d-shell ui3d-synth-shell' : arena3d ? 'app-shell ui3d-shell ui3d-arena-shell' : workshop3d ? 'app-shell ui3d-shell' : view === 'Brain Lab' ? 'app-shell brain-lab-shell' : 'app-shell'}
+      onFocusCapture={e => setCameraInputLocked(e.target.matches('input:not([type="checkbox"]):not([type="range"]),textarea,select'))}
+      onBlurCapture={e => setCameraInputLocked(e.relatedTarget instanceof HTMLElement && e.relatedTarget.matches('input:not([type="checkbox"]):not([type="range"]),textarea,select'))}
+      onPointerDownCapture={e => { if (e.target instanceof HTMLCanvasElement && document.activeElement instanceof HTMLElement) document.activeElement.blur(); }}>
       <a className="skip" href="#workspace">
         Đến vùng làm việc
       </a>
@@ -550,7 +493,7 @@ export default function App() {
             <button
               key={name}
               aria-current={view === name ? 'page' : undefined}
-              onClick={() => setView(name)}
+              onClick={() => { setDrawer(false); setView(name); }}
             >
               <span className="nav-number" aria-hidden="true">
                 0{i + 1}
@@ -570,7 +513,7 @@ export default function App() {
       <div className="workspace-shell">
         <header className="topbar">
           <div>
-            <span className="eyebrow">PIXEL ART / CYBER COBALT & ELECTRIC CYAN</span>
+            <span className="eyebrow">{synths3d ? 'BLUEPRINT ARCHIVE / LƯU TRÊN MÁY' : arena3d ? 'TRẬN THỬ LOCAL / PUBLIC REPLAY' : workshop3d ? 'ATELIER / CERAMIC & GRAPHITE' : 'PIXEL ART / CYBER COBALT & ELECTRIC CYAN'}</span>
             <h1>{view}</h1>
           </div>
           <div className="local-badge">◉ n8n Workflow · Local</div>
@@ -590,9 +533,6 @@ export default function App() {
         </header>
 
         <main id="workspace">
-          {presentation === '3d' && ['Workshop', 'Arena', 'My Synths'].includes(view) && (
-            <p className="status-strip" role="note">Cảnh 3D chưa sẵn sàng ở U3D-00. Đang dùng 2D; bản đang sửa được giữ.</p>
-          )}
           {view !== 'Bot mẫu' && <section className="synth-header">
             <div>
               <label htmlFor="synth-name" className="eyebrow">
@@ -677,7 +617,18 @@ export default function App() {
             </div>
           )}
 
-          {view === 'Workshop' && (
+          {workshop3d && <Suspense fallback={<p role="status">Đang mở Workshop 3D…</p>}><Workshop3D
+            bot={bot} catalog={catalog} labels={labels} selected={selected} cell={cell} palette={palette}
+            busy={busy} pending={pending} saving={saving} cameraLocked={cameraInputLocked || drawer}
+            validation={validation} canUndo={!!past.length} canRedo={!!future.length}
+            onPick={pickCell} onPalette={setPalette} onUndo={undo} onRedo={redo}
+            onEdit={editBody}
+            onValidate={() => send({ id: ++seq.current, kind: 'validate', text: json(bot) })}
+            onPractice={() => send({ id: ++seq.current, kind: 'practice', text: json(bot), opponent })}
+            onSave={() => void save()} onExtras={() => setDrawer(true)}
+            onRequest2d={() => { setPresentation('2d'); window.history.replaceState(window.history.state, '', presentationUrl(window.location.href, '2d')); }}
+          /></Suspense>}
+          {view === 'Workshop' && !workshop3d && (
             <div className="workshop-grid">
               <aside className="palette panel">
                 <p className="eyebrow">01 / MODULE LIBRARY</p>
@@ -754,7 +705,7 @@ export default function App() {
                           tabIndex={cell.x === x && cell.y === y ? 0 : -1}
                           aria-label={`Ô ${x},${y}${m ? ` · ${labels[m.catalogId]} ${m.id}` : ' · trống'}`}
                           aria-pressed={cell.x === x && cell.y === y}
-                          onClick={() => pickCell(x, y)}
+                          onClick={() => activateCell(x, y)}
                         />
                       );
                     })}
@@ -796,18 +747,15 @@ export default function App() {
                   </button>
                   <button
                     className="primary"
-                    disabled={pending}
-                    onClick={() => {
-                      change(newModule(bot, palette, cell.x, cell.y));
-                      setSelected('');
-                    }}
+                    disabled={busy || pending}
+                    onClick={() => placeAt(cell.x, cell.y)}
                   >
                     Đặt {labels[palette]} ({cell.x},{cell.y})
                   </button>
                 </div>
 
                 <p className="subtle desktop-help">
-                  ← ↑ ↓ → chọn ô · Enter chọn · Ctrl+Z / Ctrl+Shift+Z hoàn tác / làm lại.
+                  ← ↑ ↓ → chọn ô · nhấp hoặc Enter để lắp ô trống / chọn module · Ctrl+Z / Ctrl+Shift+Z hoàn tác / làm lại.
                 </p>
 
                 <div className="mobile-note">
@@ -885,11 +833,11 @@ export default function App() {
                           min="0"
                           max="11"
                           value={selectedModule.cell.x}
-                          disabled={pending}
+                          disabled={busy || pending}
                           onChange={(e) => {
                             const n = e.target.valueAsNumber;
                             if (Number.isInteger(n))
-                              change(editModule(bot, selectedModule.id, { cell: { ...selectedModule.cell, x: n } }));
+                              editBody(editModule(bot, selectedModule.id, { cell: { ...selectedModule.cell, x: n } }));
                           }}
                         />
                       </label>
@@ -900,20 +848,20 @@ export default function App() {
                           min="0"
                           max="11"
                           value={selectedModule.cell.y}
-                          disabled={pending}
+                          disabled={busy || pending}
                           onChange={(e) => {
                             const n = e.target.valueAsNumber;
                             if (Number.isInteger(n))
-                              change(editModule(bot, selectedModule.id, { cell: { ...selectedModule.cell, y: n } }));
+                              editBody(editModule(bot, selectedModule.id, { cell: { ...selectedModule.cell, y: n } }));
                           }}
                         />
                       </label>
                     </div>
                     <div style={{ display: 'flex', gap: '8px' }}>
                       <button
-                        disabled={pending}
+                        disabled={busy || pending}
                         onClick={() =>
-                          change(
+                          editBody(
                             editModule(bot, selectedModule.id, {
                               orientation: ((selectedModule.orientation + 1) % 4) as 0 | 1 | 2 | 3,
                             })
@@ -923,11 +871,10 @@ export default function App() {
                         Xoay 90°
                       </button>
                       <button
-                        disabled={pending}
+                        disabled={busy || pending}
                         style={{ color: 'var(--danger)', borderColor: 'var(--danger)' }}
                         onClick={() => {
-                          change(editModule(bot, selectedModule.id, null));
-                          setSelected('');
+                          if (editBody(editModule(bot, selectedModule.id, null))) setSelected('');
                         }}
                       >
                         Xóa module
@@ -965,75 +912,7 @@ export default function App() {
             </div>
           )}
 
-          {showImport && (
-            <section className="panel import-panel">
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
-                <h2>Import / export</h2>
-                <button
-                  style={{ minHeight: '32px', padding: '4px 10px', fontSize: '12px' }}
-                  onClick={() => setShowImport(false)}
-                >
-                  ✕ Đóng
-                </button>
-              </div>
-              <p>JSON đang gõ giữ riêng khỏi bot đã áp dụng. Áp dụng có thể hoàn tác.</p>
-              {staged && <p className="notice">{diffSummary(bot, staged)}</p>}
-
-              <label>
-                File BotDefinition
-                <input
-                  type="file"
-                  disabled={pending || busy}
-                  accept=".json,application/json"
-                  onChange={(e) => {
-                    const file = e.target.files?.[0];
-                    if (!file) return;
-                    if (file.size > 262144) {
-                      setDiagnostic({ code: 'BYTE_CAP', pointer: '/', message: 'File vượt 256 KiB.' });
-                      return;
-                    }
-                    void file.text().then((text) => {
-                      setImportText(text);
-                      setImportDirty(true);
-                    });
-                  }}
-                />
-              </label>
-
-              <label>
-                Bot JSON
-                <textarea
-                  disabled={ruleDirty || busy}
-                  value={importText}
-                  spellCheck={false}
-                  onChange={(e) => {
-                    setImportText(e.target.value);
-                    setImportDirty(true);
-                  }}
-                />
-              </label>
-
-              <div className="controls" style={{ marginTop: '14px' }}>
-                <button
-                  className="primary"
-                  disabled={busy}
-                  onClick={() => send({ id: ++seq.current, kind: 'validate', text: importText }, true)}
-                >
-                  Kiểm tra và áp dụng JSON
-                </button>
-                <button onClick={() => download(`${bot.name}.bot.json`, bot)}>Export bot đã áp dụng</button>
-                <button
-                  onClick={() => {
-                    setImportDirty(false);
-                    setStaged(null);
-                    setShowImport(false);
-                  }}
-                >
-                  Giữ bot hiện tại
-                </button>
-              </div>
-            </section>
-          )}
+          {!workshop3d && importPanel}
 
           {/* ========================================================= */}
           {/* BRAIN LAB: N8N WORKFLOW GRAPH & NODE INSPECTOR            */}
@@ -1335,7 +1214,7 @@ export default function App() {
                   Scenario {replay.manifest.scenarioId} · chỉ trace A thuộc chủ bot.
                 </div>
                 <Suspense fallback={<p role="status" className="loading">Đang tải viewer…</p>}>
-                  <Arena key={replay.publicReplayHash} replay={replay} onHypothesis={makeHypothesis} />
+                  <Arena key={replay.publicReplayHash} replay={replay} catalog={catalog} mode={presentation} onHypothesis={makeHypothesis} onRequest2d={() => { window.history.replaceState(window.history.state, '', presentationUrl(window.location.href, '2d')); setPresentation('2d'); }} />
                 </Suspense>
               </>
             ) : (
@@ -1353,7 +1232,13 @@ export default function App() {
               </section>
             ))}
 
-          {view === 'My Synths' && (
+          {synths3d && <Suspense fallback={<p role="status">Đang mở thư viện Synth 3D…</p>}><MySynths3D
+            bot={bot} catalog={catalog} drafts={drafts} dirty={dirty} busy={busy} pending={pending} saving={saving} cameraLocked={cameraInputLocked}
+            onOpen={(entry, head) => openArchived(entry, head, false)} onRestore={(entry, head) => openArchived(entry, head, true)}
+            onSave={fork => void save(fork)} onExport={() => download(`${bot.name}.bot.json`, bot)}
+            onRequest2d={() => { window.history.replaceState(window.history.state, '', presentationUrl(window.location.href, '2d')); setPresentation('2d'); }}
+          /></Suspense>}
+          {view === 'My Synths' && !synths3d && (
             <section className="panel">
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
                 <div>
@@ -1415,136 +1300,18 @@ export default function App() {
             </section>
           )}
 
-          <section className="experiment panel">
-            <div>
-              <p className="eyebrow">LOCAL EXPERIMENT / PAIRED A → B</p>
-              <h2>Đổi một điều. Đo một khác biệt.</h2>
-              <p>Cùng đối thủ, scenario, cả hai slot. Khám phá · chưa tính confidence.</p>
+          {!workshop3d && ((arena3d || synths3d) ? <details className="ui3d-arena-extras"><summary>Thí nghiệm A/B local</summary>{experimentPanel}</details> : experimentPanel)}
+
+          {workshop3d && drawer && <div className="ui3d-drawer-backdrop" onClick={e => { if (e.target === e.currentTarget) setDrawer(false); }}>
+            <div className="ui3d-drawer" role="dialog" aria-modal="true" aria-labelledby="workshop-tools-title" ref={drawerRoot}>
+              <div className="ui3d-drawer-heading"><h2 id="workshop-tools-title">Công cụ Workshop</h2><button onClick={() => setDrawer(false)}>Đóng công cụ</button></div>
+              <label>Mẫu khởi đầu<select aria-label="Mẫu khởi đầu" value="" disabled={busy || pending} onChange={e => { const t = templates[Number(e.target.value)]; if (t) { chooseTemplate(t); setDrawer(false); } }}><option value="" disabled>Chọn mẫu để chỉnh sửa</option>{templates.map((t, i) => <option key={t.name} value={i}>{t.name}</option>)}</select></label>
+              <button onClick={() => setShowImport(!showImport)}>Import / export JSON</button>
+              {importPanel}{experimentPanel}
+              <label><input type="checkbox" checked={uiSound} onChange={e => setUiSound(e.target.checked)} /> Âm UI</label>
+              <label>Âm lượng UI<input type="range" min="0" max="1" step=".05" value={uiVolume} onChange={e => setUiVolume(Number(e.target.value))} /></label>
             </div>
-
-            <div className="experiment-controls">
-              <label>
-                Đối thủ
-                <select value={opponent} disabled={busy} onChange={(e) => setOpponent(Number(e.target.value))}>
-                  {templates.map((t, i) => (
-                    <option key={t.name} value={i}>
-                      {t.name}
-                    </option>
-                  ))}
-                </select>
-              </label>
-
-              <label>
-                Scenario
-                <select
-                  value={count}
-                  disabled={busy}
-                  onChange={(e) => setCount(Number(e.target.value) as 1 | 3 | 10)}
-                >
-                  <option value="1">1 · 4 legs</option>
-                  <option value="3">3 · 12 legs</option>
-                  <option value="10">10 · 40 legs</option>
-                </select>
-              </label>
-
-              <button
-                disabled={pending}
-                onClick={() => {
-                  setBaseline(clone(bot));
-                  setStatus('Đã khóa baseline trong bộ nhớ. Sửa candidate rồi chạy A/B.');
-                }}
-              >
-                Khóa baseline hiện tại
-              </button>
-
-              <button
-                className="primary"
-                disabled={busy || pending || !baseline}
-                onClick={() =>
-                  send({
-                    id: ++seq.current,
-                    kind: 'experiment',
-                    text: json(bot),
-                    baseline: json(baseline),
-                    opponent,
-                    count,
-                  })
-                }
-              >
-                Chạy A/B ({count * 4} legs)
-              </button>
-            </div>
-
-            {comparison && (
-              <div className="comparison">
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <h3>Chênh lệch mean leg score: {(comparison.meanDelta * 100).toFixed(1)} điểm %</h3>
-                  <div
-                    style={{
-                      padding: '4px 10px',
-                      fontWeight: 700,
-                      background: comparison.meanDelta > 0 ? 'rgba(0,255,136,0.15)' : comparison.meanDelta < 0 ? 'rgba(255,51,102,0.15)' : 'rgba(255,255,255,0.06)',
-                      color: comparison.meanDelta > 0 ? 'var(--neon-green)' : comparison.meanDelta < 0 ? 'var(--neon-red)' : 'var(--text-muted)',
-                      border: '2px solid var(--line)',
-                    }}
-                  >
-                    Δ {(comparison.meanDelta * 100).toFixed(1)}%
-                  </div>
-                </div>
-
-                <p>
-                  Win=1 / hòa=0.5 / thua=0; trung bình hai slot. {comparison.rows.length} scenario · chưa đủ kết luận cải tiến.
-                </p>
-
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Scenario</th>
-                      <th>Baseline</th>
-                      <th>Candidate</th>
-                      <th>Δ</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {comparison.rows.map((r) => (
-                      <tr key={r.scenarioId}>
-                        <td className="mono">{r.scenarioId}</td>
-                        <td className="mono">{r.baseline / 1000}</td>
-                        <td className="mono">{r.candidate / 1000}</td>
-                        <td
-                          className="mono"
-                          style={{
-                            color:
-                              r.candidate > r.baseline
-                                ? 'var(--neon-green)'
-                                : r.candidate < r.baseline
-                                ? 'var(--neon-red)'
-                                : 'var(--text-muted)',
-                            fontWeight: 700,
-                          }}
-                        >
-                          {(r.candidate - r.baseline) / 1000}
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-
-                <p className="mono wrap" style={{ fontSize: '11px', color: 'var(--text-muted)' }}>
-                  Baseline {comparison.baselineHash}
-                  <br />
-                  Candidate {comparison.candidateHash}
-                  <br />
-                  Seeds {comparison.seedSetDigest}
-                </p>
-
-                <button onClick={() => download('local-comparison.json', comparison)}>
-                  Export kết quả A/B
-                </button>
-              </div>
-            )}
-          </section>
-
+          </div>}
           <footer>
             <div className="controls">
               <label className="check" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', cursor: 'pointer' }}>

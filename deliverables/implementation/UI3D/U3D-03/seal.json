@@ -1,0 +1,50 @@
+{
+  "kind": "working tree SHA256 inventory, no commit",
+  "sha256": "88b7db131c2772be314465d67922a535b51eab0ca08fad1cad240f6f386dac3e",
+  "files": {
+    "Docs/U3D-03_REPORT.md": {
+      "bytes": 13081,
+      "sha256": "83cd67abf5b31719020d2b74b804f7656a7e4f2cd05f9301538f0ff8d9dce2ec"
+    },
+    "apps/web/src/Workshop3D.tsx": {
+      "bytes": 14633,
+      "sha256": "290eff92c58d309857441c635bc1b0d2430153f8b86eb6b2410253a0d0a96127"
+    },
+    "apps/web/src/useSynthSession.ts": {
+      "bytes": 13541,
+      "sha256": "b19e88fdbb22aa0e00bb97417bd74639bce81e57ea23029a50b786f400a317cb"
+    },
+    "apps/web/src/workshop-intent.ts": {
+      "bytes": 606,
+      "sha256": "00080286c54b73ae7422ed89e8b9603de6be2cbed91ecc7afb8b510aa6899856"
+    },
+    "scripts/u3d03-assets.mjs": {
+      "bytes": 2291,
+      "sha256": "49fc7fcaceb51c10874ed7aefd9125270cd7cfd7568ae98ad82649317752aa33"
+    },
+    "scripts/u3d03-browser.mjs": {
+      "bytes": 20431,
+      "sha256": "adcf658f8dd1c4967486279c4ddf03061f1a908b5a4f5072ce1dd358cf9b27ab"
+    },
+    "scripts/u3d03-evidence.mjs": {
+      "bytes": 5050,
+      "sha256": "04d30869a0063f345779a20532b85220682a826aafdc0ffbb13d6bab80b8e074"
+    },
+    "scripts/u3d03-profile.mjs": {
+      "bytes": 7297,
+      "sha256": "beb2b7ba151ddf212629446458183d4d4d1f6966ada05b968f194195b881213d"
+    },
+    "tests/workshop3d.test.ts": {
+      "bytes": 2228,
+      "sha256": "0fb64049b1ae167b9fd9a1f46a2deca49f0a1f2bd9485da209713a7342ea0d18"
+    },
+    "apps/web/src/App.tsx": {
+      "bytes": 56676,
+      "sha256": "b148e60dbbb342b7c5f41d9ad22a30111b18bede453a6eb4cc91a60b794d9b3f"
+    },
+    "apps/web/src/presentation.css": {
+      "bytes": 10047,
+      "sha256": "83590e6076406ca5204b2067196bd7a7b3f70a1a2ab1851218e67e3b4580954e"
+    }
+  }
+}

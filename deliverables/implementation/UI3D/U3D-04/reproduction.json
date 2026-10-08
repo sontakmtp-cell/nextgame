@@ -1,0 +1,10 @@
+{
+  "command": "node scripts/u3d04-fixture.mjs",
+  "exit": 0,
+  "stdout": "{\"practice\":2603,\"ranged\":1778,\"events\":[\"activation\",\"shot\",\"shieldOn\",\"blocked\",\"hit\",\"shieldOff\",\"destroyed\",\"collisionFallback\",\"result\",\"detached\"]}\n",
+  "stderr": "",
+  "before": "f6a898e259e514404237db1076d69041efc91c443643a62644959ca138081828",
+  "after": "f6a898e259e514404237db1076d69041efc91c443643a62644959ca138081828",
+  "identical": true,
+  "kind": "fixed-seed engine frames plus deterministic stress fixture and supplied baseline"
+}

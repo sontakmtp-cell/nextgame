@@ -1,0 +1,111 @@
+{
+  "practice": "unchanged production worker baseline",
+  "ranged": {
+    "source": [
+      "e315f3fc36db4a9f57ea579ef99e01a5abcf779214e3a46a3000f6e29918a595",
+      "a0bb379323cfc1402361f96ba62a0bf935f4b68b41a627481377105efbc7e4e3"
+    ],
+    "manifest": {
+      "engineDigest": "2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78",
+      "rulesetDigest": "19ef0b984d12a34796ea2058bb9971421674671fd4cc76b8cf694e80f03d2f14",
+      "catalogDigest": "d8fe55474692a49ed5daa6d7dac62f635630a9e447a85ba683c0765bf535885d",
+      "compilerDigest": "95b374ad1965a84ef51b11bb068bcc26b4feaf5b66fb6c1863308eee06fe9aea",
+      "brainAbiVersion": "2.0",
+      "packageHashes": {
+        "A": "e315f3fc36db4a9f57ea579ef99e01a5abcf779214e3a46a3000f6e29918a595",
+        "B": "a0bb379323cfc1402361f96ba62a0bf935f4b68b41a627481377105efbc7e4e3"
+      },
+      "seed": "00000000000000000000000000000001",
+      "arenaDigest": "9828f7049a82dd2e8d685623132eef684b6377a0c5f81a9d76923beb7fc8e84d",
+      "arenaInitDigest": "213af97e3969c88fce81f28e1055c18af8549bbf5bd37e72079f1d301d4ba510",
+      "scenarioId": 482,
+      "presetValues": {
+        "yLeft": -1000,
+        "yRight": 2000,
+        "jitterLeft": -64,
+        "jitterRight": 0
+      },
+      "spawnSlotAssignment": {
+        "A": "left",
+        "B": "right"
+      },
+      "maxTicks": 5400,
+      "numericalAbiVersion": "milli-v1"
+    },
+    "result": {
+      "winner": "B",
+      "cause": "core",
+      "elapsedTicks": 1777,
+      "scores": {
+        "A": 400,
+        "B": 4139
+      }
+    },
+    "simulationHash": "64a252026ef1162f198abb30024dd7678f76212137f886ecef5131af65d3caab",
+    "framesHash": "24ed0b5f1b34c3423a2ca35095099c7ca74ee53ac95a5746cd87261e7cb0d4bd",
+    "events": [
+      "activation",
+      "shot",
+      "shieldOn",
+      "blocked",
+      "hit",
+      "shieldOff",
+      "destroyed",
+      "collisionFallback",
+      "result",
+      "detached"
+    ]
+  },
+  "ring": {
+    "manifest": {
+      "engineDigest": "2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78",
+      "rulesetDigest": "19ef0b984d12a34796ea2058bb9971421674671fd4cc76b8cf694e80f03d2f14",
+      "catalogDigest": "d8fe55474692a49ed5daa6d7dac62f635630a9e447a85ba683c0765bf535885d",
+      "compilerDigest": "95b374ad1965a84ef51b11bb068bcc26b4feaf5b66fb6c1863308eee06fe9aea",
+      "brainAbiVersion": "2.0",
+      "packageHashes": {
+        "A": "00ebf4496766f21068c2aaa7b53aa46ee4a093c3617e1a7d93548b3cb61484c4",
+        "B": "e532ef9d0d7f4c2d1ef8e699932036fa5b2ae6912a2777b50dd333a3ec6d6d0c"
+      },
+      "seed": "00000000000000000000000000000001",
+      "arenaDigest": "9828f7049a82dd2e8d685623132eef684b6377a0c5f81a9d76923beb7fc8e84d",
+      "arenaInitDigest": "213af97e3969c88fce81f28e1055c18af8549bbf5bd37e72079f1d301d4ba510",
+      "scenarioId": 482,
+      "presetValues": {
+        "yLeft": -1000,
+        "yRight": 2000,
+        "jitterLeft": -64,
+        "jitterRight": 0
+      },
+      "spawnSlotAssignment": {
+        "A": "left",
+        "B": "right"
+      },
+      "maxTicks": 5400,
+      "numericalAbiVersion": "milli-v1"
+    },
+    "result": {
+      "winner": "A",
+      "cause": "core",
+      "elapsedTicks": 4952,
+      "scores": {
+        "A": 540,
+        "B": 291
+      }
+    },
+    "framesHash": "04f669ad07b28d30a3ac4a4f90dc8c8f917e61203db16b407b9eb89809c5b05a",
+    "events": [
+      "activation",
+      "hit",
+      "collisionFallback",
+      "overheated",
+      "cooled",
+      "ringNotice",
+      "ringDamage",
+      "detached",
+      "result",
+      "destroyed"
+    ]
+  },
+  "stress": "synthetic render-only 48 module/128 projectile/256 event per boundary, not valid match"
+}

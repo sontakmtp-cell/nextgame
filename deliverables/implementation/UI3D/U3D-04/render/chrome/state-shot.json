@@ -1,0 +1,595 @@
+{
+  "renders": 10,
+  "objects": [
+    {
+      "name": "replay-world",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "position": 109,
+        "boundary": 109
+      },
+      "visible": true
+    },
+    {
+      "name": "objective",
+      "position": [
+        0,
+        0.012,
+        0
+      ],
+      "rotation": [
+        -1.5707963267948966,
+        0,
+        0
+      ],
+      "data": {},
+      "visible": true
+    },
+    {
+      "name": "gameplay-ring",
+      "position": [
+        0,
+        0.023,
+        0
+      ],
+      "rotation": [
+        -1.5707963267948966,
+        0,
+        0
+      ],
+      "data": {},
+      "visible": true
+    },
+    {
+      "name": "actor-A",
+      "position": [
+        -4.328,
+        0,
+        0.28
+      ],
+      "rotation": [
+        0,
+        0.0859029241215959,
+        0
+      ],
+      "data": {},
+      "visible": true
+    },
+    {
+      "name": "module-public-0",
+      "position": [
+        -1.5,
+        1.4878817112661964,
+        1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "thruster",
+        "hp": 180,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-1",
+      "position": [
+        -0.5,
+        1.4878817112661964,
+        1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "radiator",
+        "hp": 160,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-2",
+      "position": [
+        0.5,
+        1.4878817112661964,
+        1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "radiator",
+        "hp": 160,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-3",
+      "position": [
+        -1.5,
+        1.4878817112661964,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "thruster",
+        "hp": 180,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-4",
+      "position": [
+        0,
+        1.0284015344703923,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "core",
+        "hp": 800,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-5",
+      "position": [
+        1.5,
+        1.5308735899006238,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "burst",
+        "hp": 180,
+        "phase": "active",
+        "phaseOffset": 1
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-6",
+      "position": [
+        -1.5,
+        1.4878817112661964,
+        -0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "thruster",
+        "hp": 180,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-7",
+      "position": [
+        -1.5,
+        1.4878817112661964,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "thruster",
+        "hp": 180,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-8",
+      "position": [
+        -0.5,
+        1.4878817112661964,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "capacitor",
+        "hp": 160,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-9",
+      "position": [
+        0.5,
+        1.4878817112661964,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "armor",
+        "hp": 300,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "actor-B",
+      "position": [
+        5.069,
+        0,
+        -0.859
+      ],
+      "rotation": [
+        0,
+        3.308796559469328,
+        0
+      ],
+      "data": {},
+      "visible": true
+    },
+    {
+      "name": "module-public-0",
+      "position": [
+        -1.5,
+        1.4878817112661964,
+        1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "thruster",
+        "hp": 180,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-1",
+      "position": [
+        -0.5,
+        1.4878817112661964,
+        1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "radiator",
+        "hp": 160,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-2",
+      "position": [
+        0.5,
+        1.4878817112661964,
+        1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "radiator",
+        "hp": 160,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-3",
+      "position": [
+        -1.5,
+        1.4878817112661964,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "thruster",
+        "hp": 180,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-4",
+      "position": [
+        0,
+        1.0284015344703923,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "core",
+        "hp": 800,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-5",
+      "position": [
+        1.5,
+        1.4878817112661964,
+        0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "blade",
+        "hp": 220,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-6",
+      "position": [
+        -1.5,
+        1.4878817112661964,
+        -0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "thruster",
+        "hp": 180,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-7",
+      "position": [
+        1.5,
+        1.4878817112661964,
+        -0.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "shield",
+        "hp": 260,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-8",
+      "position": [
+        -1.5,
+        1.4878817112661964,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "thruster",
+        "hp": 180,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-9",
+      "position": [
+        -0.5,
+        1.4878817112661964,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "capacitor",
+        "hp": 160,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "module-public-10",
+      "position": [
+        0.5,
+        1.4878817112661964,
+        -1.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "catalogId": "armor",
+        "hp": 300,
+        "phase": "idle",
+        "phaseOffset": 0
+      },
+      "visible": true
+    },
+    {
+      "name": "telegraph-A-5",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {},
+      "visible": true
+    },
+    {
+      "name": "phase-A-5",
+      "position": [
+        1.5,
+        2.2,
+        0.5
+      ],
+      "rotation": [
+        -1.5707963267948966,
+        0,
+        0
+      ],
+      "data": {
+        "phase": "active",
+        "phaseOffset": 1,
+        "progress": 0,
+        "aim": 27
+      },
+      "visible": true
+    },
+    {
+      "name": "projectile-A-0",
+      "position": [
+        -1.998,
+        1.75,
+        0.548
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {
+        "batch": "public-projectile-batch"
+      },
+      "visible": true
+    },
+    {
+      "name": "projectile-trail-batch",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {},
+      "visible": true
+    },
+    {
+      "name": "effect-109/0/shot/A/5/0",
+      "position": [
+        -2.7906324255536132,
+        1.65,
+        0.6494603375747292
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "data": {},
+      "visible": true
+    }
+  ],
+  "qualities": [
+    "high",
+    "high"
+  ],
+  "drawCalls": 227,
+  "triangles": 1292980,
+  "geometries": 197,
+  "textures": 53,
+  "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "meshes": 0
+}

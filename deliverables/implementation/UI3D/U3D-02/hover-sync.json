@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "corePeriodSeconds": 4,
+  "modulePeriodSeconds": 4.8,
+  "moduleStartDelaySeconds": 0.35,
+  "samples": 70,
+  "maxModuleAltitudeSpread": 0.0,
+  "ranges": [
+    {
+      "id": "coreMain",
+      "min": 0.9000386481150255,
+      "max": 1.0998713168640752
+    },
+    {
+      "id": "driveTop",
+      "min": 1.300100777260792,
+      "max": 1.499972856388781
+    },
+    {
+      "id": "driveBottom",
+      "min": 1.300100777260792,
+      "max": 1.499972856388781
+    },
+    {
+      "id": "part0",
+      "min": 1.300100777260792,
+      "max": 1.499972856388781
+    },
+    {
+      "id": "part1",
+      "min": 1.300100777260792,
+      "max": 1.499972856388781
+    },
+    {
+      "id": "part2",
+      "min": 1.300100777260792,
+      "max": 1.499972856388781
+    }
+  ],
+  "sourceHashes": {
+    "Docs/U3D-02_REPORT.md": "d2b9b0fb67d8b252ff852a0db178727530079cee1b1819e1f59621392f0d758a",
+    "Docs/UI3D_IMPLEMENTATION.md": "0a8857be05fbab46f47145636f068c31cd14a9b1a0a8f0914578d2b79ad82b33",
+    "packages/renderer3d/src/hover.ts": "16ff91b0e8eca53f0f1bf639b7eff8e4340ddb5b28a9facd9ce13cf357475ab0",
+    "scripts/u3d02-animation.mjs": "0a03378769319266e251e353eba2476eee62d5a980a88c861ea84d25fb3c5743",
+    "scripts/u3d02-browser.mjs": "2ca73f600d2c2b00756ecc3c11e60bb1a39cf76939792177f97f8f2a58561aa8",
+    "tests/renderer3d.test.ts": "23afaabee3419db2933008ede14ab52cfd5d1f252fcd624d0a8f68599713c81c"
+  },
+  "checks": "checks-hover-sync.json",
+  "animation": "animation-hover-sync.json",
+  "acceptance": "U3D-02 remains incomplete"
+}

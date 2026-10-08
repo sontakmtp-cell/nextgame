@@ -1,0 +1,772 @@
+{
+  "command": "node scripts/u3d03-browser.mjs final",
+  "phase": "final",
+  "channel": "msedge",
+  "startedAt": "2026-10-08T12:42:22.874Z",
+  "status": "passed",
+  "checks": [
+    "Brain Lab 2D pixel render at 1600/1920 captured without canvas; same-browser pre-edit Edge pixel baseline unavailable",
+    "Default practice simulation/replay/events/results exact baseline parity",
+    "Workshop High renders from optimized GLB/KTX2, one real canvas",
+    "Real canvas hover and click never mutate Body; confirmed add in all four headings uses validator and undo",
+    "3D module picking, rotate, deferred move, delete, undo/redo retain module IDs and Brain",
+    "Accessible standard grid: roving keyboard focus, Enter selection and confirmed placement",
+    "Validator diagnostic OVERLAP at 5,5",
+    "Validator diagnostic SCHEMA at 12,5",
+    "Validator diagnostic DISCONNECTED at 0,0",
+    "Unapplied Body/Brain JSON, draft and undo survive all screens and 2d/3d switching; Brain always no canvas",
+    "3D save/reload restores exact Body/Brain through unchanged IndexedDB v1",
+    "Drawer export exact JSON, validated import, A/B paired four legs/seed/both slots retain shared draft",
+    "Right-button camera orbit changes the real render; reset restores fitted camera",
+    "High/Medium/Low and responsive 1024/768/390/320 rendered without horizontal document overflow",
+    "Two-tab IndexedDB CAS rejects stale revision and retains the unsaved 3D draft",
+    "Missing manifest offers working 2D fallback while keeping the draft"
+  ],
+  "errors": [],
+  "assets": [
+    {
+      "url": "/fonts/font-3.woff2",
+      "bytes": 112144,
+      "status": 200
+    },
+    {
+      "url": "/fonts/font-1.woff2",
+      "bytes": 108256,
+      "status": 200
+    },
+    {
+      "url": "/fonts/font-0.woff2",
+      "bytes": 37224,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SJ_F7AY.woff2",
+      "bytes": 3696,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw5BXoKZA.woff2",
+      "bytes": 13056,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SZ_F7AY.woff2",
+      "bytes": 9068,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91R5_F.woff2",
+      "bytes": 9900,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw4BXoKZA.woff2",
+      "bytes": 11532,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/pressstart2p/v16/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2",
+      "bytes": 12512,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWn6pg.woff2",
+      "bytes": 9756,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51R5_F.woff2",
+      "bytes": 9968,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/sharetechmono/v16/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2",
+      "bytes": 13500,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SJ_F7AY.woff2",
+      "bytes": 3688,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG87Rb0bcw.woff2",
+      "bytes": 13852,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG86Rb0bcw.woff2",
+      "bytes": 12468,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SZ_F7AY.woff2",
+      "bytes": 9056,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkapgeL4.woff2",
+      "bytes": 8860,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkKpgeL4.woff2",
+      "bytes": 3640,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw3BXo.woff2",
+      "bytes": 21168,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG81Rb0.woff2",
+      "bytes": 22152,
+      "status": 200
+    },
+    {
+      "url": "/fonts/font-2.woff2",
+      "bytes": 112332,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXgSYA.woff2",
+      "bytes": 21432,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXYSYIAi.woff2",
+      "bytes": 13120,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXcSYIAi.woff2",
+      "bytes": 11840,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d02/floor.webp",
+      "bytes": 41310,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "bytes": 699136,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "bytes": 2374680,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "bytes": 699136,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "bytes": 699136,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "bytes": 2374680,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXcSYIAi.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXYSYIAi.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXgSYA.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw4BXoKZA.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw5BXoKZA.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw3BXo.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG86Rb0bcw.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG87Rb0bcw.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG81Rb0.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkKpgeL4.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkapgeL4.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWn6pg.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SJ_F7AY.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SZ_F7AY.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51R5_F.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SJ_F7AY.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SZ_F7AY.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91R5_F.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/pressstart2p/v16/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/sharetechmono/v16/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXcSYIAi.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXYSYIAi.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXgSYA.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw4BXoKZA.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw5BXoKZA.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw3BXo.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG86Rb0bcw.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG87Rb0bcw.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG81Rb0.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkKpgeL4.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkapgeL4.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWn6pg.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SJ_F7AY.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SZ_F7AY.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51R5_F.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SJ_F7AY.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SZ_F7AY.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91R5_F.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/pressstart2p/v16/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/sharetechmono/v16/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "/fonts/font-3.woff2",
+      "bytes": 0,
+      "status": 304
+    },
+    {
+      "url": "/fonts/font-1.woff2",
+      "bytes": 0,
+      "status": 304
+    },
+    {
+      "url": "/fonts/font-2.woff2",
+      "bytes": 0,
+      "status": 304
+    },
+    {
+      "url": "/fonts/font-0.woff2",
+      "bytes": 0,
+      "status": 304
+    },
+    {
+      "url": "/assets/ui3d/u3d02/floor.webp",
+      "bytes": 0,
+      "status": 304
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "bytes": 699136,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "bytes": 2374680,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d02/floor.webp",
+      "bytes": 41310,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 0,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "bytes": 699136,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "bytes": 2374680,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "bytes": 204012,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "bytes": 213588,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "bytes": 211004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/low/model.glb",
+      "bytes": 210920,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "bytes": 218888,
+      "status": 200
+    }
+  ],
+  "measurements": {
+    "assetsUniqueBytes": 16657659
+  },
+  "browser": "154.0.4258.62",
+  "match": {
+    "manifest": {
+      "engineDigest": "2a7ab7b39b03a7de65aea1d2a918815502d3942ec3722e7bc6cbf961259e5d78",
+      "rulesetDigest": "19ef0b984d12a34796ea2058bb9971421674671fd4cc76b8cf694e80f03d2f14",
+      "catalogDigest": "d8fe55474692a49ed5daa6d7dac62f635630a9e447a85ba683c0765bf535885d",
+      "compilerDigest": "95b374ad1965a84ef51b11bb068bcc26b4feaf5b66fb6c1863308eee06fe9aea",
+      "brainAbiVersion": "2.0",
+      "packageHashes": {
+        "A": "094cc7ba8882f796478b0e7afa5fdbad5867b211326542ab3fcce286859963fb",
+        "B": "117c29cc725d45388458a867f363723aec693728f8d6081d762785096592d681"
+      },
+      "seed": "00000000000000000000000000000000",
+      "arenaDigest": "9828f7049a82dd2e8d685623132eef684b6377a0c5f81a9d76923beb7fc8e84d",
+      "arenaInitDigest": "213af97e3969c88fce81f28e1055c18af8549bbf5bd37e72079f1d301d4ba510",
+      "scenarioId": 257,
+      "presetValues": {
+        "yLeft": -2000,
+        "yRight": 0,
+        "jitterLeft": -64,
+        "jitterRight": 0
+      },
+      "spawnSlotAssignment": {
+        "A": "left",
+        "B": "right"
+      },
+      "maxTicks": 5400,
+      "numericalAbiVersion": "milli-v1"
+    },
+    "result": {
+      "winner": "B",
+      "cause": "core",
+      "elapsedTicks": 2602,
+      "scores": {
+        "A": 885,
+        "B": 5002
+      }
+    },
+    "simulationHash": "4ebd80218b53bf01271d8ac9d92eaf348301565123e6d0e8448436eb2c7376c2",
+    "publicReplayHash": "29bf01b2db3f4f1e2f685be1d1f1673b678a6d59927092947f8703767614c140",
+    "orderedEventsHash": "e6844b657976b2468ec0ff69f72b9ab3822c38b151f8fa56ecd56fb368515693",
+    "publicFramesHash": "c6de202faacb45ababdf04ac03f193238f1ce7d80d457c696ff55ef2def2fcec",
+    "frameCount": 2603
+  },
+  "gpu": {
+    "renderer": "ANGLE (AMD, AMD Radeon(TM) Graphics (0x0000164E) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (AMD)",
+    "dpr": 1,
+    "viewport": [
+      1600,
+      1100
+    ]
+  },
+  "database": {
+    "version": 1,
+    "stores": [
+      "heads",
+      "revisions"
+    ]
+  },
+  "camera": {
+    "rotationChangedRender": true,
+    "resetStateEqualWithin": 1e-7,
+    "before": {
+      "target": [
+        0,
+        1.0624243021011353,
+        0.5
+      ],
+      "azimuth": 0.7853981633974483,
+      "elevation": 0.85,
+      "zoom": 104.33909430974123
+    },
+    "reset": {
+      "target": [
+        0,
+        1.0624243021011353,
+        0.5
+      ],
+      "azimuth": 0.7853981633974483,
+      "elevation": 0.85,
+      "zoom": 104.33909430974123
+    },
+    "resetPixelEqual": true,
+    "note": "Real WebGL canvas capture with reduced motion; hover can alter ghost so pixel equality is recorded separately from the authoritative camera state."
+  }
+}

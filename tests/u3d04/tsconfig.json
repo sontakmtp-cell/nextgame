@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "composite": false,
+    "noEmit": true,
+    "rootDir": "../..",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "lib": ["ES2022", "DOM"],
+    "paths": {
+      "@prompt-chien/renderer3d": ["../../packages/renderer3d/dist/index.d.ts"],
+      "@react-three/fiber": ["../../packages/renderer3d/node_modules/@react-three/fiber"],
+      "three": ["../../packages/renderer3d/node_modules/@types/three"]
+    }
+  },
+  "include": ["*.tsx"]
+}

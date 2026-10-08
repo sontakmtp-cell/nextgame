@@ -1,0 +1,7 @@
+{
+  "command": "node node_modules/typescript/bin/tsc -p tests/g1-browser/tsconfig.json",
+  "exit": 0,
+  "ms": 867.7977000000005,
+  "stdout": "",
+  "stderr": ""
+}

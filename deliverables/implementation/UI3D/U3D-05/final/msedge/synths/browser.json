@@ -1,0 +1,1514 @@
+{
+  "command": "node scripts/u3d05-browser.mjs",
+  "channel": "msedge",
+  "startedAt": "2026-10-08T14:07:06.966Z",
+  "cpu": "AMD Ryzen 5 7600 6-Core Processor              ",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "One preview canvas and one serial thumbnail canvas for all six cards",
+      "detail": true
+    },
+    {
+      "name": "Content-key queue deduplicates equal Body across Synth/revision/notes; three unique PNGs",
+      "detail": [
+        {
+          "key": "http://127.0.0.1:5205/__synth-thumbnail__/c6105616f52a6c2d5de09deaf6a10585134f0ab192216cdbf0cd0c5efecf677f.png",
+          "bytes": 85565
+        },
+        {
+          "key": "http://127.0.0.1:5205/__synth-thumbnail__/272fbbb6dcef826591472da66f7d84cc8d828714cd8e9572f23f32151f122709.png",
+          "bytes": 85381
+        },
+        {
+          "key": "http://127.0.0.1:5205/__synth-thumbnail__/e6132829cd65efaa937a61fe0c608b18093e3359d7e3050b55cd813a19a657cf.png",
+          "bytes": 85412
+        }
+      ]
+    },
+    {
+      "name": "Each saved revision renders its own Body; selecting all revisions leaves database unchanged",
+      "detail": [
+        "a2b15a33054d69a698ad7a4d7678482575ad72a1c51751fb009401657e8f4edb",
+        "2b6a89e5e2ea1be3c538bd9132ee1bee5fe2e6acd6d4ef72f9d31b69e6d75200",
+        "ca8df9a31fd98cb4aaf2872f17bb684838597078a3ab2a318a5ff79da7213e77"
+      ]
+    },
+    {
+      "name": "Archive preview does not replace exported/current draft",
+      "detail": true
+    },
+    {
+      "name": "Thumbnail cache survives view teardown",
+      "detail": true
+    },
+    {
+      "name": "Clear/rebuild retains keys and pixels within <=1/255 on <=0.1% pixels, measured explicitly; never changes Synth storage",
+      "detail": [
+        {
+          "key": "http://127.0.0.1:5205/__synth-thumbnail__/272fbbb6dcef826591472da66f7d84cc8d828714cd8e9572f23f32151f122709.png",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "pixels": 49152
+        },
+        {
+          "key": "http://127.0.0.1:5205/__synth-thumbnail__/c6105616f52a6c2d5de09deaf6a10585134f0ab192216cdbf0cd0c5efecf677f.png",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "pixels": 49152
+        },
+        {
+          "key": "http://127.0.0.1:5205/__synth-thumbnail__/e6132829cd65efaa937a61fe0c608b18093e3359d7e3050b55cd813a19a657cf.png",
+          "changedPixels": 0,
+          "maxChannelDifference": 0,
+          "pixels": 49152
+        }
+      ]
+    },
+    {
+      "name": "Real WebGL context loss/restore keeps selected version and reloads viewport",
+      "detail": true
+    },
+    {
+      "name": "Unapplied Brain JSON survives archive browsing; opens/restores are disabled while dirty",
+      "detail": true
+    },
+    {
+      "name": "Dirty draft and undo remain intact while previewing; beforeunload warning remains active",
+      "detail": true
+    },
+    {
+      "name": "Restore from a different Synth targets correct ID and current CAS head; creates r4 without overwriting r1-r3",
+      "detail": true
+    },
+    {
+      "name": "Two real tabs: stale CAS save rejects and retains draft; fork saves a new ID",
+      "detail": true
+    }
+  ],
+  "errors": [],
+  "assets": [
+    {
+      "url": "/fonts/font-3.woff2",
+      "bytes": 112144,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SJ_F7AY.woff2",
+      "bytes": 3696,
+      "status": 200
+    },
+    {
+      "url": "/fonts/font-1.woff2",
+      "bytes": 108256,
+      "status": 200
+    },
+    {
+      "url": "/fonts/font-0.woff2",
+      "bytes": 37224,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw5BXoKZA.woff2",
+      "bytes": 13056,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SZ_F7AY.woff2",
+      "bytes": 9068,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw4BXoKZA.woff2",
+      "bytes": 11532,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91R5_F.woff2",
+      "bytes": 9900,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/pressstart2p/v16/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2",
+      "bytes": 12512,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWn6pg.woff2",
+      "bytes": 9756,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51R5_F.woff2",
+      "bytes": 9968,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/sharetechmono/v16/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2",
+      "bytes": 13500,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SJ_F7AY.woff2",
+      "bytes": 3688,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG87Rb0bcw.woff2",
+      "bytes": 13852,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG86Rb0bcw.woff2",
+      "bytes": 12468,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SZ_F7AY.woff2",
+      "bytes": 9056,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkapgeL4.woff2",
+      "bytes": 8860,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWkKpgeL4.woff2",
+      "bytes": 3640,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG81Rb0.woff2",
+      "bytes": 22152,
+      "status": 200
+    },
+    {
+      "url": "/fonts/font-2.woff2",
+      "bytes": 112332,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d02/floor.webp",
+      "bytes": 41310,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "bytes": 699136,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "bytes": 699136,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "bytes": 2374680,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "bytes": 699136,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "bytes": 204012,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "bytes": 213588,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "bytes": 211004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/low/model.glb",
+      "bytes": 210440,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "bytes": 218888,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/low/model.glb",
+      "bytes": 204012,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/low/model.glb",
+      "bytes": 213588,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/low/model.glb",
+      "bytes": 211004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/low/model.glb",
+      "bytes": 210440,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/low/model.glb",
+      "bytes": 218888,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXgSYA.woff2",
+      "bytes": 21432,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXcSYIAi.woff2",
+      "bytes": 11840,
+      "status": 200
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXYSYIAi.woff2",
+      "bytes": 13120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "bytes": 699136,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "bytes": 2374680,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "bytes": 699136,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "bytes": 2374680,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "bytes": 699136,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "bytes": 2374680,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d02/floor.webp",
+      "bytes": 41310,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/medium/model.glb",
+      "bytes": 672004,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/shield/high/model.glb",
+      "bytes": 2080168,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200
+    }
+  ],
+  "metrics": {
+    "coldSceneAnd3CardsMs": 2197.0343000000003,
+    "thumbnails": [
+      {
+        "width": 256,
+        "height": 192,
+        "bytes": 85565
+      },
+      {
+        "width": 256,
+        "height": 192,
+        "bytes": 85565
+      },
+      {
+        "width": 256,
+        "height": 192,
+        "bytes": 85381
+      },
+      {
+        "width": 256,
+        "height": 192,
+        "bytes": 85565
+      },
+      {
+        "width": 256,
+        "height": 192,
+        "bytes": 85412
+      },
+      {
+        "width": 256,
+        "height": 192,
+        "bytes": 85381
+      }
+    ],
+    "cacheCold": [
+      {
+        "key": "http://127.0.0.1:5205/__synth-thumbnail__/c6105616f52a6c2d5de09deaf6a10585134f0ab192216cdbf0cd0c5efecf677f.png",
+        "bytes": 85565
+      },
+      {
+        "key": "http://127.0.0.1:5205/__synth-thumbnail__/272fbbb6dcef826591472da66f7d84cc8d828714cd8e9572f23f32151f122709.png",
+        "bytes": 85381
+      },
+      {
+        "key": "http://127.0.0.1:5205/__synth-thumbnail__/e6132829cd65efaa937a61fe0c608b18093e3359d7e3050b55cd813a19a657cf.png",
+        "bytes": 85412
+      }
+    ],
+    "thumbnailRebuildPixels": [
+      {
+        "key": "http://127.0.0.1:5205/__synth-thumbnail__/272fbbb6dcef826591472da66f7d84cc8d828714cd8e9572f23f32151f122709.png",
+        "changedPixels": 0,
+        "maxChannelDifference": 0,
+        "pixels": 49152
+      },
+      {
+        "key": "http://127.0.0.1:5205/__synth-thumbnail__/c6105616f52a6c2d5de09deaf6a10585134f0ab192216cdbf0cd0c5efecf677f.png",
+        "changedPixels": 0,
+        "maxChannelDifference": 0,
+        "pixels": 49152
+      },
+      {
+        "key": "http://127.0.0.1:5205/__synth-thumbnail__/e6132829cd65efaa937a61fe0c608b18093e3359d7e3050b55cd813a19a657cf.png",
+        "changedPixels": 0,
+        "maxChannelDifference": 0,
+        "pixels": 49152
+      }
+    ],
+    "memory": {
+      "before": {
+        "usedSize": 14950104,
+        "totalSize": 16105472,
+        "embedderHeapUsedSize": 3860968,
+        "backingStorageSize": 82315884
+      },
+      "after": {
+        "usedSize": 17105044,
+        "totalSize": 18464768,
+        "embedderHeapUsedSize": 4939160,
+        "backingStorageSize": 82316516
+      },
+      "driftMiB": 2.0551109313964844,
+      "kind": "CDP forced-GC JS heap only, 10 archive mode teardown cycles",
+      "cyclesMs": [
+        956.3341,
+        951.0002999999997,
+        949.3590000000004,
+        966.7484000000004,
+        967.2983999999997,
+        949.6297000000013,
+        932.9377999999997,
+        967.8991999999998,
+        949.0688000000009,
+        949.7911000000022
+      ]
+    }
+  },
+  "browser": "154.0.4258.62",
+  "gpu": {
+    "renderer": "ANGLE (AMD, AMD Radeon(TM) Graphics (0x0000164E) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+  }
+}

@@ -1,0 +1,89 @@
+diff --git a/deliverables/implementation/UI3D/U3D-05/baseline/shared/App.tsx b/apps/web/src/App.tsx
+index 2a972aa..7b3106a 100644
+--- a/deliverables/implementation/UI3D/U3D-05/baseline/shared/App.tsx
++++ b/apps/web/src/App.tsx
+@@ -2,6 +2,7 @@ import { lazy, Suspense, useEffect, useRef, useState } from 'react';
+ import type { BotDefinition, CombatEvent, InlineRule } from '@prompt-chien/contracts';
+ import { clone, diffSummary, editModule, newModule, occlusions } from './model.js';
+ import { useSynthSession } from './useSynthSession.js';
++import type { Draft } from './drafts.js';
+ import N8nCanvas from './N8nCanvas.js';
+ import NodeLibrary from './NodeLibrary.js';
+ import { conditionSummary, insertLibraryNode, nodeLibrary } from './brain-library.js';
+@@ -10,6 +11,7 @@ import { presentationUrl } from './presentation.js';
+ import './presentation.css';
+ 
+ const Workshop3D = lazy(() => import('./Workshop3D.js'));
++const MySynths3D = lazy(() => import('./MySynths3D.js'));
+ const Arena = lazy(() => import('./Arena.js'));
+ 
+ const labels: Record<string, string> = {
+@@ -81,6 +83,16 @@ export default function App() {
+ 
+   const workshop3d = view === 'Workshop' && presentation === '3d';
+   const arena3d = view === 'Arena' && presentation === '3d';
++  const synths3d = view === 'My Synths' && presentation === '3d';
++  const openArchived = (entry: Draft, head: Draft, restore: boolean) => {
++    if (dirty || pending || busy || saving) return;
++    // Load with the current CAS head, then put historical contents into the draft.
++    // The immutable revision records are never updated by preview/open/restore.
++    loadDraft({ ...head, definition: entry.definition, hypothesis: entry.hypothesis, weakness: entry.weakness, parentHash: entry.parentHash });
++    setStored(json({ bot: head.definition, hypothesis: head.hypothesis, weakness: head.weakness, parentHash: head.parentHash }));
++    setStatus(restore || entry.revision !== head.revision ? `Khôi phục nội dung r${entry.revision}; lưu sẽ tạo revision mới sau r${head.revision}.` : `Đã mở ${entry.definition.name} · r${head.revision}.`);
++    setView('Workshop');
++  };
+   const selectedModule =
+     bot.body.modules.find((m) => m.id === selected) ??
+     bot.body.modules.find(
+@@ -425,7 +437,7 @@ export default function App() {
+ 
+ 
+   return (
+-    <div className={arena3d ? 'app-shell ui3d-shell ui3d-arena-shell' : workshop3d ? 'app-shell ui3d-shell' : 'app-shell'}
++    <div className={synths3d ? 'app-shell ui3d-shell ui3d-synth-shell' : arena3d ? 'app-shell ui3d-shell ui3d-arena-shell' : workshop3d ? 'app-shell ui3d-shell' : 'app-shell'}
+       onFocusCapture={e => setCameraInputLocked(e.target.matches('input:not([type="checkbox"]):not([type="range"]),textarea,select'))}
+       onBlurCapture={e => setCameraInputLocked(e.relatedTarget instanceof HTMLElement && e.relatedTarget.matches('input:not([type="checkbox"]):not([type="range"]),textarea,select'))}
+       onPointerDownCapture={e => { if (e.target instanceof HTMLCanvasElement && document.activeElement instanceof HTMLElement) document.activeElement.blur(); }}>
+@@ -473,7 +485,7 @@ export default function App() {
+       <div className="workspace-shell">
+         <header className="topbar">
+           <div>
+-            <span className="eyebrow">{arena3d ? 'TRẬN THỬ LOCAL / PUBLIC REPLAY' : workshop3d ? 'ATELIER / CERAMIC & GRAPHITE' : 'PIXEL ART / CYBER COBALT & ELECTRIC CYAN'}</span>
++            <span className="eyebrow">{synths3d ? 'BLUEPRINT ARCHIVE / LƯU TRÊN MÁY' : arena3d ? 'TRẬN THỬ LOCAL / PUBLIC REPLAY' : workshop3d ? 'ATELIER / CERAMIC & GRAPHITE' : 'PIXEL ART / CYBER COBALT & ELECTRIC CYAN'}</span>
+             <h1>{view}</h1>
+           </div>
+           <div className="local-badge">◉ n8n Workflow · Local</div>
+@@ -493,9 +505,6 @@ export default function App() {
+         </header>
+ 
+         <main id="workspace">
+-          {presentation === '3d' && view === 'My Synths' && (
+-            <p className="status-strip" role="note">Tích hợp 3D màn này thuộc U3D-05. Đang dùng 2D; bản đang sửa được giữ.</p>
+-          )}
+           {view !== 'Bot mẫu' && <section className="synth-header">
+             <div>
+               <label htmlFor="synth-name" className="eyebrow">
+@@ -1199,7 +1208,13 @@ export default function App() {
+               </section>
+             ))}
+ 
+-          {view === 'My Synths' && (
++          {synths3d && <Suspense fallback={<p role="status">Đang mở thư viện Synth 3D…</p>}><MySynths3D
++            bot={bot} catalog={catalog} drafts={drafts} dirty={dirty} busy={busy} pending={pending} saving={saving} cameraLocked={cameraInputLocked}
++            onOpen={(entry, head) => openArchived(entry, head, false)} onRestore={(entry, head) => openArchived(entry, head, true)}
++            onSave={fork => void save(fork)} onExport={() => download(`${bot.name}.bot.json`, bot)}
++            onRequest2d={() => { window.history.replaceState(window.history.state, '', presentationUrl(window.location.href, '2d')); setPresentation('2d'); }}
++          /></Suspense>}
++          {view === 'My Synths' && !synths3d && (
+             <section className="panel">
+               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
+                 <div>
+@@ -1261,7 +1276,7 @@ export default function App() {
+             </section>
+           )}
+ 
+-          {!workshop3d && (arena3d ? <details className="ui3d-arena-extras"><summary>Thí nghiệm A/B local</summary>{experimentPanel}</details> : experimentPanel)}
++          {!workshop3d && ((arena3d || synths3d) ? <details className="ui3d-arena-extras"><summary>Thí nghiệm A/B local</summary>{experimentPanel}</details> : experimentPanel)}
+ 
+           {workshop3d && drawer && <div className="ui3d-drawer-backdrop" onClick={e => { if (e.target === e.currentTarget) setDrawer(false); }}>
+             <div className="ui3d-drawer" role="dialog" aria-modal="true" aria-labelledby="workshop-tools-title" ref={drawerRoot}>

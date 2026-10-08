@@ -1,0 +1,74 @@
+{
+  "command": "node scripts/workshop-click-browser.mjs",
+  "channel": "chrome",
+  "startedAt": "2026-10-08T15:05:39.384Z",
+  "checks": [
+    "Real WebGL hover does not edit; single click installs one module; occupied click selects; delete/undo/redo preserve exact Body and Brain",
+    "Double click installs once; all four Core cells select without overlap; grid Enter installs immediately",
+    "Full 2x2 move footprint at 4,3 blocked before mutation or undo entry",
+    "Single canvas click moves a selected module into a free cell, retaining ID/Brain and undo",
+    "Pending JSON prevents direct placement/deletion",
+    "2D click installs; occupied click selects; numeric movement onto Core is blocked; delete preserves Brain",
+    "Brain Lab still 2D; screenshot byte-identical to U3D-06 final in same browser"
+  ],
+  "errors": [],
+  "browser": "154.0.8037.98",
+  "initialModules": [
+    {
+      "id": "coreMain",
+      "catalogId": "core",
+      "cell": {
+        "x": 5,
+        "y": 5
+      },
+      "orientation": 0
+    },
+    {
+      "id": "driveTop",
+      "catalogId": "thruster",
+      "cell": {
+        "x": 4,
+        "y": 5
+      },
+      "orientation": 0
+    },
+    {
+      "id": "driveBottom",
+      "catalogId": "thruster",
+      "cell": {
+        "x": 4,
+        "y": 6
+      },
+      "orientation": 0
+    },
+    {
+      "id": "part0",
+      "catalogId": "blade",
+      "cell": {
+        "x": 7,
+        "y": 5
+      },
+      "orientation": 0
+    },
+    {
+      "id": "part1",
+      "catalogId": "radiator",
+      "cell": {
+        "x": 5,
+        "y": 4
+      },
+      "orientation": 0
+    },
+    {
+      "id": "part2",
+      "catalogId": "armor",
+      "cell": {
+        "x": 6,
+        "y": 4
+      },
+      "orientation": 0
+    }
+  ],
+  "status": "passed",
+  "elapsedMs": 8346
+}

@@ -1,0 +1,1259 @@
+{
+  "status": "passed",
+  "checks": [
+    "Cold 3D route loads no Pixi chunks and only optimized runtime GLB; real WebAudio sounds only during playback, not seek or 2x",
+    "Unapplied Brain JSON retained across Brain Lab → Arena → Brain Lab; no 3D canvas in Brain"
+  ],
+  "scenarios": [
+    {
+      "scenario": "cold-audio",
+      "errors": [],
+      "assets": [
+        {
+          "url": "/fonts/font-3.woff2",
+          "status": 200,
+          "bytes": 112144
+        },
+        {
+          "url": "/fonts/font-1.woff2",
+          "status": 200,
+          "bytes": 108256
+        },
+        {
+          "url": "/fonts/font-2.woff2",
+          "status": 200,
+          "bytes": 112332
+        },
+        {
+          "url": "/fonts/font-0.woff2",
+          "status": 200,
+          "bytes": 37224
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SJ_F7AY.woff2",
+          "status": 200,
+          "bytes": 3696
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91R5_F.woff2",
+          "status": 200,
+          "bytes": 9900
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw4BXoKZA.woff2",
+          "status": 200,
+          "bytes": 11532
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SZ_F7AY.woff2",
+          "status": 200,
+          "bytes": 9068
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw5BXoKZA.woff2",
+          "status": 200,
+          "bytes": 13056
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw3BXo.woff2",
+          "status": 200,
+          "bytes": 21168
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/pressstart2p/v16/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2",
+          "status": 200,
+          "bytes": 12512
+        },
+        {
+          "url": "/assets/ui3d/u3d02/floor.webp",
+          "status": 200,
+          "bytes": 41310
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+          "status": 200,
+          "bytes": 668156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+          "status": 200,
+          "bytes": 678744
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+          "status": 200,
+          "bytes": 690784
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+          "status": 200,
+          "bytes": 699136
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+          "status": 200,
+          "bytes": 703120
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+          "status": 200,
+          "bytes": 2203280
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+          "status": 200,
+          "bytes": 2247156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+          "status": 200,
+          "bytes": 2376128
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+          "status": 200,
+          "bytes": 2374680
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+          "status": 200,
+          "bytes": 2389420
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+          "status": 200,
+          "bytes": 668156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+          "status": 200,
+          "bytes": 678744
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+          "status": 200,
+          "bytes": 690784
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+          "status": 200,
+          "bytes": 699136
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+          "status": 200,
+          "bytes": 703120
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+          "status": 200,
+          "bytes": 681620
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+          "status": 200,
+          "bytes": 646068
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+          "status": 200,
+          "bytes": 2203280
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+          "status": 200,
+          "bytes": 2247156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+          "status": 200,
+          "bytes": 2376128
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+          "status": 200,
+          "bytes": 2374680
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+          "status": 200,
+          "bytes": 2389420
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+          "status": 200,
+          "bytes": 2237632
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+          "status": 200,
+          "bytes": 1930248
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG81Rb0.woff2",
+          "status": 200,
+          "bytes": 22152
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIf6MapbsEk7TDLdtEz1BwkWn6pg.woff2",
+          "status": 200,
+          "bytes": 9756
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51R5_F.woff2",
+          "status": 200,
+          "bytes": 9968
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/sharetechmono/v16/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2",
+          "status": 200,
+          "bytes": 13500
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXYSYIAi.woff2",
+          "status": 200,
+          "bytes": 13120
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SJ_F7AY.woff2",
+          "status": 200,
+          "bytes": 3688
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeQI51SZ_F7AY.woff2",
+          "status": 200,
+          "bytes": 9056
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG86Rb0bcw.woff2",
+          "status": 200,
+          "bytes": 12468
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVMSTAyLFyeg_IDWvOJmVES_HSMIG87Rb0bcw.woff2",
+          "status": 200,
+          "bytes": 13852
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXcSYIAi.woff2",
+          "status": 200,
+          "bytes": 11840
+        },
+        {
+          "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVNSTAyLFyeg_IDWvOJmVES_HwyNXgSYA.woff2",
+          "status": 200,
+          "bytes": 21432
+        },
+        {
+          "url": "/assets/ui3d/u3d02/floor.webp",
+          "status": 200,
+          "bytes": 41310
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+          "status": 200,
+          "bytes": 668156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+          "status": 200,
+          "bytes": 678744
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+          "status": 200,
+          "bytes": 690784
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+          "status": 200,
+          "bytes": 699136
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+          "status": 200,
+          "bytes": 703120
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+          "status": 200,
+          "bytes": 681620
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+          "status": 200,
+          "bytes": 646068
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+          "status": 200,
+          "bytes": 2203280
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+          "status": 200,
+          "bytes": 2247156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+          "status": 200,
+          "bytes": 2376128
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+          "status": 200,
+          "bytes": 2374680
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+          "status": 200,
+          "bytes": 2389420
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+          "status": 200,
+          "bytes": 2237632
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+          "status": 200,
+          "bytes": 1930248
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+          "status": 200,
+          "bytes": 668156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+          "status": 200,
+          "bytes": 678744
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+          "status": 200,
+          "bytes": 690784
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+          "status": 200,
+          "bytes": 699136
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+          "status": 200,
+          "bytes": 703120
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+          "status": 200,
+          "bytes": 681620
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+          "status": 200,
+          "bytes": 646068
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+          "status": 200,
+          "bytes": 2203280
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+          "status": 200,
+          "bytes": 2247156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+          "status": 200,
+          "bytes": 2376128
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+          "status": 200,
+          "bytes": 2374680
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+          "status": 200,
+          "bytes": 2389420
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+          "status": 200,
+          "bytes": 2237632
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+          "status": 200,
+          "bytes": 1930248
+        },
+        {
+          "url": "/assets/ui3d/u3d02/floor.webp",
+          "status": 200,
+          "bytes": 41310
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+          "status": 200,
+          "bytes": 668156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+          "status": 200,
+          "bytes": 678744
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+          "status": 200,
+          "bytes": 690784
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+          "status": 200,
+          "bytes": 699136
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+          "status": 200,
+          "bytes": 703120
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+          "status": 200,
+          "bytes": 681620
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+          "status": 200,
+          "bytes": 646068
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+          "status": 200,
+          "bytes": 2203280
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+          "status": 200,
+          "bytes": 2247156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+          "status": 200,
+          "bytes": 2376128
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+          "status": 200,
+          "bytes": 2374680
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+          "status": 200,
+          "bytes": 2389420
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+          "status": 200,
+          "bytes": 2237632
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+          "status": 200,
+          "bytes": 1930248
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+          "status": 200,
+          "bytes": 668156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+          "status": 200,
+          "bytes": 678744
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+          "status": 200,
+          "bytes": 690784
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+          "status": 200,
+          "bytes": 699136
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+          "status": 200,
+          "bytes": 703120
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+          "status": 200,
+          "bytes": 681620
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+          "status": 200,
+          "bytes": 646068
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+          "status": 200,
+          "bytes": 2203280
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+          "status": 200,
+          "bytes": 2247156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+          "status": 200,
+          "bytes": 2376128
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+          "status": 200,
+          "bytes": 2374680
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+          "status": 200,
+          "bytes": 2389420
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+          "status": 200,
+          "bytes": 2237632
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+          "status": 200,
+          "bytes": 1930248
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+          "status": 200,
+          "bytes": 668156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+          "status": 200,
+          "bytes": 678744
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+          "status": 200,
+          "bytes": 690784
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+          "status": 200,
+          "bytes": 699136
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+          "status": 200,
+          "bytes": 703120
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+          "status": 200,
+          "bytes": 681620
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+          "status": 200,
+          "bytes": 646068
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+          "status": 200,
+          "bytes": 2203280
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+          "status": 200,
+          "bytes": 2247156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+          "status": 200,
+          "bytes": 2376128
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+          "status": 200,
+          "bytes": 2389420
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+          "status": 200,
+          "bytes": 2374680
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+          "status": 200,
+          "bytes": 2237632
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+          "status": 200,
+          "bytes": 1930248
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+          "status": 200,
+          "bytes": 668156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+          "status": 200,
+          "bytes": 678744
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+          "status": 200,
+          "bytes": 690784
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+          "status": 200,
+          "bytes": 699136
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+          "status": 200,
+          "bytes": 703120
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+          "status": 200,
+          "bytes": 681620
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+          "status": 200,
+          "bytes": 646068
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+          "status": 200,
+          "bytes": 2203280
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+          "status": 200,
+          "bytes": 2247156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+          "status": 200,
+          "bytes": 2376128
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+          "status": 200,
+          "bytes": 2374680
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+          "status": 200,
+          "bytes": 2389420
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+          "status": 200,
+          "bytes": 2237632
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+          "status": 200,
+          "bytes": 1930248
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+          "status": 200,
+          "bytes": 668156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+          "status": 200,
+          "bytes": 678744
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+          "status": 200,
+          "bytes": 690784
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+          "status": 200,
+          "bytes": 699136
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+          "status": 200,
+          "bytes": 703120
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+          "status": 200,
+          "bytes": 681620
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+          "status": 200,
+          "bytes": 646068
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+          "status": 200,
+          "bytes": 2203280
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+          "status": 200,
+          "bytes": 2247156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+          "status": 200,
+          "bytes": 2376128
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+          "status": 200,
+          "bytes": 2374680
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+          "status": 200,
+          "bytes": 2389420
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+          "status": 200,
+          "bytes": 2237632
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+          "status": 200,
+          "bytes": 1930248
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+          "status": 200,
+          "bytes": 668156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+          "status": 200,
+          "bytes": 678744
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+          "status": 200,
+          "bytes": 690784
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+          "status": 200,
+          "bytes": 699136
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+          "status": 200,
+          "bytes": 703120
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+          "status": 200,
+          "bytes": 681620
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+          "status": 200,
+          "bytes": 646068
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+          "status": 200,
+          "bytes": 2203280
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+          "status": 200,
+          "bytes": 2247156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+          "status": 200,
+          "bytes": 2376128
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+          "status": 200,
+          "bytes": 2374680
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+          "status": 200,
+          "bytes": 2389420
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+          "status": 200,
+          "bytes": 2237632
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+          "status": 200,
+          "bytes": 1930248
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+          "status": 200,
+          "bytes": 668156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+          "status": 200,
+          "bytes": 678744
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+          "status": 200,
+          "bytes": 690784
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+          "status": 200,
+          "bytes": 699136
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+          "status": 200,
+          "bytes": 703120
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+          "status": 200,
+          "bytes": 681620
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+          "status": 200,
+          "bytes": 646068
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+          "status": 200,
+          "bytes": 2203280
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+          "status": 200,
+          "bytes": 2247156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+          "status": 200,
+          "bytes": 2376128
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+          "status": 200,
+          "bytes": 2374680
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+          "status": 200,
+          "bytes": 2389420
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+          "status": 200,
+          "bytes": 2237632
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+          "status": 200,
+          "bytes": 1930248
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+          "status": 200,
+          "bytes": 668156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+          "status": 200,
+          "bytes": 678744
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+          "status": 200,
+          "bytes": 690784
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+          "status": 200,
+          "bytes": 699136
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+          "status": 200,
+          "bytes": 703120
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+          "status": 200,
+          "bytes": 681620
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+          "status": 200,
+          "bytes": 646068
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+          "status": 200,
+          "bytes": 2203280
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+          "status": 200,
+          "bytes": 2247156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+          "status": 200,
+          "bytes": 2376128
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+          "status": 200,
+          "bytes": 2374680
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+          "status": 200,
+          "bytes": 2389420
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+          "status": 200,
+          "bytes": 2237632
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+          "status": 200,
+          "bytes": 1930248
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+          "status": 200,
+          "bytes": 668156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+          "status": 200,
+          "bytes": 678744
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+          "status": 200,
+          "bytes": 690784
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+          "status": 200,
+          "bytes": 699136
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+          "status": 200,
+          "bytes": 703120
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+          "status": 200,
+          "bytes": 681620
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+          "status": 200,
+          "bytes": 646068
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+          "status": 200,
+          "bytes": 2203280
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+          "status": 200,
+          "bytes": 2247156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+          "status": 200,
+          "bytes": 2376128
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+          "status": 200,
+          "bytes": 2374680
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+          "status": 200,
+          "bytes": 2389420
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+          "status": 200,
+          "bytes": 2237632
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+          "status": 200,
+          "bytes": 1930248
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+          "status": 200,
+          "bytes": 668156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+          "status": 200,
+          "bytes": 678744
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+          "status": 200,
+          "bytes": 690784
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+          "status": 200,
+          "bytes": 699136
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+          "status": 200,
+          "bytes": 703120
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/medium/model.glb",
+          "status": 200,
+          "bytes": 681620
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/medium/model.glb",
+          "status": 200,
+          "bytes": 646068
+        },
+        {
+          "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+          "status": 200,
+          "bytes": 527333
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+          "status": 200,
+          "bytes": 2203280
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+          "status": 200,
+          "bytes": 2247156
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+          "status": 200,
+          "bytes": 2376128
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+          "status": 200,
+          "bytes": 2374680
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+          "status": 200,
+          "bytes": 2389420
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/burst/high/model.glb",
+          "status": 200,
+          "bytes": 2237632
+        },
+        {
+          "url": "/assets/ui3d/u3d01/modules/capacitor/high/model.glb",
+          "status": 200,
+          "bytes": 1930248
+        }
+      ]
+    }
+  ],
+  "memory": {
+    "before": 19383132,
+    "loops": [
+      21432196,
+      21747240,
+      22224696,
+      22578768,
+      23249140,
+      23570168,
+      23871064,
+      24186672,
+      24667744,
+      24917380
+    ],
+    "after": 24917380,
+    "driftBytes": 5534248,
+    "limit": 10485760,
+    "type": "CDP Runtime.getHeapUsage.usedSize after forced GC; same real app replay, 10 2D/3D viewport teardown cycles; excludes GPU/total process memory"
+  }
+}

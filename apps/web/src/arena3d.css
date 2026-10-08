@@ -1,0 +1,42 @@
+.ui3d-arena {
+  --font-display: 'Inter', sans-serif; --font-body: 'Inter', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace; --text-primary: #18303d;
+  --text-secondary: #415d68; --text-muted: #546b75; --line: #a9babc;
+  --line-quiet: #c1cdcc; --surface: #eef2ed; --cyan: #136f73;
+  --team-a: #ae4227; --team-b: #096578; --team-a-soft: #f5ddd4; --team-b-soft: #d4efec;
+  --gold: #865f13; --pixel-shadow-sm: none; --pixel-shadow-md: none;
+  font-family: var(--font-body); color: var(--text-primary); background: #e7e9e1;
+  padding: 16px; border-radius: 10px; gap: 20px;
+}
+.ui3d-arena .arena-primary { min-width: 0; }
+.ui3d-arena .panel { background: #f1f3ed; color: #18303d; border: 1px solid #c1cdcc; box-shadow: none; }
+.ui3d-arena button, .ui3d-arena input, .ui3d-arena select { font-family: inherit; }
+.ui3d-arena button { color: #18303d; background: #e0e6e2; border: 1px solid #a9babc; box-shadow: none; }
+.ui3d-arena button.primary { background: #ffd07a; color: #172c3b; }
+.ui3d-arena .subtabs button[aria-pressed='true'] { background: #a9e5d7; color: #173c42; }
+.ui3d-arena input, .ui3d-arena select { color: #18303d; background: #f5f6f0; }
+.ui3d-arena-view { border: 1px solid #9facad; overflow: hidden; border-radius: 7px; }
+.ui3d-arena-camera { display: flex; align-items: center; justify-content: space-between; padding: 8px 12px; background: #263742; color: #dce8df; font: 11px var(--font-mono); }
+.ui3d-arena-camera button { font-size: 12px; min-height: 32px; }
+.ui3d-arena-canvas { height: clamp(320px, 45vw, 740px); position: relative; }
+.ui3d-arena .controls { flex-wrap: wrap; }
+.ui3d-arena .telemetry { max-height: 1000px; overflow: auto; }
+@media (max-width: 1023px) { .ui3d-arena { grid-template-columns: 1fr; } .ui3d-arena .telemetry { max-height: 600px; } }
+@media (max-width: 767px) { .ui3d-arena { padding: 7px; gap: 12px; } .ui3d-arena .team-strip { flex-direction: column; } .ui3d-arena-canvas { height: 340px; } .ui3d-arena .controls > label { min-width: 0; } }
+
+.ui3d-arena-shell .topbar h1 { display: block; font: 750 26px var(--font-body); }
+.ui3d-arena-shell .synth-header { display: none; }
+.ui3d-arena { --navy-deep: #e3e9e3; --navy-hover: #d1e5dc; --cyan-glow: transparent; }
+.ui3d-arena h2, .ui3d-arena h3, .ui3d-arena button { text-shadow: none; }
+.ui3d-arena .resource, .ui3d-arena .turning-point { background: #e2eae4; color: #203d48; border-width: 1px; }
+.ui3d-arena .telemetry pre { background: #e0e8e3; color: #203d48; border-width: 1px; }
+.ui3d-arena .team-strip { display: flex; gap: 12px; margin: 10px 0; }
+.ui3d-arena .team-strip > div { padding: 9px 12px; background: #d9e5de; border-width: 1px; border-radius: 5px; box-shadow: none; }
+.ui3d-arena .controls { background: #263742; padding: 12px; border-radius: 6px; color: #e6ede5; }
+.ui3d-arena .controls label { color: #e6ede5; }
+.ui3d-arena .controls button:first-child { background: #f4ad4e; }
+.ui3d-arena .controls input[type='range'] { width: 110px; }
+.ui3d-arena-shell .ui3d-arena-extras { padding: 10px 0; }
+
+.ui3d-arena-shell .topbar h1, .ui3d-arena-shell .status-strip, .ui3d-arena-shell .notice { text-shadow: none; box-shadow: none; }
+.ui3d-arena-canvas { height: clamp(320px, calc(100vh - 480px), 650px); }

@@ -1,0 +1,372 @@
+diff --git a/deliverables/implementation/UI3D/U3D-06/baseline/source/apps/web/src/style.css b/apps/web/src/style.css
+index 4f3aef6..4151121 100644
+--- a/deliverables/implementation/UI3D/U3D-06/baseline/source/apps/web/src/style.css
++++ b/apps/web/src/style.css
+@@ -852,305 +852,6 @@ dd {
+   flex: 1;
+ }
+ 
+-/* ========================================================= */
+-/* N8N WORKFLOW GRAPH (Interactive Canvas & Node Styles)     */
+-/* ========================================================= */
+-
+-.brain-layout {
+-  display: grid;
+-  grid-template-columns: minmax(0, 1fr) 360px;
+-  gap: 20px;
+-  align-items: start;
+-}
+-
+-.n8n-container {
+-  display: flex;
+-  flex-direction: column;
+-  background: var(--void-deep);
+-  border: 2px solid var(--cyan);
+-  box-shadow: 4px 4px 0px #000, 0 0 16px var(--cyan-glow);
+-  position: relative;
+-  overflow: hidden;
+-  height: 720px;
+-}
+-
+-.n8n-toolbar {
+-  display: flex;
+-  justify-content: space-between;
+-  align-items: center;
+-  padding: 10px 16px;
+-  background: var(--navy-deep);
+-  border-bottom: 2px solid var(--line);
+-  z-index: 5;
+-}
+-.n8n-toolbar-left, .n8n-toolbar-right {
+-  display: flex;
+-  align-items: center;
+-  gap: 10px;
+-}
+-.n8n-btn-autolayout {
+-  background: var(--cyan) !important;
+-  color: #000 !important;
+-  font-weight: 800 !important;
+-  border-color: #fff !important;
+-  box-shadow: 2px 2px 0px #000, 0 0 8px var(--cyan-glow) !important;
+-}
+-
+-.n8n-canvas-viewport {
+-  flex: 1;
+-  position: relative;
+-  overflow: hidden;
+-  cursor: grab;
+-  user-select: none;
+-  background-color: #040914;
+-  background-image: 
+-    radial-gradient(#1f4375 1.5px, transparent 1.5px),
+-    linear-gradient(to right, rgba(20, 45, 80, 0.2) 1px, transparent 1px),
+-    linear-gradient(to bottom, rgba(20, 45, 80, 0.2) 1px, transparent 1px);
+-  background-size: 24px 24px, 120px 120px, 120px 120px;
+-}
+-.n8n-canvas-viewport:active {
+-  cursor: grabbing;
+-}
+-
+-.n8n-world {
+-  position: absolute;
+-  top: 0;
+-  left: 0;
+-  width: 0;
+-  height: 0;
+-  transform-origin: 0 0;
+-}
+-
+-/* Wires SVG Layer */
+-.n8n-wires-svg {
+-  position: absolute;
+-  top: 0;
+-  left: 0;
+-  width: 100%;
+-  height: 100%;
+-  min-width: 4000px;
+-  min-height: 3000px;
+-  pointer-events: none;
+-  overflow: visible;
+-  z-index: 1;
+-}
+-
+-/* Badge Pulse */
+-.n8n-badge-pulse {
+-  display: inline-flex;
+-  align-items: center;
+-  gap: 5px;
+-  background: rgba(0, 240, 255, 0.12);
+-  border: 1px solid var(--cyan);
+-  color: var(--cyan-lit);
+-  font-family: var(--font-arcade);
+-  font-size: 8px;
+-  font-weight: 800;
+-  padding: 3px 6px;
+-  letter-spacing: 0.05em;
+-  margin-left: 8px;
+-  box-shadow: 0 0 6px rgba(0, 240, 255, 0.3);
+-  animation: n8n-pulse-glow 1.5s ease-in-out infinite alternate;
+-}
+-@keyframes n8n-pulse-glow {
+-  from { opacity: 0.75; }
+-  to { opacity: 1; box-shadow: 0 0 10px var(--cyan-glow); }
+-}
+-
+-.n8n-wire-path {
+-  fill: none;
+-  stroke-linecap: round;
+-  transition: stroke 150ms;
+-}
+-.n8n-wire-glow {
+-  stroke-width: 10px;
+-  opacity: 0.35;
+-  filter: blur(4px);
+-}
+-.n8n-wire-core {
+-  stroke-width: 3.5px;
+-  filter: drop-shadow(0 0 4px currentColor);
+-}
+-
+-/* Dynamic Pulse Wave Trail along wires */
+-.n8n-wire-pulse {
+-  fill: none;
+-  stroke-width: 3.5px;
+-  stroke-linecap: round;
+-  stroke-dasharray: 20 60;
+-  animation: n8n-pulse-flow 1.0s linear infinite;
+-  filter: drop-shadow(0 0 6px currentColor);
+-  opacity: 0.85;
+-}
+-
+-/* High-Energy Moving Photons / Packets (10 Hz data stream) */
+-.n8n-wire-packets {
+-  fill: none;
+-  stroke-width: 7px;
+-  stroke-linecap: round;
+-  stroke-dasharray: 0.1 40;
+-  animation: n8n-pulse-flow 1.0s linear infinite;
+-  filter: drop-shadow(0 0 6px #ffffff) drop-shadow(0 0 10px var(--cyan));
+-}
+-
+-@keyframes n8n-pulse-flow {
+-  from { stroke-dashoffset: 80; }
+-  to { stroke-dashoffset: 0; }
+-}
+-
+-/* N8N Nodes */
+-.n8n-node {
+-  position: absolute;
+-  width: 230px;
+-  min-height: 84px;
+-  box-sizing: border-box;
+-  background: var(--navy-surface);
+-  border: 2px solid var(--line);
+-  box-shadow: 3px 3px 0px #000;
+-  z-index: 2;
+-  cursor: pointer;
+-  transition: border-color 100ms, box-shadow 100ms;
+-}
+-.n8n-node:hover {
+-  border-color: var(--cyan);
+-  box-shadow: 3px 3px 0px #000, 0 0 10px var(--cyan-glow);
+-}
+-.n8n-node.selected {
+-  border-color: var(--cyan-lit);
+-  box-shadow: 3px 3px 0px #000, 0 0 14px var(--cyan-glow), inset 0 0 10px rgba(0, 240, 255, 0.2);
+-}
+-
+-.n8n-node-header {
+-  padding: 8px 12px;
+-  display: flex;
+-  align-items: center;
+-  justify-content: space-between;
+-  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+-  font-family: var(--font-display);
+-  font-size: 11px;
+-  font-weight: 800;
+-  letter-spacing: 0.05em;
+-  text-transform: uppercase;
+-}
+-.n8n-node-body {
+-  padding: 10px 12px;
+-  font-size: 11.5px;
+-}
+-.n8n-node-title {
+-  font-family: var(--font-display);
+-  font-weight: 700;
+-  margin-bottom: 4px;
+-}
+-.n8n-node-desc {
+-  font-family: var(--font-body);
+-  color: var(--text-muted);
+-  font-size: 11px;
+-}
+-
+-/* Node Variants */
+-/* State Node: Sapphire / Deep Blue */
+-.n8n-node-state {
+-  border-color: #2979ff;
+-}
+-.n8n-node-state .n8n-node-header {
+-  background: #153e7e;
+-  color: #82b1ff;
+-}
+-
+-/* Sensor / Condition Node: Cyan */
+-.n8n-node-condition,
+-.n8n-node-sensor {
+-  border-color: var(--cyan);
+-}
+-.n8n-node-condition .n8n-node-header,
+-.n8n-node-sensor .n8n-node-header {
+-  background: #005a63;
+-  color: var(--cyan-lit);
+-}
+-
+-/* Action Node: Amber / Gold */
+-.n8n-node-action {
+-  border-color: var(--gold);
+-}
+-.n8n-node-action .n8n-node-header {
+-  background: #665200;
+-  color: var(--gold-lit);
+-}
+-
+-/* Transition Node: Neon Purple */
+-.n8n-node-transition {
+-  border-color: var(--neon-purple);
+-}
+-.n8n-node-transition .n8n-node-header {
+-  background: #501d73;
+-  color: #e0aaff;
+-}
+-
+-/* Connectors / Ports */
+-.n8n-port {
+-  position: absolute;
+-  min-width: 14px;
+-  height: 14px;
+-  border: 1px solid #000;
+-  cursor: crosshair;
+-  z-index: 3;
+-  display: flex;
+-  align-items: center;
+-  justify-content: center;
+-  box-sizing: border-box;
+-}
+-.n8n-port-label {
+-  font-size: 7px;
+-  font-weight: 900;
+-  font-family: var(--font-arcade);
+-  color: #000;
+-  line-height: 1;
+-  padding: 0 2px;
+-  pointer-events: none;
+-  user-select: none;
+-}
+-.n8n-port-in {
+-  left: -8px;
+-  top: 50%;
+-  transform: translateY(-50%);
+-  background: var(--cyan);
+-  box-shadow: 0 0 6px var(--cyan-glow);
+-}
+-.n8n-port-out {
+-  right: -8px;
+-  top: 50%;
+-  transform: translateY(-50%);
+-  background: var(--gold);
+-  box-shadow: 0 0 6px var(--gold-glow);
+-}
+-.n8n-port-true {
+-  right: -8px;
+-  top: 35%;
+-  background: var(--neon-green);
+-  box-shadow: 0 0 6px var(--neon-green-glow);
+-}
+-.n8n-port-false {
+-  right: -8px;
+-  top: 70%;
+-  background: var(--danger);
+-  box-shadow: 0 0 6px var(--neon-red-glow);
+-}
+-
+-/* Node Inspector Sidebar */
+-.n8n-inspector {
+-  padding: 20px;
+-  background: var(--navy-base);
+-  border: 2px solid var(--line);
+-  box-shadow: var(--pixel-shadow-md);
+-  max-height: 720px;
+-  overflow-y: auto;
+-}
+-.n8n-inspector h2,
+-.n8n-inspector h3 {
+-  font-family: var(--font-display);
+-}
+-
+ /* Arena & Debrief */
+ .arena-layout {
+   display: grid;
+@@ -1370,12 +1071,6 @@ footer {
+   .app-shell {
+     grid-template-columns: 190px minmax(0, 1fr);
+   }
+-  .brain-layout {
+-    grid-template-columns: minmax(0, 1fr);
+-  }
+-  .n8n-inspector {
+-    max-height: none;
+-  }
+   .workshop-grid {
+     grid-template-columns: 190px minmax(260px, 1fr) 240px;
+   }
+@@ -1540,9 +1235,6 @@ footer {
+   .draft-row button {
+     width: 100%;
+   }
+-  .n8n-container {
+-    height: 480px;
+-  }
+   footer {
+     flex-direction: column;
+     align-items: flex-start;
+@@ -1557,12 +1249,12 @@ footer {
+ .library-heading h2, .library-heading p { margin: 0; }
+ .library-heading > span { color: var(--cyan); font-family: var(--font-mono); }
+ .library-opponent { max-width: 420px; margin: 20px 0; }
+-.bot-library-grid, .node-library-grid {
++.bot-library-grid {
+   display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr)); gap: 16px;
+ }
+-.bot-library-card, .node-library-card { min-width: 0; display: flex; flex-direction: column; padding: 18px; }
+-.bot-library-card > p, .node-library-card > p { color: var(--text-secondary); }
+-.bot-library-card h3, .node-library-card h3 { margin-bottom: 6px; overflow-wrap: anywhere; }
++.bot-library-card { min-width: 0; display: flex; flex-direction: column; padding: 18px; }
++.bot-library-card > p { color: var(--text-secondary); }
++.bot-library-card h3 { margin-bottom: 6px; overflow-wrap: anywhere; }
+ .bot-library-card .controls { margin-top: auto; padding-top: 18px; }
+ .bot-library-card .controls > button { flex: 1; }
+ .bot-library-card summary { cursor: pointer; color: var(--cyan-lit); }
+@@ -1573,21 +1265,9 @@ footer {
+   background: var(--void-deep); border: 1px solid var(--line-quiet); margin-bottom: 14px;
+ }
+ .bot-library-preview img { width: 100%; height: 100%; image-rendering: pixelated; }
+-.brain-library-heading { padding: 16px; background: var(--navy-deep); border-left: 3px solid var(--cyan); }
+-.node-library { margin-bottom: 20px; }
+-.library-filters { display: flex; flex-wrap: wrap; gap: 14px; margin: 20px 0; }
+-.library-filters > label { flex: 1 1 200px; min-width: 0; }
+-.node-library-card { border: 1px solid var(--line); background: var(--navy-deep); }
+-.node-library-card .node-example { padding: 10px; background: var(--cyan-soft); color: var(--cyan-lit); font-size: 12px; }
+-.node-library-card > button { margin-top: auto; }
+-.node-library-card .subtle { margin: 10px 0 0; }
+-
+ @media (max-width: 767px) {
+   .actions { flex-wrap: wrap; }
+   .actions button { flex: 1 1 42%; }
+-  .brain-library-heading > button { width: 100%; }
+-  .n8n-toolbar { flex-wrap: wrap; gap: 8px; }
+-  .n8n-toolbar-left, .n8n-toolbar-right { flex-wrap: wrap; }
+ }
+ 
+ @media (prefers-reduced-motion: reduce) {

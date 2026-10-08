@@ -1,0 +1,50 @@
+[
+  {
+    "name": "typing",
+    "args": [
+      "node_modules/typescript/bin/tsc",
+      "-b"
+    ],
+    "exit": 0,
+    "ms": 2156.7104,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "name": "renderer-tests",
+    "args": [
+      "node_modules/vitest/vitest.mjs",
+      "run",
+      "tests/renderer3d.test.ts"
+    ],
+    "exit": 0,
+    "ms": 850.0819999999999,
+    "stdout": "\n RUN  v5.0.3 D:/AI/nextgame\n\n\n Test Files  1 passed (1)\n      Tests  9 passed (9)\n   Start at  19:00:57\n   Duration  598ms (import 88%, transform 10%, tests 2%, worker 1%)\n\n",
+    "stderr": ""
+  },
+  {
+    "name": "scene-typing",
+    "args": [
+      "node_modules/typescript/bin/tsc",
+      "-p",
+      "tests/u3d02/tsconfig.json"
+    ],
+    "exit": 0,
+    "ms": 1010.4902000000002,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "name": "scene-build",
+    "args": [
+      "apps/web/node_modules/vite/bin/vite.js",
+      "build",
+      "--config",
+      "tests/u3d02/vite.config.mjs"
+    ],
+    "exit": 0,
+    "ms": 608.2541999999999,
+    "stdout": "vite v8.3.2 building client environment for production...\ntransforming...\n✓ 596 modules transformed.\nrendering chunks...\ncomputing gzip size...\n.local/u3d02/dist/index.html                                 0.39 kB │ gzip:   0.29 kB\n.local/u3d02/dist/fixture.json                              11.60 kB │ gzip:   1.13 kB\n.local/u3d02/dist/assets/basis_transcoder-o4Hde_L7.js       57.52 kB\n.local/u3d02/dist/assets/basis_transcoder-VXdx5NbI.wasm    527.33 kB │ gzip: 248.94 kB\n.local/u3d02/dist/assets/index-B6tMtoAe.css                  1.84 kB │ gzip:   0.89 kB\n.local/u3d02/dist/assets/index-BS2suDvy.js               1,449.84 kB │ gzip: 421.24 kB\n\n✓ built in 431ms\n",
+    "stderr": "[plugin builtin:vite-reporter] \n(!) Some chunks are larger than 500 kB after minification. Consider:\n- Using dynamic import() to code-split the application\n- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting\n- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.\n"
+  }
+]

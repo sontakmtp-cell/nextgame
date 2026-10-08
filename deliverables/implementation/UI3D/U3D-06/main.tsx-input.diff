@@ -1,0 +1,11 @@
+diff --git a/deliverables/implementation/UI3D/U3D-06/baseline/source/apps/web/src/main.tsx b/apps/web/src/main.tsx
+index e02d9a2..0b82652 100644
+--- a/deliverables/implementation/UI3D/U3D-06/baseline/source/apps/web/src/main.tsx
++++ b/apps/web/src/main.tsx
+@@ -1,5 +1,6 @@
+ import { createRoot } from 'react-dom/client';
+ import App from './App.js';
+ import './style.css';
++import './brain-lab.css';
+ const root=document.getElementById('root');
+ if(root)createRoot(root).render(<App/>);

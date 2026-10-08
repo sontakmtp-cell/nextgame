@@ -1,0 +1,7 @@
+{
+  "command": "node scripts/boundaries.mjs",
+  "exit": 0,
+  "ms": 296.53139999999985,
+  "stdout": "Strict types + package boundaries: passed\n",
+  "stderr": ""
+}

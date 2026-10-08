@@ -1,0 +1,27 @@
+{
+  "unchanged": 5008,
+  "changed": [
+    "scripts/u3d05-evidence.mjs",
+    "apps/web/src/App.tsx",
+    "packages/renderer3d/src/index.ts"
+  ],
+  "added": [
+    "Docs/U3D-05_REPORT.md",
+    "apps/web/src/MySynths3D.tsx",
+    "apps/web/src/mysynths3d.css",
+    "apps/web/src/synth-thumbnail.ts",
+    "packages/renderer3d/src/SynthThumbnail.tsx",
+    "scripts/u3d05-assets.mjs",
+    "scripts/u3d05-baseline-browser.mjs",
+    "scripts/u3d05-browser.mjs",
+    "scripts/u3d05-budget.mjs",
+    "scripts/u3d05-faults.mjs",
+    "scripts/u3d05-profile.mjs",
+    "tests/synth-thumbnail.test.ts"
+  ],
+  "missing": [],
+  "violations": [],
+  "outsideScopeObserved": [],
+  "head": "5ba0a7cddbc6e9fba7d002c856019736828a7dd1",
+  "branch": "remake-ui3d"
+}

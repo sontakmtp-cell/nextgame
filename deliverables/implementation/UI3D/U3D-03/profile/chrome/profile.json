@@ -1,0 +1,377 @@
+{
+  "command": "node scripts/u3d03-profile.mjs",
+  "channel": "chrome",
+  "at": "2026-10-08T12:43:16.606Z",
+  "status": "measured",
+  "cpu": "AMD Ryzen 5 7600 6-Core Processor              ",
+  "gpu": {
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5060 Ti (0x00002D04) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)",
+    "dpr": 1,
+    "viewport": [
+      1600,
+      1100
+    ]
+  },
+  "assets": [
+    {
+      "url": "/fonts/font-3.woff2",
+      "bytes": 112144,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/fonts/font-1.woff2",
+      "bytes": 108256,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/fonts/font-2.woff2",
+      "bytes": 112332,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/fonts/font-0.woff2",
+      "bytes": 37224,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SJ_F7AY.woff2",
+      "bytes": 3696,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91R5_F.woff2",
+      "bytes": 9900,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/thumbnails/thruster.png",
+      "bytes": 41781,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/thumbnails/core.png",
+      "bytes": 46800,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/thumbnails/armor.png",
+      "bytes": 43774,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/thumbnails/blade.png",
+      "bytes": 24377,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/thumbnails/burst.png",
+      "bytes": 37989,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/thumbnails/shield.png",
+      "bytes": 46203,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/thumbnails/capacitor.png",
+      "bytes": 53074,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/thumbnails/radiator.png",
+      "bytes": 54556,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw5BXoKZA.woff2",
+      "bytes": 13056,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI91SZ_F7AY.woff2",
+      "bytes": 9068,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw4BXoKZA.woff2",
+      "bytes": 11532,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/pressstart2p/v16/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2",
+      "bytes": 12512,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/bevietnampro/v12/QdVPSTAyLFyeg_IDWvOJmVES_Hw3BXo.woff2",
+      "bytes": 21168,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d02/floor.webp",
+      "bytes": 41310,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "bytes": 57529,
+      "status": 200,
+      "measurement": "HTTP Content-Length (plain local Vite response)"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200,
+      "measurement": "HTTP Content-Length (plain local Vite response)"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/medium/model.glb",
+      "bytes": 668156,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/medium/model.glb",
+      "bytes": 678744,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/medium/model.glb",
+      "bytes": 699136,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/medium/model.glb",
+      "bytes": 690784,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/medium/model.glb",
+      "bytes": 703120,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "bytes": 527333,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "bytes": 57529,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/armor/high/model.glb",
+      "bytes": 2203280,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/blade/high/model.glb",
+      "bytes": 2247156,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/core/high/model.glb",
+      "bytes": 2376128,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/radiator/high/model.glb",
+      "bytes": 2374680,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    },
+    {
+      "url": "/assets/ui3d/u3d01/modules/thruster/high/model.glb",
+      "bytes": 2389420,
+      "status": 200,
+      "measurement": "decoded response body bytes"
+    }
+  ],
+  "errors": [],
+  "instrumentationNotes": [
+    {
+      "url": "http://127.0.0.1:5200/assets/ui3d/u3d01/decoders/basis_transcoder.js",
+      "reason": "Error: response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.",
+      "resolution": "Worker response body unavailable via CDP; retained measured HTTP Content-Length."
+    },
+    {
+      "url": "http://127.0.0.1:5200/assets/ui3d/u3d01/decoders/basis_transcoder.wasm",
+      "reason": "Error: response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.",
+      "resolution": "Worker response body unavailable via CDP; retained measured HTTP Content-Length."
+    }
+  ],
+  "frames": [
+    {
+      "quality": "high",
+      "reducedMotion": false,
+      "samples": 600,
+      "durationMs": 10003.2,
+      "p50Ms": 16.699999999999818,
+      "p95Ms": 16.700000000000728,
+      "p99Ms": 16.800000000000182,
+      "maxMs": 16.80000000000109
+    },
+    {
+      "quality": "medium",
+      "reducedMotion": false,
+      "samples": 600,
+      "durationMs": 10006.199999928474,
+      "p50Ms": 16.69999999999891,
+      "p95Ms": 16.799999999999272,
+      "p99Ms": 16.80000000000109,
+      "maxMs": 16.80000000000291
+    },
+    {
+      "quality": "low",
+      "reducedMotion": false,
+      "samples": 600,
+      "durationMs": 10014.199999928474,
+      "p50Ms": 16.700000000000728,
+      "p95Ms": 16.799999999999272,
+      "p99Ms": 16.80000000000291,
+      "maxMs": 16.80000000000291
+    }
+  ],
+  "memory": {
+    "kind": "CDP Runtime.getHeapUsage usedSize (JS heap), same explicit GC before/after; not GPU/VRAM/process RSS",
+    "before": {
+      "usedSize": 11790828,
+      "totalSize": 15319040,
+      "embedderHeapUsedSize": 2040912,
+      "backingStorageSize": 85350935
+    },
+    "after": {
+      "usedSize": 14466644,
+      "totalSize": 15843328,
+      "embedderHeapUsedSize": 3985592,
+      "backingStorageSize": 82370891
+    },
+    "cycles": [
+      {
+        "usedSize": 17898512,
+        "totalSize": 28426240,
+        "embedderHeapUsedSize": 12210768,
+        "backingStorageSize": 123710926
+      },
+      {
+        "usedSize": 30611952,
+        "totalSize": 41009152,
+        "embedderHeapUsedSize": 9943216,
+        "backingStorageSize": 136747056
+      },
+      {
+        "usedSize": 30771132,
+        "totalSize": 43892736,
+        "embedderHeapUsedSize": 10668568,
+        "backingStorageSize": 137320934
+      },
+      {
+        "usedSize": 31078736,
+        "totalSize": 42057728,
+        "embedderHeapUsedSize": 10802064,
+        "backingStorageSize": 136735680
+      },
+      {
+        "usedSize": 26063268,
+        "totalSize": 55689216,
+        "embedderHeapUsedSize": 10836888,
+        "backingStorageSize": 136735676
+      },
+      {
+        "usedSize": 26102828,
+        "totalSize": 64339968,
+        "embedderHeapUsedSize": 11936640,
+        "backingStorageSize": 152295152
+      },
+      {
+        "usedSize": 22850508,
+        "totalSize": 65650688,
+        "embedderHeapUsedSize": 11107296,
+        "backingStorageSize": 136735676
+      },
+      {
+        "usedSize": 27163460,
+        "totalSize": 65126400,
+        "embedderHeapUsedSize": 11390056,
+        "backingStorageSize": 136735676
+      },
+      {
+        "usedSize": 27480616,
+        "totalSize": 65388544,
+        "embedderHeapUsedSize": 10855344,
+        "backingStorageSize": 136735676
+      },
+      {
+        "usedSize": 27648144,
+        "totalSize": 65388544,
+        "embedderHeapUsedSize": 11640752,
+        "backingStorageSize": 136735676
+      }
+    ],
+    "driftBytes": 2675816
+  },
+  "budgets": {
+    "initialAssetsExcludingHighBytes": 4865554,
+    "highAdditionalBytes": 11590664,
+    "totalColdAssetsBytes": 16456218,
+    "shell": [
+      {
+        "file": "index.html",
+        "bytes": 904,
+        "gzipBytes": 506
+      },
+      {
+        "file": "assets/index-Bp6zDUfb.js",
+        "bytes": 282492,
+        "gzipBytes": 87567
+      },
+      {
+        "file": "assets/rolldown-runtime-hePW80VL.js",
+        "bytes": 716,
+        "gzipBytes": 428
+      },
+      {
+        "file": "assets/index-PbkESgZI.css",
+        "bytes": 35947,
+        "gzipBytes": 8141
+      }
+    ],
+    "shellGzipBytes": 96642,
+    "shellNote": "HTML, CSS, entry JS and static imports; excludes lazy 3D, Arena, worker and runtime assets."
+  },
+  "note": "10-second Workshop rAF interval samples, six-module default draft; not 120-second/48-module Arena stress, GPU completion or Android results.",
+  "browser": "154.0.8037.98",
+  "highReadyRoundTripMs": 2520.8623000000002
+}

@@ -1,0 +1,7 @@
+{
+  "command": "node node_modules/vitest/vitest.mjs run",
+  "exit": 0,
+  "ms": 14703.6379,
+  "stdout": "\n RUN  v5.0.3 D:/AI/nextgame\n\n\n Test Files  14 passed (14)\n      Tests  193 passed (193)\n   Start at  21:17:16\n   Duration  14.44s (tests 73%, import 21%, transform 5%)\n\n",
+  "stderr": ""
+}

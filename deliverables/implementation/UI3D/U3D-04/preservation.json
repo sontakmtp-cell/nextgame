@@ -1,0 +1,42 @@
+{
+  "unchanged": 4853,
+  "changed": [
+    "scripts/u3d04-evidence.mjs",
+    "apps/web/package.json",
+    "apps/web/src/App.tsx",
+    "apps/web/src/Arena.tsx",
+    "packages/renderer3d/src/CoreLinks.tsx",
+    "packages/renderer3d/src/SceneViewport.tsx",
+    "packages/renderer3d/src/Scenes.tsx",
+    "packages/renderer3d/src/SynthVisual.tsx",
+    "packages/renderer3d/src/interfaces.ts",
+    "pnpm-lock.yaml"
+  ],
+  "added": [
+    "Docs/U3D-04_REPORT.md",
+    "apps/web/src/Arena3D.tsx",
+    "apps/web/src/arena-layout.ts",
+    "apps/web/src/arena3d.css",
+    "packages/renderer3d/src/ArenaCombat.tsx",
+    "packages/renderer3d/src/ArenaScene.tsx",
+    "packages/renderer3d/src/arena-sample.ts",
+    "scripts/u3d04-assets.mjs",
+    "scripts/u3d04-baseline-browser.mjs",
+    "scripts/u3d04-browser.mjs",
+    "scripts/u3d04-faults.mjs",
+    "scripts/u3d04-fixture.mjs",
+    "scripts/u3d04-memory.mjs",
+    "scripts/u3d04-render.mjs",
+    "tests/arena3d.test.ts",
+    "tests/u3d04/Probe.tsx",
+    "tests/u3d04/index.html",
+    "tests/u3d04/main.tsx",
+    "tests/u3d04/tsconfig.json",
+    "tests/u3d04/vite.config.mjs"
+  ],
+  "missing": [],
+  "violations": [],
+  "outsideScopeObserved": [],
+  "head": "5ba0a7cddbc6e9fba7d002c856019736828a7dd1",
+  "branch": "remake-ui3d"
+}
